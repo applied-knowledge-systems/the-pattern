@@ -1,0 +1,9 @@
+[submodule "the-pattern-platform"]
+	path = the-pattern-platform
+	url = https://github.com/applied-knowledge-systems/the-pattern-platform.git
+[submodule "the-pattern-ui"]
+	path = the-pattern-ui
+	url = https://github.com/applied-knowledge-systems/the-pattern-ui.git
+[submodule "the-pattern-api"]
+	path = the-pattern-api
+	url = https://github.com/applied-knowledge-systems/the-pattern-api.git
