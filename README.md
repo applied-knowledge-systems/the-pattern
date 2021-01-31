@@ -10,9 +10,11 @@ I believe in the modern world we need new tools to fight the chaos of the inform
 ```
 git clone --recurse-submodules https://github.com/applied-knowledge-systems/the-pattern.git
 cd the-pattern
-docker-compose -f docker-compose.dev.yml up --build
+docker-compose -f docker-compose.dev.yml up --build -d
 bash post_start_dev.sh
 cd ./the-pattern-platform/
+source ~/venv_cord19/bin/activate #or create new venv
+pip install -r requirements.txt
 bash cluster_pipeline.sh
 ```
 Wait for a bit and then check:
