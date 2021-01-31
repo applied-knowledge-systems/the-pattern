@@ -8,7 +8,7 @@ services:
     entrypoint: ["/usr/local/bin/gunicorn"]
     command:  --bind 0.0.0.0:8080 -w 12 wsgi:app
     ports:
-      - 85.10.241.154:80:8080
+      - 85.10.241.154:8080:8080
     env_file:
       - ./.env.prod
     depends_on:
@@ -32,6 +32,8 @@ services:
       dockerfile: Dockerfile
     container_name: rgcluster
     hostname: rgcluster
+    volumes:
+      - ./the-pattern-platform/conf/docker-config.sh:/cluster/config.sh
     ports:
       - 127.0.0.1:30001:30001
       - 127.0.0.1:30002:30002 
