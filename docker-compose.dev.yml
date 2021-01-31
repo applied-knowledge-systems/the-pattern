@@ -1,0 +1,42 @@
+version: '3.7'
+services:
+  api:
+    build:
+      context: ./the-pattern-api/
+      dockerfile: Dockerfile
+    container_name: the-pattern-api
+    entrypoint: ["/usr/local/bin/gunicorn"]
+    command:  --bind 0.0.0.0:8080 wsgi:app
+    ports:
+      - 127.0.0.1:8080:8080
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - redisgraph
+
+  redisgraph:
+    image: redislabs/redisgraph
+    container_name: redisgraph
+    hostname: redisgraph
+    volumes:
+      - ./data/redis_data:/data
+      - ./the-pattern-platform/conf/redis.conf:/usr/local/etc/redis/redis.conf
+    command:
+      - /usr/local/etc/redis/redis.conf
+    env_file:
+      - ./.env.dev.graph
+    ports:
+      - 127.0.0.1:9001:6379
+
+  rgcluster:
+    build:
+      context: ./the-pattern-platform/conf/
+      dockerfile: Dockerfile
+    container_name: rgcluster
+    hostname: rgcluster
+    volumes:
+      - ./the-pattern-platform/conf/docker-config.sh:/cluster/config.sh
+    ports:
+      - 127.0.0.1:30001:30001
+      - 127.0.0.1:30002:30002 
+      - 127.0.0.1:30003:30003
