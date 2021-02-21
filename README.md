@@ -7,6 +7,17 @@ I believe in the modern world we need new tools to fight the chaos of the inform
 
 # Quickstart for development
 
+## Pre-requisite
+
+Ensure that you install virtualenv in your system
+
+```
+brew install pyenv-virtualenv  
+```
+
+## Cloning the Repository
+
+
 ```
 git clone --recurse-submodules https://github.com/applied-knowledge-systems/the-pattern.git
 cd the-pattern
