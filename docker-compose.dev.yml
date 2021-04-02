@@ -35,6 +35,7 @@ services:
     container_name: rgcluster
     hostname: rgcluster
     volumes:
+      - ./data/rediscluster_data:/clusterdata
       - ./the-pattern-platform/conf/docker-config.sh:/cluster/config.sh
     ports:
       - 127.0.0.1:30001:30001

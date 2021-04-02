@@ -1,5 +1,7 @@
 # the-pattern
-Overall repository for NLP pipeline, API and UI, design and architecture
+Overall repository for CORD19 medical NLP pipeline, API and UI, design and architecture. 
+Demo: http://thepattern.digital/
+
 
 # Why The Pattern name
 The name is from [Roger Zelazny "The Chronicles of Amber"](https://en.wikipedia.org/wiki/The_Chronicles_of_Amber#The_Pattern_and_the_Logrus) where The Pattern is the foundation of the universe of order. 
