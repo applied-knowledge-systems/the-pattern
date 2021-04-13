@@ -1,5 +1,12 @@
-[![](https://mermaid.ink/img/eyJjb2RlIjoiXG5ncmFwaCBMUlxuQVtjb25jZXB0XSAtLT58cmVsYXRlZHwgQltjb25jZXB0XVxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiXG5ncmFwaCBMUlxuQVtjb25jZXB0XSAtLT58cmVsYXRlZHwgQltjb25jZXB0XVxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0)
-
-[![](https://mermaid.ink/img/eyJjb2RlIjoiXG5ncmFwaCBMUlxuQVtjb25jZXB0IENVSV0tLSByZWxhdGVkIHNlbnRlbmNlLS0tQltjb25jZXB0IENVSV1cblxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiXG5ncmFwaCBMUlxuQVtjb25jZXB0IENVSV0tLSByZWxhdGVkIHNlbnRlbmNlLS0tQltjb25jZXB0IENVSV1cblxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifX0)
-
-[![](https://mermaid.ink/img/eyJjb2RlIjoiXG5ncmFwaCBMUlxuQVtDNTE5MDE5NTp0cmFuc21pc3Npb25dLS0gVGhlIHJhdGUgb2YgdHJhbnNtaXNzaW9uIHRvIGFuIGluZmFudCBib3JuIHRvIDwvYnI-IFRpdGxlOiBBRkVCUklMRSBQTkVVTU9OSUEgSU4gSU5GQU5UUyAtLS1CW0M1MTk1NjM4OmJpcnRoXVx0XG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiXG5ncmFwaCBMUlxuQVtDNTE5MDE5NTp0cmFuc21pc3Npb25dLS0gVGhlIHJhdGUgb2YgdHJhbnNtaXNzaW9uIHRvIGFuIGluZmFudCBib3JuIHRvIDwvYnI-IFRpdGxlOiBBRkVCUklMRSBQTkVVTU9OSUEgSU4gSU5GQU5UUyAtLS1CW0M1MTk1NjM4OmJpcnRoXVx0XG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)
+```mermaid 
+	graph LR;
+      A[Intake]-->B(Language Detector);
+      B-->C(Split paragraphs);
+      C-->D(Spellchecker: SymSpell);
+      D-->F(Matcher: Match tokens to concepts);
+      F-->G(RedisGraph);
+      G-->H(API Server);
+      H-->I(Visualisation)
+      J(Build Automata)-->F;
+      K(Read UMLS table)-->J;
+```	
