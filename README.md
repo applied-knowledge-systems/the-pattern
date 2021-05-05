@@ -2,6 +2,20 @@
 Overall repository for CORD19 medical NLP pipeline, API and UI, design and architecture. 
 Demo: http://thepattern.digital/
 
+# The challenge 
+
+The medical profession put a lot of effort into collaboration, starting from Latin as a common language to industry-wide thesauruses like [UMLS](https://www.nlm.nih.gov/research/umls/index.html). Yet if full of scandals where publication in the prestigious journal would be retracted and the World Health Organisation would change its policy advice based on the article. It's not uncommon to see conversations like this where bits of randomness were presented as major findings. I think "paper claiming that eating a bat-like Pokémon sparked the spread of COVID-19" takes a prize. One would say that editors in those journals don't do their job, and while it may seem true, I would say they had no chance: with a number of publications about COVID (SARS-V) passing 300+ per day, we need better tools to navigate via such flow of information.
+ 
+When I am exploring topics on science or engineering, I look at the diversity of the opinion, not the variety of the same cluster of words, same thought. I want to avoid confirmation bias. I want to find articles relevant to the same concept, not necessarily the ones which have similar words. My focus is to build a natural language processing pipeline, capable of handling a large number of documents and concepts, incorporating System 1 AI (fast, intuitive reasoning) and System 2 (high-level reasoning) and then present knowledge in a modern VR/AR visualisation. Search or rather information exploration should be spatial preferably in VR (memory palace, see Theatre of Giulio Camillo). A force-directed graph is a path towards it, where visuals are assisted by text — relevant text pops up on the connection and where people explore the concepts and then dig deeper into text. The purpose of the pipeline that knowledge should be re-usable and shareable.
+
+# Why use RedisGears for data scientists?
+
+RedisGears have enormous potential, particularly for text processing - you can process your data “on data” without need to move them in and out of memory, summary of the important points:
+1.In Memory storage (Horizontally scalable if it’s Redis cluster)
+2.Processing of data (on data) without need to move in and out
+3.Gears - like Spark on Hadoop, process data intelligently on storage(in-memory) without need to move data in and out
+4.Redis in cluster mode with RedisGears and python enabled takes 20 MB RAM. Think how much more data you can shuffle into your laptop or server.
+
 
 # Why The Pattern name
 The name is from [Roger Zelazny "The Chronicles of Amber"](https://en.wikipedia.org/wiki/The_Chronicles_of_Amber#The_Pattern_and_the_Logrus) where The Pattern is the foundation of the universe of order. 
