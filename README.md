@@ -276,11 +276,11 @@ RedisGraph docker is using standard redismod docker image and can be deployed on
 ### Google Cloud Run
 
 [![Run on Google
-Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern-platform)
+Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/applied-knowledge-systems/the-pattern-platform/)
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/applied-knowledge-systems/the-pattern-platform/)
 
 
 
