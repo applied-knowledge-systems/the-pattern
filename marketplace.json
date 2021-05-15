@@ -22,7 +22,10 @@
     "redis_features": ["gears","streams","pipeline","graph", "AI"],// Enter any core Redis feature or leave it blank.
     "redis_modules": ["RedisAI", "RedisGraph","RedisAI"], //Value can be one or more of "RediJSON", "RediSearch", "RedisTimeseries", "RedisAI"  "RedisGears" or "RedisGraph" listed in an array. 
     "app_image_urls": [
-        "https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/56d9d35da5374b8898e312ca4584c531.png"
+        "https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/screenshot_main_page.png",
+        "https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/screenshot_one.png",
+        "https://github.com/applied-knowledge-systems/the-pattern/raw/main/docs/img/screenshot_two.png",
+        "https://github.com/applied-knowledge-systems/the-pattern/raw/main/docs/img/screenshot_three.png"
     ], // Provide any image urls in an array.
     "youtube_url": "https://www.youtube.com/watch?v=VgJ8DTX5Mt4", //Provide a Youtube link to your app's video
     "special_tags": ["Hackathon"], // "Hackathon", "Paid", or any event names.

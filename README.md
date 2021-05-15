@@ -57,7 +57,8 @@ ng serve
 ```
 
 ##  Question Answering API:
-``
+
+```
 cd the-pattern-api/qasearch/
 sh start.sh
 ```
@@ -79,11 +80,12 @@ cd the-pattern-bart-summary
 source ~/venv_cord19/bin/activate 
 gears-cli run --host 127.0.0.1 --port 30001 tokenizer_gears_for_sum.py --requirements requirements.txt
 ```
+
 This is a synchronious task, may time out but can be safely re-run (keeps track in RedisMod, idempotent operations)
 
 On GPU enabled instance or server, configure NVidia drivers:
 
-```bash 
+``` 
 
     sudo apt update
     sudo apt install nvidia-340
@@ -244,7 +246,9 @@ A lot of RedisGears code, main [file](./the-pattern-platform/gears_pipeline_sent
 
 Most advanced code is in `the-pattern-api/qasearch/qa_bert.py` querying RedisGears+RedisAI cluster given user's question: 
 
+```
 get "bertqa{5M5}_PMC140314.xml:{5M5}:44_When air samples collected?" 
+```
 
 this queries bertqa prefix on shard {5MP} where PMC140314.xml:{5M5}:44 is the key of pre-tokenised REDIS AI Tensor (potential answer) and "When air samples collected?" is the question from the user. Redis Gears captures keymiss event `the-pattern-api/qasearch/qa_redisai_gear_map_keymiss_np.py`:
 
@@ -276,6 +280,7 @@ Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=
 ### Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 
 
 # Why use RedisGears for data scientists?
