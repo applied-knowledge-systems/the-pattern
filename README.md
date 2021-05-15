@@ -25,7 +25,7 @@ brew install pyenv-virtualenv
 ## Start platform 
 
 ```
-git clone --recurse-submodules https://github.com/applied-knowledge-systems/the-pattern.git
+git clone --recurse-submodules https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern.git
 cd the-pattern
 ./start.sh
 cd ./the-pattern-platform/
@@ -111,7 +111,7 @@ On GPU enabled instance or server, configure NVidia drivers:
 Configure access from instance to RedisGraph docker image (or use Redis Enterprise), I use zerotier to connect VMs together.
 
 ```
-git clone https://github.com/applied-knowledge-systems/the-pattern-bart-summary.git
+git clone https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern-bart-summary.git
 #start tmux 
 conda activate thepattern_env
 pip3 install -r requirements.txt
@@ -122,27 +122,27 @@ python3 summary_processor_t5.py
 
 ## Overall flow
 
-![Overall flow](https://github.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/overall_flow.png "Overall Flow")
+![Overall flow](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/overall_flow.png "Overall Flow")
 
 ## NLP pipeline 1
 
-![NLP Pipeline 1](https://github.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/Pipeline1.png "NLP Pipeline 1") 
+![NLP Pipeline 1](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/Pipeline1.png "NLP Pipeline 1") 
 
 ## NLP pipeline 2: BERT QA
 
-![NLP Pipeline 2](https://github.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/Pipeline2.png "NLP Pipeline 2") 
+![NLP Pipeline 2](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/Pipeline2.png "NLP Pipeline 2") 
 
 ## NLP Pipeline 3: T5 for Summarization 
 
-![NLP Pipeline 3](https://github.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/Pipeline3.png "NLP Pipeline 3")  
+![NLP Pipeline 3](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/Pipeline3.png "NLP Pipeline 3")  
 
 # Screenshots
 
-![Screenshot](https://github.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/screenshot_one.png "Screenshot")  
+![Screenshot](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/screenshot_one.png "Screenshot")  
 
-![Screenshot2](https://github.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/screenshot_two.png "Screenshot 2") 
+![Screenshot2](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/screenshot_two.png "Screenshot 2") 
 
-![Screenshot3](https://github.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/screenshot_three.png "Screenshot 3") 
+![Screenshot3](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/screenshot_three.png "Screenshot 3") 
 
 
 # Most interesting RedisCommands
@@ -275,7 +275,7 @@ RedisGraph docker is using standard redismod docker image and can be deployed on
 ### Google Cloud Run
 
 [![Run on Google
-Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/applied-knowledge-systems/the-pattern-platform)
+Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern-platform)
 
 ### Heroku
 
