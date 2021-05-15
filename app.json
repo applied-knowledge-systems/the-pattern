@@ -5,15 +5,5 @@
     "keywords": [
         "gears","streams","pipeline","graph", "AI","RedisAI", "RedisGraph","RedisAI","Healthcare", "Technology", "Analitics", "Data Science"
     ],
-    "env": {
-      "REDIS_ENDPOINT_URI": {
-        "description": "Redis server URI",
-        "required": true
-      },
-      "REDIS_PASSWORD": {
-        "description": "Redis password",
-        "required": true
-      }
-    },
     "stack": "container"
   }
