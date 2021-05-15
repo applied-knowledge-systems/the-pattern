@@ -1,4 +1,4 @@
 build:
   docker:
-    rgcluster: deploy/Dockerfile_redisai
+    rgcluster: Dockerfile
   

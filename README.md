@@ -25,7 +25,7 @@ brew install pyenv-virtualenv
 ## Start platform 
 
 ```
-git clone --recurse-submodules https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern.git
+git clone --recurse-submodules https://github.com/applied-knowledge-systems/the-pattern.git
 cd the-pattern
 ./start.sh
 cd ./the-pattern-platform/
@@ -276,11 +276,11 @@ RedisGraph docker is using standard redismod docker image and can be deployed on
 ### Google Cloud Run
 
 [![Run on Google
-Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/applied-knowledge-systems/the-pattern-platform/)
+Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/applied-knowledge-systems/the-pattern.git)
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/applied-knowledge-systems/the-pattern-platform/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/applied-knowledge-systems/the-pattern.git)
 
 
 
