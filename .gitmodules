@@ -7,3 +7,9 @@
 [submodule "the-pattern-api"]
 	path = the-pattern-api
 	url = https://github.com/applied-knowledge-systems/the-pattern-api.git
+[submodule "the-pattern-automata"]
+	path = the-pattern-automata
+	url = https://github.com/applied-knowledge-systems/the-pattern-automata.git
+[submodule "the-pattern-bart-summary"]
+	path = the-pattern-bart-summary
+	url = https://github.com/applied-knowledge-systems/the-pattern-bart-summary.git

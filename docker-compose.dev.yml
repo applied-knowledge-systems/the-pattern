@@ -15,7 +15,7 @@ services:
       - redisgraph
 
   redisgraph:
-    image: redislabs/redisgraph
+    image: redislabs/redismod
     container_name: redisgraph
     hostname: redisgraph
     volumes:
