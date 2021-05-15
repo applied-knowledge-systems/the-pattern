@@ -6,7 +6,7 @@
     "type": "Full App", //Can be "Building Block" or "Full App"
     "contributed_by": "Community", // Can be "Redis Labs" or "Community" or "Partner"
     "repo_url": "https://github.com/applied-knowledge-systems/the-pattern", //This is the Gitub Repo's URL.
-    "download_url": "https://github.com/applied-knowledge-systems/the-pattern/archive/main.zip",
+    "download_url": "https://github.com/applied-knowledge-systems/the-pattern/archive/refs/tags/0.6.zip",
     "hosted_url": "http://thepattern.digital/", //The URL of the app. if you are hosting this app somewhere
     "quick_deploy": "true", //"frue" if the project has Heroku, Vercel, Google deploy buttons
     "deploy_buttons": [
