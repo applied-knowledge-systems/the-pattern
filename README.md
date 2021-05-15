@@ -185,6 +185,10 @@ bg.register('sentence:*',  mode="async_local",onRegistered=OnRegisteredAutomata)
 ```
 
 Creates stream on each shard for next step using `'XADD', 'edges_matched_{%s}' % shard_id, '*','source',f'{source_entity_id}','destination',f'{destination_entity_id}','source_name',source_canonical_name,'destination_name',destination_canonical_name,'rank',1,'year',year)`
+and increasing sentence score:
+
+`zincrby(f'edges_scored:{source_entity_id}:{destination_entity_id}',1, sentence_key)`
+
 
 ### Populate RedisGraph from RedisGears
 
@@ -222,12 +226,8 @@ Nodes:
 """WITH $ids as ids MATCH (e:entity) where (e.id in ids) RETURN DISTINCT e.id,e.name,max(e.rank)"""
 ```
 
+Also app.py uses zrangebyscore(f"edges_scored:{edges_query}",'-inf','inf',0,5) to find most scored articles
 
-Populating article metadata 
-
-```
-redis_client.hset(f"article_id:{article_id}",mapping={'title': each_line['title']})
-```
 A lot of RedisGears code, main [file](./the-pattern-platform/gears_pipeline_sentence_register.py), SADD, SMEMBER, SREM.
 
 ### Most humorious code in pipeline:
@@ -241,7 +241,7 @@ A lot of RedisGears code, main [file](./the-pattern-platform/gears_pipeline_sent
         import utils
     from utils import loadAutomata, find_matches
 ```
-(show it to you security architect)
+show it to you security architect. This is nessesary because RedisGears doesn't support submission of projects or modules. 
 
 ## In Pipeline 2 
 
