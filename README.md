@@ -271,16 +271,19 @@ Summarisation works by running on `sentence:` prefix and running t5-base transfo
 # Deploy
 
 The Pattern platform using latest (bleeding edge) RedisGears and RedisAI features, best way to deploy and use docker compose provided. 
+
 RedisGraph docker is using standard redismod docker image and can be deployed on RedisEnterprise.
+
+Buttons below only deploy API layer. Register on Redis Enterprise and pass REDIS_ENDPOINT_URI and REDIS_PASSWORD
 
 ### Google Cloud Run
 
 [![Run on Google
-Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/applied-knowledge-systems/the-pattern.git)
+Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/applied-knowledge-systems/the-pattern-api.git)
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/applied-knowledge-systems/the-pattern.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/applied-knowledge-systems/the-pattern-api.git)
 
 
 

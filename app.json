@@ -1,7 +1,7 @@
 {
-    "name": "the-pattern",
+    "name": "the-pattern-api",
     "description": "The Pattern help find relevant knowledge using Artificial Intelligence and novel UX elements, all powered by Redis",
-    "repository": "https://github.com/applied-knowledge-systems/the-pattern.git",
+    "repository": "https://github.com/applied-knowledge-systems/the-pattern-api.git",
     "keywords": [
         "gears","streams","pipeline","graph", "AI","RedisAI", "RedisGraph","RedisAI","Healthcare", "Technology", "Analitics", "Data Science"
     ],
