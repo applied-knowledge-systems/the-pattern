@@ -122,27 +122,28 @@ python3 summary_processor_t5.py
 
 ## Overall flow
 
-![Overall flow](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/overall_flow.png "Overall Flow")
+![Overall flow](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/overall_flow.png "Overall Flow")
 
 ## NLP pipeline 1
 
-![NLP Pipeline 1](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/Pipeline1.png "NLP Pipeline 1") 
+![NLP Pipeline 1](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/Pipeline1.png "NLP Pipeline 1") 
+
 
 ## NLP pipeline 2: BERT QA
 
-![NLP Pipeline 2](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/Pipeline2.png "NLP Pipeline 2") 
+![NLP Pipeline 2](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/Pipeline2.png "NLP Pipeline 2") 
 
 ## NLP Pipeline 3: T5 for Summarization 
 
-![NLP Pipeline 3](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/Pipeline3.png "NLP Pipeline 3")  
+![NLP Pipeline 3](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/Pipeline3.png "NLP Pipeline 3")  
 
 # Screenshots
 
-![Screenshot](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/screenshot_one.png "Screenshot")  
+![Screenshot](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/screenshot_one.png "Screenshot")  
 
-![Screenshot2](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/screenshot_two.png "Screenshot 2") 
+![Screenshot2](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/screenshot_two.png "Screenshot 2") 
 
-![Screenshot3](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/blob/main/docs/img/screenshot_three.png "Screenshot 3") 
+![Screenshot3](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/screenshot_three.png "Screenshot 3") 
 
 
 # Most interesting RedisCommands
