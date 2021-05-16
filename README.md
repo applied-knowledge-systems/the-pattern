@@ -270,7 +270,7 @@ Summarisation works by running on `sentence:` prefix and running t5-base transfo
 
 # Deploy
 
-The Pattern platform using latest (bleeding edge) RedisGears and RedisAI features, best way to deploy and use docker compose provided. 
+The Pattern platform using latest (bleeding edge) RedisGears and RedisAI features, best way to deploy and use docker compose provided and start.sh. If API server fails to boot (fetching additional libraries), use `docker-compose -f docker-compose.dev.yml up -d --build --no-deps api`. 
 
 RedisGraph docker is using standard redismod docker image and can be deployed on RedisEnterprise.
 
