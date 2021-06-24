@@ -1,20 +1,19 @@
 {
     "app_name": "The Pattern: Machine Learning Natural Language Processing meets VR/AR",  
     "description": "The Pattern help find relevant knowledge using Artificial Intelligence and novel UX elements, all powered by Redis",
-    "hidden": true, 
-    "rank": 21, 
+    "rank": 45, 
     "type": "Full App", 
     "contributed_by": "Community", 
-    "repo_url": "https://github.com/applied-knowledge-systems/the-pattern", 
-    "download_url": "https://github.com/applied-knowledge-systems/the-pattern/archive/refs/tags/0.6.zip",
+    "repo_url": "https://github.com/redis-developer/the-pattern", 
+    "download_url": "https://github.com/redis-developer/the-pattern/archive/refs/tags/0.6.zip",
     "hosted_url": "http://thepattern.digital/", 
     "quick_deploy": "true", 
     "deploy_buttons": [
         {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/applied-knowledge-systems/the-pattern.git" 
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/the-pattern.git" 
         },
         {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/applied-knowledge-systems/the-pattern.git" 
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/the-pattern.git" 
         }
     ],
     "language": ["Python, JavaScript"], 
@@ -22,13 +21,13 @@
     "redis_features": ["gears","streams","pipeline","graph", "AI"],
     "redis_modules": ["RedisAI", "RedisGraph","RedisAI"], 
     "app_image_urls": [
-        "https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/screenshot_main_page.png",
-        "https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/screenshot_one.png",
-        "https://github.com/applied-knowledge-systems/the-pattern/raw/main/docs/img/screenshot_two.png",
-        "https://github.com/applied-knowledge-systems/the-pattern/raw/main/docs/img/screenshot_three.png"
+        "https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_main_page.png",
+        "https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_one.png",
+        "https://github.com/redis-developer/the-pattern/raw/main/docs/img/screenshot_two.png",
+        "https://github.com/redis-developer/the-pattern/raw/main/docs/img/screenshot_three.png"
     ], 
     "youtube_url": "https://www.youtube.com/watch?v=VgJ8DTX5Mt4", 
     "special_tags": ["Hackathon"], 
     "verticals": ["Healthcare", "Technology", "Analitics", "Data Science"], 
-    "markdown": "https://raw.githubusercontent.com/redislabs-training/redis-sitesearch/master/README.md"
+    "markdown": "https://raw.githubusercontent.com/redis-developer/the-pattern/main/README.md"
 }
