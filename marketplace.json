@@ -18,8 +18,8 @@
     ],
     "language": ["Python, JavaScript"], 
     "redis_commands": ["SET","HSET", "SADD", "SREM", "AI.MODELRUN", "AI.MODELSET"], 
-    "redis_features": ["gears","streams","pipeline","graph", "AI"],
-    "redis_modules": ["RedisAI", "RedisGraph","RedisAI"], 
+    "redis_features": ["Redis Streams"],
+    "redis_modules": ["RedisGraph","RedisAI"], 
     "app_image_urls": [
         "https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_main_page.png",
         "https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_one.png",
