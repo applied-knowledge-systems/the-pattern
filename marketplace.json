@@ -18,7 +18,7 @@
     ],
     "language": ["Python, JavaScript"], 
     "redis_commands": ["SET","HSET", "SADD", "SREM", "AI.MODELRUN", "AI.MODELSET"], 
-    "redis_features": ["Redis Streams"],
+    "redis_features": [],
     "redis_modules": ["RedisGraph","RedisAI"], 
     "app_image_urls": [
         "https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_main_page.png",
