@@ -28,6 +28,6 @@
     ], 
     "youtube_url": "https://www.youtube.com/watch?v=VgJ8DTX5Mt4", 
     "special_tags": ["Hackathon"], 
-    "verticals": ["Healthcare", "Technology", "Analitics", "Data Science"], 
+    "verticals": ["Healthcare", "Technology", "Analytics", "Data Science"], 
     "markdown": "https://raw.githubusercontent.com/redis-developer/the-pattern/main/README.md"
 }
