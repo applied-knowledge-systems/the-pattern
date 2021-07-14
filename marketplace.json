@@ -7,7 +7,7 @@
     "repo_url": "https://github.com/redis-developer/the-pattern", 
     "download_url": "https://github.com/redis-developer/the-pattern/archive/refs/tags/0.6.zip",
     "hosted_url": "http://thepattern.digital/", 
-    "quick_deploy": "true", 
+    "quick_deploy": "false", 
     "deploy_buttons": [
         {
             "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/the-pattern.git" 
