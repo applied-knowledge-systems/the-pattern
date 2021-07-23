@@ -276,15 +276,6 @@ RedisGraph docker is using standard redismod docker image and can be deployed on
 
 Buttons below only deploy API layer. Register on Redis Enterprise and pass REDIS_ENDPOINT_URI and REDIS_PASSWORD
 
-### Google Cloud Run
-
-[![Run on Google
-Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/applied-knowledge-systems/the-pattern-api.git)
-
-### Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/applied-knowledge-systems/the-pattern-api.git)
-
 
 
 # Why use RedisGears for data scientists?
