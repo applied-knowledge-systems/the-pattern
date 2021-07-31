@@ -5,6 +5,7 @@
     "type": "Full App", 
     "contributed_by": "Community", 
     "repo_url": "https://github.com/redis-developer/the-pattern", 
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/the-pattern/master/images/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/the-pattern/archive/refs/tags/0.6.zip",
     "hosted_url": "http://thepattern.digital/", 
     "quick_deploy": "false", 
