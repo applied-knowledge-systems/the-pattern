@@ -2,6 +2,7 @@
     "app_name": "The Pattern: Machine Learning Natural Language Processing meets VR/AR",  
     "description": "The Pattern help find relevant knowledge using AI + novel UX elements + RedisAI + RedisGraph",
     "rank": 45, 
+    "featured": "true",
     "type": "Full App", 
     "contributed_by": "Community", 
     "repo_url": "https://github.com/redis-developer/the-pattern", 
