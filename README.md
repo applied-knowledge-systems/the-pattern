@@ -13,7 +13,7 @@ The medical profession put a lot of effort into collaboration, starting from Lat
 When I am exploring topics on science or engineering, I look at the diversity of the opinion, not the variety of the same cluster of words, same thought. I want to avoid confirmation bias. I want to find articles relevant to the same concept, not necessarily the ones which have similar words. My focus is to build a natural language processing pipeline, capable of handling a large number of documents and concepts, incorporating System 1 AI (fast, intuitive reasoning) and System 2 (high-level reasoning) and then present knowledge in a modern VR/AR visualisation. Search or rather information exploration should be spatial preferably in VR (memory palace, see Theatre of Giulio Camillo). A force-directed graph is a path towards it, where visuals are assisted by text — relevant text pops up on the connection and where people explore the concepts and then dig deeper into text. The purpose of the pipeline that knowledge should be re-usable and shareable.
 
 # Community 
-Join our community on [Discord](https://discord.gg/rdgsCuJ4P4)
+Join our community on [Discord](https://discord.gg/rdgsCuJ4P4) or post in [GitHub Discussions](https://github.com/applied-knowledge-systems/the-pattern/discussions)
 
 # Licensing
 Think about it as "Fair use" - free for personal and community use, if you would like to use it in commercial product, talk to us - we may be able to issue code or relevant part under different license.
