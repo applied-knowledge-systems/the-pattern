@@ -1,0 +1,1213 @@
+{
+    "paper_id": "PMC270692",
+    "metadata": {
+        "title": "Recently published papers: small pieces of the puzzle and the long-term view",
+        "authors": [
+            {
+                "first": "Jonathan",
+                "middle": [],
+                "last": "Ball",
+                "suffix": "",
+                "email": "jball@sghms.ac.uk",
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "The past 2 months has seen dramatic world events, with the escalating threat of a global SARS (severe acute respiratory syndrome) epidemic and a war in Iraq beamed live into our daily lives. The weekly medical journals have covered these events and contributed to the debates surrounding them. These events have, are and will continue to impact on the working lives of critical practitioners worldwide and come as additional burdens.",
+            "cite_spans": [],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "In this same period a number of long-awaited reports and important new studies have been published. The reports from the 2001 International Sepsis Definitions Conference [1], the January 2002 US National Heart, Lung and Blood Institute 'Future Research Directions in Acute Lung Injury' [2] and the 2002 Brussels roundtable \"Surviving Intensive Care\" [3] have all finally reached print. Although much contained within these 'stock takes' will be familiar, they serve as valuable and timely summaries. The only concern I have is that the delay in their publication negates some of the momentum that such expert panels should generate.",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 172,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 287,
+                    "end": 288,
+                    "mention": "2",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 351,
+                    "end": 352,
+                    "mention": "3",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "section": "Reports",
+            "ref_spans": []
+        },
+        {
+            "text": "To complement the deliberations of the Sepsis Definitions Conference, Martin and colleagues [4] reported on their major epidemiological study of sepsis in the USA conducted from 1979 to 2000. The overall picture presented confirms that the incidence has tripled but the mortality rate has fallen from 28% to 18% over the 22 years. The proportion of patients with any organ failure increased from 19% to 34%, whereas the average hospital stay fell from 17 to 12 days. White females appear to be the least vulnerable group. Given the study methodology and complexities surrounding the definition of sepsis, drawing detailed conclusions is problematic, but this study undoubtedly provides further evidence to support the enormous ongoing efforts to tackle this phenomenon.",
+            "cite_spans": [
+                {
+                    "start": 93,
+                    "end": 94,
+                    "mention": "4",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "Sepsis",
+            "ref_spans": []
+        },
+        {
+            "text": "Against the background of the global epidemic of obesity, the impact of body mass index on the short-term outcomes of critical illness has been investigated by Tremblay and Bandi [5]. The large population studied was North American, with a median intensive care unit (ICU) stay of only 2 days. Fifty-six per cent of patients admitted to ICU were overweight (30%), obese (20%) or severely obese (6%). Unsurprisingly, the investigators found that being underweight (13%) was associated with excess mortality, but the overweight/obese/severely obese appeared to fair no worse than their normal (33%) compatriots. The overweight/obese/severely obese did, however, have longer durations of ICU and hospital stay, but had no excess functional disability at hospital discharge. Thus, a high body mass index appears not to predict short-term outcome but places additional burdens on health care resources.",
+            "cite_spans": [
+                {
+                    "start": 180,
+                    "end": 181,
+                    "mention": "5",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "section": "Obesity",
+            "ref_spans": []
+        },
+        {
+            "text": "Valuable long-term follow-up data from survivors of critical illness who had spent more than 28 days in intensive care were presented by Fletcher and colleagues [6]. They reported an alarmingly high incidence of peripheral neurological deficits on examination (13/22, 59% of subjects) and of ongoing partial denervation of muscle (21/22, 95% of subjects). This study reinforces many of the issues identified by Angus and colleagues [3] and reinforces the need for longer term follow up and outcome variables in clinical studies of the critically ill.",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 163,
+                    "mention": "6",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 433,
+                    "end": 434,
+                    "mention": "3",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "section": "Critical illness polyneuropathy",
+            "ref_spans": []
+        },
+        {
+            "text": "At the opposite end of the temporal spectrum, Wik and colleagues [7] reported on the effects of 3 min of cardiopulmonary resuscitation prior to defibrillation in out-of-hospital cardiac arrest. In the majority of patients, whose response time was more than 5 min, this intervention significantly improved the chances of the individual surviving to 1 year (13/64 [20%] versus 2/55 [4%]). This goes against the dogma of immediate defibrillation and is supported by previous work, as discussed in the accompanying editorial [8]. The authors suggest that the key issue then becomes rapidly establishing the duration of ventricular fibrillation, in order to establish which patients might benefit from this approach. However, because no advantage was established for defibrillation prior to 3 min of cardiopulmonary resuscitation, shouldn't all out-of-hospital arrests receive this manoeuvre?",
+            "cite_spans": [
+                {
+                    "start": 66,
+                    "end": 67,
+                    "mention": "7",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 522,
+                    "end": 523,
+                    "mention": "8",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "Resuscitation",
+            "ref_spans": []
+        },
+        {
+            "text": "Since the renaissance of 'low-dose' glucocorticoids in septic shock, concerns regarding the immunological effects of such an intervention have been voiced. Keh and colleagues [9] conducted a detailed cross-over trial to investigate this further. Giving hydrocortisone as a continuous infusion (240\u2013300 mg/day), they demonstrated the now well recognized haemodynamic benefits. They established that steroids at this dose in patients with septic shock lead to downregulation of both the pro- and anti-inflammatory cascades, while enhancing neutrophil phagocytosis and monocyte function. The cross-over design resulted in rapid withdrawal of steroids after 72 hours, which caused negative rebound effects both in haemodynamic and inflammatory/immunological parameters. The study provides evidence of an additional beneficial role that steroids at this dose may play in patients with septic shock \u2013 that of immune enhancement and inflammatory modulation. Many questions remain regarding the optimal use of this simple and arguably physiological intervention, but the sceptics would appear to have received a further blow.",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 177,
+                    "mention": "9",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Low-dose glucocorticoids",
+            "ref_spans": []
+        },
+        {
+            "text": "Three recent publications add insights into the ventilatory management of patients with adult respiratory distress syndrome (ARDS). Animal and human evidence to support the hypothesis that ventilator-induced lung injury causes distant organ damage through the pulmonary production of apoptosis-inducing soluble mediators is provided by an elegant set of experiments conducted by Imai and coworkers [10], who reduced this effect by employing a lung protective strategy. Gerlach and colleagues [11] have again demonstrated no benefit from inhaled nitric oxide in adults with ARDS in a small randomized controlled trial of 40 patients. They also established that efficacy, in terms of improvement in arterial oxygen tension/fractional inspired oxygen ratio, and dose response are both attenuated by continuous administration, whereas these are maintained in control patients. Surely this study, if not the body of evidence that precedes it, should sound the death knell of inhaled nitric oxide in ARDS. Finally, an old fashioned intervention received a further vote for resurrection. Cyclical sighs are a recruitment manoeuvre that has received little attention in recent years. Pelosi and colleagues have added to their previous work in this area [12] with a study investigating the efficacy of sign recruitment in supine and prone positioning [13]. They demonstrated the potential value of the combination of sigh ventilation and prone positioning in 10 ARDS patients, and added to the body of evidence that supports further investigation of this theoretically attractive strategy. The only caveat is that today no intervention that improves oxygenation in ARDS has been shown to lead to an outcome benefit.",
+            "cite_spans": [
+                {
+                    "start": 399,
+                    "end": 401,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 493,
+                    "end": 495,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1246,
+                    "end": 1248,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1343,
+                    "end": 1345,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "Adult respiratory distress syndrome",
+            "ref_spans": []
+        },
+        {
+            "text": "Novel opiate receptor antagonists have recently been investigated as promotility agents to enhance enteral feeding [14]. Meissner and coworkers [15] have stolen a march on the manufacturers of novel agents by conducting a successful trial of enteral naloxone in ventilated patients. A trial of naloxone verses erythromycin verses metoclopramide is now waiting to be done.",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 118,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 145,
+                    "end": 147,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "section": "Other noteworthy papers",
+            "ref_spans": []
+        },
+        {
+            "text": "There has been increasing interest in both the quality and quantity of sleep that critically ill patients experience, not least because there is a strong association between depravation and neuropsychiatric sequelae [16,17]. Gabor and colleagues [18] added to this field by investigating what contribution environmental stimuli make to sleep disruption in both normal individuals and mechanically ventilated patients. Surprisingly, they found that less than 30% of disruptions were attributable to noise and patient care activities.",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 219,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 220,
+                    "end": 222,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 247,
+                    "end": 249,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Other noteworthy papers",
+            "ref_spans": []
+        },
+        {
+            "text": "None declared.",
+            "cite_spans": [],
+            "section": "Competing interests",
+            "ref_spans": []
+        },
+        {
+            "text": "ARDS = adult respiratory distress syndrome; ICU = intensive care unit.",
+            "cite_spans": [],
+            "section": "Abbreviations",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "2001 SCCM/ESICM/ ACCP/ATS/SIS International Sepsis Definitions Conference",
+            "authors": [
+                {
+                    "first": "MM",
+                    "middle": [],
+                    "last": "Levy",
+                    "suffix": ""
+                },
+                {
+                    "first": "MP",
+                    "middle": [],
+                    "last": "Fink",
+                    "suffix": ""
+                },
+                {
+                    "first": "JC",
+                    "middle": [],
+                    "last": "Marshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Abraham",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Angus",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "SM",
+                    "middle": [],
+                    "last": "Opal",
+                    "suffix": ""
+                },
+                {
+                    "first": "JL",
+                    "middle": [],
+                    "last": "Vincent",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ramsay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Intensive Care Med",
+            "volume": "29",
+            "issn": "",
+            "pages": "530-538",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Injurious mechanical ventilation and end-organ epithelial cell apoptosis and organ dysfunction in an experimental model of acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Parodo",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Kajikawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "De Perrot",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Edwards",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cutz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Keshavjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "TR",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "JC",
+                    "middle": [],
+                    "last": "Marshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "VM",
+                    "middle": [],
+                    "last": "Ranieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "AS",
+                    "middle": [],
+                    "last": "Slutsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "JAMA",
+            "volume": "289",
+            "issn": "",
+            "pages": "2104-2112",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.289.16.2104"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "title": "Dose-response characteristics during long-term inhalation of nitric oxide in patients with severe acute respiratory distress syndrome: a prospective, randomized, controlled study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gerlach",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Keh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Semmerow",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Busch",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lewandowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "DM",
+                    "middle": [],
+                    "last": "Pappert",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rossaint",
+                    "suffix": ""
+                },
+                {
+                    "first": "KJ",
+                    "middle": [],
+                    "last": "Falke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "167",
+            "issn": "",
+            "pages": "1008-1015",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.2108121"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "title": "Sigh in acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pelosi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cadringher",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bottino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Panigada",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Carrieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Riva",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lissoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gattinoni",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "159",
+            "issn": "",
+            "pages": "872-880",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Sigh in supine and prone position during acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pelosi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bottino",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chiumello",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Caironi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Panigada",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gamberoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "LM",
+                    "middle": [],
+                    "last": "Bigatello",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gattinoni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "167",
+            "issn": "",
+            "pages": "521-527",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.200203-198OC"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "title": "Use of selective opiate receptor inhibitors to prevent postoperative ileus",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Akca",
+                    "suffix": ""
+                },
+                {
+                    "first": "AG",
+                    "middle": [],
+                    "last": "Doufas",
+                    "suffix": ""
+                },
+                {
+                    "first": "DI",
+                    "middle": [],
+                    "last": "Sessler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Minerva Anestesiol",
+            "volume": "68",
+            "issn": "",
+            "pages": "162-165",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Enteral naloxone reduces gastric tube reflux and frequency of pneumonia in critical care patients during opioid analgesia",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Meissner",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dohrn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Reinhart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Crit Care Med",
+            "volume": "31",
+            "issn": "",
+            "pages": "776-780",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Abnormal sleep/wake cycles and the effect of environmental noise on sleep disruption in the intensive care unit",
+            "authors": [
+                {
+                    "first": "NS",
+                    "middle": [],
+                    "last": "Freedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gazendam",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Levan",
+                    "suffix": ""
+                },
+                {
+                    "first": "AI",
+                    "middle": [],
+                    "last": "Pack",
+                    "suffix": ""
+                },
+                {
+                    "first": "RJ",
+                    "middle": [],
+                    "last": "Schwab",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "163",
+            "issn": "",
+            "pages": "451-457",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Sleep in critically ill patients requiring mechanical ventilation",
+            "authors": [
+                {
+                    "first": "AB",
+                    "middle": [],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "KS",
+                    "middle": [],
+                    "last": "Thornley",
+                    "suffix": ""
+                },
+                {
+                    "first": "GB",
+                    "middle": [],
+                    "last": "Young",
+                    "suffix": ""
+                },
+                {
+                    "first": "AS",
+                    "middle": [],
+                    "last": "Slutsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "TE",
+                    "middle": [],
+                    "last": "Stewart",
+                    "suffix": ""
+                },
+                {
+                    "first": "PJ",
+                    "middle": [],
+                    "last": "Hanly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Chest",
+            "volume": "117",
+            "issn": "",
+            "pages": "809-818",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "Contribution of the intensive care unit environment to sleep disruption in mechanically ventilated patients and healthy subjects",
+            "authors": [
+                {
+                    "first": "JY",
+                    "middle": [],
+                    "last": "Gabor",
+                    "suffix": ""
+                },
+                {
+                    "first": "AB",
+                    "middle": [],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "SA",
+                    "middle": [],
+                    "last": "Crombach",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kadikar",
+                    "suffix": ""
+                },
+                {
+                    "first": "HE",
+                    "middle": [],
+                    "last": "Bettger",
+                    "suffix": ""
+                },
+                {
+                    "first": "PJ",
+                    "middle": [],
+                    "last": "Hanly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "167",
+            "issn": "",
+            "pages": "708-715",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.2201090"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "title": "Future research directions in acute lung injury: summary of a national heart, lung, and blood institute working group",
+            "authors": [
+                {
+                    "first": "MA",
+                    "middle": [],
+                    "last": "Matthay",
+                    "suffix": ""
+                },
+                {
+                    "first": "GA",
+                    "middle": [],
+                    "last": "Zimmerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Esmon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bhattacharya",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Coller",
+                    "suffix": ""
+                },
+                {
+                    "first": "CM",
+                    "middle": [],
+                    "last": "Doerschuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Floros",
+                    "suffix": ""
+                },
+                {
+                    "first": "MA",
+                    "middle": [],
+                    "last": "Gimbrone",
+                    "suffix": "Jr"
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hoffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "RD",
+                    "middle": [],
+                    "last": "Hubmayr",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leppert",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Matalon",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Munford",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Parsons",
+                    "suffix": ""
+                },
+                {
+                    "first": "AS",
+                    "middle": [],
+                    "last": "Slutsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "KJ",
+                    "middle": [],
+                    "last": "Tracey",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "DB",
+                    "middle": [],
+                    "last": "Gail",
+                    "suffix": ""
+                },
+                {
+                    "first": "AL",
+                    "middle": [],
+                    "last": "Harabin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "167",
+            "issn": "",
+            "pages": "1027-1035",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.200208-966WS"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "title": "Surviving Intensive Care: a report from the 2002 Brussels Roundtable",
+            "authors": [
+                {
+                    "first": "DC",
+                    "middle": [],
+                    "last": "Angus",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Carlet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Intensive Care Med",
+            "volume": "29",
+            "issn": "",
+            "pages": "368-377",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "The epidemiology of sepsis in the United States from 1979 through 2000",
+            "authors": [
+                {
+                    "first": "GS",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "DM",
+                    "middle": [],
+                    "last": "Mannino",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Moss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "N Engl J Med",
+            "volume": "348",
+            "issn": "",
+            "pages": "1546-1554",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa022139"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "title": "Impact of body mass index on outcomes following critical care",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tremblay",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bandi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Chest",
+            "volume": "123",
+            "issn": "",
+            "pages": "1202-1207",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "Persistent neuromuscular and neurophysiologic abnormalities in long-term survivors of prolonged critical illness",
+            "authors": [
+                {
+                    "first": "SN",
+                    "middle": [],
+                    "last": "Fletcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "DD",
+                    "middle": [],
+                    "last": "Kennedy",
+                    "suffix": ""
+                },
+                {
+                    "first": "IR",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "VP",
+                    "middle": [],
+                    "last": "Misra",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kiff",
+                    "suffix": ""
+                },
+                {
+                    "first": "JH",
+                    "middle": [],
+                    "last": "Coakley",
+                    "suffix": ""
+                },
+                {
+                    "first": "CJ",
+                    "middle": [],
+                    "last": "Hinds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Crit Care Med",
+            "volume": "31",
+            "issn": "",
+            "pages": "1012-1016",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "Delaying defibrillation to give basic cardiopulmonary resuscitation to patients with out-of-hospital ventricular fibrillation: a randomized trial",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wik",
+                    "suffix": ""
+                },
+                {
+                    "first": "TB",
+                    "middle": [],
+                    "last": "Hansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Fylling",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Steen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vaagenes",
+                    "suffix": ""
+                },
+                {
+                    "first": "BH",
+                    "middle": [],
+                    "last": "Auestad",
+                    "suffix": ""
+                },
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Steen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "JAMA",
+            "volume": "289",
+            "issn": "",
+            "pages": "1389-1395",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.289.11.1389"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "title": "Priming the pump: can delaying defibrillation improve survival after sudden cardiac death?",
+            "authors": [
+                {
+                    "first": "TD",
+                    "middle": [],
+                    "last": "Valenzuela",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "JAMA",
+            "volume": "289",
+            "issn": "",
+            "pages": "1434-1436",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.289.11.1434"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "title": "Immunologic and hemodynamic effects of 'low-dose' hydrocortisone in septic shock: a double-blind, randomized, placebo-controlled, crossover study",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Keh",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Boehnke",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Weber-Cartens",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Schulz",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ahlers",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bercker",
+                    "suffix": ""
+                },
+                {
+                    "first": "HD",
+                    "middle": [],
+                    "last": "Volk",
+                    "suffix": ""
+                },
+                {
+                    "first": "WD",
+                    "middle": [],
+                    "last": "Doecke",
+                    "suffix": ""
+                },
+                {
+                    "first": "KJ",
+                    "middle": [],
+                    "last": "Falke",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gerlach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "167",
+            "issn": "",
+            "pages": "512-520",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.200205-446OC"
+                ]
+            }
+        }
+    }
+}

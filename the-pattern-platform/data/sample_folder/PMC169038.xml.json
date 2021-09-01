@@ -1,0 +1,1517 @@
+{
+    "paper_id": "PMC169038",
+    "metadata": {
+        "title": "Prokaryotic-style frameshifting in a plant translation system: conservation of an unusual single-tRNA slippage event",
+        "authors": [
+            {
+                "first": "Sawsan",
+                "middle": [],
+                "last": "Napthine",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Marijana",
+                "middle": [],
+                "last": "Vidakovic",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Roseanne",
+                "middle": [],
+                "last": "Girnary",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Olivier",
+                "middle": [],
+                "last": "Namy",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Ian",
+                "middle": [],
+                "last": "Brierley",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "The elongation phase of protein synthesis is a precise process and mechanisms exist to promote translational fidelity (reviewed in Czworkowski and Moore, 1996). However, a growing number of examples have been described of highly efficient \u2018programmed\u2019 frameshift sites (see Farabaugh, 1996, 2000 for reviews). Such frameshifts, which can occur at frequencies approaching 100%, are not errors in the classical sense in that they generate authentic proteins and are stimulated specifically by elements encoded in the mRNA. For this reason, they are considered more as extensions of the genetic code (recoding sites) (Gesteland and Atkins, 1996) rather than \u2018natural\u2019 errors, although there may be mechanistic similarities between the two (Farabaugh and Bjork, 1999). There is considerable interest in how programmed frameshifting occurs, as this may provide insights into normal frame maintenance, tRNA movement and the unwinding of mRNA secondary structures by ribosomes. Programmed \u20131 ribosomal frameshift signals are found most commonly in eukaryotic RNA viruses and Escherichia coli insertional elements (IS), where they facilitate expression of replicases and transposases, respectively (see Chandler and Fayet, 1993; Brierley, 1995; Futterer and Hohn, 1996; Farabaugh, 2000 for reviews). Examples have also been described in conventional cellular genes of E.coli (dnaX) (Blinkowa and Walker, 1990; Flower and McHenry, 1990; Tsuchihashi and Kornberg, 1990), Bacillus subtilis (cdd) (Mejlhede et al., 1999) and mammalian cells (Edr) (Shigemoto et al., 2001). The mRNA signals that cause frameshifting typically comprise two essential elements: a heptanucleotide \u2018slippery\u2019 sequence, where the ribosome changes reading frame, and an adjacent stimulatory signal. This can be an RNA secondary structure (often an RNA pseudoknot) located a few nucleotides downstream (Jacks et al., 1988; Brierley et al., 1989; ten Dam et al., 1990), a Shine\u2013Dalgarno-like (SD-like) sequence upstream (Mejlhede et al., 1999) or a combination of both (Larsen et al., 1994; Rettberg et al., 1999). The slippery sequence consists of two homopolymeric triplets, conforming in the vast majority of cases to the motif X-XXY-YYZ. Frameshifting at this sequence is thought to occur by simultaneous (also referred to as \u2018dual\u2019 or \u2018tandem\u2019) slippage of the peptidyl and aminoacyl tRNAs, which are translocated from the zero (X-XXY-YYN) to the \u20131 phase (XXX-YYY) (Jacks et al., 1988). Following the slip, the tRNAs remain base-paired to the mRNA in at least two out of three anticodon positions. In prokaryotic systems, the generality of the simultaneous slippage model of frameshifting is not fully established. At most naturally occuring E.coli frameshift signals, including dnaX (slippery sequence A-AAA-AAG) (Tsuchihashi and Brown, 1992), IS911 (A-AAA-AAG) (Chandler and Fayet, 1993) and the G-T ORF of bacteriophage \u03bb (G-GGA-AAG) (Levin et al., 1993), a simultaneous slippage mechanism is employed. However, in IS1, frameshifting is thought to occur by \u20131 slippage of a single lysyl-tRNA at the sequence A-AAA (from the underlined codon onto the overlapping AAA codon), despite the fact that the AAAA stretch is embedded within two potential and conventional slippery sequences (U-UUA-AAA-AAC) (Sekine and Ohtsubo, 1992). There are other examples of frameshift signals where the occurrence of a dual slippage mechanism is questionable on the grounds that re-pairing of the frameshifted P-site tRNA with the mRNA does not allow the formation of stable base-pairs at the non-wobble positions. These include IS3 (C CAA AAG) (Sekine et al., 1994), the bacteriophage T7 gene 10 signal (G-GUU-UUC) (Condron et al., 1991) and that of equine arteritis virus 1a/1b (G-UUA-AAC) (den Boon et al., 1991; Brierley et al., 1992).",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 158,
+                    "mention": "Czworkowski and Moore, 1996",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 274,
+                    "end": 289,
+                    "mention": "Farabaugh, 1996",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 291,
+                    "end": 295,
+                    "mention": "2000",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 615,
+                    "end": 641,
+                    "mention": "Gesteland and Atkins, 1996",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 737,
+                    "end": 762,
+                    "mention": "Farabaugh and Bjork, 1999",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1195,
+                    "end": 1219,
+                    "mention": "Chandler and Fayet, 1993",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1221,
+                    "end": 1235,
+                    "mention": "Brierley, 1995",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1237,
+                    "end": 1260,
+                    "mention": "Futterer and Hohn, 1996",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1262,
+                    "end": 1277,
+                    "mention": "Farabaugh, 2000",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1375,
+                    "end": 1400,
+                    "mention": "Blinkowa and Walker, 1990",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1402,
+                    "end": 1426,
+                    "mention": "Flower and McHenry, 1990",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1428,
+                    "end": 1458,
+                    "mention": "Tsuchihashi and Kornberg, 1990",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1486,
+                    "end": 1507,
+                    "mention": "Mejlhede et al., 1999",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1536,
+                    "end": 1558,
+                    "mention": "Shigemoto et al., 2001",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1866,
+                    "end": 1884,
+                    "mention": "Jacks et al., 1988",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1886,
+                    "end": 1907,
+                    "mention": "Brierley et al., 1989",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1909,
+                    "end": 1929,
+                    "mention": "ten Dam et al., 1990",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1983,
+                    "end": 2004,
+                    "mention": "Mejlhede et al., 1999",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2032,
+                    "end": 2051,
+                    "mention": "Larsen et al., 1994",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 2053,
+                    "end": 2074,
+                    "mention": "Rettberg et al., 1999",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 2434,
+                    "end": 2452,
+                    "mention": "Jacks et al., 1988",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 2783,
+                    "end": 2810,
+                    "mention": "Tsuchihashi and Brown, 1992",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 2832,
+                    "end": 2856,
+                    "mention": "Chandler and Fayet, 1993",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 2906,
+                    "end": 2924,
+                    "mention": "Levin et al., 1993",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 3270,
+                    "end": 3294,
+                    "mention": "Sekine and Ohtsubo, 1992",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 3597,
+                    "end": 3616,
+                    "mention": "Sekine et al., 1994",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 3668,
+                    "end": 3688,
+                    "mention": "Condron et al., 1991",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 3744,
+                    "end": 3765,
+                    "mention": "den Boon et al., 1991",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 3767,
+                    "end": 3788,
+                    "mention": "Brierley et al., 1992",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "In mechanistic terms, the position of the tRNAs during the slippage event is a key issue. Evidence supports the view that in the vast majority of cases, the slippery sequence-decoding tRNAs are present in the P- and A-sites of the ribosome (see Atkins et al., 2001 for a review). However, there are a few exceptions. In an E.coli expression system, frameshifting at the human immunodeficiency virus type 1 (HIV-1) gag/pro frameshift signal (U-UUU-UUA) is thought to occur when the tRNAs are in the ribosomal E- and P-sites (Horsfield et al., 1995). This hypothesis was proposed following the discovery that the presence of a termination codon immediately downstream of the U-UUU-UUA stretch reduced frameshifting some 5- to 10-fold. There are also two examples of \u20131 frameshift signals where a single tRNA slippage event is proposed. At the CP/12K signal of potato virus M (A-AAA-UGA), a P-site slip is proposed, with lysyl-tRNA slipping back by 1 nucleotide (nt) from the underlined codon when the A-site is unoccupied (Gramstat et al., 1994). The stimulation of such movements of peptidyl-tRNA by termination codons is not without precedent in other classes of frameshift signal (see Atkins et al., 2001). However, a \u20131 frameshift signal in the B.subtilis cytidine deaminase gene (cdd; CGA-AAG) (Mejlhede et al., 1999) is particularly unusual. Frameshifting at this site appears to occur without P-site slippage, with the A-site tRNALys repairing from AAG to AAA. How this can occur without simultaneous P-site tRNA slippage is not known, although displacement of the wobble pair (A:I) of the P-site tRNA by the first base of the re-pairing A-site tRNA is a possibility (Mejlhede et al., 1999). An event that bears similarity to the cdd frameshift event has been described for a viral frameshift system (Brierley et al., 1997). An investigation into the functionality of the frameshift signal of the coronavirus infectious bronchitis virus (IBV; U-UUA-AAC) in E.coli revealed that a variant with slippery sequence U-CUA-AAG was highly active (40%) (Brierley et al., 1997), despite possessing a slippery sequence which should allow only a single-tRNA slip in the A-site (from AAG back to AAA). This was unexpected, since viral frameshifting was generally believed to occur by simultaneous slippage and, as with cdd, no obvious mechanism exists to account for movement of just the A-site tRNA.",
+            "cite_spans": [
+                {
+                    "start": 245,
+                    "end": 264,
+                    "mention": "Atkins et al., 2001",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 524,
+                    "end": 546,
+                    "mention": "Horsfield et al., 1995",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1021,
+                    "end": 1042,
+                    "mention": "Gramstat et al., 1994",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1186,
+                    "end": 1205,
+                    "mention": "Atkins et al., 2001",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1298,
+                    "end": 1319,
+                    "mention": "Mejlhede et al., 1999",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1673,
+                    "end": 1694,
+                    "mention": "Mejlhede et al., 1999",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1806,
+                    "end": 1827,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 2051,
+                    "end": 2072,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "At present, we do not know whether such unusual A-site single-tRNA slippage events are restricted to prokaryotic ribosomes. There is a need to investigate more thoroughly the prevalence of such events and the features that can influence the selection of single- or dual-tRNA slippage mechanisms of frameshifting. Here, we employed the IBV frameshift signal as a model system to investigate whether the mechanism employed is determined by the host translational environment (prokaryotic versus eukaryotic) and/or the nature of the tRNAs decoding the slippery sequence in the ribosomal A- and/or P-sites, focusing on tRNALys and tRNAAsn. To achieve this, we exploited a recently developed methodology for the preparation of tRNA-dependent in vitro translation systems (Jackson et al., 2001). By expressing candidate frameshifting signals both in E.coli and in wheatgerm extracts (WG) depleted of endogenous tRNAs and supplemented with purified prokaryotic or eukaryotic tRNA populations, we show that, when present in the A-site, E.coli tRNALys can promote an unusual single-tRNA slippage event in both prokaryotic and eukaryotic ribosomes. We also demonstrate that prokaryotic tRNAAsn is not inherently \u2018unslippery\u2019 and is perfectly capable of inducing efficient frameshifting when placed in the environment of a eukaryotic translation system. However, with this tRNA, a dual slippage event is promoted. These findings provide strong evidence that it is the tRNAs themselves that are the main determinants in the selection of a single- or dual-tRNA slippage mechanism. Models for the disposition of tRNAs on the ribosome during the unusual single-tRNA slip are discussed.",
+            "cite_spans": [
+                {
+                    "start": 767,
+                    "end": 787,
+                    "mention": "Jackson et al., 2001",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "In E.coli, the high frameshift efficiencies elicited by ribosomal frameshift signals containing slippery sequences of the general organization X-XXA-AAG (Weiss et al., 1989) have been ascribed to the presence in this organism of a single tRNALys isoacceptor with anticodon 3\u2032UUU*5\u2032. The modification (*) on the wobble base of this tRNA (5-methylaminomethyl-2-thiouridine; mnm5s2U) has been proposed to weaken the mRNA\u2013 tRNA interaction, permitting efficient frameshifting (Tsuchihashi, 1991). Although mammalian cells harbour a lysyl-tRNA closely related to the E.coli molecule [with anticodon 3\u2032UUU**5\u2032, where U** is 5-methylcarbonylymethyl-2-thiouridine (mcm5s2U)], the U-UUA-AAG signal does not stimulate efficient frameshifting in mammalian systems, probably because two additional tRNALys isoacceptors are present with anticodon 3\u2032UUC5\u2032 which outcompete the mcm5s2U-containing isoacceptor (Tsuchihashi and Brown, 1992). With slippery sequences of the order X XXA AAC, decoded by a single tRNAAsn isoacceptor with anticodon 3\u2032UUQ5\u2032 (Q is queuosine), the situation is reversed in that in mammalian systems such signals are usually highly efficient, but in E.coli promote only low levels of frameshifting. At present, we have no explanation for the different functionality of tRNAAsn in the two systems.",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 172,
+                    "mention": "Weiss et al., 1989",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 473,
+                    "end": 490,
+                    "mention": "Tsuchihashi, 1991",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 895,
+                    "end": 922,
+                    "mention": "Tsuchihashi and Brown, 1992",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "section": "Single- and dual-tRNA slippage events during ribosomal frameshifting in E.coli ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "It is clear that the tRNA species decoding the slippery sequence in the ribosomal A-site can have a major impact on the magnitude of frameshifting. It is also possible that the actual mechanism of frameshifting may change depending upon the identity of the tRNA. In a study of frameshifting at the IBV signal, we made the unexpected observation that a variant with slippery sequence U-CUA-AAG (wild type is U-UUA-AAC) showed highly efficient frameshifting in E.coli (40%) but poor frameshifting (<1%) in the rabbit reticulocyte lysate in vitro translation system (RRL) (Brierley et al., 1997). In E.coli, the P-site codon in the mutant, U-CUA-AAG, is probably decoded by a minor tRNALeu isoacceptor with anticodon 3\u2032GAU5\u2032 (Inokuchi and Yamao, 1995) and if it were to slip into the \u20131 reading frame, in accordance with the simultaneous slippage model, it could form only a single G-U base-pair with the \u20131 frame codon (see Table I). This level of re-pairing seemed insufficient to account for the level of frameshifting seen and we speculated that when the highly frameshift-prone tRNALys is present in the ribosomal A-site, it may induce frameshifting by a different mechanism, one where the requirements for re-pairing of the adjacent P-site tRNA were less stringent. However, we could not rule out the possibility that the tRNALeu isoacceptor was itself unusually slippery and in some way tolerant of restricted post-slippage pairing. For this reason, we examined here a broader range of IBV slippery sequence mutants, decoded by a variety of tRNAs, and measured frameshifting in E.coli BL21 cells (see Materials and methods). In the pMM plasmid series, the various slippery sequences were present in combination with the IBV pseudoknot or a related hairpin\u2013loop structure (Brierley et al., 1991) (see Figure 1) and specify the synthesis of a 33 kDa non-frameshift product and a 50 kDa \u20131 frameshift product. As can be seen in Figure 2, variants of U-UUA-AAG with individual point mutations that were predicted to disrupt slippage of the P-site tRNA retained high levels of frameshifting (Figure 2). This was the case even when the expected number of P-site post-slippage tRNA anticodon:mRNA codon contacts formed was only one or less (taking into account pairing specificities of tRNAs, including anticodon modifications; see Table I). Thus, in all cases, substantial frameshifting was promoted under conditions where only the A-site tRNALys could re-pair in the \u20131 frame. In other aspects, the frameshift was typical of a traditional \u20131 ribosomal frameshift event. First, point mutations that changed the slippery sequence so as to reduce the predicted stability of the post-slippage A-site mRNA codon\u2013anticodon complexes either greatly reduced (pMM41, slippery sequence U-UUG-AAG; 2%) or abolished frameshifting (pMM30, pMM40; slippery sequence U-UUA-CAG). Secondly, frameshift efficiency was comparably higher in those variants where the stimulatory RNA was a pseudoknot (pMM2, 29, 31\u201334) as opposed to a stem\u2013loop (pMM7, 35\u201338, 40), indicating that the event is responsive to the nature of the downstream structure.",
+            "cite_spans": [
+                {
+                    "start": 570,
+                    "end": 591,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 723,
+                    "end": 747,
+                    "mention": "Inokuchi and Yamao, 1995",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1776,
+                    "end": 1797,
+                    "mention": "Brierley et al., 1991",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "section": "Single- and dual-tRNA slippage events during ribosomal frameshifting in E.coli ::: Results",
+            "ref_spans": [
+                {
+                    "start": 1811,
+                    "end": 1812,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1936,
+                    "end": 1937,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 2098,
+                    "end": 2099,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 928,
+                    "end": 929,
+                    "mention": "I",
+                    "ref_id": null
+                },
+                {
+                    "start": 2335,
+                    "end": 2336,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Previously, Weiss et al. (1989) assessed the primary sequence requirements for frameshifting in E.coli of a variant of the mouse mammary tumour virus (MMTV) gag/pro frameshift signal with slippery sequence A-AAA-AAG. In contrast to what is observed with the IBV system, even a modest reduction in the potential for post-slippage P-site mRNA\u2013tRNA pairing (e.g. a change from A-AAA-AAG to G-AAA-AAG) reduced frameshift efficiency markedly with the MMTV signal, indicating that a dual slippage event was occurring. The most obvious explanation for the discrepancy between the two studies is that the identity of the P-site tRNA is influencing the slippage process. To test this, we compared variant IBV signals with slippery sequences A-AAA-AAG and G-AAA-AAG together with either pseudoknot or hairpin stimulator. As shown in Figure 2, the frameshift efficiencies seen were consistent with the study of Weiss et al. (1989). The A-AAA-AAG signal promoted efficient frameshifting with a pseudoknot (pMM44, 43%) or a stem\u2013loop stimulator (pMM45, 37%), but a change to G-AAA-AAG reduced frameshifting markedly (pMM46, 18%; pMM47, 7%). Thus, the ability of tRNALys to induce a single tRNA slip can be influenced by the adjacent P-site tRNA. Certainly, when this tRNA is also tRNALys, a dual slippage event appears to be the most likely outcome.",
+            "cite_spans": [
+                {
+                    "start": 12,
+                    "end": 31,
+                    "mention": "Weiss et al. (1989)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 900,
+                    "end": 919,
+                    "mention": "Weiss et al. (1989)",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "section": "Single- and dual-tRNA slippage events during ribosomal frameshifting in E.coli ::: Results",
+            "ref_spans": [
+                {
+                    "start": 830,
+                    "end": 831,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "We also tested whether the strength of the interaction between the anticodon of tRNALys and the mRNA codon prior to slippage could influence the selection of a single- or dual-slippage mechanism by assessing frameshifting in constructs where the A-site codon was AAA. It is known that the frameshift efficiency elicited in E.coli by a combination of U-UUA-AAA and the IBV pseudoknot is considerably lower than that seen when the slippery sequence is U-UUA-AAG. It is believed that this is a consequence of the increased recognition of the AAA codon by tRNALys (Lustig et al., 1981; Yokoyama et al., 1985; Tsuchihashi and Brown, 1992; Brierley et al., 1997). Here, comparing U UUA AAA (pMM9) and U CUA AAA (pMM42), we found that the P-site change resulted in a reduction in frameshifting (from 14 to 7%; Figure 2), suggesting that a dual-slippage mechanism operates during frameshifting at U-UUA-AAA. A similar pattern was seen in comparisons of U-UUA-AAC (pMM1; 2%) and U-GUA-AAC (pMM43; <1%), indicating that a simultaneous slippage process also occurs when the A-site codon is decoded by tRNAAsn.",
+            "cite_spans": [
+                {
+                    "start": 561,
+                    "end": 580,
+                    "mention": "Lustig et al., 1981",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 582,
+                    "end": 603,
+                    "mention": "Yokoyama et al., 1985",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 605,
+                    "end": 632,
+                    "mention": "Tsuchihashi and Brown, 1992",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 634,
+                    "end": 655,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "section": "Single- and dual-tRNA slippage events during ribosomal frameshifting in E.coli ::: Results",
+            "ref_spans": [
+                {
+                    "start": 810,
+                    "end": 811,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The potential role of the mnm5s2 modifications of tRNALys U34 in the single-tRNA slippage mechanism was also examined using two mutant E.coli strains (mnmA and mnmE) unable to fully modify tRNALys (Brierley et al., 1997; Hagervall et al., 1998). In these strains, tRNALys contains mnm5U34 (mnmA) or s2U34 (mnmE). Frameshifting at four different slippery sequences (U-UUA-AAG, C-UUA-AAG, U-CUA-AAG or U-GUA-AAG) was tested in each strain and the results are shown in Figure 2. For all slippery sequences tested, very little effect on frameshifting was seen in the mnmA strain (there was a very small, although consistent reduction), but in the mnmE background, frameshifting was noticeably stimulated in comparison to the isogenic wild-type strain. Thus, the individual modifications do not appear to be required for the frameshift process. We cannot rule out that they are required in combination, but an mnmA, mnmE double mutant strain remains to be isolated.",
+            "cite_spans": [
+                {
+                    "start": 198,
+                    "end": 219,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 221,
+                    "end": 243,
+                    "mention": "Hagervall et al., 1998",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "section": "Single- and dual-tRNA slippage events during ribosomal frameshifting in E.coli ::: Results",
+            "ref_spans": [
+                {
+                    "start": 473,
+                    "end": 474,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "We next addressed whether this unusual single tRNA slippage event was restricted to the prokaryotic translational apparatus or could also occur in a eukaryotic system. To test this, we programmed a tRNA-dependent in vitro translation system derived from WG with reporter mRNAs containing variants of the IBV frameshift signal, following addition of either eukaryotic (calf liver) or prokaryotic (E.coli) tRNA populations. The mRNAs employed in this analysis\u2014derived from plasmid pFScass 5, which contains the minimal IBV pseudoknot (Brierley et al., 1992) and pFScass 5.8, in which the pseudoknot was replaced by a related hairpin (Figure 1)\u2014specify the synthesis of an 18 kDa non-frameshift product and a 22 kDa \u20131 frameshift product. The prokaryotic tRNAs were derived from E.coli JM101 cells and purified under acidic conditions to preserve their amino-acyl groups (see Materials and methods). As expected (Pfitzinger et al., 1989), we found that translation in depleted WG extracts could be rescued by aminoacetylated E.coli tRNAs, although translation efficiencies were somewhat reduced in comparison to eukaryotic tRNA populations. The tRNA content and tRNA dependence of the depleted WG used in this experiment are shown in Figure 3. Translational activity was entirely dependent upon the addition of exogenous tRNA. Slippery sequence variants of pFScass 5 and 5.8 were translated in depleted WG extracts supplemented with either calf-liver or E.coli tRNAs and the results are shown in Figure 4. With calf-liver tRNAs, the pattern of frameshifting seen was consistent with previous studies, although the efficiencies were uniformly slightly higher, indicating that the depleted WG is somewhat more promiscuous. In combination with the pseudoknot (Figure 4A), the wild-type slippery sequence (U-UUA-AAC, pFScass 5) stimulated efficient frameshifting (51%), a variant with slippery sequence U-UUA-AAG (pFScass 5.18) had greatly reduced frameshifting (7%), and variants with point mutations in the first part of the slippery sequence (U-UUA-AAC) showed reduced frameshifting, consistent with the dual-tRNA slippage model of frameshifting. P-site variants of the slippery sequence U-UUA-AAG also showed reduced levels of frameshifting (<2%), and we attribute this to an inability of the calf-liver tRNALys species decoding the A-site codon (presumably an isoacceptor with anticodon 3\u2032UUC5\u2032) to slip. The situation was different in translations programmed with E.coli tRNAs. Under these conditions, frameshift signals with a slippery sequence ending with AAG (pFScass 5.18, 5.90, 5.91, 5.92), decoded by prokaryotic tRNALys, showed much greater activity (47, 35, 48 and 50%, respectively), strongly supporting the view that an A-site single tRNALys slippage event also occurs in the plant system. In contrast, the frameshift efficiency of slippery sequences ending in AAC (i.e. A-site decoded by prokaryotic tRNAAsn) was highly dependent on the P-site tRNA and its ability to re-pair in the \u20131 phase. In constructs in which P-site re-pairing was predicted to be impaired (cass 5.87, C-UUA-AAC; 5.101, U-AUA-AAC; 5.102, U-GUA-AAC), the frameshift efficiencies were considerably lower (6, 13 and 7%, respectively) than those in which such re-pairing was likely (cass 5, U-UUA-AAC; 5.97, U-UCA-AAC), where frameshifting occurred efficiently (50 and 38%, respectively). This pattern closely resembled that seen with calf-liver tRNAs and supports the view that prokaryotic tRNAAsn is not \u2018inherently unslippery\u2019 and is capable of promoting efficient dual-tRNA frameshifting within the context of a eukaryotic ribosome. Figure 4B shows the translation products synthesized from a set of frameshift reporter mRNAs in which the stimulatory structure was a hairpin\u2013loop. The pattern of frameshifting observed was qualitatively similar to that seen with the pseudoknot in that the lysyl- and asparaginyl-tRNAs decoding the slippery sequences are associated with single- and dual-tRNA slippage events, respectively. Thus, the nature of the stimulatory RNA does not appear to influence the mechanism of frameshifting. In quantitative terms, frameshifting occurred uniformly less efficiently with the hairpin stimulator, consistent with previous studies (Brierley et al., 1991, 1997). However, the presence of the hairpin or pseudoknot was required for frameshifting; the introduction of a destabilizing mutation into the stem of the hairpin or stem 1 of the pseudoknot (in constructs with slippery sequence U-GUA-AAG) greatly reduced frameshifting in translations supplemented with E.coli tRNAs (to 2%, data not shown).",
+            "cite_spans": [
+                {
+                    "start": 533,
+                    "end": 554,
+                    "mention": "Brierley et al., 1992",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 910,
+                    "end": 933,
+                    "mention": "Pfitzinger et al., 1989",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 4244,
+                    "end": 4265,
+                    "mention": "Brierley et al., 1991",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 4267,
+                    "end": 4271,
+                    "mention": "1997",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "section": "Single- and dual-tRNA slippage events during ribosomal frameshifting in a eukaryotic in vitro translation system ::: Results",
+            "ref_spans": [
+                {
+                    "start": 639,
+                    "end": 640,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1238,
+                    "end": 1239,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1500,
+                    "end": 1501,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1761,
+                    "end": 1762,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 3623,
+                    "end": 3624,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Given the published evidence that in E.coli HIV-1 frameshifting appears to involve the E- and P- sites (Horsfield et al., 1995), we wished to rule out any influence of the termination codon present immediately downstream of the slippery sequence in the pFScass 5 series (UGA, Figure 1). To do this, we changed the spacer region of four of the constructs (with slippery sequences U-UUA-AAC, C-UUA-AAC, U-UUA-AAG and C-UUA-AAG and a downstream pseudoknot) from 5\u2032-UGAUAC-3\u2032 to 5\u2032-UACUGA-3\u2032 to move the stop codon to a position 3 nt downstream. As can be seen in Figure 4C, the pattern of frameshifting seen with all four constructs was largely unaffected by the spacer change, arguing against involvement of the E-site in the frameshift mechanism.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 126,
+                    "mention": "Horsfield et al., 1995",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "section": "Single- and dual-tRNA slippage events during ribosomal frameshifting in a eukaryotic in vitro translation system ::: Results",
+            "ref_spans": [
+                {
+                    "start": 283,
+                    "end": 284,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 567,
+                    "end": 568,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Here, we tested the influence of host translational environment and the identity of the slippery sequence-decoding tRNAs on the mechanism of programmed \u20131 ribosomal frameshifting. By expressing candidate frameshifting signals in E.coli and in WG extracts depleted of endogenous tRNAs and supplemented with prokaryotic or eukaryotic tRNA populations, we found that when present in the ribosomal A-site, E.coli tRNALys promotes a highly unusual single-tRNA slippage event in both prokaryotic and eukaryotic ribosomes. The efficiency of the process is influenced both by the A-site codon (AAG or AAA) and the identity of the P-site tRNA. Asparaginyl-tRNA, on the other hand, promoted a dual slippage event in either system. The type of stimulatory RNA, stem\u2013loop or pseudoknot, did not appear to influence the choice of frameshift mechanism, although it did modulate the efficiency of the process. Thus, the tRNAs themselves are the main determinants in the selection of single- or dual-tRNA slippage mechanisms. The tRNA-dependent translation system enabled us to confirm, for the first time, that prokaryotic asparaginyl tRNA is not inherently \u2018unslippery\u2019 and is capable of inducing highly efficient frameshifting in the context of a eukaryotic translation system.",
+            "cite_spans": [],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Before discussing the implications of these findings, it is first necessary to consider the supportive evidence that the single-tRNA slip is indeed taking place in the ribosomal A-site. Heelprint analysis of RRL ribosomes paused at the IBV pseudoknot indicate that the ribosomal P- and A-sites are positioned over the slippery sequence during the pause (Kontos et al., 2001) and the same is true for WG ribosomes (Kontos, 1997). Furthermore, the response of both prokaryotic (Brierley et al., 1997) and eukaryotic (Brierley et al., 1989) ribosomes to changes in the length of the spacer region between slippery sequence and stimulatory RNA is the same, i.e. reduction to 3 (nt) or expansion to 9 nt (from the normal 6 nt) abolishes frameshifting in either system. The decoding sites of the prokaryotic and eukaryotic ribosomes employed here are, therefore, highly likely to interact with the pseudoknot or stem\u2013loop at the same relative position on the mRNA. The differential responses to pseudoknot- or stem\u2013loop-stimulated frameshifting observed in the present study are consistent with this belief. It seems highly unlikely, therefore, that the single-tRNA slippage event occurs in the P-site, since this would require movement of the ribosome (hence unwinding of the pseudoknot) by an additional codon. Furthermore, the differential responses in frameshifting seen when the \u2018A-site\u2019 of the slippery sequence is decoded by tRNALys or tRNAAsn are unaffected by the presence of a stop codon immediately downstream of the slippery sequence, arguing against a slippage mechanism involving the P- or P/E-sites.",
+            "cite_spans": [
+                {
+                    "start": 354,
+                    "end": 373,
+                    "mention": "Kontos et al., 2001",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 414,
+                    "end": 426,
+                    "mention": "Kontos, 1997",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 476,
+                    "end": 497,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 515,
+                    "end": 536,
+                    "mention": "Brierley et al., 1989",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Our experimental data are strongly supportive of an A-site single tRNALys slippage event. However, the nature of the P-site tRNA can also influence the process. Although most of the P-site tRNAs tested (tRNALeu, tRNAIle, tRNAVal, tRNASer) allowed efficient single-tRNA frameshifting, the presence of tRNALys in the P-site (when decoding G-AAA-AAG) was quite inhibitory. Another important factor is the nature of the wobble pair formed between the A-site tRNALys and the mRNA. It is generally accepted that the strength of the interaction between the codon and anticodon can influence frameshifting efficiency and, in this light, the role of the mnm5s2 modifications of tRNALys U34 is significant. In normal translation, these modifications are thought to restrict wobble, preventing misreading of near-cognate codons ending in U, but at the cost of greatly reduced recognition of G (Yokoyama et al., 1985). The high frameshift efficiency elicited by E.coli tRNALys at the AAG codon is consistent with a weak wobble pair, and it was perhaps surprising to find that in mnmA and mnmE strains, the absence of mnm5 or s2 did not lead to a notable reduction in frameshifting (there was a very small reduction in the case of mnmA; Figure 2). However, these data are consistent with more recent studies on these modifications (Brierley et al., 1997; Hagervall et al., 1998; Kr\u00fcger et al., 1998) and support the idea that the 5-methylaminomethyl group facilitates base-pairing with G and in its absence (in the mnmE strain) the interaction is weaker, leading to increased frameshifting. In contrast, the absence of the 2-thio group (mnmA) does not appear to affect recognition of G. It would be interesting to test frameshifting in a strain defective in the synthesis of both modifications, should such a strain be viable. Recognition of the AAG codon by wild-type tRNALys, however, is still sufficiently poor to allow efficient frameshifting. A change of this codon to AAA, which is bound more tightly to the anticodon (at least in vitro) (Lustig et al., 1981; Yokoyama et al., 1985), gave the expected reduction in frameshift efficiency at U-UUA-AAA (pMM9), but alteration to U-CUA-AAA (pMM42; Figure 2) depressed the efficiency further, indicating that a single tRNA slip was less favoured under these circumstances. However, it will be necessary to test additional P-site tRNAs in the context of an A-site AAA codon before the significance of this observation can be fully assessed.",
+            "cite_spans": [
+                {
+                    "start": 883,
+                    "end": 904,
+                    "mention": "Yokoyama et al., 1985",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1319,
+                    "end": 1340,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1342,
+                    "end": 1364,
+                    "mention": "Hagervall et al., 1998",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1366,
+                    "end": 1385,
+                    "mention": "Kr\u00fcger et al., 1998",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 2032,
+                    "end": 2051,
+                    "mention": "Lustig et al., 1981",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2053,
+                    "end": 2074,
+                    "mention": "Yokoyama et al., 1985",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": [
+                {
+                    "start": 1231,
+                    "end": 1232,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 2194,
+                    "end": 2195,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The capacity of E.coli tRNALys to promote a single tRNA slip does not appear to be restricted to prokaryotic ribosomes as the event was quantitatively and qualitatively similar in a eukaryotic translational environment. Escherichia coli tRNAAsn, on the other hand, promoted a simultaneous slippage event in either system, consistent with previous studies of the closely related MMTV frameshift signal (Weiss et al., 1989; Chamorro et al., 1992). This suggests that it is the tRNA rather than the host translational environment that is the main determinant in the selection of single- or dual-tRNA slippage mechanisms. The extent of the frameshift however was variable between host systems. Although the prokaryotic asparaginyl- and lysyl-tRNAs promoted similar levels of frameshifting in the WG system, this was not the case in E.coli. It has been known for some time that in prokaryotes, frameshifting at slippery sequences that end in AAAC is generally very inefficient in comparison to eukaryotic systems (Weiss et al., 1989). The prokaryotic and eukaryotic asparaginyl-tRNAs employed in this study have identical anticodon loops and it is known that the presence or absence of the queuosine modification of the wobble base does not influence frameshifting (Brierley et al., 1997; Marczinke et al., 2000) except for yeast tRNAAsn (Carlson et al., 2000). It has thus been speculated that differences in frameshifting efficiencies seen between the two systems are a consequence of either sequence variation elsewhere in the tRNAs or the differing translational environments (Marczinke et al., 2000). Here we show for the first time that prokaryotic tRNAAsn is not inherently \u2018unslippery\u2019 and is able to promote efficient frameshifting in the WG system to a level similar to that stimulated by WG tRNAAsn. Thus, prokaryotic ribosomes somehow restrict frameshifting by this tRNA. It is clear, therefore, that the two translation systems are not identical from a frameshifting perspective, a point that must be borne in mind when attempting mechanistic comparisons.",
+            "cite_spans": [
+                {
+                    "start": 402,
+                    "end": 420,
+                    "mention": "Weiss et al., 1989",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 422,
+                    "end": 443,
+                    "mention": "Chamorro et al., 1992",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1009,
+                    "end": 1027,
+                    "mention": "Weiss et al., 1989",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1261,
+                    "end": 1282,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1284,
+                    "end": 1306,
+                    "mention": "Marczinke et al., 2000",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1334,
+                    "end": 1354,
+                    "mention": "Carlson et al., 2000",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1576,
+                    "end": 1598,
+                    "mention": "Marczinke et al., 2000",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Current models of ribosomal frameshifting seem inadequate to explain a single-tRNA slippage event of the kind described here. One can speculate that the A-site tRNALys slips during translocation at a time in the cycle when the P-site tRNA detaches from the mRNA as it moves fully into the E-site (Weiss et al., 1989). Under these circumstances, there would be no requirement for P-site tRNA re-pairing (Brierley et al., 1997). This is consistent with an earlier suggestion that pseudoknot-induced ribosomal pausing may occur during translocation (Kontos et al., 2001), but not with studies of antibiotics that influence frameshifting, which indicate that the event takes place prior to translocation (see Plant et al., 2003). A perhaps more compelling model can be devised based on the \u20131 frameshifting signal of the B.subtilis cytidine deaminase gene (cdd; CGA-AAG) (Mejlhede et al., 1999). Frameshifting at this site has been suggested to occur without P-site slippage, with the A-site tRNALys repairing from AAG to AAA, and the first base of the re-pairing A-site tRNA displacing the weak wobble pair (A:I) of the P-site tRNAArg (anticodon 3\u2032GCI5\u2032). The CGA codon is rare, yet replacing it with another rare arginine codon (AGA) leads to a great reduction in frameshifting, suggesting that the important aspect of the CGA codon is the weak pair it forms with the decoding tRNAArg rather than tRNA abundance (Mejlhede et al., 1999). The single tRNA slippage event detailed in the present study has similarities to the cdd signal and could conceivably occur in the same manner with the first base of the repairing tRNALys displacing the wobble base of the adjacent P-site tRNA. In almost all of the examples tested, the wobble base that would be displaced comprises an A in the mRNA and a modified U of some form in the anticodon. If the modification were to weaken the base-pair in a manner akin to the aforementioned A:I pair, this may promote displacement and the stimulation of a \u20131 single-tRNA slip. Indeed, in the one case tested where the mRNA base was G (in pMM41, U-UUG-AAG), frameshifting was greatly reduced (<2%). In the case of this site, the decoding tRNA in the P-site, tRNALeu, possesses an unmodified anticodon (3\u2032AAC5\u2032) that would presumably have a stable wobble pair (G:C). However, a more systematic analysis is required before this hypothesis can be generally accepted. Another issue that requires resolution is the role of the stimulatory RNAs in frameshifting. The single-tRNA slippage event described in the present study requires the participation of a downstream stimulatory element (pseudoknot or stem\u2013loop), whereas frameshifting at the cdd site is promoted by an interaction between the anti-Shine\u2013Dalgarno (anti-SD) sequence close to the 3\u2032-end of 16S rRNA and an SD-like sequence 14 nt upstream of the recoding site (Mejlhede et al., 1999). An additional question is how such movement could be accommodated by the ribosome. Recent crystallographic studies indicate that there is a considerable gap (10 \u212b) between the anticodon loops of the P- and A-site tRNAs that could potentially allow some reorganization of the A-site tRNA without P-site tRNA slippage (Yusupov et al., 2001). However, whether there is sufficient freedom of movement to allow the formation of a post-slippage pair across the mRNA kink present between the P- and A-site codons is unknown.",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 315,
+                    "mention": "Weiss et al., 1989",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 403,
+                    "end": 424,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 547,
+                    "end": 566,
+                    "mention": "Kontos et al., 2001",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 705,
+                    "end": 723,
+                    "mention": "Plant et al., 2003",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 868,
+                    "end": 889,
+                    "mention": "Mejlhede et al., 1999",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1411,
+                    "end": 1432,
+                    "mention": "Mejlhede et al., 1999",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2849,
+                    "end": 2870,
+                    "mention": "Mejlhede et al., 1999",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 3190,
+                    "end": 3210,
+                    "mention": "Yusupov et al., 2001",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Calf-liver transfer RNAs were purchased from Sigma or Boehringer. Charged E.coli tRNAs were prepared from E.coli JM101 according to the procedure of Varshney et al. (1991). Inhibitory acidic polysaccharides were removed by DE52 column chromatography; 4 ml columns were equilibrated with 140 mM KAc pH 4.5, 100 \u00b5g of tRNA loaded, the column washed with 10 vols of equilibration buffer and the tRNAs eluted with the same buffer containing 0.3 M NaCl. Charged tRNAs were stored at \u201370\u00b0C in 10 mM sodium acetate pH 4.5.",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 171,
+                    "mention": "Varshney et al. (1991)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "section": "Transfer RNAs ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The specific depletion of tRNAs from commercial (Promega) WG extracts was achieved by ethanolamine\u2013Sepharose column chromatography under defined salt conditions (105 mM KCl, 10 mM NaCl, 1.6 mM MgCl2, 0.1 mM EDTA, 1 mM dithiothreitol, 10 mM HEPES\u2013KOH pH 7.4) according to the method of Jackson et al. (2001). WG was diluted (to 60\u201370% v/v) to adjust the K+ content to match that of the column buffer and supplemented with amino acids to 1 mM (except methionine, which was not added). One millilitre columns were loaded with 1\u20132 ml lysate and eluate fractions tested for their ability to translate a reporter mRNA in the presence or absence of added tRNAs (at 50 \u00b5g/ml final concentration). Active fractions with good tRNA dependence (<5% residual activity in the absence of added tRNA) were retained and stored under liquid nitrogen prior to use.",
+            "cite_spans": [
+                {
+                    "start": 285,
+                    "end": 306,
+                    "mention": "Jackson et al. (2001)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "section": "Preparation of a tRNA-dependent WG in vitro translation system ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Site-directed mutagenesis was carried out as described (Brierley et al., 1989) or using the Stratagene \u2018Quik Change\u2019 kit.",
+            "cite_spans": [
+                {
+                    "start": 56,
+                    "end": 77,
+                    "mention": "Brierley et al., 1989",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "section": "Site-specific mutagenesis ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Plasmids for frameshift assays in E.coli were derived from pFS7, pFS8 or mutant derivatives (Brierley et al., 1989, 1991). These plasmids contain the IBV ORF 1a/1b frameshift signal flanked by portions of the influenza virus A/PR8/34 PB1 gene (Young et al., 1983). Following site-directed mutagenesis to introduce changes in the IBV slippery sequence or spacer region, 585bp NheI\u2013EcoRI fragments encompassing the frameshift region were subcloned from the mutated plasmids into BamHI-cleaved pET3xc, an E.coli expression vector (Studier et al., 1990). Both fragments and vector were end-filled using the Klenow fragment of DNA polymerase I prior to ligation with T4 DNA ligase. The resulting plasmids, part of the pMM series (Brierley et al., 1997), are shown in Figure 1. The PB1:1a/1b:PB1 fragment is located downstream of, and in-frame with, the first 783 bp of coding sequence of the bacteriophage T7 gene 10 and the ensemble is under the control of the bacteriophage T7 promoter. In BL21 cells (see below), the constructs express a 33 kDa non-frameshifted and a 50 kDa \u20131 frameshift product. Frameshifting assays in WG employed plasmid pFScass 5 and mutant derivatives (Brierley et al., 1992). This plasmid contains the minimal IBV frameshifting signal flanked by portions of the influenza virus A/PR8/34 PB2 gene (Young et al., 1983). Messenger RNAs derived from BamHI-cleaved pFScass 5 direct the synthesis of a 19 kDa non-frameshifted and a 22 kDa \u20131 frameshift product. Some of the variants of pFScass 5 employed in this study were described earlier (Brierley et al., 1992).",
+            "cite_spans": [
+                {
+                    "start": 93,
+                    "end": 114,
+                    "mention": "Brierley et al., 1989",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 116,
+                    "end": 120,
+                    "mention": "1991",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 244,
+                    "end": 262,
+                    "mention": "Young et al., 1983",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 528,
+                    "end": 548,
+                    "mention": "Studier et al., 1990",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 725,
+                    "end": 746,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1174,
+                    "end": 1195,
+                    "mention": "Brierley et al., 1992",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1319,
+                    "end": 1337,
+                    "mention": "Young et al., 1983",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 1559,
+                    "end": 1580,
+                    "mention": "Brierley et al., 1992",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "section": "Construction of plasmids ::: Materials and methods",
+            "ref_spans": [
+                {
+                    "start": 769,
+                    "end": 770,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Frameshifting in E.coli BL21 cells was assessed by expressing pMM plasmids in E.coli BL21/DE3/pLysS cells (Figure 1; Table I) as described (Studier et al., 1990; Brierley et al., 1997). These cells contain the gene for T7 RNA polymerase, which is induced by addition of isopropyl-\u03b2-d-thiogalactopyranoside (IPTG). In frameshift assays in E.coli TH79 [ara \u0394 (lac-proB) nalA rif thi metB argEam valR supB], TH78 (as TH79 but trmE), TH160 [ara \u0394 (lac-proB) nalA rif thi metB argEam supB fadR::Tn10] and TH159 (as TH160 but asuE107), T7 RNA polymerase was introduced by infection with \u03bbCE6 as described (Brierley et al., 1997). The purified expression products of the pMM plasmids were dissolved in Laemmli\u2019s sample buffer and aliquots analysed on SDS\u201315% (w/v) polyacrylamide gels. Proteins were stained with Coomassie Brilliant Blue R (0.1% w/v) in 10% (v/v) acetic acid, 50% (v/v) methanol and destained in 10% (v/v) acetic acid, 30% methanol. The relative abundance of non-frameshifted or frameshifted products was estimated (Adobe Photoshop and NIH Image software) by scanning densitometry and adjusted to take into account the differential size of the products. Scans were performed on gels whose proteins were stained to an intensity at the centre of the dynamic range of the scanner (Epson Expression 1600 Pro). The frameshift efficiencies quoted in the text are the average of three independent measurements which varied by <5%, i.e. a measurement of 40% frameshift efficiency was between 38 and 42%.",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 160,
+                    "mention": "Studier et al., 1990",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 162,
+                    "end": 183,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 600,
+                    "end": 621,
+                    "mention": "Brierley et al., 1997",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "section": "Frameshift assays in E.coli cells ::: Materials and methods",
+            "ref_spans": [
+                {
+                    "start": 114,
+                    "end": 115,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 123,
+                    "end": 124,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "In vitro transcription of pFScass 5-based plasmids (Brierley et al., 1992) employed the bacteriophage SP6 RNA polymerase and included the synthetic cap structure 7meGpppG (New England Biolabs) to generate capped mRNA. In ribosomal frameshift assays, serial dilutions of purified mRNAs were translated in WG as described (Brierley et al., 1987). Depleted lysates were supplemented with calf-liver or E.coli tRNAs at a final concentration of 50 \u00b5g/ml. Translation products were analysed on SDS\u201315% (w/v) polyacrylamide gels. The relative abundance of non-frameshifted or frameshifted products on the gels was determined by direct measurement of [35S]methionine incorporation using a Packard Instant Imager 2024. Frameshift efficiencies were calculated from those dilutions of RNA where translation was highly processive (RNA concentrations of 10\u201325 \u00b5g RNA/ml of WG). The frameshift efficiencies quoted are the average of at least three independent measurements which varied by <10%, i.e. a measurement of 40% frameshift efficiency was between 36 and 44%. The calculations of frameshift efficiency take into account the differential methionine content of the various products. Translation experiments were also performed with depleted RRL, but upon addition of E.coli tRNAs, translation was not restored sufficiently well to determine frameshifting efficiencies accurately.",
+            "cite_spans": [
+                {
+                    "start": 52,
+                    "end": 73,
+                    "mention": "Brierley et al., 1992",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 321,
+                    "end": 342,
+                    "mention": "Brierley et al., 1987",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "section": "Frameshift assays in depleted WG ::: Materials and methods",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cold Spring Harbor Symp. Quant. Biol.",
+            "volume": "66",
+            "issn": "",
+            "pages": "217-232",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "89",
+            "issn": "",
+            "pages": "713-717",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Microbiol.",
+            "volume": "7",
+            "issn": "",
+            "pages": "497-503",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Bacteriol.",
+            "volume": "173",
+            "issn": "",
+            "pages": "6998-7003",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Prog. Nucleic Acid Res. Mol. Biol.",
+            "volume": "54",
+            "issn": "",
+            "pages": "293-332",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "65",
+            "issn": "",
+            "pages": "2910-2920",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Microbiol. Rev.",
+            "volume": "60",
+            "issn": "",
+            "pages": "103-134",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Prog. Nucleic Acid Res. Mol. Biol.",
+            "volume": "64",
+            "issn": "",
+            "pages": "131-170",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "18",
+            "issn": "",
+            "pages": "1427-1434",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "87",
+            "issn": "",
+            "pages": "3713-3717",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Plant Mol. Biol.",
+            "volume": "32",
+            "issn": "",
+            "pages": "159-189",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res.",
+            "volume": "18",
+            "issn": "",
+            "pages": "1725-1729",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Annu. Rev. Biochem.",
+            "volume": "65",
+            "issn": "",
+            "pages": "741-768",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res.",
+            "volume": "22",
+            "issn": "",
+            "pages": "3911-3917",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "284",
+            "issn": "",
+            "pages": "33-42",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res.",
+            "volume": "23",
+            "issn": "",
+            "pages": "1487-1494",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "tRNA: Structure, Biosynthesis and Function",
+            "volume": "",
+            "issn": "",
+            "pages": "17-30",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "55",
+            "issn": "",
+            "pages": "447-458",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "7",
+            "issn": "",
+            "pages": "765-773",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Cell. Biol.",
+            "volume": "21",
+            "issn": "",
+            "pages": "8657-8670",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "284",
+            "issn": "",
+            "pages": "621-631",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "76",
+            "issn": "",
+            "pages": "1885-1892",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Bacteriol.",
+            "volume": "176",
+            "issn": "",
+            "pages": "6842-6851",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "234",
+            "issn": "",
+            "pages": "124-139",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "256",
+            "issn": "",
+            "pages": "2635-2643",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "295",
+            "issn": "",
+            "pages": "179-191",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Bacteriol.",
+            "volume": "181",
+            "issn": "",
+            "pages": "2930-2937",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Plant Mol. Biol.",
+            "volume": "12",
+            "issn": "",
+            "pages": "301-306",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "9",
+            "issn": "",
+            "pages": "168-174",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "286",
+            "issn": "",
+            "pages": "1365-1378",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Gen. Genet.",
+            "volume": "235",
+            "issn": "",
+            "pages": "317-324",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "235",
+            "issn": "",
+            "pages": "1406-1420",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "6",
+            "issn": "",
+            "pages": "3779-3785",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res.",
+            "volume": "29",
+            "issn": "",
+            "pages": "4079-4088",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Methods Enzymol.",
+            "volume": "185",
+            "issn": "",
+            "pages": "60-89",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virus Genes",
+            "volume": "4",
+            "issn": "",
+            "pages": "121-136",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res.",
+            "volume": "19",
+            "issn": "",
+            "pages": "2457-2462",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Genes Dev.",
+            "volume": "6",
+            "issn": "",
+            "pages": "511-519",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "87",
+            "issn": "",
+            "pages": "2516-2520",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "266",
+            "issn": "",
+            "pages": "24712-24718",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF41": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "New Biol.",
+            "volume": "1",
+            "issn": "",
+            "pages": "159-169",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF42": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "82",
+            "issn": "",
+            "pages": "4905-4909",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF43": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "The Origin of Pandemic Influenza Viruses",
+            "volume": "",
+            "issn": "",
+            "pages": "129-138",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF44": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "57",
+            "issn": "",
+            "pages": "537-547",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF45": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "292",
+            "issn": "",
+            "pages": "883-896",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF46": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "220",
+            "issn": "",
+            "pages": "889-902",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF47": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "227",
+            "issn": "",
+            "pages": "463-479",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF48": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "270",
+            "issn": "",
+            "pages": "360-373",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF49": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Cells",
+            "volume": "10",
+            "issn": "",
+            "pages": "113-118",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

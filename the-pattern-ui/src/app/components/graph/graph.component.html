@@ -1,0 +1,8 @@
+<section id="graphContainer" #graph></section>
+<div class="empty-search" *ngIf="emptySearch && !(loading$ | async)" >
+    <h5 class="text-light">Please enter a search term to view graph</h5>
+</div>
+<div class="empty-search" *ngIf="(loading$ | async) && (loadingState$ | async) == 'searchResults'">
+    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</div>
+<app-slider *ngIf="!emptySearch"></app-slider>

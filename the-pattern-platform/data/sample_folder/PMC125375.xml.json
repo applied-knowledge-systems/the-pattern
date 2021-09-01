@@ -1,0 +1,1843 @@
+{
+    "paper_id": "PMC125375",
+    "metadata": {
+        "title": "Crystal structure of murine sCEACAM1a[1,4]: a coronavirus receptor in the CEA family",
+        "authors": [
+            {
+                "first": "Kemin",
+                "middle": [],
+                "last": "Tan",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Bruce",
+                "middle": [
+                    "D."
+                ],
+                "last": "Zelus",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Rob",
+                "middle": [],
+                "last": "Meijers",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Jin-huan",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Jeffrey",
+                "middle": [
+                    "M."
+                ],
+                "last": "Bergelson",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Norma",
+                "middle": [],
+                "last": "Duke",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Rongguang",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Andrzej",
+                "middle": [],
+                "last": "Joachimiak",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Kathryn",
+                "middle": [
+                    "V."
+                ],
+                "last": "Holmes",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Jia-huai",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Carcinoembryonic antigen (CEA; CD66e) was initially discovered as a tumor antigen (Gold and Freedman, 1965). A large group of related glycoproteins within the Ig superfamily (IgSF) is now called the CEA family. These anchored or secreted glycoproteins are expressed by epithelial cells, leukocytes, endothelial cells and placenta (Hammarstrom, 1999). In humans, the CEA family contains 29 genes and pseudogenes. The revised nomenclature of this family of glycoproteins has recently been summarized (Beauchemin et al., 1999). The CEA family consists of the CEA-related cell adhesion molecule (CEACAM) and pregnancy-specific glycoprotein (PSG) subfamilies, whose proteins share many common structural features (Hammarstrom, 1999).",
+            "cite_spans": [
+                {
+                    "start": 83,
+                    "end": 106,
+                    "mention": "Gold and Freedman, 1965",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 331,
+                    "end": 348,
+                    "mention": "Hammarstrom, 1999",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 499,
+                    "end": 522,
+                    "mention": "Beauchemin et al., 1999",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 709,
+                    "end": 726,
+                    "mention": "Hammarstrom, 1999",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "CEACAM1 (CD66a) is the most highly conserved member of the CEA family. Most species have only one CEACAM1 gene, but mice have two closely related genes called CEACAM1 and CEACAM2 (Beauchemin et al., 1999). CEACAM1 has many important biological functions. It is a potent vascular endothelial growth factor (Ergun et al., 2000) and a growth inhibitor in tumor cells (Izzi et al., 1999), plays a key role in differentiation of mammary glands (Huang et al., 1999), is an early marker of T-cell activation and modulates the functions of murine T lymphocytes (Morales et al., 1999; Nakajima et al., 2002). Human CEACAM1 is one of several human CEACAM proteins that serve as receptors for virulent strains of Neisseria gonorrhoeae, Neisseria meningitidis and Haemophilus influenzae (Bos et al., 1999; Virji et al., 1999, 2000).",
+            "cite_spans": [
+                {
+                    "start": 180,
+                    "end": 203,
+                    "mention": "Beauchemin et al., 1999",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 306,
+                    "end": 324,
+                    "mention": "Ergun et al., 2000",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 365,
+                    "end": 382,
+                    "mention": "Izzi et al., 1999",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 440,
+                    "end": 458,
+                    "mention": "Huang et al., 1999",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 554,
+                    "end": 574,
+                    "mention": "Morales et al., 1999",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 576,
+                    "end": 597,
+                    "mention": "Nakajima et al., 2002",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 776,
+                    "end": 792,
+                    "mention": "Bos et al., 1999",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 794,
+                    "end": 812,
+                    "mention": "Virji et al., 1999",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 814,
+                    "end": 818,
+                    "mention": "2000",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "In mice, four isoforms of CEACAM1 generated by alternative mRNA splicing have either two [D1,D4] or four [D1\u2013D4] Ig-like domains on the cell surface, a transmembrane segment and either a short or a long cytoplasmic tail (Beauchemin et al., 1999). The long tail contains a modified immunoreceptor tyrosine-based inhibition motif (ITIM)-like motif. Tyrosine phosphorylation of this motif is associated with signaling (Huber et al., 1999), but the natural ligands for the ecto-domain and the modulation of gene expression by CEACAM1 signaling are not well understood.",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 244,
+                    "mention": "Beauchemin et al., 1999",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 416,
+                    "end": 434,
+                    "mention": "Huber et al., 1999",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "All four isoforms of murine CEACAM1a, as well as murine CEACAM2, can serve as receptors for mouse hepatitis virus (MHV) strain A59 (MHV-A59) when the recombinant murine proteins are expressed at high levels in a hamster cell line (BHK) (Dveksler et al., 1991, 1993a; Nedellec et al., 1994). MHVs are large, enveloped, positive-stranded RNA viruses in the Coronaviridae family in the order Nidovirales. Various MHV strains cause diarrhea, hepatitis, and respiratory, neurological and immunological disorders in mice. Infection is initiated by binding of the 180 kDa spike glycoprotein (S) on the viral envelope to a CEACAM glycoprotein on a murine cell membrane. Most inbred mouse strains are highly susceptible to MHV infection, but SJL/J mice are highly resistant. Susceptible strains are homozygous for the CEACAM1a allele that encodes the principal MHV receptor, while SJL/J mice are homozygous for the CEACAM1b allele. CEACAM1b proteins have weaker MHV binding and receptor activities than CEACAM1a proteins (Ohtsuka et al., 1996; Rao et al., 1997; Wessner et al., 1998).",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 258,
+                    "mention": "Dveksler et al., 1991",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 260,
+                    "end": 265,
+                    "mention": "1993a",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 267,
+                    "end": 288,
+                    "mention": "Nedellec et al., 1994",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1013,
+                    "end": 1033,
+                    "mention": "Ohtsuka et al., 1996",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1035,
+                    "end": 1051,
+                    "mention": "Rao et al., 1997",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1053,
+                    "end": 1073,
+                    "mention": "Wessner et al., 1998",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "Until now, extensive N-linked glycosylation has hampered crystallization of any CEA protein for structural analysis. This article reports the crystal structure of the soluble ecto-domain of an isoform of murine CEACAM1a that consists of domains 1 and 4 (designated msCEA CAM1a[1,4]) and has MHV-neutralizing activity. We have analyzed the relationship of the structure of the msCEACAM1a[1,4] glycoprotein to its MHV-binding and -neutralizing activities. Based on the structure of msCEACAM1a[1,4], we predict the structures of other CEA family members, and discuss their biological significance.",
+            "cite_spans": [],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "The msCEACAM1a[1,4] protein analyzed in this paper contains the 202 extracellular amino acids of the naturally expressed CEACAM1a[1,4] protein plus a His6 tag connected to the C-terminus by a thrombin cleavage peptide. This soluble murine CEACAM1a[1,4] protein has strong virus-neutralizing activity at 37\u00b0C, pH 7.2, and readily induces an irreversible conformational change in the MHV-A59 spike glycoprotein under these conditions (Zelus et al., 1998; B.D. Zelus and K.V.Holmes, in preparation). The His-tagged protein was expressed by an adenovirus vector in the Chinese hamster ovary Lec3.2.8.1 (CHO lec\u2013) cell line, which stably expresses recombinant CAR, the receptor for Coxsackie B and adenoviruses (Stanley, 1989; Bergelson et al., 1997; Zelus et al., 1998). These cells were readily transduced by the adenovirus vector, and they produce proteins with more homogeneous glycans than normal CHO cells. Analysis of the protein secreted by the lec\u2013, CAR+ CHO cells led to the final refined model for the structure of msCEACAM1a[1,4]. The structure was determined using multi-wavelength anomalous diffraction (MAD) phases in combination with molecular replacement (MR). The structure was refined to 3.32 \u212b with Rwork/Rfree of 29.5/32.9%. The relatively high R-factors are probably caused by disordered C-terminal residues and carbohydrate moieties.",
+            "cite_spans": [
+                {
+                    "start": 433,
+                    "end": 451,
+                    "mention": "Zelus et al., 1998",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 707,
+                    "end": 720,
+                    "mention": "Stanley, 1989",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 722,
+                    "end": 744,
+                    "mention": "Bergelson et al., 1997",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 746,
+                    "end": 764,
+                    "mention": "Zelus et al., 1998",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "section": "Molecular structure of msCEACAM1a[1,4] ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Figure 1 shows the ribbon diagram of the molecular structure of soluble murine msCEACAM1a[1,4]. The two Ig-like domains of msCEACAM1a[1,4] are arranged in tandem. When the membrane-proximal domain (D4) was oriented vertically as if it were perpendicular to the cell membrane, the virus-binding domain (D1) had a bending angle of \u223c60\u00b0 from the vertical direction, with its A\u2032GFCC\u2032C\u2032\u2032 \u03b2-sheet (called the CFG face hereafter) facing upwards, away from the cell membrane (Figure 1). The rotation angle between D1 and D4 is \u223c170\u00b0, which places the CFG face of D4 on the opposite side of the molecule from the CFG face of D1, like many other IgSF proteins on the cell surface (Wang and Springer, 1998). Although there are five potential N-linked glycosylation sites on this protein, the crystal structure showed that only four of these sites are utilized: three in D1 and one in D4. One or more sugar moieties were seen clearly at each of these sites (Figure 1), but no electron density was visible to indicate the presence of a possible glycan at Asn161 in the Asn-Asn-Ser motif in the DE loop of D4. The only observed glycan in D4 is at Asn119 (Figure 1) near the bottom of the molecule, pointing downward towards the cell membrane. This glycan may play a role in holding the rod-like molecule erect on the membrane, as has been shown for CD2 (Jones et al., 1992), ICAM-2 (Casasnovas et al., 1997) and CD4 (Wu et al., 1997; Wang et al., 2001).",
+            "cite_spans": [
+                {
+                    "start": 671,
+                    "end": 694,
+                    "mention": "Wang and Springer, 1998",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1340,
+                    "end": 1358,
+                    "mention": "Jones et al., 1992",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1369,
+                    "end": 1392,
+                    "mention": "Casasnovas et al., 1997",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1403,
+                    "end": 1418,
+                    "mention": "Wu et al., 1997",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1420,
+                    "end": 1437,
+                    "mention": "Wang et al., 2001",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "section": "Molecular structure of msCEACAM1a[1,4] ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 7,
+                    "end": 8,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 475,
+                    "end": 476,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 953,
+                    "end": 954,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1148,
+                    "end": 1149,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The N-terminal domain (D1) of msCEACAM1a[1,4] belongs to the V set Ig-like fold. Within the IgSF, the CEA family and the CD2 family are unique in that their N-terminal domains lack the usually conserved inter-sheet disulfide bond between \u03b2-strands B and F. In a DALI search for structures homologous to D1 of msCEA CAM1a[1,4] (using the website http://www2.ebi.ac.uk/dali/), D1 of CD2 was one of the top hits. There are, however, three important structural elements that distinguish D1 of msCEACAM1a[1,4] from CD2 D1. One striking feature of D1 of msCEACAM1a[1,4] is its uniquely structured, prominently protruding CC\u2032 loop (highlighted in yellow in Figure 1) that points upwards. The unique and intricate structure of the CC\u2032 loop will be described in detail below. D1 of msCEACAM1a[1,4], like other V set Ig-like folds, should retain a salt bridge between Arg64 at the beginning of the D strand and Asp82 at the beginning of the F strand. This salt bridge may help to strengthen the interactions between the two anti-parallel \u03b2-sheets of D1. In contrast, CD2 D1 does not have this salt bridge between the \u03b2-sheets (Jones et al., 1992). Another difference between the D1s of msCEACAM1a[1,4] and CD2 is found at the A\u2013A\u2032 kink. As a structural hallmark in both V and I set Ig folds, the A strand in one sheet runs midway through the domain, and then crosses over to join the opposite sheet, becoming the A\u2032 strand. This may stabilize the membrane-distal domain that is the usual site for ligand binding (Wang and Springer, 1998). A cis-proline is usually located at the kink position. In D1 of msCEACAM1a[1,4], the A\u2032 strand is significantly shorter than that of most other Ig-like molecules, whereas D1 of CD2 and some other CD2 family members have a relatively long A\u2032 strand, with no A strand at all. These features might reflect differences in the biological functions of CD2 and CEACAM1a.",
+            "cite_spans": [
+                {
+                    "start": 1117,
+                    "end": 1135,
+                    "mention": "Jones et al., 1992",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1503,
+                    "end": 1526,
+                    "mention": "Wang and Springer, 1998",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "section": "Molecular structure of msCEACAM1a[1,4] ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 657,
+                    "end": 658,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Structural analysis shows that the C-terminal domain (D4) of msCEACAM1a[1,4] falls into the I1 set category (Harpaz and Chothia, 1994; Wang and Springer, 1998), rather than the C2 set as widely believed. Compared with the I set Ig-like domains of most other IgSF members, D4 of msCEACAM1a[1,4] has an unusually long CD loop of 10 residues (amino acids 146\u2013155). The long CD loop in D4 of msCEACAM1a[1,4] is probably quite stable because it has a \u03b2-turn at each end and Leu150 and Leu152 in the middle of the loop point inward, joining the molecule\u2019s hydrophobic core.",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 133,
+                    "mention": "Harpaz and Chothia, 1994",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 135,
+                    "end": 158,
+                    "mention": "Wang and Springer, 1998",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "section": "Molecular structure of msCEACAM1a[1,4] ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "msCEACAM1a[1,4] has a linker between D1 and D4. The last residue of D1 is His107, and the A strand of the following domain D4 starts at Phe114. The peptide segment in between does not appear to have main chain\u2013main chain hydrogen bonds to the D4 domain. No significant interactions were observed between D1 and D4. The surface buried area between these two domains is 530 \u212b2, with a 1.7 \u212b probe. These observations indicate that the D1\u2013D4 junction of msCEACAM1a[1,4] might be quite flexible.",
+            "cite_spans": [],
+            "section": "Molecular structure of msCEACAM1a[1,4] ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Both the spike glycoprotein of MHV virions and mAb- CC1, a monoclonal antibody to murine CEACAM1a that blocks the binding of the virus to the receptor, were shown to bind to D1 of murine CEACAM1a (Dveksler et al., 1993b). Mutational analyses of murine CEACAM1a show that the peptide segments between amino acids 38 and 43 (Rao et al., 1997) or between amino acids 34 and 52 (Wessner et al., 1998) are involved in binding to the MHV spike glycoprotein, virus receptor activity and binding of mAb-CC1. Our structure for msCEACAM1a[1,4] shows that this segment is in the CC\u2032 loop and the C\u2032 strand.",
+            "cite_spans": [
+                {
+                    "start": 197,
+                    "end": 219,
+                    "mention": "Dveksler et al., 1993b",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 323,
+                    "end": 339,
+                    "mention": "Rao et al., 1997",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 375,
+                    "end": 395,
+                    "mention": "Wessner et al., 1998",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "section": "The unique CC\u2032 loop of the N-terminal domain is an MHV-binding site ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Compared with the N-terminal domains of other IgSF members, D1 of msCEACAM1a[1,4] has an unusual CC\u2032 loop, highlighted in yellow in Figure 1. Figure 2A shows an overlay onto D1 of msCEACAM1a[1,4] of the N-terminal domains of three other representative IgSF proteins: CD2 (Jones et al., 1992), CD4 (Wang et al., 1990) and Bence-Jones protein REI (Epp et al., 1975), a typical variable domain of an antibody. The N-terminal domains of both CD2 and CD4 have shorter CC\u2032 loops than that of msCEACAM1a[1,4] and REI. Although the CC\u2032 loops of D1 of REI and msCEACAM1a[1,4] are the same length, that of REI is only slightly curved, while, remarkably, the CC\u2032 loop of msCEACAM1a[1,4] folds back onto the CFG face.",
+            "cite_spans": [
+                {
+                    "start": 272,
+                    "end": 290,
+                    "mention": "Jones et al., 1992",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 298,
+                    "end": 315,
+                    "mention": "Wang et al., 1990",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 346,
+                    "end": 362,
+                    "mention": "Epp et al., 1975",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "section": "The unique CC\u2032 loop of the N-terminal domain is an MHV-binding site ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 139,
+                    "end": 140,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 149,
+                    "end": 150,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The convoluted conformation of the CC\u2032 loop in D1 of msCEACAM1a[1,4] is unique among IgSF molecules. The loop, from Lys35 to Glu44, is well structured (Figure 2B) and probably maintained in a rigid conformation. Within the C-terminal portion of the loop residues 40\u201344 may form one and a half turns of a 310 helix. A particularly interesting structural element is the packing of the mid-portion backbone of the CC\u2032 loop (from Thr39 to Ile41) against the aromatic ring of Tyr34 on the C strand (Figure 2B). Several potential hydrogen bonds may help to maintain the unique conformation of this region, as shown in Figure 2B. Although a tyrosine equivalent to Tyr34 is conserved in the variable domains of most antibody light chains, nevertheless the CC\u2032 loop in antibodies assumes a \u03b2-hairpin structure (see REI in Figure 2A) probably because the conserved Pro-Gly sequence motif of antibodies (Figure 2A) favors a sharp turn at the tip of the loop. This might prevent the CC\u2032 loop of REI from assuming a convoluted conformation like that seen in D1 of msCEACAM1a[1,4].",
+            "cite_spans": [],
+            "section": "The unique CC\u2032 loop of the N-terminal domain is an MHV-binding site ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 159,
+                    "end": 160,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 501,
+                    "end": 502,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 619,
+                    "end": 620,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 820,
+                    "end": 821,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 900,
+                    "end": 901,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "In D1 of msCEACAM1a[1,4], the consequence of the folding back of the well structured CC\u2032 loop against the CFG face is that the side chain of Ile41 at the center of the loop is prominently exposed, pointing away from the membrane (Figures 1 and 2A). Mutational evidence suggests that the Thr38-Thr39-Ala40-Ile41 sequence motif in murine CEACAM1a[1,4] is important for binding to the MHV spike glycoprotein (Wessner et al., 1998). Two glycans, one at Asn37 and the other at Asn55, flank this important virus-binding motif (Figures 1 and 2B), which might help delineate the region for viral spike glycoprotein docking. Based on our structural data, we speculate that Ile41 might be the energetic \u2018hot spot\u2019 for binding to the MHV spike. A widely accepted model for the interaction of cell surface receptors with their ligands is that a central hydrophobic contact provides the major binding energy, while surrounding hydrophilic interactions contribute the specificity of binding (Clackson and Wells, 1995; Kim et al., 2001). This also appears to be the case for receptor\u2013virus interactions, as shown for the binding of gp120 glycoprotein of HIV-1 to CD4 (Kwong et al., 1998). Figure 2B and C shows a view looking down on the CFG face of D1 of msCEACAM1a[1,4], which is likely to be the surface accessible to the MHV virus spike protein. The protruding hydrophobic Ile41 is surrounded by a number of surface-exposed, charged residues, including Asp42, Glu44, Arg47, Asp89, Glu93 and Arg97. Ile41 might insert into a hypothetical hydrophobic pocket in the viral spike glycoprotein, and charged residues that surround the pocket could stabilize the MHV-binding interaction and contribute to virus binding specificity. No structures are as yet available for any coronavirus spike glycoproteins. Strains of MHV that differ in virulence and tissue tropism show considerable variation in the amino acid sequences of their S glycoproteins, yet all MHV strains tested can use murine CEACAM1a as a receptor. The observation that there is no single anti-S mAb that blocks infection by all strains of MHV (Talbot and Buchmeier, 1985) supports the hypothesis that murine CEACAM1a may bind to a conserved pocket in S that is not accessible to antibodies. The protruding Ile41 and the charged residues that surround it on the surface of the virus receptor are targets for further mutational analyses.",
+            "cite_spans": [
+                {
+                    "start": 406,
+                    "end": 426,
+                    "mention": "Wessner et al., 1998",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 978,
+                    "end": 1002,
+                    "mention": "Clackson and Wells, 1995",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 1004,
+                    "end": 1020,
+                    "mention": "Kim et al., 2001",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1153,
+                    "end": 1171,
+                    "mention": "Kwong et al., 1998",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 2092,
+                    "end": 2118,
+                    "mention": "Talbot and Buchmeier, 1985",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "section": "The unique CC\u2032 loop of the N-terminal domain is an MHV-binding site ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 238,
+                    "end": 239,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 244,
+                    "end": 245,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 529,
+                    "end": 530,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 535,
+                    "end": 536,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1181,
+                    "end": 1182,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Cell adhesion molecules might be particularly suitable candidates for virus binding because their physiological ligand\u2013receptor binding affinities are very low, and adhesion is an avidity-driven process. Viruses evolve to have a stronger binding affinity for the receptor (usually \u223c100\u20131000 times stronger) to compete with the weakly bound physiological ligand (Wang, 2002). Uniquely exposed surface features of the cell adhesion molecules are selected for virus binding. Figure 3 compares the virus-binding domain of msCEACAM1a[1,4] with those of several other virus receptors, with the key virus-binding elements highlighted. We propose that the projecting Ile41 on the unique CC\u2032 loop of D1 of msCEACAM1a[1,4] is the key topological feature for MHV binding. In CD4, the key HIV gp120-binding Phe43 is located at the protruding ridge-like C\u2032C\u2032\u2032 corner of D1 (Wang et al., 1990). This structural element inserts into a recess in the surface of HIV gp120 (Kwong et al., 1998). Compared with most IgSF members, ICAM-1, the receptor for the major group of rhinoviruses, has a unique, tapering tip that inserts into the narrow \u2018canyon\u2019 on the rhinovirus surface, where the conserved receptor-binding residues lie (Kolatkar et al., 1999). The measles virus receptor CD46 belongs to the complement control protein (CCP) superfamily. The center of the virus-binding epitope of CD46 is a well-structured, protruding DD\u2032 loop consisting of a small group of hydrophobic residues with the key Pro39 extending furthest out (Figure 3) (Casasnovas et al., 1999). Thus, unique protruding hydrophobic residues on cell adhesion molecules might be prime targets for virus binding.",
+            "cite_spans": [
+                {
+                    "start": 362,
+                    "end": 372,
+                    "mention": "Wang, 2002",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 861,
+                    "end": 878,
+                    "mention": "Wang et al., 1990",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 956,
+                    "end": 974,
+                    "mention": "Kwong et al., 1998",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1211,
+                    "end": 1232,
+                    "mention": "Kolatkar et al., 1999",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1524,
+                    "end": 1547,
+                    "mention": "Casasnovas et al., 1999",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "section": "The unique CC\u2032 loop of the N-terminal domain is an MHV-binding site ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 479,
+                    "end": 480,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1520,
+                    "end": 1521,
+                    "mention": "3",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The various natural isoforms of the murine CEACAM1a, CEACAM1b and CEACAM2 glycoproteins differ markedly in their virus binding, neutralization and virus receptor activities (Dveksler et al., 1993a; Ohtsuka et al., 1996; Gallagher, 1997; Zelus et al., 1998). A series of soluble or anchored mutant murine CEACAM proteins with various point mutations, deletions or domain exchanges with other CEA-related glycoproteins has been tested for virus binding and receptor activities (Rao et al., 1997; Wessner et al., 1998). Several particularly intriguing observations were made. MHV-A59 and soluble spike protein bound better to D1 of murine CEACAM1a from MHV-susceptible mice than to CEACAM1b from MHV-resistant mice. Soluble murine CEACAM1b[1\u20134] had 4- to 10-fold less virus neutralization activity for MHV-A59 than msCEACAM1a[1\u20134]. Surprisingly, msCEACAM1b[1\u20134] failed to neutralize the neurotropic JHM strain of MHV, and msCEACAM1b[1,4] failed to neutralize either MHV-A59 or MHV-JHM (Zelus et al., 1998). While the naturally occurring two-domain CEACAM1a[1,4] isoform neutralized MHV-A59 nearly as well as the four-domain isoform CEACAM1a[1\u20134], the CEACAM1a[1,2], consisting of D1 and D2 domains, had only minimal MHV-A59-neutralizing activity. Thus, there is virus strain specificity in the interactions of MHV with various CEACAM1 proteins, and regions of CEACAM1 outside of the virus-binding domain (D1) can affect virus\u2013receptor activity.",
+            "cite_spans": [
+                {
+                    "start": 174,
+                    "end": 196,
+                    "mention": "Dveksler et al., 1993a",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 198,
+                    "end": 218,
+                    "mention": "Ohtsuka et al., 1996",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 220,
+                    "end": 235,
+                    "mention": "Gallagher, 1997",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 237,
+                    "end": 255,
+                    "mention": "Zelus et al., 1998",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 476,
+                    "end": 492,
+                    "mention": "Rao et al., 1997",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 494,
+                    "end": 514,
+                    "mention": "Wessner et al., 1998",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 983,
+                    "end": 1001,
+                    "mention": "Zelus et al., 1998",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "section": "MHV receptor activities of murine CEACAM isoforms, chimeras and mutants ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The amino acid sequences of murine CEACAM1a and CEACAM1b differ, principally in the N-terminal virus-binding domain (Dveksler et al., 1993a). The lengths of the 1a and 1b proteins are the same, and all of the structurally important residues are the same or similar. The overall folding of murine CEACAM1b isoforms is therefore believed to be the same as or similar to that of the corresponding CEACAM1a isoforms. Figure 4A (top) shows the sequence alignment of D1 from murine CEACAM1a and CEACAM1b. The most extensive differences between CEACAM 1a and 1b are in the peptide segment from the CC\u2032 loop to the end of the C\u2032\u2032 strand, which plays a role in virus binding. In D1 of CEACAM1b, residue Ile41 is replaced by a threonine, which may account for its low virus-binding activity relative to CEACAM1a. It is possible that a projecting Val39 on the CC\u2032 loop of CEACAM1b might provide an alternative but weaker virus-binding hot spot as Ile41 does for CEACAM1a.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 139,
+                    "mention": "Dveksler et al., 1993a",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "MHV receptor activities of murine CEACAM isoforms, chimeras and mutants ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 420,
+                    "end": 421,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "An intriguing question is why the C-terminal deletion mutant msCEACAM1a[1,2] has very little virus-neutralizing activity, while the soluble form of the naturally occurring murine CEACAM1a[1,4] isoform neutralizes virus as well as the msCEACAM1a[1\u20134] isoform (Zelus et al., 1998). Analysis of the sequence alignment of domains 2 (D2) and 4 (D4) of CEACAM1a reveals two major differences (Figure 4B, top). The BC loop of D2 is two residues longer than that of D4, and D2 has four more potential N-glycosylation sites than D4 (marked with asterisks in Figure 4B). The longer BC loop of D2 and the possible glycan attached to Asn192 at the beginning of the G strand of D2 may both restrict inter-domain flexibility between D1 and D2 in msCEACAM1a[1,2] in comparison with the junction between D1 and D4 in msCEA CAM1a[1,4]. Moreover, model building (data not shown) suggests that there might be a potential hydrogen bond between His107 of D1 and Asn141 of D2, while no such hydrogen bond is possible at this site in the junction of D1 and D4. All of these structural differences could cause the D1\u2013D2 junction to be less flexible than the highly flexible junction between D1 and D4 that was revealed by X-ray crystallography. The four domain isoform CEACAM1a[1\u20134] has two more interdomain junctions than the truncated CEACAM1a[1,2] protein, and may therefore be more flexible.",
+            "cite_spans": [
+                {
+                    "start": 259,
+                    "end": 277,
+                    "mention": "Zelus et al., 1998",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "section": "MHV receptor activities of murine CEACAM isoforms, chimeras and mutants ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 394,
+                    "end": 395,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 556,
+                    "end": 557,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "CEA family members are all composed of several Ig-like domains in tandem. Following the N-terminal domain, two similar types of domains, called A and B, alternate along the chain. For example, CEA (CD66e), encoded by the CEACAM5 gene, has the N-A1-B1-A2-B2-A3-B3 domain structure (Hammarstrom, 1999).",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 298,
+                    "mention": "Hammarstrom, 1999",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Predicted structures of other CEA family members and conservation of a glycan-shielded surface hydrophobic patch in the N-terminal domain ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "BLAST search (http://www.ncbi.nlm.nih.gov/BLAST/) of D1 of murine CEACAM1a found sequences of N-terminal domains of all mammalian CEA members. Five residues appear to be absolutely conserved: Trp33, Arg64, Leu73, Asp82 and Tyr86. The sequence alignment of N-terminal domains of human CEA family members is shown in Figure 4A (bottom). No significant deletions or insertions were found in D1 of human CEA-related proteins, except for a few cases in which the length of the C\u2032C\u2032\u2032 loop varied slightly. Like D1 of murine CEACAM1a, the N-terminal domains of the human CEA family members shown in Figure 4A can be classified as V set Ig-like fold, as predicted previously (Bates et al., 1992). This is determined by these key conserved structural features (Chothia et al., 1998): Pro8 at the A\u2013A\u2032 kink point; Trp33 on the C strand that acts as the center of a hydrophobic core; a salt bridge between Arg64 and Asp82; and the tyrosine-corner motif (Hemmingsen et al., 1994) D*G*Y86 at the beginning of the F strand.",
+            "cite_spans": [
+                {
+                    "start": 668,
+                    "end": 686,
+                    "mention": "Bates et al., 1992",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 752,
+                    "end": 772,
+                    "mention": "Chothia et al., 1998",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 943,
+                    "end": 966,
+                    "mention": "Hemmingsen et al., 1994",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "section": "Predicted structures of other CEA family members and conservation of a glycan-shielded surface hydrophobic patch in the N-terminal domain ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 322,
+                    "end": 323,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 599,
+                    "end": 600,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "One newly recognized, highly conserved structural feature of msCEACAM1a[1,4] that appears to be unique to CEA family members (listed in Figure 4A) is the glycosylation site at Asn70, on the opposite side of D1 from the proposed virus-binding surface (Figure 1). In the crystal structure of msCEACAM1a[1,4], the glycan at Asn70 is better ordered than other glycans. Beneath the presumably large glycan at Asn70 lies a group of hydrophobic residues, including Val7 and Pro8 of the A strand, Leu18 and Leu20 of the B strand, Leu74 of the E strand, and probably also Tyr68 and Ile66 of the D strand. The area covers \u223c650 \u212b2. The glycan at Asn70 appears to stabilize the protein by preventing the exposure of this large surface hydrophobic patch. Most of these protected amino acid residues are either invariant (Pro8 and Leu18) or very conserved (Leu20, Tyr68 and Leu74) among CEA proteins (Figure 4A). It is well known that glycans stabilize protein folding. Nevertheless, to our knowledge, msCEACAM1a[1,4] provides the first structure example for a large, glycan-shielded surface hydrophobic patch that is conserved in a protein family. The biological significance of this remarkable structural feature of the CEA family is not yet clear.",
+            "cite_spans": [],
+            "section": "Predicted structures of other CEA family members and conservation of a glycan-shielded surface hydrophobic patch in the N-terminal domain ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 143,
+                    "end": 144,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 258,
+                    "end": 259,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 894,
+                    "end": 895,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To assess the pattern of sequence conservation for all members of the mammalian CEA family in the SWISSPROT database, we calculated the variability in sequence using Shannon\u2019s entropy (Stewart et al., 1997). Figure 5 shows a topology diagram of D1 of msCEACAM1a[1,4], colored to indicate the relative degree of conservation of residues calculated for 42 CEA family members. The green, yellow and red colors represent the most to the least conserved residues, respectively. This figure shows a striking difference in the extent of amino acid conservation between the two faces of D1 among CEA family members. The ABED face containing the glycan-shielded hydrophobic patch is much more conserved than the CFG face. The CFG faces of the N-terminal domains of IgSF proteins are frequently used for cell surface recognition (Stuart and Jones, 1995; Wang and Springer, 1998). The variability in this face among CEA members probably confers their unique binding specificities.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 205,
+                    "mention": "Stewart et al., 1997",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 820,
+                    "end": 842,
+                    "mention": "Stuart and Jones, 1995",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 844,
+                    "end": 867,
+                    "mention": "Wang and Springer, 1998",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "section": "Predicted structures of other CEA family members and conservation of a glycan-shielded surface hydrophobic patch in the N-terminal domain ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 215,
+                    "end": 216,
+                    "mention": "5",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "At the bottom of Figure 4B, the sequences of the six A and B type domains of the human CEA protein are aligned with D2 and D4 of murine CEACAM1a. The three A type domains of human CEA, and probably also the A domains of other CEA members, are structurally very homologous to D4 of murine CEACAM1a, an I1 set of Ig fold. The B type domains of human CEA appear to have no D strand, but probably a C\u2032 strand that connects directly to the E strand, as observed for I2 set of Ig fold (Wang and Springer, 1998). Both I1 and I2 sets differ from the C set by having the A\u2013A\u2032 kink, and they are distinct from the V set in not having the C\u2032\u2032 strand (Wang and Springer, 1998). In summary, our data suggest that the general architecture of all CEA family members consists of a V set N-terminal domain followed by alternating I1 and I2 set Ig-like domains.",
+            "cite_spans": [
+                {
+                    "start": 480,
+                    "end": 503,
+                    "mention": "Wang and Springer, 1998",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 640,
+                    "end": 663,
+                    "mention": "Wang and Springer, 1998",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "section": "Predicted structures of other CEA family members and conservation of a glycan-shielded surface hydrophobic patch in the N-terminal domain ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 24,
+                    "end": 25,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Given the high structural homology, the structure of murine CEACAM1a can be used to elucidate other molecular interactions of CEA family members including bacterial binding, immunomodulation, and homophilic and heterophilic adhesion.",
+            "cite_spans": [],
+            "section": "The CC\u2032 and FG loops of the N-terminal domains of various CEA family members may mediate biologically important molecular interactions ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Certain human CEA family members are subverted as receptors for bacterial pathogens, including H.influenzae, N.meningitidis and N.gonorrhoeae. The N-terminal domains of many human CEA members are recognized by multiple opacity-associated (Opa) proteins on the surface of pathogenic strains of Neisseria (Bos et al., 1999; Virji et al., 1999). Homolog scanning mutagenesis revealed that Phe29, Ser32 and Gly41 (and to a lesser extent Gln44) of CEA (CD66e) are required for maximal Opa protein binding activity (Bos et al., 1999). Tyr34 and Ile91 (and to a lesser extent Val39 and Gln89) of human CEACAM1 (CD66a) are critical residues for most Opa protein interactions (Virji et al., 1999). Since the N-terminal domains of CEA and human CEACAM1 are the same length as that of murine CEACAM1a (Figure 4A), we show in Figure 2B that the Neisseria-binding residues on CEA and human CEACAM1 are on the C strand through the CC\u2032 loop and on the F strand. Two points are worth noting. Val39 and Gly41 of human CEACAM1 and CEA, respectively (corresponding to Thr39 and Ile41 in msCEACAM1a[1,4]; Figure 2B), are on the tip of the CC\u2032 loop. If the CC\u2032 loops of CEA and CEACAM1 were as flat as that of the Bence-Jones protein REI (Figure 2A), then Val39 and Gly41 would not be close enough to other important Opa-binding residues to form an integrated binding site. This probably also explains why the Y34A mutation of human CEACAM1 abrogated binding of the majority of Opa proteins (Virji et al., 1999), since the aromatic ring of this conserved Tyr34 is the key to maintaining the convoluted structure of the CC\u2032 loop, as shown for msCEACAM1a[1,4]. Thus, the CC\u2032 loops of CEA and human CEACAM1 probably assume a convoluted conformation like that of msCEACAM1a[1,4]. The second point is that the area around Phe29 of CEA and Ile91 of human CEACAM1 (corresponding to Gly29 and Thr91 in msCEACAM1a[1,4]; Figure 2B) is highly hydrophobic and might be an important determinant of binding energy. Knowing the structure of msCEA CAM1a[1,4] makes it possible to rationally design mutations to elucidate the molecular basis of the specific interactions between bacterial Opa proteins and CEA members on human cell membranes.",
+            "cite_spans": [
+                {
+                    "start": 304,
+                    "end": 320,
+                    "mention": "Bos et al., 1999",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 322,
+                    "end": 340,
+                    "mention": "Virji et al., 1999",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 510,
+                    "end": 526,
+                    "mention": "Bos et al., 1999",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 668,
+                    "end": 686,
+                    "mention": "Virji et al., 1999",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1471,
+                    "end": 1489,
+                    "mention": "Virji et al., 1999",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "section": "The CC\u2032 and FG loops of the N-terminal domains of various CEA family members may mediate biologically important molecular interactions ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 798,
+                    "end": 799,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 821,
+                    "end": 822,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1092,
+                    "end": 1093,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1225,
+                    "end": 1226,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1897,
+                    "end": 1898,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The PSG subfamily of the CEA family appears to be essential for a successful pregnancy, although the functions of PSGs are not yet fully understood. One hypothesis is that PSGs may attenuate the mother\u2019s immune response to her semi-allogeneic fetus (Hammarstrom, 1999). The N-terminal domains of most human PSGs, but not baboon or rodent PSGs, contain an Arg-Gly-Asp (RGD) motif (Zhou and Hammarstrom, 2001). The RGD motif is known to be associated with integrin binding, and mediates a wide variety of cell adhesion events. For example, in human fibronectin (FN), an integrin-binding RGD motif is located on a type II\u2032 turn at the tip of a protruded FG loop of the tenth FN domain (Leahy et al., 1996). Figure 4A shows that in D1 of the human PSGs the RGD motifs are aligned at the very tip of the FG loop (highlighted in violet in Figure 1). The corresponding sequence in msCEA CAM1a[1,4] is Glu92-Asn93-Tyr94 (Figure 4A), which assumes a type II \u03b2-turn. It is conceivable that those PSG proteins with an RGD motif can slightly change the conformation at the tip of the FG loop to adopt a type II\u2032 turn more suitable for integrin binding. The heterophilic binding of soluble PSGs to integrins might cause local immunosuppression in the uterus by shielding the integrins on cell membranes (Hammarstrom, 1999). In other species, PSGs lacking the RGD motif may still use one acidic residue (Glu or Asp) in the protruding FG loop (Zhou and Hammarstrom, 2001) to bind integrin, as demonstrated for leukocyte integrin ligands (Wang and Springer, 1998) and E-cadherin (Taraszka et al., 2000).",
+            "cite_spans": [
+                {
+                    "start": 250,
+                    "end": 267,
+                    "mention": "Hammarstrom, 1999",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 380,
+                    "end": 406,
+                    "mention": "Zhou and Hammarstrom, 2001",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 683,
+                    "end": 701,
+                    "mention": "Leahy et al., 1996",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1291,
+                    "end": 1308,
+                    "mention": "Hammarstrom, 1999",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1429,
+                    "end": 1455,
+                    "mention": "Zhou and Hammarstrom, 2001",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1523,
+                    "end": 1546,
+                    "mention": "Wang and Springer, 1998",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1564,
+                    "end": 1585,
+                    "mention": "Taraszka et al., 2000",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "section": "The CC\u2032 and FG loops of the N-terminal domains of various CEA family members may mediate biologically important molecular interactions ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 711,
+                    "end": 712,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 840,
+                    "end": 841,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 920,
+                    "end": 921,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "CEA family members can mediate intercellular adhesion in vitro and in vivo through binding interactions that involve the N-terminal domain (Hammarstrom, 1999). Mutational analyses of the N-terminal domain (D1) of human CEACAM1 (Watt et al., 2001) and CEA (Taheri et al., 2000) showed that residues on the CFG face, and especially residues on the CC\u2032 loop of D1, are directly engaged in homophilic cell adhesion. Mutations V39A and D40A in the CC\u2032 loop abolished homophilic adhesion of human CEACAM1 (Watt et al., 2001).",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 157,
+                    "mention": "Hammarstrom, 1999",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 228,
+                    "end": 245,
+                    "mention": "Watt et al., 2001",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 256,
+                    "end": 275,
+                    "mention": "Taheri et al., 2000",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 500,
+                    "end": 517,
+                    "mention": "Watt et al., 2001",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "section": "The CC\u2032 and FG loops of the N-terminal domains of various CEA family members may mediate biologically important molecular interactions ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "To study possible mechanisms for homophilic binding of msCEACAM1a[1,4], we examined all molecular interactions observed in the crystal lattice of msCEA CAM1a[1,4]. We found only two major contact areas between symmetry-related molecules: one through D1 by a 2-fold axis, and the other through D4 by a 31-fold axis. The D1\u2013D1 contact is more likely to have physiological significance than the screw-axis related D4\u2013D4 contact. Figure 6 shows how the CC\u2032 and FG loops in D1s of two dyad-related molecules made contact in the crystal structure of msCEACAM1a[1,4]. Hydrophilic interactions appear to dominate the adhesive interface, like that between CD2 and CD58 (Wang et al., 1999). As discussed above, the uniquely convoluted conformation of the CC\u2032 loop of msCEACAM1a[1,4] is likely to be similar for human CEA members. The fact that Y34A, but not Y34F, mutation abrogated homophilic adhesion of CEA (Taheri et al., 2000) shows the importance of the hydrophobic aromatic ring for maintaining the structure of the convoluted CC\u2032 loop, and the role of the CC\u2032 loop in homophilic adhesion. A convoluted, protruding CC\u2032 loop would likely prevent CEA molecules from adopting the \u2018hand-shaking\u2019 type of adhesion seen between CD2 and CD58. Figure 6B shows that Val39 of one human CEACAM1 molecule (corresponding to Thr39 in msCEA CAM1a[1,4]) might have hydrophobic contact with Val39 from its symmetry mate, while Asp40 of CEA (corresponding to Ala40 of msCEACAM1a[1,4]; Figure 6B) might have electrostatic interaction with Arg38 (not shown in Figure 6) of the symmetry mate. This may explain why mutations V39A and D40A in CEACAM1 disrupt homophilic cell adhesion.",
+            "cite_spans": [
+                {
+                    "start": 661,
+                    "end": 678,
+                    "mention": "Wang et al., 1999",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 901,
+                    "end": 920,
+                    "mention": "Taheri et al., 2000",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "section": "The CC\u2032 and FG loops of the N-terminal domains of various CEA family members may mediate biologically important molecular interactions ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 433,
+                    "end": 434,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1240,
+                    "end": 1241,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1471,
+                    "end": 1472,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1544,
+                    "end": 1545,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The \u2018parallel\u2019 mode of adhesion could occur between molecules on the same cell or opposing cells. The numerous inter-domain junctions of long CEA members may render them flexible enough to permit a trans interaction between opposing cells using this parallel mode. CHO cells transfected with human CEACAM1-1s, which has only the D1 domain as its extracellular portion, showed negligible adhesion despite a high level of protein (Watt et al., 2001). Perhaps there was not enough flexibility in this short molecule to allow the parallel mode of binding. Further crystallographic studies and mutational analysis are needed to characterize cis or trans adhesion mechanisms between CEA family members.",
+            "cite_spans": [
+                {
+                    "start": 429,
+                    "end": 446,
+                    "mention": "Watt et al., 2001",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "section": "The CC\u2032 and FG loops of the N-terminal domains of various CEA family members may mediate biologically important molecular interactions ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Nucleotide sequences encoding the first 236 amino acids of murine CEACAM1a[1,4], including the natural 34 amino acid signal sequence, were amplified by PCR using an oligonucleotide that added an XbaI site in-frame at the 3\u2032 end. This DNA was ligated in-frame into a previously described construct encoding a thrombin cleavage peptide followed by six histidine residues and a stop codon (Zelus et al., 1998), and inserted into the pShuttle CMV vector (He et al., 1998). This construct was inserted into the pAd-Easy adenovirus vector, and adenoviruses that contained the cDNA were plaque purified and amplified in 293 cells as described previously (He et al., 1998). Lec\u2013 CHO cells stably transfected with CAR, the Coxsackie/adenovirus receptor, were transduced with the CEACAM1a[1,4]-containing adenovirus. The soluble, His-tagged murine CEACAM1a[1,4] protein from the supernatant medium was purified by nickel affinity chromatography on a Pharmacia HiTrap chelating column, and eluted with imidazole. Fractions containing the protein were identified by immunoblotting with polyclonal rabbit antibody directed against murine CEACAM1a, and the pooled fractions were dialyzed against 25 mM Tris buffer pH 9.0 with 5% glycerol. The protein was further purified by ion-exchange chromatography on a HQ20 (Poros) column and eluted in a NaCl gradient. Fractions containing the protein were pooled, dialyzed against 25 mM Tris pH 7.6, 150 mM NaCl, 5% glycerol, and stored at \u201380\u00b0C. The purity of the proteins was determined by silver staining of SDS\u2013PAGE gels and by western blotting with anti-CEACAM1a antibody. The medium of 40 T150 flasks of adenovirus transduced lec\u2013, CAR+ CHO cells yielded \u223c0.5\u20131 mg of purified msCEACAM1a[1,4] protein.",
+            "cite_spans": [
+                {
+                    "start": 387,
+                    "end": 405,
+                    "mention": "Zelus et al., 1998",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 451,
+                    "end": 466,
+                    "mention": "He et al., 1998",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 648,
+                    "end": 663,
+                    "mention": "He et al., 1998",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "Protein expression and purification ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Single crystals of msCEACAM1a[1,4] were grown from a crystallization buffer containing 10% PEG 8000, 0.2 M magnesium acetate and 0.1 M cacodylate at pH 6.4 using the vapor-diffusion hanging drop method. For data collection at cryogenic temperature, the crystals were treated with a cryoprotectant solution (25% glycerol, 10% PEG 8000 and 0.1 M cacodylate), and then frozen and stored in liquid nitrogen. Platinum derivatives were prepared by soaking the crystals overnight in the same cryo-protectant solution containing 0.5 mM K2PtBr4.",
+            "cite_spans": [],
+            "section": "Crystallization and X-ray data collection ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "X-ray diffraction data were collected from pre-frozen crystals at APS SBC 19ID at a temperature of 100 K. A native crystal diffracted to a resolution of 3.32 \u212b, with one molecule in one asymmetric unit. A MAD data set of the platinum derivative was obtained to a resolution of 3.85 \u212b. All the raw data were indexed and reduced with HKL2000 (Otwinowski and Minor, 1997) (Table I).",
+            "cite_spans": [
+                {
+                    "start": 341,
+                    "end": 367,
+                    "mention": "Otwinowski and Minor, 1997",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "section": "Crystallization and X-ray data collection ::: Materials and methods",
+            "ref_spans": [
+                {
+                    "start": 376,
+                    "end": 377,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The msCEACAM1a[1,4] structure was solved using the MAD phases in combination with MR. Using programs in the CCP4 suite (CCP4, 1994), we located one platinum binding site in one asymmetric unit in both difference and anomalous difference Patterson maps. Heavy atom parameters were refined at 4 \u212b resolution with the program MLPHARE in the CCP4 suite, and an additional platinum site was identified. Phase extension was performed using the native data set to 3.32 \u212b by solvent flattening and histogram matching with DM. The resulting phases were used to carry out a phased molecular replacement with ROTPTF on the Bronx X-ray server for the two separate domains. The N-terminal domains of human CD2 (PDB code 1HNF) and Fc-\u03b3 receptor III (PDB code 1E4J) were used as search models for the D1 and D4 domains of msCEACAM1a[1,4], respectively. The model was traced with XtalView (http://www.scripps.edu/pub/dem-web/) on the basis of the MAD phases, using the MR solutions as a guideline.",
+            "cite_spans": [
+                {
+                    "start": 120,
+                    "end": 130,
+                    "mention": "CCP4, 1994",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "section": "Structure determination and refinement ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "After cycles of model building using program O (Jones et al., 1991) and refinement, the final model was refined at 3.32 \u212b resolution to an Rfree factor of 32.9% and Rwork of 29.5% (Table I) using X-PLOR (Br\u00fcnger, 1992). At 1.5\u03c3 contour level (\u03c3 = 0.125 e/\u212b3) in the 2Fo \u2013 Fc map, there was continuous density for the main chain backbone. The final model contains 202 residues (from Glu1 to Pro202) of msCEACAM1a plus one amino acid (Ser) from the cloning construct and a total of six sugar residues associated with four of the five potential glycosylation sites. There was no interpretable electron density beyond residue Ser203, where 13 residues, including an inserted Arg204, a thrombin cleavage site and a His6 tag are present in the expression construct. These C-terminal residues are apparently disordered. The current model also includes a total of 26 water molecules. The coordinates have been deposited in the PDB data bank under the accession code 1L67.",
+            "cite_spans": [
+                {
+                    "start": 48,
+                    "end": 66,
+                    "mention": "Jones et al., 1991",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 204,
+                    "end": 217,
+                    "mention": "Br\u00fcnger, 1992",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "section": "Structure determination and refinement ::: Materials and methods",
+            "ref_spans": [
+                {
+                    "start": 187,
+                    "end": 188,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "FEBS Lett.",
+            "volume": "301",
+            "issn": "",
+            "pages": "207-214",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Acta Crystallogr. D",
+            "volume": "50",
+            "issn": "",
+            "pages": "760-763",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "65",
+            "issn": "",
+            "pages": "6881-6891",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "67",
+            "issn": "",
+            "pages": "1-8",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "90",
+            "issn": "",
+            "pages": "1716-1720",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Biochemistry",
+            "volume": "14",
+            "issn": "",
+            "pages": "4943-4952",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Cell",
+            "volume": "5",
+            "issn": "",
+            "pages": "311-320",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "71",
+            "issn": "",
+            "pages": "3129-3137",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Exp. Med.",
+            "volume": "122",
+            "issn": "",
+            "pages": "467-481",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Semin. Cancer Biol.",
+            "volume": "9",
+            "issn": "",
+            "pages": "67-81",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "238",
+            "issn": "",
+            "pages": "528-539",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Exp. Cell Res.",
+            "volume": "252",
+            "issn": "",
+            "pages": "243-249",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "95",
+            "issn": "",
+            "pages": "2509-2514",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Protein Sci.",
+            "volume": "3",
+            "issn": "",
+            "pages": "1927-1937",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell Sci.",
+            "volume": "112",
+            "issn": "",
+            "pages": "4193-4205",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "274",
+            "issn": "",
+            "pages": "335-344",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Oncogene",
+            "volume": "18",
+            "issn": "",
+            "pages": "5563-5572",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "360",
+            "issn": "",
+            "pages": "232-239",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Acta Crystallogr. A",
+            "volume": "47",
+            "issn": "",
+            "pages": "110-119",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "312",
+            "issn": "",
+            "pages": "711-720",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "18",
+            "issn": "",
+            "pages": "6249-6259",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Appl. Crystallogr.",
+            "volume": "24",
+            "issn": "",
+            "pages": "924-950",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "275",
+            "issn": "",
+            "pages": "1320-1323",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "393",
+            "issn": "",
+            "pages": "648-659",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "84",
+            "issn": "",
+            "pages": "155-164",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Immunol.",
+            "volume": "163",
+            "issn": "",
+            "pages": "1363-1370",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Immunol.",
+            "volume": "168",
+            "issn": "",
+            "pages": "1028-1035",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "68",
+            "issn": "",
+            "pages": "4525-4537",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proteins",
+            "volume": "11",
+            "issn": "",
+            "pages": "281-296",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "77",
+            "issn": "",
+            "pages": "1683-1692",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "307-326",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "229",
+            "issn": "",
+            "pages": "336-348",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Cell. Biol.",
+            "volume": "9",
+            "issn": "",
+            "pages": "377-383",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Exp. Med.",
+            "volume": "190",
+            "issn": "",
+            "pages": "331-340",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Immunol.",
+            "volume": "34",
+            "issn": "",
+            "pages": "1067-1082",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Curr. Opin. Struct. Biol.",
+            "volume": "5",
+            "issn": "",
+            "pages": "735-743",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "275",
+            "issn": "",
+            "pages": "26935-26943",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virus Res.",
+            "volume": "2",
+            "issn": "",
+            "pages": "317-328",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Exp. Med.",
+            "volume": "191",
+            "issn": "",
+            "pages": "1555-1567",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Microbiol.",
+            "volume": "34",
+            "issn": "",
+            "pages": "538-551",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Microbiol.",
+            "volume": "36",
+            "issn": "",
+            "pages": "784-795",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF41": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Trends Biochem. Sci.",
+            "volume": "27",
+            "issn": "",
+            "pages": "122-126",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF42": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Immunol. Rev.",
+            "volume": "163",
+            "issn": "",
+            "pages": "197-215",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF43": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "348",
+            "issn": "",
+            "pages": "411-418",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF44": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF45": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "97",
+            "issn": "",
+            "pages": "791-803",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF46": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "98",
+            "issn": "",
+            "pages": "10799-10804",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF47": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Blood",
+            "volume": "98",
+            "issn": "",
+            "pages": "1469-1479",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF48": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "72",
+            "issn": "",
+            "pages": "1941-1948",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF49": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "387",
+            "issn": "",
+            "pages": "527-530",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF50": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "72",
+            "issn": "",
+            "pages": "7237-7244",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF51": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Biol. Reprod.",
+            "volume": "64",
+            "issn": "",
+            "pages": "90-99",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF52": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "387",
+            "issn": "",
+            "pages": "312-315",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF53": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "18",
+            "issn": "",
+            "pages": "2911-2922",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF54": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "278",
+            "issn": "",
+            "pages": "457-479",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF55": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "267",
+            "issn": "",
+            "pages": "383-386",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

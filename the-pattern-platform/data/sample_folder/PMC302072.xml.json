@@ -1,0 +1,1667 @@
+{
+    "paper_id": "PMC302072",
+    "metadata": {
+        "title": "Heterogeneous nuclear ribonucleoprotein A1 regulates RNA synthesis of a cytoplasmic virus",
+        "authors": [
+            {
+                "first": "Stephanie",
+                "middle": [
+                    "T."
+                ],
+                "last": "Shi",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Peiyong",
+                "middle": [],
+                "last": "Huang",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Hsin-Pai",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Michael",
+                "middle": [
+                    "M.C."
+                ],
+                "last": "Lai",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "hnRNP A1 is an RNA-binding protein that contains two RNA-binding domains (RBDs) and a glycine-rich domain responsible for protein\u2013protein interaction. It is involved in pre-mRNA splicing and transport of cellular RNAs (reviewed by Dreyfuss et al., 1993). It is predominantly located in the nucleus, but also shuttles between the nucleus and the cytoplasm (Pi\u00f1ol-Roma and Dreyfuss, 1992). The signal that mediates shuttling has been identified as a 38 amino acid sequence, termed M9, located near the C-terminus of hnRNP A1 between amino acids 268 and 305 (Michael et al., 1995; Siomi and Dreyfuss, 1995; Weighardt et al., 1995). Yeast two-hybrid screening with M9 as bait resulted in the discovery of a novel transportin-mediated pathway for nuclear import of hnRNP A1 (Pollard et al., 1996; Fridell et al., 1997; Siomi et al., 1997). The function of the cytoplasmic hnRNP A1 has not been well defined. Studies have shown that cytoplasmic and nuclear hnRNP A1 exhibit different RNA-binding profiles. Cytoplasmic hnRNP A1 is capable of high-affinity binding to AU-rich elements that modulate mRNA turnover and translation (Hamilton et al., 1993, 1997; Henics et al., 1994). It has also been shown to promote ribosome binding to mRNAs by a cap-mediated mechanism, and prevent spurious initiation at aberrant translation start sites (Svitkin et al., 1996).",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 252,
+                    "mention": "Dreyfuss et al., 1993",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 356,
+                    "end": 385,
+                    "mention": "Pi\u00f1ol-Roma and Dreyfuss, 1992",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 556,
+                    "end": 576,
+                    "mention": "Michael et al., 1995",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 578,
+                    "end": 602,
+                    "mention": "Siomi and Dreyfuss, 1995",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 604,
+                    "end": 626,
+                    "mention": "Weighardt et al., 1995",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 770,
+                    "end": 790,
+                    "mention": "Pollard et al., 1996",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 792,
+                    "end": 812,
+                    "mention": "Fridell et al., 1997",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 814,
+                    "end": 832,
+                    "mention": "Siomi et al., 1997",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1122,
+                    "end": 1143,
+                    "mention": "Hamilton et al., 1993",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1145,
+                    "end": 1149,
+                    "mention": "1997",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1151,
+                    "end": 1170,
+                    "mention": "Henics et al., 1994",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1331,
+                    "end": 1351,
+                    "mention": "Svitkin et al., 1996",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "MHV belongs to the Coronaviridae family of positive-sense, single-stranded RNA viruses. MHV replication and transcription occur exclusively in the cytoplasm of infected cells via the viral RNA-dependent RNA polymerase (RdRp) (reviewed by Lai and Cavanagh, 1997). Initially, the 5\u2032-most gene 1 of the viral genome is translated into the viral RdRp, which then replicates the viral genomic RNAs into negative-strand RNAs. Subsequently, the negative-strand RNAs are used as templates to transcribe mRNAs, which include a genomic-sized RNA and a nested set of subgenomic mRNA transcripts, all with an identical 5\u2032 non-translated leader sequence of 72\u201377 nucleotides and 3\u2032 co-terminal polyadenylated ends. The subgenomic mRNA transcription of MHV utilizes a unique discontinuous mechanism in which the leader sequence, often derived from a different molecule, is fused to RNAs at the intergenic (IG) sites (i.e. transcription initiation site) to generate subgenomic mRNAs (Jeong and Makino, 1994; Liao and Lai, 1994; Zhang et al., 1994). The exact mechanism of how these mRNAs are made is still controversial. However, it has been shown that the process of discontinuous RNA transcription is regulated by several viral RNA elements, including the cis- and trans-acting leader RNA (Liao and Lai, 1994; Zhang et al., 1994), IG sequence (Makino et al., 1991) and 3\u2032-end untranslated sequence (Lin et al., 1996). There is considerable biochemical evidence suggesting possible direct or indirect interactions between the various RNA regulatory elements. hnRNP A1 binds MHV negative (\u2013)-strand leader and IG sequences (Furuya and Lai, 1993; Li et al., 1997). Site-directed mutagenesis of the IG sequences demonstrated that the extent of binding of hnRNP A1 to the IG sequences correlated with the efficiency of transcription from the IG site (Zhang and Lai, 1995; Li et al., 1997). Immunostaining of hnRNP A1 showed that hnRNP A1 relocated to the cytoplasm of MHV-infected cells, where viral RNA synthesis occurs (Li et al., 1997). hnRNP A1 also mediates the formation of a ribonucleoprotein complex containing the MHV (\u2013)-strand leader and IG sequences (Zhang et al., 1999). These results suggest that hnRNP A1 may serve as a protein mediator for distant RNA regions to interact with each other.",
+            "cite_spans": [
+                {
+                    "start": 238,
+                    "end": 260,
+                    "mention": "Lai and Cavanagh, 1997",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 969,
+                    "end": 991,
+                    "mention": "Jeong and Makino, 1994",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 993,
+                    "end": 1011,
+                    "mention": "Liao and Lai, 1994",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1013,
+                    "end": 1031,
+                    "mention": "Zhang et al., 1994",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1277,
+                    "end": 1295,
+                    "mention": "Liao and Lai, 1994",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1297,
+                    "end": 1315,
+                    "mention": "Zhang et al., 1994",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1331,
+                    "end": 1350,
+                    "mention": "Makino et al., 1991",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1386,
+                    "end": 1402,
+                    "mention": "Lin et al., 1996",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1609,
+                    "end": 1629,
+                    "mention": "Furuya and Lai, 1993",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1631,
+                    "end": 1646,
+                    "mention": "Li et al., 1997",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1833,
+                    "end": 1852,
+                    "mention": "Zhang and Lai, 1995",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1854,
+                    "end": 1869,
+                    "mention": "Li et al., 1997",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 2004,
+                    "end": 2019,
+                    "mention": "Li et al., 1997",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 2145,
+                    "end": 2163,
+                    "mention": "Zhang et al., 1999",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "Many cellular proteins, including calreticulin (Singh et al., 1994), polypyrimidine tract-binding protein (PTB) (Hellen et al., 1994; Wu-Baer et al., 1996), La protein (Pardigon and Strauss, 1996), Sam68 (McBride et al., 1996), poly(rC)-binding protein (Parsley et al., 1997) and nucleolin (Waggoner and Sarnow, 1998), have been implicated to be involved in viral RNA transcription or replication. In addition to MHV, hnRNP A1 has also been reported to interact with human cytomegalovirus immediate-early gene 2 protein, which plays an important role in the regulation of virus replication (Wang et al., 1997). Furthermore, a yeast protein related to human core RNA splicing factors, Lsm1p, has been shown to be required for the efficient replication of brome mosaic virus RNA (Diez et al., 2000). Recently, Reddy and colleagues demonstrated an inhibition of HIV replication by dominant-negative mutants of Sam68 (Reddy et al., 1999). However, none of these cellular proteins has been shown experimentally to participate directly in RNA-dependent RNA synthesis.",
+            "cite_spans": [
+                {
+                    "start": 48,
+                    "end": 66,
+                    "mention": "Singh et al., 1994",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 113,
+                    "end": 132,
+                    "mention": "Hellen et al., 1994",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 134,
+                    "end": 154,
+                    "mention": "Wu-Baer et al., 1996",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 169,
+                    "end": 195,
+                    "mention": "Pardigon and Strauss, 1996",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 205,
+                    "end": 225,
+                    "mention": "McBride et al., 1996",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 254,
+                    "end": 274,
+                    "mention": "Parsley et al., 1997",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 291,
+                    "end": 316,
+                    "mention": "Waggoner and Sarnow, 1998",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 591,
+                    "end": 608,
+                    "mention": "Wang et al., 1997",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 778,
+                    "end": 795,
+                    "mention": "Diez et al., 2000",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 914,
+                    "end": 932,
+                    "mention": "Reddy et al., 1999",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "In order to demonstrate the involvement of hnRNP A1 in MHV RNA replication and transcription, we established several DBT cell lines stably expressing either the wild-type (wt) hnRNP A1 or a C-terminus-truncated mutant lacking the M9 sequence and part of the glycine-rich domain. We showed that the mutant hnRNP A1, which was localized predominantly in the cytoplasm, exhibited dominant-negative effects on viral genomic RNA replication and subgenomic mRNA transcription. In contrast, overexpression of the wt hnRNP A1 accelerated the synthesis of all viral RNAs. Our results provide strong evidence that hnRNP A1 is directly or indirectly involved in MHV RNA synthesis in the cytoplasm and that the C-terminal part of the protein is important for its function. This finding thus reveals a novel function for hnRNP A1 in the cytoplasm.",
+            "cite_spans": [],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "To explore a potential role for hnRNP A1 in MHV RNA synthesis, we established murine DBT cell lines stably expressing the Flag-tagged wt hnRNP A1 (DBT-A1) or a mutant hnRNP A1, which has a 75 amino acid deletion from the C-terminus (DBT-A1\u0394C) (Figure 1A). This mutant lacks part of the glycine-rich domain and the M9 sequence responsible for shuttling hnRNP A1 between the nucleus and the cytoplasm. Immunoblot of the whole-cell lysates with an anti-Flag antibody detected a 34 kDa protein in DBT-A1 cells and a 27 kDa protein in three independent clones of DBT-A1\u0394C cells (Figure 1B), whereas no protein was cross-reactive to the anti-Flag antibody in the control cell line stably transfected with the pcDNA3.1 vector (DBT-VEC). The amounts of the Flag-tagged wt and truncated hnRNP A1 were comparable in these cell lines. A chicken polyclonal antibody against hnRNP A1 detected two endogenous hnRNP A1 isoforms or hnRNP A1-related proteins in the whole-cell lysates of all of the cell lines. The bottom band (34 kDa) overlaps the Flag-tagged wt hnRNP A1 in DBT-A1 cells. There was only a slight increase in the overall amount of hnRNP A1 in DBT-A1 cells as compared with DBT-VEC cells, indicating that the exogenous hnRNP A1 constituted a small fraction of the total hnRNP A1 in the cells. In DBT-A1\u0394C cells, an additional band of smaller size (27 kDa) corresponding to the mutant hnRNP A1 was detected. The overall expression levels of the exogenous hnRNP A1 and hnRNP A1\u0394C were \u223c3-fold lower than that of the endogenous hnRNP A1 in whole-cell lysates (Figure 1B). Similar to the endogenous hnRNP A1 protein (Pi\u00f1ol-Roma and Dreyfuss, 1992), the Flag-tagged wt hnRNP A1 was localized almost exclusively in the nucleus (Figure 1C). The mutant hnRNP A1, however, was localized predominantly in the cytoplasm (Figure 1C), consistent with the previous finding that the M9 nuclear localization signal is necessary to localize hnRNP A1 to the nucleus (Siomi and Dreyfuss, 1995; Weighardt et al., 1995). Thus, hnRNP A1\u0394C was much more abundant than the endogenous hnRNP A1 in the cytoplasm. The expression levels of the wt or mutant hnRNP A1 varied among individual cells based on immunofluorescent staining (Figure 1C). The growth rate (Figure 1D) and cell morphology (data not shown) were similar among the different cell lines.",
+            "cite_spans": [
+                {
+                    "start": 1612,
+                    "end": 1641,
+                    "mention": "Pi\u00f1ol-Roma and Dreyfuss, 1992",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1948,
+                    "end": 1972,
+                    "mention": "Siomi and Dreyfuss, 1995",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1974,
+                    "end": 1996,
+                    "mention": "Weighardt et al., 1995",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "section": "Characterization of stable cell lines expressing the wt and a C-terminus-truncated hnRNP\u00a0A1 ::: Results",
+            "ref_spans": [
+                {
+                    "start": 251,
+                    "end": 252,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 581,
+                    "end": 582,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1563,
+                    "end": 1564,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1728,
+                    "end": 1729,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1816,
+                    "end": 1817,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 2211,
+                    "end": 2212,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 2240,
+                    "end": 2241,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "We first assessed the effects of hnRNP A1 overexpression on the morphological changes induced by MHV-A59 infection using several different clones of DBT cell lines. Virus infection was performed at a multiplicity of infection (m.o.i.) of 0.5 to detect the subtle morphological differences among the different cell lines. Syncytia appeared at \u223c7 h post-infection (p.i.) in DBT-VEC cells and \u223c1 h earlier in DBT-A1 cells. At both 8 and 14 h p.i., syncytia were significantly larger and more spread out in DBT-A1 cells than those in DBT-VEC cells (Figure 2A). Similar differences were observed with two additional clones of DBT-A1 cells (data not shown). In contrast, no syncytium was observed in three different clones of DBT-A1\u0394C cells, even at 14 h p.i. At 24 h p.i., almost all DBT-A1 cells detached from the plate, but \u223c10\u201320% of DBT-VEC cells still remained on the plate (data not shown). Remarkably, there was no sign of syncytium formation in DBT-A1\u0394C cells until 24 h after virus infection, when the overall morphology of the cells was similar to that of DBT-VEC cells at 7 h p.i. (data not shown). All of the DBT-A1\u0394C cells were eventually killed at \u223c48 h p.i., suggesting that the inhibition of viral replication was not a result of the disruption of the MHV receptor. Correspondingly, virus production from these cell lines was significantly different. Between 6 and 14 h p.i., virus production from DBT-A1\u0394C cells was \u223c100- to 1000-fold less than that from DBT-VEC and DBT-A1 cells (Figure 2B). DBT-A1 cells produced twice as many viruses as those from DBT-VEC cells during that time period.",
+            "cite_spans": [],
+            "section": "The effects of overexpression of the wt and mutant hnRNP\u00a0A1 on syncytium formation and virus production ::: Results",
+            "ref_spans": [
+                {
+                    "start": 552,
+                    "end": 553,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1500,
+                    "end": 1501,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "MHV RNA synthesis occurs exclusively in the cytoplasm of infected cells. In order for hnRNP A1 to participate directly in viral transcription, it has to be recruited to the site of RNA synthesis. Although hnRNP A1 shuttles between the nucleus and the cytoplasm in normal cells (Pi\u00f1ol-Roma and Dreyfuss, 1992), the level of cytoplasmic hnRNP A1 is very low. We have demonstrated previously that hnRNP A1 relocates from the nucleus to the cytoplasm of MHV-infected cells (Li et al., 1997). To determine whether the overexpressed hnRNP A1 may participate in MHV RNA synthesis, we performed immunostaining experiments using an anti-Flag antibody to localize Flag-tagged hnRNP A1. In DBT-A1 cells, a significant increase in the cytoplasmic level of hnRNP A1 and a corresponding decrease of nuclear hnRNP A1 were observed in virus-infected cell syncytia at 7 h p.i. (Figure 3B); these cells express the MHV nucleocapsid (N) protein in the cytoplasm (Figure 3A). By comparison, in the uninfected cells, which did not have N protein staining, hnRNP A1 was predominantly localized to the nucleus (arrow in Figure 3B). In DBT-A1\u0394C cells, very few cells were stained positive for the MHV N protein at 7 h p.i. (Figure 3C). Significantly, the viral N protein was detected only in the cells that were stained weakly or not at all for Flag-hnRNP A1 (Figure 3D), suggesting that the expression of a high level of hnRNP A1\u0394C interfered with viral replication.",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 307,
+                    "mention": "Pi\u00f1ol-Roma and Dreyfuss, 1992",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 470,
+                    "end": 485,
+                    "mention": "Li et al., 1997",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Relocalization of hnRNP\u00a0A1 during MHV infection ::: Results",
+            "ref_spans": [
+                {
+                    "start": 868,
+                    "end": 869,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 951,
+                    "end": 952,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1104,
+                    "end": 1105,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1207,
+                    "end": 1208,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1343,
+                    "end": 1344,
+                    "mention": "3",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "We further investigated the effects of the wt and mutant hnRNP A1 on the production of MHV structural and non-structural proteins. Cytoplasmic protein was extracted from infected cell lines at different time points after infection for immunoblot analysis to detect an open reading frame (ORF) 1a product, p22 (Lu et al., 1998) and the N protein. p22 expression in DBT-VEC cells was clearly detected at 6 h p.i. and peaked at \u223c16 h p.i. (Figure 4A). In DBT-A1 cells, p22 appeared at 5 h p.i. and peaked at \u223c8 h p.i. In DBT-A1\u0394C cells, no p22 protein was detected until 16 h p.i. Similar patterns of differences were observed for the N protein in these three cell lines. Actin levels in different cell lines remained relatively constant throughout the infection, except that, in DBT-A1 cells, actin was not detected at 16 and 24 h p.i. due to the loss of the dead cells (Figure 4A). These results clearly demonstrated that overexpression of the wt hnRNP A1 accelerated viral protein production, whereas expression of the mutant hnRNP A1 delayed it. We also performed immunofluorescent staining of the N protein at 7 h p.i. to further confirm the western blot results. As represented by images shown in Figure 4B, there were more DBT-A1 cells stained positive for the N protein than DBT-VEC cells. Very few cells were found to express the N protein in DBT-A1\u0394C cells. The p22 and N proteins appeared as doublets in some of the lanes of Figure 4A, but the results varied from experiment to experiment. The N protein is known to be phosphorylated (Stohlman and Lai, 1979). Whether p22 is post-translationally modified is not known.",
+            "cite_spans": [
+                {
+                    "start": 310,
+                    "end": 325,
+                    "mention": "Lu et al., 1998",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1543,
+                    "end": 1565,
+                    "mention": "Stohlman and Lai, 1979",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "section": "The effects of wt and mutant hnRNP\u00a0A1 on MHV protein production ::: Results",
+            "ref_spans": [
+                {
+                    "start": 444,
+                    "end": 445,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 876,
+                    "end": 877,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1207,
+                    "end": 1208,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1440,
+                    "end": 1441,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "We next examined the effects of the wt and mutant hnRNP A1 on MHV RNA synthesis. MHV-infected cell lines were labeled for 1 h with [3H]uridine in the presence of 5 \u00b5g/ml actinomycin D at different time points after infection. [3H]uridine incorporation in DBT-VEC cells increased gradually from 4 h p.i. and peaked at \u223c16 h p.i. (Figure 5A). DBT-A1 cells showed a significantly higher level of [3H]uridine incorporation, which peaked at \u223c8 h p.i. DBT-A1\u0394C cells did not show any detectable level of incorporation of the radioactivity. These results suggest that hnRNP A1 regulates MHV RNA synthesis. We further assessed the production of genomic and subgenomic MHV RNAs in these cell lines by northern blot analysis. The genomic and the six subgenomic RNA species were detected at 8 h p.i. in both DBT-VEC and DBT-A1 cells; there were significantly higher steady-state levels of all of the RNA species in DBT-A1 cells (Figure 5B). In contrast, no viral RNA was detected in DBT-A1\u0394C cells at that time point. At 16 h p.i., MHV RNA levels in DBT-VEC and DBT-A1 cells decreased generally because of the loss of the dead cells, while the smaller subgenomic RNAs became detectable in DBT-A1\u0394C cells. By 24 h p.i., most viral RNA species became detectable in DBT-A1\u0394C cells (Figure 5B, lane 10), while most of the DBT-A1 cells were dead (lane 9). These results confirmed that the synthesis of all of the viral RNA species is accelerated by overexpression of the wt hnRNP A1 and delayed by a dominant-negative mutant of hnRNP A1.",
+            "cite_spans": [],
+            "section": "The effects of the wt and mutant hnRNP\u00a0A1 on MHV RNA synthesis ::: Results",
+            "ref_spans": [
+                {
+                    "start": 336,
+                    "end": 337,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 925,
+                    "end": 926,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1275,
+                    "end": 1276,
+                    "mention": "5",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "In this analysis, we also detected an additional RNA species (arrow in Figure 5B), which was determined to be a defective-interfering (DI) RNA by northern blot analysis using a probe representing the 5\u2032-untranslated region (without the leader), which is present only in genomic and DI RNAs (data not shown). Interestingly, this DI RNA was inhibited to a greater extent than other RNA species in DBT-A1\u0394C cells. This result suggests that the replication of DI RNAs is more sensitive to the dominant-negative inhibition by cytoplasmic hnRNP A1.",
+            "cite_spans": [],
+            "section": "The effects of the wt and mutant hnRNP\u00a0A1 on MHV RNA synthesis ::: Results",
+            "ref_spans": [
+                {
+                    "start": 78,
+                    "end": 79,
+                    "mention": "5",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To demonstrate further that MHV RNA transcription machinery is defective in cells expressing the mutant hnRNP A1, we studied transcription of an MHV DI RNA, 25CAT, which contains a transcription promoter (derived from the IG sequence for mRNA 7, IG7) and a chloramphenicol acetyltransferase (CAT) reporter gene (Liao and Lai, 1994). CAT activity can be expressed from this DI RNA only if a subgenomic mRNA containing CAT sequences is produced (Liao and Lai, 1994). The 25CAT RNA was transfected into MHV-A59-infected cells 1 h after infection. At 8 h p.i., CAT activity in DBT-A1 cells was significantly higher than that in DBT-VEC cells (Figure 6A). On the other hand, CAT activity was very low in DBT-A1\u0394C cells. At 24 h p.i., CAT activity in DBT-A1 cells became slightly lower than that in DBT-VEC cells because of the loss of the dead DBT-A1 cells. The CAT activity in DBT-A1\u0394C was still significantly lower than that in DBT-VEC or DBT-A1 cells. These results established that mRNA transcription from the DI RNA was also inhibited by hnRNP A1\u0394C.",
+            "cite_spans": [
+                {
+                    "start": 312,
+                    "end": 330,
+                    "mention": "Liao and Lai, 1994",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 444,
+                    "end": 462,
+                    "mention": "Liao and Lai, 1994",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "section": "hnRNP\u00a0A1\u0394C inhibits transcription and replication of MHV DI RNAs ::: Results",
+            "ref_spans": [
+                {
+                    "start": 646,
+                    "end": 647,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The results shown above (Figure 5B) also suggest that DI RNA replication is more sensitive to the inhibitory effects of the hnRNP A1 mutant. To confirm this result, we further studied replication of another DI RNA during serial virus passages. DBT cells were infected with MHV-A59 and transfected with DIssE RNA derived from JHM virus (Makino and Lai, 1989); the virus released (P0) was passaged twice in DBT cells to generate P1 and P2 viruses. DBT cells were infected with these viruses, and cytoplasmic RNA was extracted for northern blot analysis using glyoxalated RNA for a better resolution of smaller RNAs. For DBT-A1\u0394C cells, RNA was extracted at 36 h p.i. since viral RNA synthesis was delayed in this cell line. Cells infected with P0 viruses did not yield detectable amounts of DIssE, but contained the naturally occurring A59 DI RNA, whose replication was inhibited more strongly than the synthesis of MHV genomic and subgenomic RNAs in DBT-A1\u0394C cells (Figures 5B, lanes 8\u201310 and 6B, lanes 1\u20133). However, this A59 DI RNA was not detectable in cells infected with P1 and P2 viruses (Figure 6B, lanes 4\u20139). In contrast, DIssE appeared in cells infected with P1 viruses and further increased in cells infected with P2 viruses, indicating that the replication of the smaller DIssE may have an inhibitory effect on the replication of the larger A59 DI RNA (Jeong and Makino, 1992). Similar to the A59 DI RNA, the replication of DIssE RNA was much more strongly inhibited than that of MHV genomic and subgenomic RNAs in DBT-A1\u0394C cells (Figure 6B, lanes 6 and 9). Our results thus suggest that MHV DI RNA replication is more dependent on the function of cytoplasmic hnRNP A1.",
+            "cite_spans": [
+                {
+                    "start": 336,
+                    "end": 356,
+                    "mention": "Makino and Lai, 1989",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1364,
+                    "end": 1386,
+                    "mention": "Jeong and Makino, 1992",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "hnRNP\u00a0A1\u0394C inhibits transcription and replication of MHV DI RNAs ::: Results",
+            "ref_spans": [
+                {
+                    "start": 32,
+                    "end": 33,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 973,
+                    "end": 974,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 992,
+                    "end": 993,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1101,
+                    "end": 1102,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1549,
+                    "end": 1550,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To understand the underlying mechanism of the inhibition of MHV RNA transcription by the C-terminal-deletion mutant of hnRNP A1, we first examined the RNA- and protein-binding properties of this mutant protein. Electrophoretic mobility shift assay demonstrated that hnRNP A1\u0394C retained the ability to bind the MHV (\u2013)-strand leader RNA and to form multimers with itself, similar to the wt hnRNP A1 (data not shown); this is consistent with the fact that both of its RBDs are intact (Figure 1A). Furthermore, UV-crosslinking experiments showed that increasing amounts of purified glutathione S-transferase (GST)\u2013hnRNP A1\u0394C efficiently competed with the endogenous hnRNP A1 for the binding of the MHV (\u2013)-strand leader RNA (Figure 7A), indicating that the binding of hnRNP A1\u0394C to RNA was not affected. These results suggest that the RNA-binding properties of hnRNP A1\u0394C were intact.",
+            "cite_spans": [],
+            "section": "The mechanism of dominant-negative inhibition by the C-terminal deletion mutant of hnRNP\u00a0A1 ::: Results",
+            "ref_spans": [
+                {
+                    "start": 490,
+                    "end": 491,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 729,
+                    "end": 730,
+                    "mention": "7",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "We next examined the protein-binding properties of hnRNP A1\u0394C. Since hnRNP A1 has been shown to interact with the N protein, which also participates in MHV RNA synthesis (Compton et al., 1987; Wang and Zhang, 1999), we first determined whether the dominant-negative mutant of hnRNP A1 retained the ability to interact with the N protein in vitro. GST pull-down assay using various truncation mutants of hnRNP A1 showed that the N protein bound the N-terminal domain (aa 1\u2013163) of hnRNP A1 (Figure 7B); thus, the binding of hnRNP A1\u0394C [equivalent to hnRNP A1(1\u2013245)] to the N protein was not affected. We next examined the in vivo interaction of the wt and mutant hnRNP A1 with an MHV ORF 1a product, p22, which has been shown to co-localize with the de novo synthesized viral RNA (S.T.Shi and M.M.C.Lai, unpublished results) and associate with the viral replicase complex (Gibson Bost et al., 2000). Cyto plasmic extracts from MHV-A59-infected cells were immunoprecipitated with anti-Flag antibody-conjugated beads, followed by western blotting with a rabbit polyclonal antibody against p22. At 8 h p.i., p22 was co-precipitated with the Flag-tagged hnRNP A1 from DBT-A1 cells, whereas no precipitation of p22 was observed in DBT-VEC cells (Figure 7C). For DBT- A1\u0394C cells, co-immunoprecipitation was performed at 24 h p.i., when abundant MHV proteins were synthesized. p22 was shown to co-precipitate with hnRNP A1\u0394C, indicating that hnRNP A1\u0394C still formed a complex with the viral polymerase gene product. These results suggest that the ability of hnRNP A1\u0394C to interact with the N and polymerase proteins was not altered.",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 191,
+                    "mention": "Compton et al., 1987",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 193,
+                    "end": 213,
+                    "mention": "Wang and Zhang, 1999",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 873,
+                    "end": 897,
+                    "mention": "Gibson Bost et al., 2000",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "The mechanism of dominant-negative inhibition by the C-terminal deletion mutant of hnRNP\u00a0A1 ::: Results",
+            "ref_spans": [
+                {
+                    "start": 497,
+                    "end": 498,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1248,
+                    "end": 1249,
+                    "mention": "7",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "We next investigated whether the mutant hnRNP A1 is deficient in the interaction with any other cellular proteins in this RNA\u2013protein complex. We labeled proteins in MHV-infected cells or mock-infected cells at different time points after infection and immunoprecipitated with the anti-Flag antibody. Significantly, a cellular protein of \u223c250 kDa was shown to be associated only with the wt hnRNP A1, but not the mutant hnRNP A1 (Figure 7D), suggesting that hnRNP A1 binds to this protein through its C-terminal domain. We propose that this cellular protein is another important component of the MHV RNA transcription/replication complex.",
+            "cite_spans": [],
+            "section": "The mechanism of dominant-negative inhibition by the C-terminal deletion mutant of hnRNP\u00a0A1 ::: Results",
+            "ref_spans": [
+                {
+                    "start": 437,
+                    "end": 438,
+                    "mention": "7",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "There is an accumulating body of evidence signifying the importance of cellular factors in RNA synthesis of RNA viruses (reviewed by Lai, 1998). Previous studies have shown that hnRNP A1 binds to the cis-acting sequences of MHV template RNA and that this interaction correlates with the transcription efficiency of viral RNA in vivo (Zhang and Lai, 1995; Li et al., 1997). In addition, hnRNP A1 is also implicated in viral RNA replication by the recent finding that hnRNP A1 interacts with the 3\u2032-ends of both positive- and negative-strand MHV RNA (P.Huang and M.M.C.Lai, unpublished results). However, the functional importance of hnRNP A1 in viral RNA synthesis has so far not been directly demonstrated. In the present study, we established that MHV RNA transcription and replication were enhanced by overexpression of the wt hnRNP A1 protein, but inhibited by expression of a dominant-negative hnRNP A1 mutant in DBT cell lines. Our results suggest that hnRNP A1 is a host protein involved in the formation of a cytoplasmic transcription/replication complex for viral RNA synthesis. This represents a novel function for hnRNP A1 in the cytoplasm.",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 142,
+                    "mention": "Lai, 1998",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 334,
+                    "end": 353,
+                    "mention": "Zhang and Lai, 1995",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 355,
+                    "end": 370,
+                    "mention": "Li et al., 1997",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Our results indicate that the inhibitory effects on MHV replication exhibited by the dominant-negative mutant of hnRNP A1 were relatively more prominent than the enhancement effects by overexpression of the wt hnRNP A1. This is consistent with the subcellular localization patterns of the wt and mutant hnRNP A1 proteins. The overexpressed exogenous wt hnRNP A1 in DBT-A1 cells was predominantly localized in the nucleus, similar to the endogenous hnRNP A1 (Figure 1C). The C-terminal-deletion mutant, however, was localized mainly in the cytoplasm. Thus, the level of hnRNP A1\u0394C was much higher than the endogenous wt hnRNP A1 in the cytoplasm of DBT-A1\u0394C cells, where MHV replication occurs. This result explains why hnRNP A1\u0394C could have a strong dominant-negative inhibitory effect, despite the fact that it was expressed at a lower level than the endogenous hnRNP A1 (Figure 1B).",
+            "cite_spans": [],
+            "section": "Discussion",
+            "ref_spans": [
+                {
+                    "start": 465,
+                    "end": 466,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 880,
+                    "end": 881,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The effects of the expression of the wt and mutant hnRNP A1 on virus production (Figure 2B), viral protein synthesis (Figure 4A) and viral RNA synthesis (Figure 5A) correlated with each other. Furthermore, hnRNP A1\u0394C caused not only a global inhibition of genomic RNA replication and subgenomic mRNA transcription, but also a preferential inhibition of at least two DI RNA species. These results suggest that the inhibition of MHV replication by the hnRNP A1 mutant was most likely a direct effect on viral RNA synthesis rather than an indirect effect on other aspects of cellular or viral functions. Since hnRNP A1 binds directly to the cis-acting MHV RNA sequences critical for MHV RNA transcription (Li et al., 1997) and replication (P.Huang and M.M.C.Lai, unpublished results), it is most likely that hnRNP A1 may participate in the formation of the transcription/replication complex. Indeed, our data show that hnRNP A1 interacts directly or indirectly with the N protein and a gene 1 product, p22, both of which are probably associated with the viral transcription/replication complex (Compton et al., 1987; Wang and Zhang, 1999; Gibson Bost et al., 2000). hnRNP A1 may participate directly in viral RNA synthesis in a similar role to that of transcription factors in DNA-dependent RNA synthesis, e.g. by maintaining favorable RNA conformation for RNA synthesis. Alternatively, hnRNP A1 may modulate MHV RNA transcription or replication by participating in the processing, transport and controlling the stability of viral RNAs. It has been reported that RNA processing of retroviruses, human T-cell leukemia virus type 2 (Black et al., 1995) and HIV-1 (Black et al., 1996), is altered by the binding of hnRNP A1 to the viral RNA regulatory elements. It is also possible that hnRNP A1 may participate in MHV RNA synthesis indirectly by affecting the production of other host cell proteins, which may, in turn, regulate MHV RNA synthesis. Since hnRNP A1 is a dose-dependent alternative splicing factor (Caceres et al., 1994), even small changes in the intracellular level of hnRNP A1 can alter the splicing of other cellular proteins. Regardless of the mechanism, our study established the importance of cellular factors in viral RNA-dependent RNA synthesis.",
+            "cite_spans": [
+                {
+                    "start": 703,
+                    "end": 718,
+                    "mention": "Li et al., 1997",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1092,
+                    "end": 1112,
+                    "mention": "Compton et al., 1987",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1114,
+                    "end": 1134,
+                    "mention": "Wang and Zhang, 1999",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1136,
+                    "end": 1160,
+                    "mention": "Gibson Bost et al., 2000",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1628,
+                    "end": 1646,
+                    "mention": "Black et al., 1995",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1659,
+                    "end": 1677,
+                    "mention": "Black et al., 1996",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 2007,
+                    "end": 2027,
+                    "mention": "Caceres et al., 1994",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": [
+                {
+                    "start": 88,
+                    "end": 89,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 125,
+                    "end": 126,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 161,
+                    "end": 162,
+                    "mention": "5",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The transcription from 25CAT RNA was strongly inhibited by the dominant-negative mutant of hnRNP A1, as shown by CAT assays (Figure 6A). In addition, the replication of the naturally occurring A59 DI RNA and the artificial DIssE RNA was completely abolished (Figure 6B). Surprisingly, the replication of MHV DI RNAs suffered a stronger inhibition by the dominant-negative mutant of hnRNP A1 than the synthesis of MHV genomic and subgenomic RNAs, suggesting that DI RNA replication may be more dependent on hnRNP A1. Although DI RNAs contain all of the cis-acting replication signals that are essential for their replication in normal cells (Kim and Makino, 1995), the small size of DI RNA may cause it to require more hnRNP A1 to maintain a critical RNA structure. It has been shown that different DI RNAs require different cis-acting signals for RNA replication (Kim and Makino, 1995).",
+            "cite_spans": [
+                {
+                    "start": 641,
+                    "end": 661,
+                    "mention": "Kim and Makino, 1995",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 864,
+                    "end": 884,
+                    "mention": "Kim and Makino, 1995",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": [
+                {
+                    "start": 132,
+                    "end": 133,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 266,
+                    "end": 267,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Our results demonstrate that the C-terminal domain of hnRNP A1, including the M9 sequence and the glycine-rich region, is important for MHV RNA transcription and replication, but the mechanism of the dominant-negative effects of hnRNP A1\u0394C is still not clear. hnRNP A1\u0394C retains the RNA-binding and self-association ability and is capable of binding the viral proteins N and p22, which are associated with the transcription/replication complex. It is possible that hnRNP A1\u0394C is not productive due to its inability to interact with other viral or cellular proteins that are involved in MHV RNA synthesis. We have found a protein of \u223c250 kDa that binds only the wt, but not the mutant hnRNP A1 (Figure 7D). It remains to be shown whether this cellular protein is involved in MHV RNA synthesis.",
+            "cite_spans": [],
+            "section": "Discussion",
+            "ref_spans": [
+                {
+                    "start": 701,
+                    "end": 702,
+                    "mention": "7",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "In our preliminary study, we found that MHV could replicate in an erythroleukemia cell line, CB3, which was reported to lack detectable hnRNP A1 expression as a result of a retrovirus integration in one allele and loss of the other allele (Ben-David et al., 1992). Since hnRNP A1 protein is involved in a variety of important cellular functions, including RNA splicing, transport, turnover and translation, it is conceivable that other redundant gene products may substitute for the function of hnRNP A1 in CB3 cells. Indeed, UV-crosslinking assays using CB3 cell extracts detected two proteins comparable to hnRNP A1 in size that could interact with the MHV negative-strand leader RNA (data not shown). These proteins may represent hnRNP A1-related proteins, since many of such hnRNPs exist in the cells (Buvoli et al., 1988; Burd et al., 1989). Therefore, multiple cellular proteins may have the capacity to be involved in MHV RNA synthesis.",
+            "cite_spans": [
+                {
+                    "start": 240,
+                    "end": 262,
+                    "mention": "Ben-David et al., 1992",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 806,
+                    "end": 825,
+                    "mention": "Buvoli et al., 1988",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 827,
+                    "end": 844,
+                    "mention": "Burd et al., 1989",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Based on previous findings (Kim and Makino, 1995; Zhang and Lai, 1995; Li et al., 1997) and the results from this study, we propose a model for the regulation of transcription/replication of MHV RNA by hnRNP A1. We hypothesize that hnRNP A1 is one of the components of the MHV RNA transcription or replication complex, and the crosstalk between hnRNP A1 and another viral or cellular RNA-binding protein (designated X in Figure 8) is essential for MHV replication and transcription. The X protein binds to the C-terminus of hnRNP A1 and cooperates with hnRNP A1 to recruit more proteins to form the transcription or replication complex. The C-terminal-deletion mutant of hnRNP A1 loses the ability to interact with the X protein and to bring it into the initiation complex, resulting in an inhibition of MHV RNA transcription and replication. The residual replication and transcription activities of MHV RNA in the absence of functional hnRNP A1 may be due to a limited affinity of the X protein to a cis-acting signal that is only present in MHV genomic RNA (site B). On the other hand, DI RNAs may lack this cis-acting signal. When the crosstalk between the X protein and hnRNP A1 is abolished by the dominant-negative mutant of hnRNP A1, the X protein can no longer participate in the formation of the initiation complex, resulting in a complete loss of DI RNA replication.",
+            "cite_spans": [
+                {
+                    "start": 28,
+                    "end": 48,
+                    "mention": "Kim and Makino, 1995",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 50,
+                    "end": 69,
+                    "mention": "Zhang and Lai, 1995",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 71,
+                    "end": 86,
+                    "mention": "Li et al., 1997",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": [
+                {
+                    "start": 428,
+                    "end": 429,
+                    "mention": "8",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "In summary, our data provide direct experimental evidence that hnRNP A1 is involved directly or indirectly in MHV RNA synthesis, probably by participating in the formation of an RNA transcription/replication complex. This finding reveals a novel cytoplasmic function for hnRNP A1.",
+            "cite_spans": [],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "DBT cells, a mouse astrocytoma cell line (Hirano et al., 1974), were cultured in Eagle\u2019s minimal essential medium (MEM) supplemented with 7% newborn calf serum (NCS) and 10% tryptone phosphate broth. MHV strain A59 (Robb and Bond, 1979) was propagated in DBT cells and maintained in virus growth medium containing 1% NCS.",
+            "cite_spans": [
+                {
+                    "start": 42,
+                    "end": 61,
+                    "mention": "Hirano et al., 1974",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 216,
+                    "end": 235,
+                    "mention": "Robb and Bond, 1979",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "section": "Cells and viruses ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The cDNA of the murine hnRNP A1 gene was amplified by RT\u2013PCR using RNA extracted from DBT cells and a set of primers representing the 5\u2032- and 3\u2032-ends of hnRNP A1-coding region, and cloned into pcDNA3.1 (Invitrogen, Carlsbad, CA). The 8 amino acid Flag tag was attached to the N-terminus of hnRNP A1 by including the Flag tag in the forward PCR primer. The truncated hnRNP A1\u0394C was similarly constructed using a PCR-amplified fragment that represents hnRNP A1 (aa 1\u2013245).",
+            "cite_spans": [],
+            "section": "Plasmid construction and establishment of DBT stable cell lines ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "For the establishment of permanent DBT cell lines, pcDNA3.1 alone or the plasmid containing the Flag-tagged hnRNP A1 or hnRNP A1\u0394C was transfected into 60% confluent DBT cells using DOTAP according to the manufacturer\u2019s instructions (Boehringer Mannheim, Indianapolis, IN). After 4 h, the transfected cells were selected in DBT cell medium containing 0.5 mg/ml Geneticin (G418) (Omega Scientific, Tarzana, CA) for 10 days. Single colonies were then collected and cultured individually for 10 additional days before screening for the expression of Flag-tagged proteins.",
+            "cite_spans": [],
+            "section": "Plasmid construction and establishment of DBT stable cell lines ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The polyclonal rabbit antibody against p22 was a gift from Dr Susan C.Baker at Loyola University, IL. The chicken polyclonal antibody against hnRNP A1 was produced by Aves Labs, Inc. (Tigard, OR) by immunizing chickens with the purified mouse hnRNP A1 protein expressed in bacteria. The polyclonal anti-Flag antibody was purchased from Affinity Bioreagents (Golden, CO). The goat polyclonal antibody against actin was obtained from Santa Cruz Biotechnology (Santa Cruz, CA). The mouse monoclonal antibody against the N protein has been described previously (Fleming et al., 1983).",
+            "cite_spans": [
+                {
+                    "start": 558,
+                    "end": 578,
+                    "mention": "Fleming et al., 1983",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "section": "Antibodies ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Equal numbers (1 \u00d7 105) of DBT-VEC, DBT-A1 and DBT-A1\u0394C cells were plated in 10-cm culture plates and maintained in culture medium for 4 days. Cells were trypsinized, stained with Trypan Blue (Gibco-BRL, Grand Island, NY) and counted at 24-h intervals with a hemacytometer (Hausser Scientific, Horsham, PA).",
+            "cite_spans": [],
+            "section": "Examination of growth rate of permanent DBT cells ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "DBT cells in 10-cm plates were infected with MHV-A59 at an m.o.i. of 2. After 1 h for virus adsorption, the cells were washed three times with serum-free MEM, which was then replaced with virus growth medium containing 1% serum. At 1, 6, 8, 10, 14 and 24 h p.i., 1 ml of medium was taken from each plate for plaque assay.",
+            "cite_spans": [],
+            "section": "Plaque assay ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Cells plated in 6-well plates were infected with MHV-A59 at an m.o.i. of 2. At 1 h p.i., 5 \u00b5g/ml actinomycin D was added to the virus growth medium to inhibit cellular RNA synthesis. To label newly synthesized MHV RNA, 100 \u00b5Ci/ml of [3H]uridine (NEN, Boston, MA) were added to the medium at hourly intervals. After 1 h of labeling, the cells were washed twice in ice-cold PBS and scraped off the plates in 1 ml of PBS. The cells were then collected by centrifugation and incubated in 200 \u00b5l of NTE buffer (150 mM NaCl, 50 mM Tris pH 7.5, 1 mM EDTA) containing 0.5% NP-40, 0.5 mM dithiothreitol (DTT) and 400 U/ml of RNasin on ice for 15 min. After centrifugation, 5 \u00b5l of the cytoplasmic extract were spotted on a piece of 3 mm paper and incubated with 5% trichloroacetic acid (TCA). The radioactivity remaining on the 3 mm paper was measured in a scintillation counter.",
+            "cite_spans": [],
+            "section": "[3H]uridine labeling of MHV RNA ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "DBT cells were infected with MHV-A59 at an m.o.i. of 2. At 8, 16 and 24 h p.i., cytoplasmic extract was prepared as described above and subjected to phenol/chloroform extraction and ethanol precipitation to purify cytoplasmic RNA. Approximately 10 \u00b5g of RNA were separated by electrophoresis on a 1.2% formaldehyde-containing agarose gel and transferred to a nitrocellulose membrane. For a better resolution of the DIssE RNA (Figure 6B), RNA was glyoxalated before being electrophoresed on a 1% agarose gel. An in vitro transcribed, 32P-labeled negative-strand mRNA 7 of MHV-JHM was used as a probe to detect MHV genomic and subgenomic RNAs. For detecting DI RNA species, RNA blots were probed with an RNA representing a sequence complementary to the sequence of the 5\u2032-untranslated region of MHV-JHM RNA, but excluding the leader sequence.",
+            "cite_spans": [],
+            "section": "Northern blot analysis ::: Materials and methods",
+            "ref_spans": [
+                {
+                    "start": 433,
+                    "end": 434,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "DBT cells in 6-well plates were infected with MHV-A59 and cytoplasmic extracts were prepared as described previously (Li et al., 1997) at various time points p.i. The extracts were electrophoresed on a 12% polyacrylamide gel and transferred to a nitrocellulose membrane for western blotting.",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 133,
+                    "mention": "Li et al., 1997",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Western blot analysis ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Cells were washed in phosphate-buffered saline (PBS) and fixed in 4% formaldehyde for 20 min at room temperature, followed by 5 min in \u201320\u00b0C acetone. Primary antibodies were diluted in 5% bovine serum albumin and incubated with cells for 1 h at room temperature. After three washes in PBS, fluorescein-conjugated secondary antibodies were added to cells at 1:200 dilution for 1 h at room temperature. FITC- or TRITC-conjugated secondary antibodies were used to generate green or red fluorescence. Cells were then washed in PBS and mounted in Vectashield (Vector Laboratories, Burlingame, CA).",
+            "cite_spans": [],
+            "section": "Immunofluorescence staining ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "UV-crosslinking assay was performed as described previously (Huang and Lai, 1999). In brief, DBT cell extracts (30 \u00b5g protein), 200 \u00b5g/ml tRNA and 104 c.p.m. of an in vitro transcribed, 32P-labeled negative-strand MHV 5\u2032-end RNA (182 bp) were incubated for 10 min at 30\u00b0C. Increasing amounts of purified GST (0, 0.5, 1.5 and 5 ng) or recombinant GST\u2013hnRNP A1 fusion protein (0, 1, 3 and 10 ng) were included in the reaction to compete with the endogenous hnRNP A1 for binding. The reaction mixture was placed on ice and UV-irradiated in a UV Stratalinker 2400 (Stratagene) for 10 min, followed by digestion with 400 \u00b5g/ml RNase A for 15 min at 37\u00b0C. The protein\u2013RNA complexes were then separated on a 10% SDS\u2013polyacrylamide gel and visualized by autoradiography.",
+            "cite_spans": [
+                {
+                    "start": 61,
+                    "end": 80,
+                    "mention": "Huang and Lai, 1999",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "UV-crosslinking assay ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "GST pull-down was performed as described previously (Tu et al., 1999). In brief, GST\u2013hnRNP A1 fusion proteins on glutathione beads (Pierce, Rockford, IL) were incubated with the in vitro translated, 35S-labeled N protein in 0.3 ml of GST-binding buffer containing 0.1% NP-40 for 2 h at 4\u00b0C. The beads were washed five times with the GST-binding buffer containing 0.3% NP-40. Proteins bound to beads were eluted by boiling in Laemmli buffer for 5 min and separated on a 10% polyacrylamide gel.",
+            "cite_spans": [
+                {
+                    "start": 53,
+                    "end": 68,
+                    "mention": "Tu et al., 1999",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "section": "GST pull-down assay ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "DBT cells were infected with MHV-A59 at an m.o.i. of 2. The cells were incubated with methionine-free medium for 30 min before labeling and were labeled in 100 \u00b5Ci/ml [35S]methionine starting at 1.5, 7 or 24 h p.i. After labeling for 2 h at each time point, the cells were harvested for protein extraction as described previously (Li et al., 1997). The protein extracts were immunoprecipitated with anti-Flag antibody-conjugated beads (Sigma, St Louis, MO) in Tm10 buffer (50 mM Tris\u2013HCl pH 7.9, 0.1 M KCl, 12.5 mM MgCl2, 1 mM EDTA, 10% glycerol, 1 mM DTT, 0.1% NP-40, 1 mM phenylmethylsulfonyl fluoride) at 4\u00b0C for 2 h. The immunoprecipitates were washed and separated on a 4\u201315% gradient SDS\u2013polyacrylamide gel and visualized by autoradiography.",
+            "cite_spans": [
+                {
+                    "start": 331,
+                    "end": 346,
+                    "mention": "Li et al., 1997",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "[35S]methionine labeling and immunoprecipitation ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Plasmid 25CAT was linearized by XbaI and in vitro transcribed with T7 RNA polymerase to produce the DI RNA (Liao and Lai, 1994). The DI RNA was transfected into MHV-A59-infected DBT cells using DOTAP as described previously (Huang and Lai, 1999). In brief, \u223c80% confluent DBT cells were infected by MHV-A59 at an m.o.i. of 10. At 1 h p.i., the cells were transfected with 5 \u00b5g of in vitro transcribed DI RNA and incubated at 37\u00b0C for the desired lengths of time. To amplify the DI RNA, viruses (P0) were passaged twice in wt DBT cells to generate P1 and P2 viruses.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 126,
+                    "mention": "Liao and Lai, 1994",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 225,
+                    "end": 244,
+                    "mention": "Huang and Lai, 1999",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "DI RNA transcription and transfection ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Cells were harvested at 8 or 24 h p.i. and lysed by freezing and thawing for three times. After centrifugation at 12 000 r.p.m. for 10 min, the supernatant was used in a CAT assay as described previously (Lin et al., 1996).",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 221,
+                    "mention": "Lin et al., 1996",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "section": "CAT assay ::: Materials and methods",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Cell. Biol.",
+            "volume": "12",
+            "issn": "",
+            "pages": "4449-4455",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "131",
+            "issn": "",
+            "pages": "296-307",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell Sci.",
+            "volume": "110",
+            "issn": "",
+            "pages": "1325-1331",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "67",
+            "issn": "",
+            "pages": "7215-7222",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "74",
+            "issn": "",
+            "pages": "3379-3387",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "268",
+            "issn": "",
+            "pages": "8881-8887",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "272",
+            "issn": "",
+            "pages": "28732-28741",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "68",
+            "issn": "",
+            "pages": "941-950",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "269",
+            "issn": "",
+            "pages": "5377-5383",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Arch. Gesamte Virusforsch.",
+            "volume": "44",
+            "issn": "",
+            "pages": "298-302",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "73",
+            "issn": "",
+            "pages": "9110-9116",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "69",
+            "issn": "",
+            "pages": "6852-6858",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "66",
+            "issn": "",
+            "pages": "3339-3346",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "68",
+            "issn": "",
+            "pages": "2615-2623",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "69",
+            "issn": "",
+            "pages": "4963-4971",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "244",
+            "issn": "",
+            "pages": "1-12",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Adv. Virus Res.",
+            "volume": "48",
+            "issn": "",
+            "pages": "1-100",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "94",
+            "issn": "",
+            "pages": "9544-9549",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "68",
+            "issn": "",
+            "pages": "4727-4737",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "70",
+            "issn": "",
+            "pages": "7236-7240",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "72",
+            "issn": "",
+            "pages": "2265-2271",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "63",
+            "issn": "",
+            "pages": "5285-5292",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virus Genes",
+            "volume": "12",
+            "issn": "",
+            "pages": "275-285",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "65",
+            "issn": "",
+            "pages": "6031-6041",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "93",
+            "issn": "",
+            "pages": "2296-2301",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cold Spring Harb. Symp. Quant. Biol.",
+            "volume": "60",
+            "issn": "",
+            "pages": "663-668",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "70",
+            "issn": "",
+            "pages": "1173-1181",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "3",
+            "issn": "",
+            "pages": "1124-1134",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "355",
+            "issn": "",
+            "pages": "730-732",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "86",
+            "issn": "",
+            "pages": "985-994",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature Med.",
+            "volume": "6",
+            "issn": "",
+            "pages": "635-642",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "94",
+            "issn": "",
+            "pages": "352-370",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "91",
+            "issn": "",
+            "pages": "12770-12774",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "86",
+            "issn": "",
+            "pages": "9788-9792",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell Biol.",
+            "volume": "129",
+            "issn": "",
+            "pages": "551-560",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell Biol.",
+            "volume": "138",
+            "issn": "",
+            "pages": "1181-1192",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "32",
+            "issn": "",
+            "pages": "672-675",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "15",
+            "issn": "",
+            "pages": "7147-7155",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "263",
+            "issn": "",
+            "pages": "30-41",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "72",
+            "issn": "",
+            "pages": "6699-6709",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "265",
+            "issn": "",
+            "pages": "96-109",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF41": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Biochem. Biophys. Res. Commun.",
+            "volume": "232",
+            "issn": "",
+            "pages": "590-594",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF42": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell Sci.",
+            "volume": "108",
+            "issn": "",
+            "pages": "545-555",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF43": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "271",
+            "issn": "",
+            "pages": "4201-4208",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF44": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res.",
+            "volume": "16",
+            "issn": "",
+            "pages": "3751-3770",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF45": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "69",
+            "issn": "",
+            "pages": "1637-1644",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF46": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "68",
+            "issn": "",
+            "pages": "4738-4746",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF47": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "264",
+            "issn": "",
+            "pages": "115-124",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF48": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "265",
+            "issn": "",
+            "pages": "1706-1709",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF49": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "61",
+            "issn": "",
+            "pages": "1814-1820",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF50": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "97",
+            "issn": "",
+            "pages": "3913-3918",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF51": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Annu. Rev. Biochem.",
+            "volume": "62",
+            "issn": "",
+            "pages": "289-321",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

@@ -1,0 +1,714 @@
+{
+    "paper_id": "PMC293432",
+    "metadata": {
+        "title": "Air pollution and case fatality of SARS in the People's Republic of China: an ecologic study",
+        "authors": [
+            {
+                "first": "Yan",
+                "middle": [],
+                "last": "Cui",
+                "suffix": "",
+                "email": "yancui@ucla.edu",
+                "affiliation": {}
+            },
+            {
+                "first": "Zuo-Feng",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "email": "zfzhang@ucla.edu",
+                "affiliation": {}
+            },
+            {
+                "first": "John",
+                "middle": [],
+                "last": "Froines",
+                "suffix": "",
+                "email": "jfroines@ucla.edu",
+                "affiliation": {}
+            },
+            {
+                "first": "Jinkou",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "email": "jkzhao@hotmail.com",
+                "affiliation": {}
+            },
+            {
+                "first": "Hua",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "email": "jkzhao@hotmail.com",
+                "affiliation": {}
+            },
+            {
+                "first": "Shun-Zhang",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "email": "szyu@shmu.edu.cn",
+                "affiliation": {}
+            },
+            {
+                "first": "Roger",
+                "middle": [],
+                "last": "Detels",
+                "suffix": "",
+                "email": "detels@ucla.edu",
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Severe acute respiratory syndrome (SARS) is an emerging viral infectious disease, which has claimed 349 lives with 5,327 probable cases reported in mainland China since November 2002. [1,2] SARS case fatality has varied across geographical areas with higher fatality found in the northern areas of China. The SARS case fatalities of Beijing and Tianjin, two cities in the northern part of China, were 7.66% and 8%, respectively; while the case fatality rate of Guangdong, a province in the southern part of china was only 3.84%. Although sex ratio, age distribution, socioeconomic level, availability of health facilities, and clinical practices might be responsible for the geographical difference, air pollution could be an important determinant. Air pollution has been linked to acute respiratory inflammation, asthma attack, COPD exacerbation, and death from cardiorespiratory diseases by various studies. [3-6] In this study, the relationship between air pollution and SARS case fatality was explored via an ecologic study design.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 186,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 187,
+                    "end": 188,
+                    "mention": "2",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 911,
+                    "end": 912,
+                    "mention": "3",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 913,
+                    "end": 914,
+                    "mention": "6",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Background",
+            "ref_spans": []
+        },
+        {
+            "text": "Publicly accessible data on SARS morbidity and mortality were utilized in the study. [2] Case fatality was estimated by dividing the number of reported deaths by the number of probable cases. Air pollution was evaluated by air pollution index (API) provided by the Chinese National Environmental Protection Agency (CNEPA). [7] CNEPA calculated individual pollution indices for five major air pollutants including particulate matter (PM10), sulfur dioxide (SO2), and nitrogen dioxide (NO2), ground-level ozone (O3), and carbon monoxide (CO). The maximal individual pollution index was set as the comprehensive API for the monitoring area. In most of monitoring areas, PM10 was considered as a major pollutant. [7]",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 87,
+                    "mention": "2",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 324,
+                    "end": 325,
+                    "mention": "7",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 710,
+                    "end": 711,
+                    "mention": "7",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "API could be categorized into seven groups with 50, 100, 200, 300, 400, and 500 as the cut-off points. APIs less than 100 were thought healthy for general population. Since the majority of patients were diagnosed during April and May, the average of daily APIs collected within these months in each region was used for data analyses mainly. In addition, to evaluate potential influence of long-term exposure to air pollution on the case fatality rate, the average of APIs between June 2000 and October 2002 before SARS epidemic was also analyzed.",
+            "cite_spans": [],
+            "section": "Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Ecologic analysis was conducted to explore the correlation and association between air pollution during April and May 2003 and SARS case fatality. A linear model was fitted to the data among five regions with 100 cases or more. Furthermore, we conducted data analysis by grouping SARS patients into three exposure levels and evaluating short-term exposure (April-May 2003) and long-term exposure (June 2000-October 2002), respectively. The cut-off points were 75 and 100 API. Case fatalities of patients from regions with high APIs (API>100) and patients from regions with moderate APIs (75\u2013100) were compared to that of patients from regions with low APIs (API<75). Relative risks (RR) and 95% confidence intervals (CI) were calculated. Monotonic trend test with exposure scored as 1, 2, and 3 for each exposure group was also conducted to investigate whether case fatalities increased with the increase of APIs. All data analyses were performed in Statistical Analysis Software (SAS).",
+            "cite_spans": [],
+            "section": "Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "During the epidemic, 5,327 Chinese were diagnosed as SARS probable cases. Among them, 349 died from the disease and the rest recovered, which accounted for the case fatality of 6.55%. The average APIs ranged from 52 to 126 for different regions during April and May 2003. Ecologic analysis was conducted among 5 regions with 100 or more SARS cases (Guangdong, Shanxi, Hebei, Beijing, and Tianjin) to explore the relationship between air pollution and SARS case fatality. Inner Mongolia, which had 282 probable cases, was excluded from the analysis due to poor data quality reported by the Chinese Center for Disease Control. [8] 4,870 SARS cases occurred in these five regions, which represented 91.4% of all cases in China. The APIs of Guangdong, Shanxi, Hebei, Beijing, and Tianjin during April and May were 75, 95, 98, 99, and 104, and the corresponding fatality were 3.84%, 5.36%, 5.58%, 7.66% and 8%, respectively. Data were fitted to the linear model: case fatality = -0.063+0.001*API, showing case fatality rates increased with the increment of API. The correlation coefficient between air pollution index and SARS fatality was 0.8568 (p = 0.0636). (See figure 1)",
+            "cite_spans": [
+                {
+                    "start": 626,
+                    "end": 627,
+                    "mention": "8",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "section": "Results",
+            "ref_spans": [
+                {
+                    "start": 1168,
+                    "end": 1169,
+                    "mention": "1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "According to the air pollution data during April and May 2003, a total of 1,546 patients resided in regions with low APIs, 63 of whom died from SARS. Among 3,590 patients from regions with moderate APIs, 269 died from the disease. 17 out of 191 patients from regions with high APIs also died. The corresponding fatalities were 4.08%, 7.49% and 8.90%, respectively. SARS patients from regions with moderate APIs had an 84% increased risk of dying from SARS compared to those from regions with low APIs (RR = 1.84, 95% CI: 1.41\u20132.40). Similarly, SARS patients from regions with high APIs were twice as likely to die from SARS compared to those from regions with low APIs. (RR = 2.18, 95% CI: 1.31\u20133.65). The trend test showed that SARS case fatality increased with the increase of air pollution level (P for trend <0.001). (See Table 1)",
+            "cite_spans": [],
+            "section": "Results",
+            "ref_spans": [
+                {
+                    "start": 832,
+                    "end": 833,
+                    "mention": "1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "We also studied the effect of long-term average air pollution before SARS epidemic on SARS fatality. According to the air pollution data between June 2000 and October 2002, 67 out of 1,572 patients from regions with low APIs died from SARS. While, 35 out of 363 from regions with moderate APIs and 247 out of 3,392 from regions with high APIs died from SARS, respectively. The corresponding fatalities were 4.26%, 9.64% and 7.28%, respectively. The risk ratios comparing high and moderate API group to low API group were 1.71 (95%CI: 1.34\u20133.33) and 2.26 (95%CI: 1.53\u20133.35), respectively. The results showed that long-term exposure to air pollution was positively associated with SARS case fatality, even though there was no apparent trend. (See Table 2)",
+            "cite_spans": [],
+            "section": "Results",
+            "ref_spans": [
+                {
+                    "start": 751,
+                    "end": 752,
+                    "mention": "2",
+                    "ref_id": "TABREF1"
+                }
+            ]
+        },
+        {
+            "text": "Our analyses showed that air pollution was associated with increased risk of dying from SARS. The biological explanation might be that long-term or short-term exposure to certain air pollutants could compromise lung function, therefore increasing SARS fatality. Both long-term and short-term exposure to air pollution has been associated with a variety of adverse health effects including acute respiratory inflammation, asthma and COPD. [3-6,9] Air pollution may predispose the respiratory epithelium of SARS patients, leading to severe respiratory symptoms and an increased risk of deaths. The adverse effect of exposure to particulate matter less than 10 microns in aerodynamic diameter (PM10) has been studies extensively. [10] A study done in US on the long-term effects of air pollution showing that each 10 micrograms/m3 elevation in PM10 accounted for 6% of increased risk of cardiopulmonary mortality. [11] Exposure to PM10 was also linked to asthma and bronchitis. Data from CNEPA showed that PM10 was the major pollutant for most monitoring areas. [7] We hypothesized that exposure to air pollutants, such as particulate matters (PM10), might influence the prognosis of SARS and lead to increased risk of deaths.",
+            "cite_spans": [
+                {
+                    "start": 439,
+                    "end": 440,
+                    "mention": "3",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 441,
+                    "end": 442,
+                    "mention": "6",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 443,
+                    "end": 444,
+                    "mention": "9",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 728,
+                    "end": 730,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 912,
+                    "end": 914,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1060,
+                    "end": 1061,
+                    "mention": "7",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "This study was subject to several limitations. First, ecologic study designs were adopted in the study, which might be subject to ecologic fallacy. [12,13] Furthermore, we couldn't predict the direction and magnitude of the bias because of no access of the data at the individual level. Second, we had no data on the joint distribution between air pollution and potential confounders such as socioeconomic status, smoking status, age, and gender; therefore, no confounding effects could be evaluated or controlled for. The uneven application of dangerous therapy and difference in medical facilities by region might also account for the variation of case fatality. But they might not fully explain the observed association because the same therapies were recommended by the Chinese Health Ministry and CDC and followed by medical practitioners in the country. Data showed that cases from Beijing had relatively higher case fatality, although this capital city might have provided better medical support to SARS patients. Third, we assumed that air pollution was evenly distributed within each region so that we could use monitoring data colleted within each region as individual's surrogate exposure to ambient air pollutants. Exposure misclassification might have biased the study results due to the imprecise measurements. Nevertheless, this is the first observation showing that air pollution is associated with increased fatality of SARS patients in Chinese population, which deserves further investigation and might have certain impact on the study of SARS nature history.",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 151,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 152,
+                    "end": 154,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Our study demonstrated a positive association between levels of air pollution and SARS case fatality in Chinese population by analyzing SARS data and air pollution indices. Although the interpretation of this association remains uncertain, the possibility of a detrimental effect of air pollution on the prognosis of SARS patients deserves further investigation.",
+            "cite_spans": [],
+            "section": "Conclusion",
+            "ref_spans": []
+        },
+        {
+            "text": "SARS: Severe Acute Respiratory Syndrome",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "COPD: Chronic Obstructive Pulmonary Disease",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "API: Air Pollution Index",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "CNEPA: Chinese National Environmental Protection Agency",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "PM10: Particulate Matter",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "SO2: Sulfur Dioxide",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "NO2: Nitrogen Dioxide",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "CO: Carbon Monoxide",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "O3: Ozone",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "RR: Risk Ratio",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "CI: Confidence Interval",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "SAS: Statistical Analysis Software",
+            "cite_spans": [],
+            "section": "List of Abbreviations",
+            "ref_spans": []
+        },
+        {
+            "text": "None declared.",
+            "cite_spans": [],
+            "section": "Competing Interests",
+            "ref_spans": []
+        },
+        {
+            "text": "Yan Cui was responsible for data analysis, summarization of results, and manuscript preparation. Zuo-Feng Zhang took the overall responsibility in hypothesis generation, study design, data collection and analysis, and manuscript preparation. John Friones was involved in the generation of hypothesis, interpretation of results, and manuscript preparation. Jinkou Zhao and Hua Wang were involved in data collection and manuscript preparation. Shun-Zhang Yu was involved in generation of hypothesis and study design, and manuscript preparation. Roger Detels was involved in generation of hypothesis and study design, interpretation of results, and manuscript preparation.",
+            "cite_spans": [],
+            "section": "Authors' Contributions",
+            "ref_spans": []
+        },
+        {
+            "text": "The pre-publication history for this paper can be accessed here:",
+            "cite_spans": [],
+            "section": "Pre-publication history",
+            "ref_spans": []
+        },
+        {
+            "text": "",
+            "cite_spans": [],
+            "section": "Pre-publication history",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table 1: The Effect of Short-term Exposure to Air Pollution (April-May 2003) on the Risk of Dying from SARS in Chinese Population.\n",
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Table 2: The Effect of Long-term Exposure to Air Pollution (June 2000-October 2002) on the Risk of Dying from SARS in Chinese Population.\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1: The Correlation and Association between Short-term Exposure to Ambient Air Pollution and Case Fatality of SARS in People's Republic of China.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Cumulative Number of Reported Probable Cases of SARS (From: Nov 1st, 2002 To: August 7th, 2003) World Health Organization, Communicable Disease Surveillance & Response (CSR)",
+            "authors": [],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Epidemiological studies of the respiratory effects of air pollution",
+            "authors": [
+                {
+                    "first": "MD",
+                    "middle": [],
+                    "last": "Lebowitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Eur Respir J",
+            "volume": "9",
+            "issn": "",
+            "pages": "1029-54",
+            "other_ids": {
+                "DOI": [
+                    "10.1183/09031936.96.09051029"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "title": "Lung cancer, cardiopulmonary mortality, and long-term exposure to fine particulate air pollution",
+            "authors": [
+                {
+                    "first": "CA",
+                    "middle": [],
+                    "last": "Pope",
+                    "suffix": ""
+                },
+                {
+                    "first": "RT",
+                    "middle": [],
+                    "last": "Burnett",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Thun",
+                    "suffix": ""
+                },
+                {
+                    "first": "EE",
+                    "middle": [],
+                    "last": "Calle",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Krewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ito",
+                    "suffix": ""
+                },
+                {
+                    "first": "GD",
+                    "middle": [],
+                    "last": "Thurston",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "JAMA",
+            "volume": "287",
+            "issn": "",
+            "pages": "1132-41",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Effects of systematic exposure assessment errors in partially ecologic case-control studies",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bjork",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Stromberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Int J Epidemiol",
+            "volume": "31",
+            "issn": "",
+            "pages": "154-60",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/ije/31.1.154"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "title": "Commentary: Does the spectre of ecologic bias haunt Epidemiology?",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Webster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Int J Epidemiol",
+            "volume": "31",
+            "issn": "",
+            "pages": "161-2",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/ije/31.1.161"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "title": "Nationwide SARS statistics in China. Chinese Center for Disease Control and Prevention",
+            "authors": [],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Asthma attack periodicity: a study of hospital emergency visits in Vancouver",
+            "authors": [
+                {
+                    "first": "DV",
+                    "middle": [],
+                    "last": "Bates",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baker-Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sizto",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Environ Res",
+            "volume": "51",
+            "issn": "",
+            "pages": "51-70",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Particulate air pollution and daily mortality in Steubenville, Ohio",
+            "authors": [
+                {
+                    "first": "j",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "DW",
+                    "middle": [],
+                    "last": "Dockery",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Am J Epidemiol",
+            "volume": "135",
+            "issn": "",
+            "pages": "12-9",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Acute respiratory effects of particulate air pollution",
+            "authors": [
+                {
+                    "first": "DW",
+                    "middle": [],
+                    "last": "Dockery",
+                    "suffix": ""
+                },
+                {
+                    "first": "CA",
+                    "middle": [],
+                    "last": "Pope",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Annu Rev Public Health",
+            "volume": "15",
+            "issn": "",
+            "pages": "107-32",
+            "other_ids": {
+                "DOI": [
+                    "10.1146/annurev.pu.15.050194.000543"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "title": "Particulate air pollution and hospital emergency room visits for asthma in Seattle",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Slater",
+                    "suffix": ""
+                },
+                {
+                    "first": "TV",
+                    "middle": [],
+                    "last": "Larson",
+                    "suffix": ""
+                },
+                {
+                    "first": "WE",
+                    "middle": [],
+                    "last": "Pierson",
+                    "suffix": ""
+                },
+                {
+                    "first": "JQ",
+                    "middle": [],
+                    "last": "Koenig",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Am Rev Respir Dis",
+            "volume": "147",
+            "issn": "",
+            "pages": "826-31",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "Definition and Classification of Air Pollution Index (API). Chinese Environmental Protection Agency and the API data were obtained from",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Analytical Report of SARS Epidemic in China, 4/22-5/10, 2003",
+            "authors": [],
+            "year": null,
+            "venue": "Chinese CDC Report",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "The UCLA population studies of chronic obstructive respiratory disease. 9. Lung function changes associated with chronic exposure to photochemical oxidants; a cohort study among never-smokers",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Detels",
+                    "suffix": ""
+                },
+                {
+                    "first": "DP",
+                    "middle": [],
+                    "last": "Tashkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "JW",
+                    "middle": [],
+                    "last": "Sayre",
+                    "suffix": ""
+                },
+                {
+                    "first": "SN",
+                    "middle": [],
+                    "last": "Rokaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "AH",
+                    "middle": [],
+                    "last": "Coulson",
+                    "suffix": ""
+                },
+                {
+                    "first": "FJ",
+                    "middle": [],
+                    "last": "Massey",
+                    "suffix": "Jr"
+                },
+                {
+                    "first": "DH",
+                    "middle": [],
+                    "last": "Wegman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Chest",
+            "volume": "92",
+            "issn": "",
+            "pages": "594-603",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

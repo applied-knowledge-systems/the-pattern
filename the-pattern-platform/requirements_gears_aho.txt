@@ -1,0 +1,3 @@
+httpimport
+joblib
+git+https://github.com/WojciechMula/pyahocorasick@master#egg=pyahocorasick

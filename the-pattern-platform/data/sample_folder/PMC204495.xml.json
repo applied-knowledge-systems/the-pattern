@@ -1,0 +1,1408 @@
+{
+    "paper_id": "PMC204495",
+    "metadata": {
+        "title": "SseG, a virulence protein that targets Salmonella to the Golgi network",
+        "authors": [
+            {
+                "first": "Suzana",
+                "middle": [
+                    "P."
+                ],
+                "last": "Salcedo",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "W."
+                ],
+                "last": "Holden",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Salmonella enterica serovar Typhimurium (S.typhi murium) is a bacterial pathogen that invades and replicates within a membrane-bound compartment (Salmonella-containing vacuole; SCV) inside a variety of host cell types. The biogenesis and maturation of the SCV has been studied in detail in both macrophages and epithelial cells. Within a few minutes of bacterial entry, components of the early endocytic pathway, such as EEA1 and the transferrin receptor, are recruited to the SCV (early SCV; M\u00e9resse et al., 1999; Steele-Mortimer et al., 1999). These proteins are then gradually lost, and interactions between the SCV and late endosomal compartments lead to the progressive acquisition of the vacuolar ATPase and several lysosomal membrane proteins (lgps), such as LAMP1 (intermediate SCV; Garcia-del Portillo and Finlay, 1995; Rathman et al., 1997; M\u00e9resse et al., 1999; Steele-Mortimer et al., 1999). The late SCV represents the third stage of maturation which begins 3\u20134 h after invasion. It requires the intracellular synthesis of bacterial proteins and is characterized by the further recruitment of lgps and the initiation of Sif formation. Sifs are tubular structures enriched in lgps and which appear to be contiguous with the SCV (Garcia-del Portillo et al., 1993). However, the SCV does not accumulate significant amounts of the lysosomal enzymes that are normally delivered to a maturing phagolysosome by the cation-independent mannose-6-phosphate receptor (Garcia-del Portillo and Finlay, 1995; Rathman et al., 1997). Interactions between the SCV and the endocytic pathway are therefore selective, and this unique trafficking pathway creates an environment permissive for bacterial cell division, which begins after a lag period of 3\u20134 h after invasion (Garcia-del Portillo et al., 1993).",
+            "cite_spans": [
+                {
+                    "start": 493,
+                    "end": 513,
+                    "mention": "M\u00e9resse et al., 1999",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 515,
+                    "end": 543,
+                    "mention": "Steele-Mortimer et al., 1999",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 791,
+                    "end": 827,
+                    "mention": "Garcia-del Portillo and Finlay, 1995",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 829,
+                    "end": 849,
+                    "mention": "Rathman et al., 1997",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 851,
+                    "end": 871,
+                    "mention": "M\u00e9resse et al., 1999",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 873,
+                    "end": 901,
+                    "mention": "Steele-Mortimer et al., 1999",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1241,
+                    "end": 1273,
+                    "mention": "Garcia-del Portillo et al., 1993",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1470,
+                    "end": 1506,
+                    "mention": "Garcia-del Portillo and Finlay, 1995",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1508,
+                    "end": 1528,
+                    "mention": "Rathman et al., 1997",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1767,
+                    "end": 1799,
+                    "mention": "Garcia-del Portillo et al., 1993",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "Intracellular replication of S.typhimurium involves a large number of virulence proteins, including the type III secretion system (TTSS), encoded by the SPI-2 pathogenicity island (Ochman et al., 1996; Cirillo et al., 1998; Hensel et al., 1998). This TTSS translocates effector proteins into the vacuolar membrane and cytosol of the host cell. Several effectors have been identified in recent years, encoded both within and outside the pathogenicity island. SpiC is a SPI-2-encoded protein that prevents interactions between SCVs and endocytic compartments in macrophages (Uchiya et al., 1999). SifA is encoded outside SPI-2, and is required for maintenance of the vacuolar membrane, most likely by facilitating the recruitment and fusion of vesicles with the SCV (Beuz\u00f3n et al., 2000). SifA is also required for the formation of Sifs (Stein et al., 1996). SCV membrane dynamics are also influenced by the action of another effector, the predicted acyl transferase SseJ (Ruiz-Albert et al., 2002). Several other effectors have been described, but the functions of most of them are not understood (Waterman and Holden, 2003).",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 200,
+                    "mention": "Ochman et al., 1996",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 202,
+                    "end": 222,
+                    "mention": "Cirillo et al., 1998",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 224,
+                    "end": 243,
+                    "mention": "Hensel et al., 1998",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 573,
+                    "end": 592,
+                    "mention": "Uchiya et al., 1999",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 765,
+                    "end": 784,
+                    "mention": "Beuz\u00f3n et al., 2000",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 836,
+                    "end": 854,
+                    "mention": "Stein et al., 1996",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 971,
+                    "end": 995,
+                    "mention": "Ruiz-Albert et al., 2002",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1097,
+                    "end": 1122,
+                    "mention": "Waterman and Holden, 2003",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "While interactions between the SCV and markers of the endocytic pathway have been studied in depth, little is known about the spatial distribution of SCVs within infected cells and the potential relevance of this to bacterial multiplication. We show here that the majority of SCVs become surrounded by Golgi membranes 4 h after invasion of epithelial cells, a process that is dependent on the SPI-2 TTSS effector SseG. Mutational analysis of this protein identified a Golgi-targeting domain and defined further regions that are required for recruitment of SCVs to the Golgi network. The physiological relevance of Golgi targeting by Salmonella is demonstrated by the requirement of both SseG and an intact Golgi network for Salmonella replication. Therefore, SCV\u2013Golgi interactions represent a crucial stage in the intracellular life cycle of Salmonella.",
+            "cite_spans": [],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "To investigate the intracellular localization of Salmonella, HeLa epithelial cells were infected with GFP-expressing S.typhimurium and analysed by confocal immunofluorescence microscopy. Developing microcolonies usually comprised tight clusters of bacteria, positioned close to the nucleus (Figures 1A and 2A) and were often found closely associated with the Golgi network. Confocal X/Z reconstructions revealed that these microcolonies were partially or completely enveloped by Golgi membranes (Figure 1A; Supplementary figure S1 available at The EMBO Journal Online). This phenomenon was observed using antibodies against a variety of Golgi proteins, including giantin and Golgi matrix protein 130 (GM130) (Figure 1A and data not shown). Similar results were obtained using an antibody against TGN46, a glycoprotein localized primarily in the trans-Golgi network (TGN) (Figure 1B). In contrast, calreticulin, an endoplasmic reticulum (ER) luminal protein, was not associated with microcolonies. As expected (Steele-Mortimer et al., 1999), there was no association between bacteria and early or recycling endosomal markers, including EEA1 and the transferrin receptor (data not shown). At 8 h after invasion, 84 \u00b1 6% of microcolonies of GFP-expressing wild-type bacteria were associated with Golgi membranes. The labelled Golgi proteins were concentrated in the area around the developing microcolony, rarely between individual SCVs.",
+            "cite_spans": [
+                {
+                    "start": 1010,
+                    "end": 1038,
+                    "mention": "Steele-Mortimer et al., 1999",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "section": "Salmonella localizes to the Golgi network in epithelial cells ::: Results",
+            "ref_spans": [
+                {
+                    "start": 299,
+                    "end": 300,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 306,
+                    "end": 307,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 503,
+                    "end": 504,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 716,
+                    "end": 717,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 879,
+                    "end": 880,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To determine if Golgi proteins co-localized with LAMP1, a marker of the SCV membrane (M\u00e9resse et al., 1999; Beuz\u00f3n et al., 2002), infected cells were labelled with antibodies against LAMP1 and either giantin or TGN46. Neither Golgi protein was found to co-localize extensively with LAMP1 present on the vacuolar membrane, but frequent discrete points of co-localization were observed with both markers (arrowheads, Figure 1B). Neither COPI nor COPII coat proteins, which mediate vesicle formation within the secretory pathway, were recruited to the SCV membrane (data not shown). To determine whether SCV membranes were fused with Golgi membranes, infected HeLa cells were examined by transmission electron microscopy. SCVs were frequently found within 50\u2013100 nm of Golgi cisternae (Figure 1C), and in some cases less than 50 nm. However, there was no evidence of fusion between SCV and Golgi membranes in over 50 infected cells analysed.",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 106,
+                    "mention": "M\u00e9resse et al., 1999",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 108,
+                    "end": 127,
+                    "mention": "Beuz\u00f3n et al., 2002",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "section": "Salmonella localizes to the Golgi network in epithelial cells ::: Results",
+            "ref_spans": [
+                {
+                    "start": 422,
+                    "end": 423,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 790,
+                    "end": 791,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "In uninfected HeLa cells, the Golgi network has a relatively compact appearance (asterisk, Figure 2A). In contrast, by 8 h after infection, the morphology of the network was frequently distorted, with the bacterial microcolony in the centre, suggesting that Golgi membranes are displaced by the presence of the growing microcolony (Figure 1A and arrowhead, Figure 2A). Association of S.typhimurium with the Golgi network was also observed in the human small intestinal epithelial cell line INT 407, but not in RAW 264.7 or elicited peritoneal murine macrophages, where replicating bacteria were frequently perinuclear, but neither associated in tight clusters nor surrounded by Golgi membranes (data not shown).",
+            "cite_spans": [],
+            "section": "Salmonella localizes to the Golgi network in epithelial cells ::: Results",
+            "ref_spans": [
+                {
+                    "start": 98,
+                    "end": 99,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 339,
+                    "end": 340,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 364,
+                    "end": 365,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "We next investigated whether bacterial virulence proteins that are released intracellularly are involved in Salmonella\u2013Golgi interactions. HeLa cells were infected with different mutant strains, then fixed and analysed by confocal microscopy for bacterial association with the Golgi network. SCVs were considered Golgi-associated if they were at least partially surrounded by Golgi membranes. The percentage of wild-type bacteria associated with the Golgi steadily increased to \u223c80% over a 10 h period. However, a strain carrying a mutation in ssaV, which is defective for secretion of all SPI-2 TTSS effector proteins, had a significantly reduced level of association with the Golgi network; <20% of bacteria were associated with the Golgi at any time during the experiment (Figure 2A and B). Although ssaV mutant bacteria remained predominantly perinuclear, in contrast to the wild-type strain they displayed a scattered distribution (Figure 2A). No differences were observed between the wild-type and strains carrying mutations in phoP or spvB (data not shown), two virulence loci that are involved in growth of Salmonella in macrophages (Holden, 2002). To identify the SPI-2 effector responsible for this phenotype, strains carrying mutations in genes encoding different SPI-2-translocated proteins were examined. Whereas sseJ and sseI mutant strains were indistinguishable from the wild-type, an sseG mutant strain had a phenotype similar to that of the ssaV mutant (Figure 2A and C). The Golgi-targeting defect of the sseG mutant could be attributed to a lack of SseG because a plasmid containing the wild-type sseG allele restored association with the Golgi to the level of the wild-type strain (Figure 2C). Inactivation of SseG leads to a replication defect in macrophages and moderate virulence attenuation in the mouse model of systemic salmonellosis (Hensel et al., 1998). SseG is predicted to have at least two transmembrane domains; its primary amino acid sequence displays no significant similarities to protein database entries, apart from a 31% similarity to SseF, which is encoded immediately downstream of sseG (Hensel et al., 1998).",
+            "cite_spans": [
+                {
+                    "start": 1142,
+                    "end": 1154,
+                    "mention": "Holden, 2002",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1862,
+                    "end": 1881,
+                    "mention": "Hensel et al., 1998",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 2130,
+                    "end": 2149,
+                    "mention": "Hensel et al., 1998",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "Association with the Golgi requires the SPI-2 TTSS effector SseG ::: Results",
+            "ref_spans": [
+                {
+                    "start": 783,
+                    "end": 784,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 944,
+                    "end": 945,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1479,
+                    "end": 1480,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1710,
+                    "end": 1711,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "An antibody against a C-terminal peptide of SseG was used to examine the intracellular distribution of the protein. Intense labelling was typically observed outlining part of the bacterial microcolony, and also in peripheral punctate structures (Figure 3A and B). SseG co-localized with LAMP1 in the SCV membrane and on Sifs (Figure 3B). This observation is consistent with the localization of an M45 peptide-tagged version of SseG (Kuhle and Hensel, 2002). However, the peripheral SseG-positive, punctate structures did not co-localize with LAMP1. They were found mostly within the immediate vicinity of the Golgi network and occasionally co-localized with both cis-Golgi and TGN markers (arrowheads, Figure 3C).",
+            "cite_spans": [
+                {
+                    "start": 433,
+                    "end": 455,
+                    "mention": "Kuhle and Hensel, 2002",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "Association with the Golgi requires the SPI-2 TTSS effector SseG ::: Results",
+            "ref_spans": [
+                {
+                    "start": 253,
+                    "end": 254,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 333,
+                    "end": 334,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 709,
+                    "end": 710,
+                    "mention": "3",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To establish if SseG contributes to growth of S.typhimurium in epithelial cells, intracellular replication assays were carried out. The numbers of wild-type and complemented sseG mutant strains underwent an \u223c50-fold increase over a 14 h period. In contrast, the sseG mutant numbers increased by <10-fold over the same time period, a replication defect similar to that of the ssaV mutant (Figure 4A). Since SseG is required for both Golgi localization of bacteria and intracellular replication, we hypothesized that the Golgi network might be exploited by Salmonella for its replication. Therefore, the number of wild-type bacteria in Golgi-associated microcolonies was compared over time with those located elsewhere in the cell by microscopic examination. There was no significant increase in numbers of bacteria not associated with the Golgi network, whereas the numbers of Golgi-associated bacteria underwent a significant increase over a 9 h period (Figure 4B). This result suggests that bacterial replication is restricted to those associated with the Golgi.",
+            "cite_spans": [],
+            "section": "SseG and an intact Golgi network are required for replication of Salmonella in epithelial cells ::: Results",
+            "ref_spans": [
+                {
+                    "start": 395,
+                    "end": 396,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 961,
+                    "end": 962,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To test the requirement for an intact Golgi network in intracellular growth of Salmonella, cells were treated 15 min after bacterial invasion with Brefeldin A (BFA). BFA inhibits nucleotide exchange on the small GTPase ADP-ribosylating factor (Arf1), which is required for formation of COPI coated vesicles (Chardin and McCormick, 1999). As a result, the Golgi network rapidly redistributes into the ER (Lippincott-Schwartz et al., 1989). BFA strongly inhibited intracellular growth of wild-type S.typhimurium, but had little effect on numbers of ssaV mutant bacteria (Figure 4C). However, BFA had no noticeable effect on markers of the maturation and trafficking of the SCV, such as LAMP1 recruitment and cathepsin D exclusion (data not shown). Therefore, the effects of BFA appear to be independent of the selective interactions between SCVs and the late endocytic pathway. As a further test for the requirement of a functional Golgi network in S.typhimurium replication, bacteria were examined in HeLa cells expressing Arf1T31N-GFP, a dominant interfering variant of Arf1 (Dascher and Balch, 1994). A significant reduction in intracellular bacterial numbers was observed at 12 h after invasion, compared with bacterial replication in cells expressing GFP alone (Figure 4D). Sar1 is another small GTPase, involved in COPII-mediated vesicle formation, and its inhibition by constitutively inactive Sar1T39N prevents the formation of early secretory vesicles at ER exit sites (Ward et al., 2001). Bacterial replication was also severely inhibited in cells expressing this mutant protein (Figure 4D). Expression of Arf1T31N-GFP or Sar1T39N had no effect on bacterial internalization (Supplementary table S1). Together, these experiments establish that an intact and functional Golgi network is required for intracellular replication of S.typhimurium.",
+            "cite_spans": [
+                {
+                    "start": 308,
+                    "end": 335,
+                    "mention": "Chardin and McCormick, 1999",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 404,
+                    "end": 436,
+                    "mention": "Lippincott-Schwartz et al., 1989",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1076,
+                    "end": 1099,
+                    "mention": "Dascher and Balch, 1994",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1477,
+                    "end": 1494,
+                    "mention": "Ward et al., 2001",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "section": "SseG and an intact Golgi network are required for replication of Salmonella in epithelial cells ::: Results",
+            "ref_spans": [
+                {
+                    "start": 576,
+                    "end": 577,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1272,
+                    "end": 1273,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1595,
+                    "end": 1596,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To gain further insight into the function of SseG, an epitope-tagged version of the protein (myc::SseG) was expressed in HeLa cells. The protein was concentrated in a perinuclear region, where it co-localized extensively with Golgi markers including giantin (data not shown) and TGN46 (Figure 5A). To verify that myc::SseG was localized to the Golgi network, transfected cells were incubated with BFA for 1 h, and either fixed immediately or washed in medium lacking BFA, and incubated for a further 1 h. In all transfected cells, BFA caused extensive redistribution of myc::SseG throughout the cell, where most of it co-localized with dispersed TGN46 (Figure 5A). Following BFA wash-out, TGN46 moved back to its original perinuclear position and was accompanied by myc::SseG (Figure 5A). Subcellular fractionation of transfected cells and immunoblotting showed that SseG localized to the membrane fraction, as expected for a predicted integral membrane protein (data not shown). In transfected cells that strongly overexpressed myc::SseG, the Golgi network was disrupted. However, expression of other Salmonella SPI-2 secreted proteins, including two with predicted membrane-spanning domains (myc::SseC and myc::SseD), did not result in localization to the Golgi or perturbation of its structure (data not shown).",
+            "cite_spans": [],
+            "section": "SseG is a Golgi-targeting protein ::: Results",
+            "ref_spans": [
+                {
+                    "start": 293,
+                    "end": 294,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 660,
+                    "end": 661,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 784,
+                    "end": 785,
+                    "mention": "5",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The distribution of myc::SseG within the Golgi network was further analysed by confocal microscopy using Golgi markers. Cells expressing myc::SseG also showed some co-localization with the cis-Golgi protein giantin. However, triple labelling with both cis-Golgi and TGN markers showed that there was a greater degree of co-localization between myc::SseG and TGN46 than with giantin (Figure 5B). Expression of myc::SseG and p58-GFP, a protein of the ER-Golgi intermediate compartment, did not result in their co-localization (data not shown).",
+            "cite_spans": [],
+            "section": "SseG is a Golgi-targeting protein ::: Results",
+            "ref_spans": [
+                {
+                    "start": 390,
+                    "end": 391,
+                    "mention": "5",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Golgi membrane tubulation induced by BFA results in rapid redistribution of the cis-Golgi network into the ER (Lippincott-Schwartz et al., 1990). Although the TGN also undergoes tubulation, these tubules do not interact with the ER but instead fuse with compartments of the early endosomal network (Lippincott-Schwartz et al., 1991; Wood and Brown, 1992). To confirm that myc::SseG localizes preferentially to the TGN, the kinetics of redistribution of myc::SseG were analysed after treatment with BFA. HeLa cells expressing myc::SseG were incubated with BFA and fixed for immunofluorescence microscopy at short time intervals thereafter. At 2 and 4 min after BFA treatment no significant tubulation of the cis-Golgi was observed. However, at the same time points, myc::SseG was found on tubulating membranes that also contained TGN46 (data not shown). From 6 to 10 min after BFA treatment, myc::SseG was still detected in tubular structures containing TGN46 but did not co-localize significantly with giantin-containing tubules (Figure 5C). As expected, a significant proportion of SseG also co-localized with the early endosomal marker EEA1 (Supplementary figure S2). By 14 min, the majority of giantin was redistributed in the ER whereas myc::SseG remained on TGN46-containing tubules (data not shown). Although the two proteins did not co-localize completely on tubules (arrowheads, Figure 5C), the kinetics of tubulation of compartments containing myc::SseG and TGN46 were indistinguishable.",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 143,
+                    "mention": "Lippincott-Schwartz et al., 1990",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 299,
+                    "end": 331,
+                    "mention": "Lippincott-Schwartz et al., 1991",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 333,
+                    "end": 353,
+                    "mention": "Wood and Brown, 1992",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "section": "SseG is a Golgi-targeting protein ::: Results",
+            "ref_spans": [
+                {
+                    "start": 1037,
+                    "end": 1038,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1394,
+                    "end": 1395,
+                    "mention": "5",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Depolymerization of microtubules with nocodazole causes slow dispersal of the Golgi complex (Cole et al., 1996). Short stacked cisternae assemble slowly at peripheral sites to form small structures that closely resemble intact Golgi stacks (Thyberg and Moskalewski, 1999). Cells expressing myc::SseG were treated with nocodazole for 5 h and then analysed by labelling myc::SseG with either giantin or TGN46. There was little co-localization between myc::SseG and giantin, but a significant degree of co-localization of myc::SseG and TGN46 was observed in many of the scattered Golgi structures (Figure 5D). Triple labelling with anti-myc, anti-giantin and anti-TGN46 antibodies revealed that some of the peripheral structures containing myc::SseG were negative for both the cis-Golgi and TGN markers (data not shown). Collectively, these experiments show that a significant proportion of SseG localizes specifically to the TGN when expressed ectopically in HeLa cells.",
+            "cite_spans": [
+                {
+                    "start": 93,
+                    "end": 110,
+                    "mention": "Cole et al., 1996",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 241,
+                    "end": 270,
+                    "mention": "Thyberg and Moskalewski, 1999",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "section": "SseG is a Golgi-targeting protein ::: Results",
+            "ref_spans": [
+                {
+                    "start": 602,
+                    "end": 603,
+                    "mention": "5",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "SseG has two strongly predicted transmembrane domains (TMDs), designated HR1 and HR2, and a third hydrophobic region (HR3) that could also constitute a TMD (Figure 6A). In addition, the N-terminal region is unusual in that 9 of the first 31 amino acids are prolines. To identify the region(s) of SseG that confer its localization to the Golgi, a series of myc-tagged truncated versions was constructed and expressed in HeLa cells after transfection. Progressive deletions from the N- and C-termini (\u03941, \u03942, \u03943, \u03944, \u03945, \u03946, \u03947) identified a 55 amino acid region including HR2 that is necessary and sufficient for Golgi targeting of SseG (Figure 6B). Removal of either HR2 (\u03949, \u039410, \u039411) or the region between HR2 and HR3 (\u03948) resulted in a complete loss of Golgi targeting and the mutant proteins were instead redistributed in a punctate manner throughout the cell (Figure 6B and C). Therefore, information in the second TMD and its carboxy-flanking region are required for Golgi targeting. Sequence comparisons between this domain and known eukaryotic and viral Golgi-targeting sequences have failed to reveal any significant similarities.",
+            "cite_spans": [],
+            "section": "The Golgi-targeting domain of SseG ::: Results",
+            "ref_spans": [
+                {
+                    "start": 164,
+                    "end": 165,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 644,
+                    "end": 645,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 872,
+                    "end": 873,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The results described above show that SseG is required for the association between SCVs and the Golgi network, and that this protein has a novel Golgi-targeting signal. Therefore, one can predict that additional information must be present within SseG that localizes SCVs to the Golgi network.",
+            "cite_spans": [],
+            "section": "Topology of SseG and regions required for bacterial association with the Golgi ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "To identify regions of SseG that are exposed on the cytoplasmic face of Golgi membranes, we determined the membrane topology of SseG. HeLa cells expressing myc-tagged SseG were first incubated with digitonin (which renders the plasma membrane permeable to large molecules but which does not alter the integrity of secretory pathway compartments; Plutner et al., 1992), then labelled with anti-myc or anti-SseG antibodies in the absence of detergent. The myc epitope serves as a marker for the N-terminus of SseG and the anti-SseG antibody recognizes the C-terminus of the protein. An antibody against a luminal epitope of galactosyltransferase (GalT) was used as a control for the integrity of Golgi membranes. Following exposure of cells to digitonin, Golgi-associated SseG was readily detected by the anti-myc and anti-SseG antibodies. However, there was no labelling of GalT unless the cells were exposed to Triton X-100, which is a non-specific membrane permeabilizing detergent. Co-labelling of GalT and SseG revealed extensive co-localization of the two proteins (Figure 7A).",
+            "cite_spans": [
+                {
+                    "start": 346,
+                    "end": 366,
+                    "mention": "Plutner et al., 1992",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "section": "Topology of SseG and regions required for bacterial association with the Golgi ::: Results",
+            "ref_spans": [
+                {
+                    "start": 1077,
+                    "end": 1078,
+                    "mention": "7",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "From this experiment we conclude that both N- and C-terminal domains of Golgi-associated SseG are exposed on the cytoplasmic face of the membrane. It follows that SseG contains only two TMDs, which are most likely HR1 and HR2. Therefore, either or both N- and C-terminal regions of the protein might be involved in localizing SCVs to the Golgi network. To test this, variants of SseG were expressed in HeLa cells and assayed for their ability to restore association of the sseG mutant strain with the Golgi network. First, cells were transfected with a construct expressing full-length myc::SseG, then infected with GFP-expressing wild-type or sseG mutant bacteria for 10 h, and examined for bacterial localization. Expression of myc::SseG or mutant versions did not affect the ability of wild-type bacteria to localize efficiently to the Golgi network (Figure 7B), indicating that these proteins did not exert a dominant-negative effect on Golgi targeting by wild-type bacteria. Ectopically expressed myc::SseG restored Golgi localization of the sseG mutant strain to the level seen with the wild-type strain (Figure 7B). Expression of mutants \u03948 and \u039410, which were not Golgi associated, did not rescue Golgi localization to the sseG mutant. However, mutants \u03941, \u03944 and \u03946, which were efficiently Golgi-localized (Figure 6B), also failed to rescue the sseG mutant phenotype (Figure 7B). These results demonstrate that in addition to a requirement for the Golgi-targeting region of SseG, information in both the C- and N-terminal regions of the protein is required for the interaction between SCVs and the Golgi network. To determine if other SPI-2 effectors might be involved in Golgi-targeting, myc::SseG was tested for its ability to restore Golgi localization of ssaV (SPI-2 null mutant) bacteria. In contrast to the sseG mutant, Golgi localization of the ssaV mutant could not be rescued by ectopic expression of SseG (Figure 7B). This result suggests that other SPI-2 translocated effectors contribute to the process of Salmonella localization to the Golgi network.",
+            "cite_spans": [],
+            "section": "Topology of SseG and regions required for bacterial association with the Golgi ::: Results",
+            "ref_spans": [
+                {
+                    "start": 861,
+                    "end": 862,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1118,
+                    "end": 1119,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1323,
+                    "end": 1324,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1384,
+                    "end": 1385,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1932,
+                    "end": 1933,
+                    "mention": "7",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "After invasion of epithelial cells by Salmonella, the SCV begins to migrate to the perinuclear region, and undergoes three stages of maturation, which reflect selective interactions with the endocytic pathway of the host cell (Steele-Mortimer et al., 1999). In this work we have shown that these events are followed by a further, crucial phase of development, in which SCVs interact with the Golgi network through the action of SseG. Since this stage involves bacterial replication, we refer to it as the replicative SCV. Therefore, maturation of the SCV proceeds not only by progressive and selective interactions with the endocytic pathway but also in terms of the spatial distribution of SCVs in the host cell, and their interaction with the secretory pathway. A model of SCV trafficking in relation to its intracellular localization is shown in Figure 7C.",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 255,
+                    "mention": "Steele-Mortimer et al., 1999",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "section": "SCV maturation and association with the Golgi ::: Discussion",
+            "ref_spans": [
+                {
+                    "start": 856,
+                    "end": 857,
+                    "mention": "7",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Physical continuities between SCV and Golgi membranes were not observed at the ultrastructural level, but it seems likely that transient interactions must occur, since intracellular bacterial replication can be inhibited either by perturbation of Golgi function, or by mutation of sseG, which prevents SCVs from localizing to the Golgi network. The close apposition of SCVs and Golgi membranes, and an associated membrane fusion machinery, could enable transient fusion events between Golgi-derived vesicles and SCVs, resulting in the acquisition of molecules required for Salmonella replication. Since expression of SseG in HeLa cells led to its concentration in the TGN, it seems likely that these vesicles are derived from late Golgi compartments.",
+            "cite_spans": [],
+            "section": "SCV maturation and association with the Golgi ::: Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "In HeLa cells, vacuoles containing Chlamydia spp. (inclusion bodies) become fusogenic with sphingomyelin-containing exocytic vesicles that traffic between the TGN and the plasma membrane. Incorporation of Golgi-derived lipids is thought to provide a mechanism for growth and maintenance of the Chlamydia inclusion membrane (Hackstadt et al., 1997). Therefore it is possible that SseG could mediate a similar function in acquiring lipids for the SCV membrane. BFA treatment of Chlamydia-infected cells leads to smaller, morphologically abnormal inclusions, but does not affect bacterial multiplication (Hackstadt et al., 1996). In contrast, BFA had no effect on the integrity or morphology of the SCV membrane, as judged by LAMP1 labelling (data not shown), but strongly inhibited Salmonella replication. Furthermore, Chlamydia inclusions do not interact with endocytic organelles (Wyrick, 2000), whereas the SPI-2 effector SifA has a major role in the recruitment and probably fusion of lgp-containing vesicles to the SCV membrane (Ruiz-Albert et al., 2002). Indeed, mutation of sifA results in a strain that cannot maintain the physical integrity of its vacuolar membrane (Beuz\u00f3n et al., 2000). Therefore Salmonella appears to exploit late endocytic organelles as a source of membrane that is required to enclose replicating bacteria, and it seems more likely that interactions between SCVs and the Golgi satisfy a nutritional requirement, for example by providing carbon and/or nitrogen sources which are necessary for bacterial replication.",
+            "cite_spans": [
+                {
+                    "start": 324,
+                    "end": 346,
+                    "mention": "Hackstadt et al., 1997",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 602,
+                    "end": 624,
+                    "mention": "Hackstadt et al., 1996",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 881,
+                    "end": 893,
+                    "mention": "Wyrick, 2000",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1032,
+                    "end": 1056,
+                    "mention": "Ruiz-Albert et al., 2002",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1174,
+                    "end": 1193,
+                    "mention": "Beuz\u00f3n et al., 2000",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "section": "SCV maturation and association with the Golgi ::: Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Two lines of evidence show that the SPI-2 TTSS effector protein SseG and its Golgi-targeting region are necessary for S.typhimurium association with the Golgi network. First, sseG mutant bacteria fail to localize to the Golgi network of infected cells. Second, this defect can be rescued efficiently by ectopic expression of full-length SseG in infected cells, but not by a version lacking the Golgi-targeting domain. In infected cells, SseG was found associated with SCVs and in peripheral punctate structures, which occasionally co-localized with Golgi markers. How then does translocated SseG account for bacterial association with the Golgi? Apart from its Golgi-targeting region, both the proline-rich N-terminal domain and information in the C-terminal 51 amino acids contribute to the localization of SCVs to the Golgi network. Furthermore, localization of sseG mutant but not SPI-2 null mutant bacteria to the Golgi can be rescued by the ectopic expression of SseG in HeLa cells. These results suggest the existence of another SPI-2 effector that functions together with SseG to mediate Golgi localization of SCVs. Alternatively the null mutant may be defective in earlier unrelated processes of vacuole maturation, on which SseG function is dependent. Translocated SseG might interact with its target membrane via the Golgi-targeting domain, and to another effector through its N- or C-terminal regions. It is possible that SseG is a component of a multiprotein complex that mediates interactions between SCVs and Golgi membranes.",
+            "cite_spans": [],
+            "section": "Role of SseG in bacterial association with the Golgi ::: Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "A variety of proteins are targeted to Golgi membranes by their TMDs. These include integral membrane glycosyltransferases and several viral proteins. For example, the M protein of the coronavirus mouse hepatitis virus, which targets the TGN, has one signal in its TMD and a second signal in the cytoplasmic tail (Gleeson, 1998). In the M protein of the avian coronavirus infectious bronchitis virus, the first of three TMDs contains the signal that targets the protein to the Golgi network (Gleeson, 1998). However, no similarity between SseG and either eukaryotic or prokaryotic Golgi targeting sequences has been found. Therefore the Golgi-targeting signal present within amino acids 88 and 142 of SseG appears to be novel.",
+            "cite_spans": [
+                {
+                    "start": 313,
+                    "end": 326,
+                    "mention": "Gleeson, 1998",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 491,
+                    "end": 504,
+                    "mention": "Gleeson, 1998",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "Role of SseG in bacterial association with the Golgi ::: Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Interestingly, SseG has also been reported to be present on, and required for the formation of, Sifs (Guy et al., 2000; Kuhle and Hensel, 2002). However, this process is likely to be independent of its interactions with the Golgi network, as BFA treatment does not prevent Sif formation (Brumell et al., 2001; data not shown). Therefore, SseG might perform more than one function in the maturation of SCVs.",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 118,
+                    "mention": "Guy et al., 2000",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 120,
+                    "end": 142,
+                    "mention": "Kuhle and Hensel, 2002",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 288,
+                    "end": 308,
+                    "mention": "Brumell et al., 2001",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "section": "Role of SseG in bacterial association with the Golgi ::: Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Although it is clear that the Salmonella SPI-2 TTSS plays an important role in intracellular replication of bacteria in epithelial cells (Cirillo et al., 1998; Bispham et al., 2001; Beuz\u00f3n et al., 2002; Paesold et al., 2002; this study) the functions of SPI-2 have been mainly studied in macrophages, which are colonized during the systemic phase of the disease in mice (Holden, 2002). Microscopic examination of S.typhimurium in primary and RAW 264.7 macrophages failed to reveal significant association of SCVs with the Golgi network. However, other evidence indicates that S.typhimurium\u2013Golgi interactions might be relevant in macrophages. First, the virulence of the sseG mutant strain is attenuated in the murine model of infection (Hensel et al., 1998). Second, the sseG mutant strain has a replication defect in RAW 264.7 macrophages (Hensel et al., 1998), and in primary peritoneal macrophages (data not shown). Third, treatment of infected macrophages with BFA significantly inhibited S.typhimurium replication (Supplementary figure S3). Therefore, it seems probable that S.typhimurium does interact with the Golgi network in macrophages, but in a way that does not involve clustering of bacterial microcolonies within Golgi membranes.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 158,
+                    "mention": "Cirillo et al., 1998",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 160,
+                    "end": 180,
+                    "mention": "Bispham et al., 2001",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 182,
+                    "end": 201,
+                    "mention": "Beuz\u00f3n et al., 2002",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 203,
+                    "end": 223,
+                    "mention": "Paesold et al., 2002",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 371,
+                    "end": 383,
+                    "mention": "Holden, 2002",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 738,
+                    "end": 757,
+                    "mention": "Hensel et al., 1998",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 842,
+                    "end": 861,
+                    "mention": "Hensel et al., 1998",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "Role of SseG in Salmonella virulence ::: Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "It is well established that in epithelial cells, maturation of the SCV is dependent on a series of selective interactions with the endocytic pathway. The major conclusion to emerge from the work described here is that while these interactions are necessary for bacterial survival, they are not sufficient for intracellular replication: this requires SCV interactions with the secretory pathway. The identification of SseG as a Golgi-targeting virulence protein provides the basis for further investigation into the mechanisms by which this pathogen replicates in host cells, could provide insights into the normal functioning of the Golgi network and might ultimately offer novel approaches to inhibit bacterial growth in host cells.",
+            "cite_spans": [],
+            "section": "Role of SseG in Salmonella virulence ::: Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The S.typhimurium strains used in this study were the wild-type 12023s, and its isogenic mutant derivatives: ssaV::aphT (Deiwick et al., 1998), sseG::aphT (Hensel et al., 1998) sseI::pGP704 (Ruiz-Albert et al., 2002) and \u0394sseJ (Ruiz-Albert et al., 2002). Bacteria were grown in Luria Bertani (LB) medium supplemented with ampicillin (50 \u00b5g/ml), kanamycin (50 \u00b5g/ml) or chloramphenicol (35 \u00b5g/ml) for plasmid-containing strains, as appropriate.",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 141,
+                    "mention": "Deiwick et al., 1998",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 156,
+                    "end": 175,
+                    "mention": "Hensel et al., 1998",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 191,
+                    "end": 215,
+                    "mention": "Ruiz-Albert et al., 2002",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 228,
+                    "end": 252,
+                    "mention": "Ruiz-Albert et al., 2002",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "section": "Bacterial strains, plasmids and growth conditions ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Plasmid pFVP25.1, carrying gfpmut3A under the control of the rpsM constitutive promoter (Valdivia and Falkow, 1997), was introduced into bacterial strains for fluorescence visualization where indicated. The plasmids pCLXSN-GFP and pCLXSN-Arf1T39N-GFP (Kagan and Roy, 2002) were provided by Dr C. Roy. The Sar1T39N plasmid (Ward et al., 2001) was obtained from Dr J. Lippincott-Schwartz. Construction of the complementing plasmid psseG and the expression plasmid pmyc::sseG are described in the Supplementary data. The computer program TMpred was used to identify membrane-spanning domains within SseG (Persson and Argos, 1994). Construction of plasmids used for expression of truncated versions of SseG are described in the Supplementary data.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 114,
+                    "mention": "Valdivia and Falkow, 1997",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 252,
+                    "end": 271,
+                    "mention": "Kagan and Roy, 2002",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 323,
+                    "end": 340,
+                    "mention": "Ward et al., 2001",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 602,
+                    "end": 625,
+                    "mention": "Persson and Argos, 1994",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "section": "Bacterial strains, plasmids and growth conditions ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The mouse anti-LAMP1 antibody H4A3 was obtained from the Developmental Studies Hybridoma Bank developed under the auspices of the NICHD, maintained by the University of Iowa and was used at a dilution of 1:1000. Anti-Salmonella goat antibody CSA-1 (Kirkegaard and Perry Laboratories) was used at a dilution of 1:400. The rabbit antibodies anti-GM130 and anti-giantin were obtained from Dr A.De Matteis and used at a dilution of 1:1000 and 1:2000, respectively. The mouse anti-GM130 antibody (Transduction Laboratories) was used at a dilution of 1:1000. The sheep anti-human TGN46 antibody (Serotec) was used at a dilution of 1:100. A rabbit antibody against human TGN46 (Ponnambalam et al., 1996) was obtained from Dr G.Banting and was used at the dilution of 1:500. The mouse anti-c-myc antibody 9E10 (Santa Cruz Biotechnology) was used at a dilution of 1:100. An antibody to galactosyltransferase was obtained from Dr E.Berger and was used at a dilution of 1:4 (Berger et al., 1986). Rhodamine Red X (RRX)-, Cyanine 2-, Cyanine 5 (Cy5)- and aminomethylcoumarin acetate-conjugated donkey anti-mouse, anti-rabbit and anti-goat antibodies (Jackson Immunoresearch Laboratories) were used at a dilution of 1:400. RRX- and Cy5-conjugated donkey anti-sheep antibodies (Jackson Immunoresearch Laboratories) were used at dilutions of 1:100 and 1:600, respectively. BFA (Sigma) was used at 5 \u00b5g/ml. At this concentration BFA was not cytotoxic to HeLa cells and did not affect S.typhimurium growth in LB medium over 16 h. Nocodazole (Calbiochem) was used at a final concentration of 10 \u00b5g/ml.",
+            "cite_spans": [
+                {
+                    "start": 671,
+                    "end": 695,
+                    "mention": "Ponnambalam et al., 1996",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 964,
+                    "end": 983,
+                    "mention": "Berger et al., 1986",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "section": "Antibodies and reagents ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "A peptide with the sequence SSPLYRLLAQVTPEQRAPE corresponding to the last 19 amino acids of SseG was conjugated to keyhole limpet haemocyanin and this was used to immunize rabbits. Polyclonal rabbit serum was affinity purified using Affi-Gel 15 (BioRad), to which the peptide had been coupled, following the manufacturer\u2019s procedure.",
+            "cite_spans": [],
+            "section": "Affinity purification of the anti-SseG antibody ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "HeLa (clone HtTA1) cells were kindly provided by Dr S.M\u00e9resse. The INT 407 cell line U510 was a gift from Dr A.L.Servin. Cells were grown in Dulbecco\u2019s modified Eagle\u2019s medium supplemented with 10% fetal calf serum and 2 mM glutamine at 37\u00b0C in 5% CO2.",
+            "cite_spans": [],
+            "section": "Cell culture ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "HeLa cells were infected with equivalent numbers of exponential phase S.typhimurium strains, as described previously (Beuz\u00f3n et al., 2000). In order to follow a synchronized population of bacteria, HeLa cells were washed after 15 min of exposure to S.typhimurium and subsequently incubated in medium containing gentamicin to kill extracellular bacteria. For enumeration of intracellular bacteria, HeLa cells were washed three times with phosphate-buffered saline, lysed with 0.1% Triton X-100 for 10 min and a dilution series was plated onto LB agar.",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 137,
+                    "mention": "Beuz\u00f3n et al., 2000",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "section": "Bacterial infection of cultured cells and replication assays ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "For electron microscopy, samples were prepared as described previously for HeLa cells (Beuz\u00f3n et al., 2002). For immunofluorescence, cell monolayers were fixed and labelled as described previously (Beuz\u00f3n et al., 2002). For the affinity purified anti-SseG antibody, coverslips were permeabilized for 10 min with 0.1% Triton X-100 and then labelled as described above, in the absence of saponin. Samples were analysed using a confocal laser scanning microscope (LSM510; Zeiss).",
+            "cite_spans": [
+                {
+                    "start": 87,
+                    "end": 106,
+                    "mention": "Beuz\u00f3n et al., 2002",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 198,
+                    "end": 217,
+                    "mention": "Beuz\u00f3n et al., 2002",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "section": "Microscopy ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "HeLa cells were transiently transfected by the calcium phosphate DNA precipitation method as described previously (Ruiz-Albert et al., 2002). Bacterial infection of transfected HeLa cells was performed as described above, 14 h after DNA addition, and cells were fixed 24 h after DNA addition (10 h after infection). To determine the topology of myc::SseG, HeLa cells were transfected for 24 h with 2 \u00b5g of DNA using Polyfect (Quiagen) and then permeabilized with 25 \u00b5g/ml digitonin (Calbiochem) for 5 min on ice (Plutner et al., 1992). Cells were then fixed with PFA and labelled with antibodies in the absence of detergent.",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 139,
+                    "mention": "Ruiz-Albert et al., 2002",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 513,
+                    "end": 533,
+                    "mention": "Plutner et al., 1992",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "section": "Transfection of HeLa cells ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Quantification of the number of bacteria associated with the Golgi network was performed by confocal microscopy. Only bacteria that were either completely or at least 50% surrounded by the labelled Golgi marker were counted as being Golgi associated. Bacterial clusters that were found adjacent to the Golgi but did not fulfil the above criteria were counted as non-associated. At least 50 host cells, corresponding to more than 100 bacteria, were scored blind in each experiment and all experiments were repeated three times.",
+            "cite_spans": [],
+            "section": "Quantification of Salmonella association with the Golgi network ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Supplementary data are available at The EMBO Journal Online.",
+            "cite_spans": [],
+            "section": "Supplementary data ::: Materials and methods",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Carbohydr. Res.",
+            "volume": "149",
+            "issn": "",
+            "pages": "23-33",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Bacteriol.",
+            "volume": "180",
+            "issn": "",
+            "pages": "4775-4780",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell Biol.",
+            "volume": "129",
+            "issn": "",
+            "pages": "81-97",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "90",
+            "issn": "",
+            "pages": "10544-10548",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Histochem. Cell. Biol.",
+            "volume": "109",
+            "issn": "",
+            "pages": "517-532",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Microbiol.",
+            "volume": "37",
+            "issn": "",
+            "pages": "1417-1435",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "15",
+            "issn": "",
+            "pages": "964-977",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Trends Microbiol.",
+            "volume": "5",
+            "issn": "",
+            "pages": "288-293",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Microbiol.",
+            "volume": "30",
+            "issn": "",
+            "pages": "163-174",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Traffic",
+            "volume": "3",
+            "issn": "",
+            "pages": "161-169",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nat. Cell Biol.",
+            "volume": "4",
+            "issn": "",
+            "pages": "945-954",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "19",
+            "issn": "",
+            "pages": "3235-3249",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell. Microbiol.",
+            "volume": "4",
+            "issn": "",
+            "pages": "813-824",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "56",
+            "issn": "",
+            "pages": "801-813",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "60",
+            "issn": "",
+            "pages": "821-836",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "67",
+            "issn": "",
+            "pages": "601-616",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "18",
+            "issn": "",
+            "pages": "4394-4403",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "93",
+            "issn": "",
+            "pages": "7800-7804",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell. Microbiol.",
+            "volume": "4",
+            "issn": "",
+            "pages": "771-781",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "237",
+            "issn": "",
+            "pages": "182-192",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell Biol.",
+            "volume": "119",
+            "issn": "",
+            "pages": "1097-1116",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell Sci.",
+            "volume": "109",
+            "issn": "",
+            "pages": "675-685",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Microbiology",
+            "volume": "148",
+            "issn": "",
+            "pages": "2705-2715",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Infect. Immun.",
+            "volume": "65",
+            "issn": "",
+            "pages": "1475-1485",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Microbiol.",
+            "volume": "44",
+            "issn": "",
+            "pages": "645-661",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell. Microbiol.",
+            "volume": "1",
+            "issn": "",
+            "pages": "33-49",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Microbiol.",
+            "volume": "20",
+            "issn": "",
+            "pages": "151-164",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Exp. Cell Res.",
+            "volume": "246",
+            "issn": "",
+            "pages": "263-279",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "18",
+            "issn": "",
+            "pages": "3924-3933",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "277",
+            "issn": "",
+            "pages": "2007-2011",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell Biol.",
+            "volume": "155",
+            "issn": "",
+            "pages": "557-570",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell. Microbiol.",
+            "volume": "5",
+            "issn": "",
+            "pages": "501-511",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Cell Biol.",
+            "volume": "119",
+            "issn": "",
+            "pages": "273-285",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Infect. Immun.",
+            "volume": "69",
+            "issn": "",
+            "pages": "367-377",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell. Microbiol.",
+            "volume": "2",
+            "issn": "",
+            "pages": "275-282",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Traffic",
+            "volume": "2",
+            "issn": "",
+            "pages": "643-653",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "97",
+            "issn": "",
+            "pages": "153-155",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Microbiol.",
+            "volume": "30",
+            "issn": "",
+            "pages": "175-188",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Biol. Cell",
+            "volume": "7",
+            "issn": "",
+            "pages": "631-650",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "269",
+            "issn": "",
+            "pages": "1437-1448",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

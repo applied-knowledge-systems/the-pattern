@@ -1,0 +1,750 @@
+{
+    "paper_id": "PMC261870",
+    "metadata": {
+        "title": "Viral Discovery and Sequence Recovery Using DNA Microarrays",
+        "authors": [
+            {
+                "first": "David",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Anatoly",
+                "middle": [],
+                "last": "Urisman",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Yu-Tsueng",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Michael",
+                "middle": [],
+                "last": "Springer",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Thomas",
+                "middle": [
+                    "G"
+                ],
+                "last": "Ksiazek",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Dean",
+                "middle": [
+                    "D"
+                ],
+                "last": "Erdman",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Elaine",
+                "middle": [
+                    "R"
+                ],
+                "last": "Mardis",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Matthew",
+                "middle": [],
+                "last": "Hickenbotham",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Vincent",
+                "middle": [],
+                "last": "Magrini",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "James",
+                "middle": [],
+                "last": "Eldred",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "J.",
+                "middle": [
+                    "Phillipe"
+                ],
+                "last": "Latreille",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Richard",
+                "middle": [
+                    "K"
+                ],
+                "last": "Wilson",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Don",
+                "middle": [],
+                "last": "Ganem",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Joseph",
+                "middle": [
+                    "L"
+                ],
+                "last": "DeRisi",
+                "suffix": "",
+                "email": "joe@derisilab.ucsf.edu",
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Over the past two decades, technological advances in molecular biology have fuelled progress in the discovery of new pathogens associated with human diseases. The identification of novel viruses such as hepatitis C virus (Choo et al. 1989), sin nombre virus (Nichol et al. 1993), and Kaposi's sarcoma herpesvirus (Chang et al. 1994) has relied upon a diverse range of modern molecular methods such as immunoscreening of cDNA libraries, degenerate PCR, and representational difference analysis, respectively. In spite of these successes, there remain numerous syndromes with suspected infectious etiologies that continue to escape identification efforts, in part due to limitations of existing methodologies for viral discovery (Muerhoff et al. 1997; Kellam 1998). These limitations, coupled with the constant threat posed by newly emerging infectious diseases of unknown origin, necessitate that new approaches be developed to augment the repertoire of available tools for pathogen discovery.",
+            "cite_spans": [
+                {
+                    "start": 222,
+                    "end": 238,
+                    "mention": "Choo et al. 1989",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 259,
+                    "end": 277,
+                    "mention": "Nichol et al. 1993",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 314,
+                    "end": 331,
+                    "mention": "Chang et al. 1994",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 728,
+                    "end": 748,
+                    "mention": "Muerhoff et al. 1997",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 750,
+                    "end": 761,
+                    "mention": "Kellam 1998",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "We have previously described a prototype DNA microarray designed for highly parallel viral detection with the potential to detect novel members of known viral families (Wang et al. 2002). This microarray contained approximately 1600 oligonucleotides representing 140 viruses. Building upon this foundation, a more comprehensive second-generation DNA microarray consisting of 70mer oligonucleotides derived from every fully sequenced reference viral genome in GenBank (as of August 15, 2002) was constructed. The most highly conserved 70mers from each virus were selected as described by Wang et al. (2002) to maximize the probability of detecting unknown and unsequenced members of existing families by cross-hybridization to these array elements. On average, ten 70mers were selected for each virus, totaling approximately 10,000 oligonucleotides from approximately 1,000 viruses. The objective was to create a microarray with the capability of detecting the widest possible range of both known and unknown viruses. This pan-viral microarray was used as part of the global effort to identify a novel virus associated with severe acute respiratory syndrome (SARS) in March 2003, as reported by Ksiazek et al. (2003). We describe here the experimental details of the microarray methodology for novel virus identification, using the SARS outbreak as an example.",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 185,
+                    "mention": "Wang et al. 2002",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 587,
+                    "end": 604,
+                    "mention": "Wang et al. (2002",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1194,
+                    "end": 1214,
+                    "mention": "Ksiazek et al. (2003",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "During the initial phase of research into the etiology of SARS, an unknown virus was cultured in Vero cells from a patient suffering from SARS (Ksiazek et al. 2003). Total nucleic acid purified from this viral culture, as well as a control culture, was obtained from the Centers for Disease Control and Prevention on March 22, 2003. These two samples, along with additional controls (HeLa cell RNA and water alone), were amplified and hybridized within 24 h to the virus DNA microarray. The strongest hybridizing array elements from the infected culture were derived from two families: astroviridae and coronaviridae. Table 1 lists the oligonucleotides from these families with the greatest hybridization intensity. By comparison, these oligonucleotides yielded essentially background levels of hybridization in the various control arrays performed in parallel. The initial suggestion from this hybridization pattern was that members of both of these viral families might be present. However, alignment of the oligonucleotides using ClustalX revealed that all four hybridizing oligonucleotides from the astroviridae and one oligonucleotide from avian infectious bronchitis virus (IBV) (GenBank NC_001451), an avian coronavirus, shared a core consensus motif spanning 33 nucleotides (data not shown); thus, these five oligonucleotides behaved essentially as multiple redundant probes for the same sequence. This motif is known to be present in the 3\u2032 UTR of all astroviruses and the avian coronaviruses (Jonassen et al. 1998), but appears to be absent in the available sequenced mammalian coronaviruses (bovine coronavirus, murine hepatitis virus [MHV], human coronavirus 229E, porcine epidemic diarrhea virus, and transmissible gastroenteritis virus). The other three hybridizing oligonucleotides were derived from three conserved regions within the ORF1AB polyprotein common to all coronaviruses (Figure 1). Based on the aggregate hybridization pattern, the virus appeared to be a novel member of the coronavirus family.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 163,
+                    "mention": "Ksiazek et al. 2003",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1503,
+                    "end": 1523,
+                    "mention": "Jonassen et al. 1998",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "Results",
+            "ref_spans": [
+                {
+                    "start": 1898,
+                    "end": 1906,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 618,
+                    "end": 625,
+                    "mention": "Table 1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To further characterize this virus, we sequenced fragments of the viral genome using two complementary approaches. First, BLAST alignment of two of the hybridizing viral oligonucleotides, one each from bovine coronavirus and human coronavirus 229E, to the IBV genome indicated that the oligonucleotides possessed homology to distinct conserved regions within the NSP11 gene (BLAST identity matches of 42/47 and 26/27, respectively). A pair of PCR primers was designed to amplify the intervening sequences between the two conserved regions, and a fragment that possessed 89% identity over 37 amino acids to MHV, a murine coronavirus, was obtained (Figure 1; sequence available as Data S1).",
+            "cite_spans": [],
+            "section": "Results",
+            "ref_spans": [
+                {
+                    "start": 647,
+                    "end": 655,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "In a parallel approach, we directly recovered hybridized viral sequences from the surface of the microarray. This procedure took advantage of the physical separation achieved during microarray hybridization, which effectively purified the viral nucleic acid from other nucleic acid species present in the sample. Using a tungsten needle, the DNA microarray spot corresponding to the conserved 3\u2032 UTR motif was repeatedly scraped and the hybridized nucleic acid was recovered. This material was subsequently amplified, cloned, and sequenced (Figure 2). The largest clone spanned almost 1.1 kb; this fragment encompassed the 3\u2032 UTR conserved motif and extended into the most 3\u2032 coding region of the viral genome. BLAST analysis revealed 33% identity over 157 amino acids to MHV nucleocapsid, thus confirming the presence of a novel coronavirus (see Figure 1; see Data S1). We subsequently confirmed results obtained from both strategies described above by using a random-primed RT-PCR shotgun sequencing approach that generated contigs totaling approximately 25 kb of viral genome sequence (see Data S1).",
+            "cite_spans": [],
+            "section": "Results",
+            "ref_spans": [
+                {
+                    "start": 541,
+                    "end": 549,
+                    "mention": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 847,
+                    "end": 855,
+                    "mention": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "In this report, we have demonstrated the viability of detecting novel pathogens via cross-hybridization to highly conserved sequence motifs. With the recent sequencing of the complete SARS coronavirus genome (GenBank NC_004718) (Marra et al. 2003; Rota et al. 2003), we were able to retrospectively determine the degree of nucleotide identity shared between the hybridizing oligonucleotides and the new coronavirus genome (see Table 1). Stretches of relatively uninterrupted nucleotide identity as short as 25 nucleotides yielded clearly detectable hybridization signal, confirming that novel viruses with only limited homology to known viruses can be successfully detected by this strategy.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 246,
+                    "mention": "Marra et al. 2003",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 248,
+                    "end": 264,
+                    "mention": "Rota et al. 2003",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": [
+                {
+                    "start": 427,
+                    "end": 434,
+                    "mention": "Table 1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "A key feature of this approach is that direct recovery of hybridized material from the microarray provides a rapid route for obtaining sequences of novel viruses. By contrast, conventional strategies for subsequent sequence identification would require time-consuming steps such as library screening or additional rounds of PCR primer design and synthesis. In the case of SARS, we were able to ascertain within 24 h that a novel coronavirus was present in the unknown sample, and partial genome sequences of this virus were obtained over the next few days without the need for specific primer design. To our knowledge, this is the first demonstration of the feasibility and utility of directly recovering nucleic acid sequences from a hybridized DNA microarray. In light of the continuous threat of emerging infectious diseases, this overall approach will greatly facilitate the rapid identification and characterization of novel viruses.",
+            "cite_spans": [],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Total nucleic acid was purified using the automated NucliSens extraction system (BioMerieux, Durham, North Carolina). Following the manufacturer's instructions, 100 \u03bcl of each specimen was added to tubes containing 900 \u03bcl of prewarmed NucliSens lysis buffer and incubated at 37\u00b0C for 30 min with intermittent mixing. Fifty microliters of silica suspension provided in the extraction kit was added to each tube and mixed. The mixtures were then transferred to a nucleic acid extraction cartridge and loaded onto the extractor workstation for processing. Approximately 50 \u03bcl of total nucleic acid eluate was recovered.",
+            "cite_spans": [],
+            "section": "Nucleic acid isolation :::  ::: Materials and Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "For the culture supernatants, 450 ng of nucleic acid was used as input for the amplification protocol. In parallel, 50 ng of HeLa cell RNA was used as a positive amplification control and water was used for a negative control. Samples were amplified using a random-primer protocol as described by Wang et al. (2002), with the following modifications: first- and second-strand synthesis were primed using primer-A (5\u2032-GTTTCCCAGTCACGATCNNNNNNNNN) followed by PCR amplification using primer-B (5\u2032-GTTTCCCAGTCACGATC) for 40 cycles. Aminoallyl-dUTP was incorporated into the PCR product using an additional 20 cycles of thermocycling. A detailed protocol is available as Protocol S1.",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 314,
+                    "mention": "Wang et al. (2002",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Amplification :::  ::: Materials and Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "DNA microarrays were printed and hybridized essentially as described by Wang et al. (2002), with the following modifications: for array printing, a single-defined 70mer (spike-70) was mixed with each viral oligonucleotide in a 1:50 ratio. Array hybridizations used Cy5-labeled amplified probe from either virally infected cultures or controls (mock-infected culture, HeLa RNA, or water); a reference signal for every spot on each array was generated by using a Cy3-labeled version of the reverse complement of spike-70. Oligonucleotides were assessed by Cy5 intensity. Oligonucleotides from the astrovirus and coronavirus families that passed a conservative, arbitrarily set cutoff of (Cy5infection-Cy5mock) > 1500 intensity units are listed in Table 1. Additional oligonucleotides from these families and their homology to the SARS coronavirus are listed in Table S1. Array data has been deposited in the Gene Expression Omnibus (GEO) database (accession number GSE546). A complete list of the viral oligonucleotide sequences on the microarray is also available as Table S2.",
+            "cite_spans": [
+                {
+                    "start": 72,
+                    "end": 89,
+                    "mention": "Wang et al. (2002",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Microarray hybridization and analysis :::  ::: Materials and Methods",
+            "ref_spans": [
+                {
+                    "start": 745,
+                    "end": 752,
+                    "mention": "Table 1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "PCR primers were designed by aligning the hybridizing oligonucleotides (Oligo IDs 15081544_766 and 12175745_728) to the IBV genome (Fwd: 5\u2032-TGTTTTGGAATTGTAATGTGGAT; Rev: 5\u2032-TACAAACTACCTCCATTACAGCC) and selecting stretches of near-identity. Primer-B-amplified material was used as the template for 35 cycles of thermocycling using the following program: 94\u00b0C for 30 s, 56\u00b0C for 30 s, and 72\u00b0C for 60 s.",
+            "cite_spans": [],
+            "section": "Conventional PCR using array element sequences :::  ::: Materials and Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Amplified viral sequences hybridized to individual microarray spots were recovered by scraping a 100 \u03bcm area of the microarray using a tungsten wire probe (Omega Engineering, Inc.) mounted on a micromanipulator while visualized by fluorescence microscopy (Nikon TE300). Recovered material was PCR amplified using primer-B, cloned into pCR2.1TOPO (Invitrogen), and sequenced. A detailed protocol is available as Protocol S2.",
+            "cite_spans": [],
+            "section": "Direct sequence recovery from the microarray :::  ::: Materials and Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Primer-B-amplified nucleic acid (see above) was cloned in pCR2.1TOPO, plated on 2xYT/kan plates, and grown overnight at 37\u00b0C. White colonies were picked into 384-well plates containing 2xYT/kan plus 8% glycerol and incubated overnight at 37\u00b0C. DNA was purified by magnetic bead isolation. DNA sequencing involved adding 3 \u03bcl of water to each bead pellet, followed by 3 \u03bcl of Big Dye terminator (v3.1) sequencing cocktail, and incubation for 35 cycles of 95\u00b0C for 5 s, 50\u00b0C for 5 s, and 60\u00b0C for 2 min. Reaction products were ethanol precipitated, resuspended in 25 \u03bcl of water, and loaded onto the ABI 3730xl sequencer. The resulting sequence reads were trimmed to remove primer sequences from the RT-PCR step and then assembled by Phrap (P. Green, unpublished data). Resulting contigs were screened by blast to remove any contigs with high human or monkey sequence similarity. The remaining contigs were edited to high quality, making any obvious joins. (Sequences are available as Data S1.)",
+            "cite_spans": [],
+            "section": "Shotgun sequencing :::  ::: Materials and Methods",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Figure 1: Red bars indicate physical location of virus microarray DNA elements mapped to a generic coronavirus genome. Portions of the coronavirus genome sequenced by physical recovery and PCR methods are highlighted with homologies to known coronaviruses. Abbreviations: aa, amino acid; nt, nucleotide",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2: Hybridized viral sequences were physically scraped from a DNA microarray spot, amplified, cloned, and subsequently sequenced.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Identification of herpesvirus-like DNA sequences in AIDS-associated Kaposi's sarcoma",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cesarman",
+                    "suffix": ""
+                },
+                {
+                    "first": "MS",
+                    "middle": [],
+                    "last": "Pessin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Culpepper",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Science",
+            "volume": "266",
+            "issn": "",
+            "pages": "1865-1869",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Isolation of a cDNA clone derived from a blood-borne non-A, non-B viral hepatitis genome",
+            "authors": [
+                {
+                    "first": "QL",
+                    "middle": [],
+                    "last": "Choo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "AJ",
+                    "middle": [],
+                    "last": "Weiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "LR",
+                    "middle": [],
+                    "last": "Overby",
+                    "suffix": ""
+                },
+                {
+                    "first": "DW",
+                    "middle": [],
+                    "last": "Bradley",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Science",
+            "volume": "244",
+            "issn": "",
+            "pages": "359-362",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "A common RNA motif in the 3\u2032 end of the genomes of astroviruses, avian infectious bronchitis virus and an equine rhinovirus",
+            "authors": [
+                {
+                    "first": "CM",
+                    "middle": [],
+                    "last": "Jonassen",
+                    "suffix": ""
+                },
+                {
+                    "first": "TO",
+                    "middle": [],
+                    "last": "Jonassen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Grinde",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J Gen Virol",
+            "volume": "79",
+            "issn": "",
+            "pages": "715-718",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Molecular identification of novel viruses",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kellam",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Trends Microbiol",
+            "volume": "6",
+            "issn": "",
+            "pages": "160-165",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "A novel coronavirus associated with severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "TG",
+                    "middle": [],
+                    "last": "Ksiazek",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Erdman",
+                    "suffix": ""
+                },
+                {
+                    "first": "CS",
+                    "middle": [],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "SR",
+                    "middle": [],
+                    "last": "Zaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Peret",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "N Engl J Med",
+            "volume": "348",
+            "issn": "",
+            "pages": "1953-1966",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "The genome sequence of the SARS-associated coronavirus",
+            "authors": [
+                {
+                    "first": "MA",
+                    "middle": [],
+                    "last": "Marra",
+                    "suffix": ""
+                },
+                {
+                    "first": "SJ",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "CR",
+                    "middle": [],
+                    "last": "Astell",
+                    "suffix": ""
+                },
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Holt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Brooks-Wilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1399-1404",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Amplification and subtraction methods and their application to the discovery of novel human viruses",
+            "authors": [
+                {
+                    "first": "AS",
+                    "middle": [],
+                    "last": "Muerhoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "TP",
+                    "middle": [],
+                    "last": "Leary",
+                    "suffix": ""
+                },
+                {
+                    "first": "SM",
+                    "middle": [],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "IK\\",
+                    "middle": [],
+                    "last": "Mushahwar",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J Med Virol",
+            "volume": "53",
+            "issn": "",
+            "pages": "96-103",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Genetic identification of a hantavirus associated with an outbreak of acute respiratory illness",
+            "authors": [
+                {
+                    "first": "ST",
+                    "middle": [],
+                    "last": "Nichol",
+                    "suffix": ""
+                },
+                {
+                    "first": "CF",
+                    "middle": [],
+                    "last": "Spiropoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Morzunov",
+                    "suffix": ""
+                },
+                {
+                    "first": "PE",
+                    "middle": [],
+                    "last": "Rollin",
+                    "suffix": ""
+                },
+                {
+                    "first": "TG",
+                    "middle": [],
+                    "last": "Ksiazek",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Science",
+            "volume": "262",
+            "issn": "",
+            "pages": "914-917",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Characterization of a novel coronavirus associated with severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Rota",
+                    "suffix": ""
+                },
+                {
+                    "first": "MS",
+                    "middle": [],
+                    "last": "Oberste",
+                    "suffix": ""
+                },
+                {
+                    "first": "SS",
+                    "middle": [],
+                    "last": "Monroe",
+                    "suffix": ""
+                },
+                {
+                    "first": "WA",
+                    "middle": [],
+                    "last": "Nix",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Campagnoli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1394-1399",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "Microarray-based detection and genotyping of viral pathogens",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Coscoy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zylberberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "PC",
+                    "middle": [],
+                    "last": "Avila",
+                    "suffix": ""
+                },
+                {
+                    "first": "HA",
+                    "middle": [],
+                    "last": "Boushey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Proc Natl Acad Sci USA",
+            "volume": "99",
+            "issn": "",
+            "pages": "15687-15692",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

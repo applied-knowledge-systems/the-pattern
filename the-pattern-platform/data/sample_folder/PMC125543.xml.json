@@ -1,0 +1,1160 @@
+{
+    "paper_id": "PMC125543",
+    "metadata": {
+        "title": "Synthesis of a novel hepatitis\u00a0C virus protein by ribosomal frameshift",
+        "authors": [
+            {
+                "first": "Zhenming",
+                "middle": [],
+                "last": "Xu",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Jinah",
+                "middle": [],
+                "last": "Choi",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "T.S.Benedict",
+                "middle": [],
+                "last": "Yen",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Wen",
+                "middle": [],
+                "last": "Lu",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Anne",
+                "middle": [],
+                "last": "Strohecker",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Sugantha",
+                "middle": [],
+                "last": "Govindarajan",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "David",
+                "middle": [],
+                "last": "Chien",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Mark",
+                "middle": [
+                    "J."
+                ],
+                "last": "Selby",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Jing-hsiung",
+                "middle": [],
+                "last": "Ou",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Hepatitis C virus (HCV) is a positive-stranded RNA virus with a genome size of \u223c9.6 kb. Infection by this virus frequently leads to chronic infection, which in turn may lead to severe liver diseases including liver cirrhosis and hepatocellular carcinoma. The first HCV genomic sequence, which was named the HCV-1 sequence, was isolated in 1989 (Choo et al., 1989). Since then, many more HCV sequences have been reported. Based on their sequence similarities, these HCV sequences have been grouped into six major types and many more subtypes (Smith and Simmonds, 1998).",
+            "cite_spans": [
+                {
+                    "start": 345,
+                    "end": 362,
+                    "mention": "Choo et al., 1989",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 542,
+                    "end": 566,
+                    "mention": "Smith and Simmonds, 1998",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "The HCV genomic RNA contains a long open reading frame (ORF) that encodes a polyprotein slightly larger than 3000 amino acids. This polyprotein is proteolytically cleaved by viral and cellular proteases to generate at least 10 gene products. The core protein (p21c) is 191 amino acids in length and is located at the N-terminus of the polyprotein sequence. This protein packages the viral RNA. Its sequence in the HCV polyprotein sequence is followed by E1 and E2 envelope proteins, which are then followed by non-structural proteins. The translation of the HCV polyprotein sequence is regulated by a cap-independent mechanism that requires most of the 5\u2032-non-coding region and the first nine codons of the polyprotein-coding sequence to serve as the internal ribosomal entry site (for a review see Rijnbrand and Lemmon, 2000).",
+            "cite_spans": [
+                {
+                    "start": 799,
+                    "end": 825,
+                    "mention": "Rijnbrand and Lemmon, 2000",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "Previous expression studies indicate that, besides the core protein, a 17 kDa protein is also expressed from the core protein-coding sequence of the HCV genomic RNA both in vitro and in mammalian cells (Lo et al., 1994, 1995; Ray et al., 1996). This expression is independent of the downstream E1 envelope protein sequence (Lo et al., 1994, 1995, 1996). The identity of this 17 kDa protein was unclear, and it was thought to be a truncated core protein. In this report, we demonstrate that this 17 kDa protein is synthesized by ribosomal frameshift and is derived mostly from the coding sequence that overlaps the core protein reading frame. This protein is highly conserved among different HCV isolates and is expressed during natural HCV infection, indicating that it may play an important role in the HCV life cycle.",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 218,
+                    "mention": "Lo et al., 1994",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 220,
+                    "end": 224,
+                    "mention": "1995",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 226,
+                    "end": 242,
+                    "mention": "Ray et al., 1996",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 324,
+                    "end": 339,
+                    "mention": "Lo et al., 1994",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 341,
+                    "end": 345,
+                    "mention": "1995",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 347,
+                    "end": 351,
+                    "mention": "1996",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "An inspection of the HCV-1 core protein-coding sequence revealed an overlapping coding sequence in the \u20132/+1 reading frame (Figure 1). This overlapping ORF, which lacks an AUG codon near its 5\u2032 end, spans from nucleotide 5 to nucleotide 485 and has a coding capacity of \u223c160 amino acids. To investigate whether the 17 kDa protein is derived from this overlapping ORF, nucleotide 432 of the HCV-1 sequence coding for the core protein was converted from U to A to create a premature termination codon in the overlapping ORF (Figure 1). This mutation removed the last 18 codons of the overlapping ORF without affecting the core protein-coding sequence. If the 17 kDa protein is derived from this overlapping ORF, then this mutation should reduce the size of the 17 kDa protein by \u223c2 kDa without affecting the core protein. As shown in Figure 2A, the translation of the wild-type HCV-1 core protein RNA in vitro using rabbit reticulocyte lysates generated the 21 kDa core protein and the 17 kDa protein. In contrast, the translation of the HCV-1 RNA containing the U to A mutation at nucleotide 432 generated p21c and a smaller 15 kDa protein. This result strongly indicates that the 17 kDa protein is derived from the overlapping ORF.",
+            "cite_spans": [],
+            "section": "Synthesis of a 17\u00a0kDa protein from a coding sequence that overlaps the core protein reading frame ::: Results",
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 132,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 530,
+                    "end": 531,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 839,
+                    "end": 840,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Although the overlapping ORF contains three AUG codons, none of them resides near the 5\u2032 end of its coding sequence. Thus, the 17 kDa protein must be synthesized by initiation from a non-AUG codon or by frameshift after translation initiation from the AUG codon of the core protein sequence. To distinguish between these two possibilities, the coding sequence of the HA tag, a sequence derived from the influenza virus hemagglutinin gene, was fused in-frame to the 5\u2032 end of the core protein-coding sequence. If the 17 kDa protein is synthesized from a non-AUG codon located near the 5\u2032 end of the core protein-coding sequence, then its synthesis should not be affected by the presence of the HA tag. On the contrary, if the 17 kDa protein is synthesized from the AUG codon of the core protein-coding sequence, then the HA tag should increase its size correspondingly. As shown in Figure 2B, the HA tag increased the size of both p21c and the 17 kDa protein by a similar amount. The presence of the HA tag in both p21c and the 17 kDa protein was verified by immunoprecipitation using an anti-HA antibody (data not shown). Thus, the results shown in Figure 2 indicate that the 17 kDa protein is synthesized from the initiation codon of the core protein sequence and terminates in the overlapping ORF.",
+            "cite_spans": [],
+            "section": "Translation initiation of the 17\u00a0kDa protein from the initiation codon of the core protein ::: Results",
+            "ref_spans": [
+                {
+                    "start": 888,
+                    "end": 889,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1156,
+                    "end": 1157,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The results shown in Figure 2 suggest a scenario of ribosomal frameshift for the synthesis of the 17 kDa protein. For convenience, we have named this protein \u2018F\u2019 protein for \u2018frameshifting\u2019. Since our previous results indicate that a mutation in codon 9 of the HCV-1 core protein-coding sequence significantly reduces the efficiency of F protein expression (Lo et al., 1994, 1995), the ribosomal frameshift for the synthesis of the F protein probably occurs in the vicinity of this codon. To investigate this possibility, we performed radiosequencing of p21c and F protein, which were synthesized in vitro in the presence of [35S]methionine and [3H]lysine. Few [35S]methionine counts were detected in the first sequencing cycle whether p21c or the F protein was sequenced (Figure 3A and B; see also below), indicating the absence of the initiator methionine residue, presumably caused by the N-terminal peptidase activity in the translation extracts. As shown in Figure 3A, p21c generated three distinct [3H]lysine peaks at sequencing cycles 5, 9 and 11. There are four lysine residues at amino acids 6, 9, 10 and 12 of the p21c sequence (including the initiating methionine as residue 1). Since Lys9 and Lys10 were not expected to be resolved into separate peaks in the sequencing reaction, the p21c sequencing result was in agreement with the predicted p21c sequence excluding the initiating methionine residue. The sequencing of the F protein generated [3H]lysine peaks resembling those generated from the sequencing of p21c, except that the peak at cycle 11 had largely disappeared (Figure 3B and C). Since the [3H]lysine peak detected at cycle 9 was not affected, this result indicates that the sequences of p21c and the F protein diverge at or in the vicinity of codon 11, which thus predicts the location of the ribosomal frameshift.",
+            "cite_spans": [
+                {
+                    "start": 358,
+                    "end": 373,
+                    "mention": "Lo et al., 1994",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 375,
+                    "end": 379,
+                    "mention": "1995",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "section": "Ribosomal frameshift for the synthesis of the 17\u00a0kDa protein ::: Results",
+            "ref_spans": [
+                {
+                    "start": 28,
+                    "end": 29,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 780,
+                    "end": 781,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 970,
+                    "end": 971,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1594,
+                    "end": 1595,
+                    "mention": "3",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "An A-rich sequence is located at codons 8\u201314 of the HCV core protein sequence. This sequence may mediate the ribosomal frameshift. To investigate the possible role of these codons in ribosomal frameshift, codons 2\u20137 and 15\u201350, which flank the putative ribosomal frameshift site, were deleted from the core protein-coding sequence. As shown in lane 2 of Figure 4A, the deletion of these flanking sequences resulted in the synthesis of two smaller proteins, which were presumably the deletion mutants of p21c and the F protein. These two proteins were then labeled with [3H]threonine and [35S]methionine and subjected to radiosequencing. As shown in Figure 4B and C, a strong [35S]methionine signal was detected in the first sequencing cycle when either of these two proteins was sequenced. This result indicates that loss of the deleted sequences prevented the cleavage of the initiator methionine from these two proteins. A single [3H]threonine peak was detected at sequencing cycle 10 when the larger protein was sequenced (Figure 4B). This result is consistent with the predicted sequence of the p21c deletion mutant, which contains a threonine residue at position 10 (Figure 4B). The sequencing of the smaller protein generated two [3H]threonine peaks at sequencing cycles 6 and 9 (Figure 4C). The peaks in this case were broader than that seen in Figure 4B, suggesting a possible sequence heterogeneity. As mentioned above, the ribosomal frameshift site is predicted at or in the vicinity of codon 11 (Figure 3). A +1 ribosomal frameshift at codon 9, 10 or 11 would generate the sequence MQKKTNVTR, and at codon 12 would generate the sequence MQKKNNVTR at the N-terminus of the F protein mutant. The latter scenario does not appear likely since it would generate only one threonine residue at amino acid 8. In contrast, a \u20132 ribosomal frameshift at codons 9, 10 or 11 would generate the sequence MQKKKTNVTR, and at codon 12 would generate the sequence MQKKNTNVTR, for the F protein mutant. Both sequences contain two threonine residues at amino acids 6 and 9. Thus, the [3H]threonine sequencing result is consistent with the F protein being generated by a \u20132 ribosomal frameshift. However, due to the possible sequence heterogeneity observed in Figure 4B, some F protein may also be generated by +1 ribosomal frameshift.",
+            "cite_spans": [],
+            "section": "Ribosomal frameshift for the synthesis of the 17\u00a0kDa protein ::: Results",
+            "ref_spans": [
+                {
+                    "start": 360,
+                    "end": 361,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 655,
+                    "end": 656,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1032,
+                    "end": 1033,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1178,
+                    "end": 1179,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1292,
+                    "end": 1293,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1358,
+                    "end": 1359,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1513,
+                    "end": 1514,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 2256,
+                    "end": 2257,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Besides ribosomal frameshift, it is also possible that the production of the F protein was caused by the deletion of one nucleotide or the insertion of two nucleotides at or near codon 11 during RNA synthesis by the T7 RNA polymerase. There is a stretch of 10 As at codons 8\u201311 of the core protein sequence (Figure 1). The slippage of T7 RNA polymerase at this region during transcription could fuse the F protein-coding sequence to the core protein-coding sequence. To rule out this possibility, we have used the enzymatic method to sequence directly a T7 transcript containing codons 8\u201314 of the HCV sequence. As shown in Figure 5, no apparent nucleotide deletion or insertion that would lead to the synthesis of the F protein was visible in this HCV sequence, indicating that the F protein was not likely to have been generated as a result of the sequence heterogeneity of the T7 RNA transcript.",
+            "cite_spans": [],
+            "section": "Ribosomal frameshift for the synthesis of the 17\u00a0kDa protein ::: Results",
+            "ref_spans": [
+                {
+                    "start": 315,
+                    "end": 316,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 631,
+                    "end": 632,
+                    "mention": "5",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The results shown in Figure 4 indicate that codons 8\u201314 of the core protein sequence were sufficient to mediate ribosomal frameshift. To investigate further whether this sequence can also mediate ribosomal frameshift in liver cells, we have fused the first 14 codons of the core protein sequence to the zero frame, the \u20132/+1 frame and the \u20131/+2 frame of the luciferase-coding sequence. The expression of the fused sequence was under the control of the EF1\u03b1 gene promoter. These DNA constructs, named FS(0)Luc, FS(\u20132/+1) and FS(\u20131/+2), are illustrated in Figure 6A. While the FS(0)Luc construct is expected to express the luciferase reporter as a fusion protein to the core sequence, FS(\u20132/+1)Luc can express the luciferase sequence only by \u20132/+1 ribosomal frameshift. The FS(\u20131/+2)Luc construct cannot express the luciferase sequence with or without ribosomal frameshift due to the presence of a termination codon in the \u20131/+2 reading frame immediately upstream of the luciferase reporter sequence. This construct serves as a negative control. These DNA plasmids were then transfected into Huh7 cells, a well differentiated human hepatoma cell line. A human growth hormone (hGH) reporter plasmid was also co-transfected to serve as an internal control for monitoring the transfection efficiency. As shown in Figure 6B, 1\u20132% luciferase activity was expressed by the FS(\u20132/+1)Luc construct relative to that expressed by the FS(0)Luc construct. In contrast, the FS(\u20131/+2)Luc negative control produced \u223c0.05% luciferase activity, which was near the background level. This result supports our observation that codons 1\u201314 of the core protein sequence can indeed mediate the \u20132/+1 ribosomal frameshift in Huh7 cells. This 1\u20132% efficiency of ribosomal frameshift is not unusual as it is similar to that which was reported previously for a number of genes (Grentzmann et al., 1998; Ivanov et al., 2000).",
+            "cite_spans": [
+                {
+                    "start": 1849,
+                    "end": 1872,
+                    "mention": "Grentzmann et al., 1998",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1874,
+                    "end": 1893,
+                    "mention": "Ivanov et al., 2000",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "Regulation of ribosomal frameshift by codons 1\u201314 of the core protein-coding sequence in Huh7 cells ::: Results",
+            "ref_spans": [
+                {
+                    "start": 28,
+                    "end": 29,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 561,
+                    "end": 562,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1315,
+                    "end": 1316,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Although the F protein is produced by the HCV-1 sequence in vitro and in transfected mammalian cells (Lo et al., 1994, 1995, 1996; Ray et al., 1996), whether it can be synthesized during natural HCV infection in patients was unclear. For that reason, we decided to look for F protein-reactive antibodies in HCV patients. As mentioned above, a stretch of 10 As is located between codons 8 and 11 of the core protein-coding sequence. A single A nucleotide was deleted from this stretch to generate an F protein analog composed of the first 10 codons of the core protein sequence fused to the overlapping ORF. This F protein analog was synthesized in the presence of [35S]methionine in vitro, and immunoprecipitated with the sera isolated from six HCV patients and five hepatitis B virus (HBV) patients. As shown in Figure 7A, while none of the HBV sera immunoprecipitated the F protein analog, five of the six HCV sera (i.e. from patients 1, 4, 7, 10 and 11) clearly reacted with the F protein, while the sixth (from patient 3) showed weak reactivity. Since the F protein analog contains a 10 residue sequence from the core protein, it was possible that the immunoreactivity seen in Figure 7A was due to the presence of anti-core antibodies that recognized these 10 residues. To rule out this possibility, an AUG initiation codon was generated at the beginning of the overlapping ORF for the expression of a truncated F protein lacking the preceding core protein sequence. This coding sequence was then transcribed and translated in vitro in the presence of [35S]methionine. The radiolabeled truncated F protein was immunoprecipitated with the same panel of patient sera. As shown in Figure 7B, weak but nevertheless detectable signals of the truncated F protein could be precipitated by the sera of all of the HCV patients except patient number 1. In a separate immunoprecipitation experiment, the serum of patient number 1 was also found to react weakly with the truncated F protein (data not shown). In contrast, all of the HBV sera generated no significant signals. To examine further the prevalence of anti-F antibodies in different HCV patients, we have also performed an enzymatic immunoassay on eight other HCV patients whose HCV genotypes are known. Two non-HCV serum samples were also tested to serve as negative controls. As shown in Table I, five of the eight HCV patients showed reactivities to the truncated F protein. Note that patients 6 and 8 displayed a negative response to the F protein prior to seroconversion. Thus, the results shown in Figure 7 and Table I strongly indicate that the F protein is produced during natural HCV infection in patients. Moreover, the results shown in Table I indicate that the expression of the F protein is not limited to genotype 1a.",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 117,
+                    "mention": "Lo et al., 1994",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 119,
+                    "end": 123,
+                    "mention": "1995",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 125,
+                    "end": 129,
+                    "mention": "1996",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 131,
+                    "end": 147,
+                    "mention": "Ray et al., 1996",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "Expression of the F\u00a0protein during natural HCV infection ::: Results",
+            "ref_spans": [
+                {
+                    "start": 820,
+                    "end": 821,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1188,
+                    "end": 1189,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1689,
+                    "end": 1690,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 2564,
+                    "end": 2565,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 2349,
+                    "end": 2350,
+                    "mention": "I",
+                    "ref_id": null
+                },
+                {
+                    "start": 2576,
+                    "end": 2577,
+                    "mention": "I",
+                    "ref_id": null
+                },
+                {
+                    "start": 2706,
+                    "end": 2707,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The results shown in Table I indicate that the F protein is conserved in different HCV genotypes. A survey of the HCV sequences compiled in the database indicates that the F protein ORF, which has a length of 162 codons, is conserved in 100% of the HCV genotype 1a sequences (Table II). Shorter forms ranging from 126 to 155 codons in length are also conserved in the great majority of the other HCV sequences reported. As shown in Table II, most HCV genomes of genotypes 1b and 2a have the capacity to code for the F protein with a length of 144 and 126 residues, respectively. Thus, the length of the F protein appears to be genotype specific. It is noteworthy that all of the infectious HCV clones that have been generated so far contain the intact F protein ORF (Kalykhalov et al., 1997; Yanagi et al., 1997, 1998, 1999; Beard et al., 1999; Lohmann et al., 1999), with genotype 1a encoding a 162 residue F protein (Kalykhalov et al., 1997; Yanagi et al., 1997), genotype 1b encoding a 144 residue F protein (Yanagi et al., 1998; Beard et al., 1999; Lohmann et al., 1999), and genotype 2a encoding a 126 residue F protein (Yanagi et al., 1999).",
+            "cite_spans": [
+                {
+                    "start": 767,
+                    "end": 790,
+                    "mention": "Kalykhalov et al., 1997",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 792,
+                    "end": 811,
+                    "mention": "Yanagi et al., 1997",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 813,
+                    "end": 817,
+                    "mention": "1998",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 819,
+                    "end": 823,
+                    "mention": "1999",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 825,
+                    "end": 843,
+                    "mention": "Beard et al., 1999",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 845,
+                    "end": 865,
+                    "mention": "Lohmann et al., 1999",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 919,
+                    "end": 942,
+                    "mention": "Kalykhalov et al., 1997",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 944,
+                    "end": 963,
+                    "mention": "Yanagi et al., 1997",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1012,
+                    "end": 1031,
+                    "mention": "Yanagi et al., 1998",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1033,
+                    "end": 1051,
+                    "mention": "Beard et al., 1999",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1053,
+                    "end": 1073,
+                    "mention": "Lohmann et al., 1999",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1126,
+                    "end": 1145,
+                    "mention": "Yanagi et al., 1999",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "section": "Conservation of the F\u00a0protein-coding sequence in the genomes of different HCV isolates ::: Results",
+            "ref_spans": [
+                {
+                    "start": 27,
+                    "end": 28,
+                    "mention": "I",
+                    "ref_id": null
+                },
+                {
+                    "start": 282,
+                    "end": 284,
+                    "mention": "II",
+                    "ref_id": null
+                },
+                {
+                    "start": 438,
+                    "end": 440,
+                    "mention": "II",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Previous studies have demonstrated that the long ORF in the HCV genomic RNA codes for a polyprotein, which is proteolytically cleaved by cellular and viral proteases to generate at least 10 viral protein products. In this report, we demonstrate that an additional protein is expressed from a coding sequence that overlaps the core protein-coding sequence. The constraint imposed by two overlapping coding sequences is probably the reason why the HCV core protein-coding sequence has an unusually low synonymous substitution rate (Ina et al., 1994).",
+            "cite_spans": [
+                {
+                    "start": 530,
+                    "end": 546,
+                    "mention": "Ina et al., 1994",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The protein sequencing results shown in Figures 3 and 4 indicate that the F protein is synthesized by a \u20132/+1 ribosomal frameshift. It is unlikely that the F protein was synthesized as a result of the RNA sequence heterogeneity generated by the T7 RNA polymerase, as direct sequencing of the HCV RNA did not reveal a one nucleotide deletion or a two nucleotide insertion, which is required for the synthesis of the F protein. We previously reported that the F protein could be expressed from the HCV-1 core protein sequence in Escherichia coli (Lo et al., 1995). During the course of this study, we found that no detectable amount of the F protein could be expressed from the HCV-1 sequence in E.coli, and our previous result was caused by an unintended deletion of nucleotide 80, which fused the first 26 codons of the core protein sequence to the overlapping ORF to produce a protein resembling the F protein. The inability of the F protein to be expressed in E.coli also argues against a role for T7 RNA polymerase in the expression of the F protein, since the expression of the core protein in E.coli in our studies was also controlled by the T7 promoter (Lo and Ou, 1998).",
+            "cite_spans": [
+                {
+                    "start": 545,
+                    "end": 560,
+                    "mention": "Lo et al., 1995",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1160,
+                    "end": 1175,
+                    "mention": "Lo and Ou, 1998",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": [
+                {
+                    "start": 48,
+                    "end": 49,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 54,
+                    "end": 55,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The ribosomal frameshift for the synthesis of the F protein is independent of the HCV internal ribosomal entry site (data not shown; see also Selby et al., 1993). This efficiency is \u223c30% in vitro. In Huh7 cells, this efficiency was determined to be \u223c1\u20132% using only codons 1\u201314 of the core protein sequence. In our previous expression studies in mammalian cells, we found that the expressing efficiency for the F protein was substantially higher than 2% (Lo et al., 1995, 1996). Thus, it is likely that the nucleotide sequence downstream of codon 14 is important for increasing the efficiency of ribosomal frameshift in cell cultures. Nevertheless, this 1\u20132% efficiency is not unusual. The ribosomal frameshifting efficiency can range from 1 to 40% depending on the genes and the expressing systems used (Grentzmann et al., 1998; Ivanov et al., 2000).",
+            "cite_spans": [
+                {
+                    "start": 142,
+                    "end": 160,
+                    "mention": "Selby et al., 1993",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 455,
+                    "end": 470,
+                    "mention": "Lo et al., 1995",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 472,
+                    "end": 476,
+                    "mention": "1996",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 805,
+                    "end": 828,
+                    "mention": "Grentzmann et al., 1998",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 830,
+                    "end": 849,
+                    "mention": "Ivanov et al., 2000",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Although \u20131 and +1 ribosomal frameshifts are well documented, the \u20132 ribosomal frameshift is rare in eukaryotic cells and has only been documented once for the expression of ornithine decarboxylase antizyme (Matsufuji et al., 1996). For antizyme, this frameshift can be \u20132, +1 or a mixture of both, depending on the host cells used for the expression studies (Ivanov et al., 1998). The molecular mechanism by which the \u20132 frameshift is accomplished to synthesize F protein remains to be determined. It appears to take place at or near codon 11. The sequence of codons 8\u201314 is A rich and highly conserved among the HCV sequences reported (Rijnbrand and Lemon, 2000; Figure 1). This conservation may be due to its dual functions in coding and in directing the ribosomal frameshift.",
+            "cite_spans": [
+                {
+                    "start": 208,
+                    "end": 230,
+                    "mention": "Matsufuji et al., 1996",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 360,
+                    "end": 379,
+                    "mention": "Ivanov et al., 1998",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 638,
+                    "end": 663,
+                    "mention": "Rijnbrand and Lemon, 2000",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": [
+                {
+                    "start": 672,
+                    "end": 673,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Although ribosomal frameshift for gene expression has been demonstrated for RNA viruses of several different families including retroviruses (Jacks and Varmus, 1985), coronaviruses (Brierley et al., 1989) and astroviruses (Marczinke et al., 1994), HCV is the first example that uses this mechanism to express a gene that is totally embedded in another coding sequence. This strategy allows HCV to increase the coding potential of its genome and provides a means to produce a protein that may be needed in only relatively small amounts in the HCV life cycle.",
+            "cite_spans": [
+                {
+                    "start": 142,
+                    "end": 164,
+                    "mention": "Jacks and Varmus, 1985",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 182,
+                    "end": 203,
+                    "mention": "Brierley et al., 1989",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 223,
+                    "end": 245,
+                    "mention": "Marczinke et al., 1994",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The function of the F protein in the life cycle of HCV is unclear. It is interesting that a similar overlapping ORF is also detected in the core protein gene of the related GB virus type B (GBV-B) (Bukh et al., 1999). GBV-B has a shorter core protein-coding sequence, and its overlapping ORF, which also resides in the \u20132/+1 reading frame, can encode a protein that is 109 amino acids in length. The conservation of the F protein in the distantly related GBV-B indicates that this protein probably plays an important role in the HCV life cycle. The F protein displays no clear sequence homologies to other proteins of known function except that it is highly basic with a pI of \u223c12. The F protein does not appear to be essential for viral RNA replication, as its absence did not abolish the replication of an HCV RNA replicon in Huh7 hepatoma cells (Lohmann et al., 1999; Blight et al., 2000). It may play a role in viral entry and/or viral morphogenesis or, alternatively, regulate a cellular function important for the viral life cycle.",
+            "cite_spans": [
+                {
+                    "start": 198,
+                    "end": 215,
+                    "mention": "Bukh et al., 1999",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 849,
+                    "end": 869,
+                    "mention": "Lohmann et al., 1999",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 871,
+                    "end": 890,
+                    "mention": "Blight et al., 2000",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "In summary, our results show that a novel protein product is synthesized from the HCV genome by a ribosomal frameshift mechanism. The conservation of this gene in different HCV isolates and its expression during natural HCV infection, as evidenced by the presence of its antibodies in patients, suggest that this protein plays an important role in the HCV life cycle. Our studies thus identify a new potential target for the development of anti-HCV therapies. Such therapies may take the form of molecules that prevent the function of the F protein itself, or that prevent the ribosomal frameshift event (Dinman et al., 1998).",
+            "cite_spans": [
+                {
+                    "start": 605,
+                    "end": 624,
+                    "mention": "Dinman et al., 1998",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "For the construction of pCMV-CC, the HCV-1 core protein-coding sequence was isolated by PCR using the following two primers: sense, CGTGCCCCCGCAAGCTTGCTAG; and antisense, CCGTGGAGTTCTAGACTTGGTTAGGCCGAAGC. The antisense primer contained a termination codon (underlined) at the end of the core protein-coding sequence for translation termination. The PCR product was cloned into the XbaI\u2013HindIII site of the pRc/CMV vector (Invitrogen). pCMV-CCmt was identical to pCMV-CC, except that nucleotide 432 of the core protein-coding sequence was mutated from U to A and the XbaI\u2013NarI fragment of the vector was removed during the construction. pCMV-HACC contained the HA tag-coding sequence. This plasmid was constructed by inserting the HA-coding sequence TACCCATACGACGTCCCAGACTACGCT between the first and the second codons of the core protein-coding sequence in pCMV-CC. pCMV-CC\u03942 was identical to pCMV-CC, except that codons 2\u20137 and 15\u201350 had been deleted from the HCV-1 core protein-coding sequence by PCR. pGEM-core9a contained core protein-coding sequence with one nucleotide deletion in the 10 A stretch spanning from codons 8 to 11. This core protein-coding sequence was inserted in the BamHI\u2013HindIII site of the pGEM vector (Promega). For the construction of pET-orf, which expresses the truncated F protein, a C to G mutation was introduced at nucleotide 13 of the core protein-coding sequence to create a translation initiation codon for the overlapping ORF. This coding sequence was then isolated by PCR and cloned into the NdeI\u2013BamHI site of the pET-3a vector (Lo and Ou, 1998). The HCV sequences in all of the PCR-derived DNA constructs were verified by direct nucleotide sequencing.",
+            "cite_spans": [
+                {
+                    "start": 1566,
+                    "end": 1581,
+                    "mention": "Lo and Ou, 1998",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "section": "Construction of DNA plasmids ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The luciferase reporter constructs were created by joining the firefly luciferase-coding sequence to the 3\u2032 end of the following sequence via the EcoRI site: 5\u2032AACCTCAAACAGACACCATGAGCACGAATCCTAAACCTCAAAAAAAAAACAAACGTAACGAATTC3\u2032. The sequence underlined corresponds to codons 1\u201314 of the core protein sequence and the sequence in italics indicates the EcoRI site. The hybrid sequence was cloned into the pCDEF vector under the expressing control of the EF1\u03b1 promoter (Lu et al., 1999). In pEF-FS(0)Luc, the luciferase reporter was fused to the same reading frame as the core protein sequence (i.e. the zero reading frame). In pEF-FS(\u20132/+1)Luc, the luciferase reporter was fused to the +1 reading frame by the insertion of one nucleotide, C, after the EcoRI site. In pEF-FS(\u20131/+2)Luc, two nucleotides, CG, were inserted next to the EcoRI site.",
+            "cite_spans": [
+                {
+                    "start": 467,
+                    "end": 482,
+                    "mention": "Lu et al., 1999",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Construction of DNA plasmids ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The plasmids pCMV-CC, pCMV-CCmt, pCMV-HACC and pCMV-CC\u03942 were linearized with XbaI for RNA synthesis. The translation was carried out at 30\u00b0C for 1 h using the following conditions: 0.5\u20131 \u00b5g of RNA, 10 \u00b5l of rabbit reticulocyte lysates (Promega), 0.5 \u00b5l of 1 mM amino acid mixture without methionine, and 50 \u00b5Ci of [35S]methionine (>1000 Ci/mmol; ICN). The proteins synthesized were then analyzed by gel electrophoresis and autoradiography. The replacement of reticulocyte lysates with wheat germ extracts in the translation reaction generated the same results.",
+            "cite_spans": [],
+            "section": "In vitro translation ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "A 10 \u00b5g aliquot of RNA derived from pCMV-CC (or pCMV-CC\u03942), 50 \u00b5l of wheat germ extracts (Promega), 150 \u00b5Ci of [3H]lysine (or [3H]threonine), 5 \u00b5Ci of [35S]methionine and 1 mM amino acid mixture minus methionine and lysine (or methionine and threonine) were mixed and incubated at 30\u00b0C for 1 h. The protein samples were then purified on a 12.5% SDS\u2013polyacrylamide gel and eluted in 10 mM ammonium bicarbonate containing 75 \u00b5g/ml bovine serum albumin (New England Biolabs) at 37\u00b0C overnight. The samples were then subjected to Edman degradation and the sequencing cycles were analyzed by scintillation counting.",
+            "cite_spans": [],
+            "section": "Radiosequencing ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The HCV RNA with deletions of codons 2\u20137 and the sequence downstream of codon 14 was synthesized with the T7 RNA polymerase in the presence of [\u03b3-32P]GTP. This results in the end-labeling of the RNA. The RNA was partially hydrolyzed in 50 mM NaHCO3 pH 9, containing 1.6 mM EDTA at 90\u00b0C for 6 min, or digested with RNase T1 or RNase A at 56\u00b0C for 4 min in a buffer containing 10 mM Tris\u2013HCl pH 7, 1 mM EDTA and 7 M urea. The samples were then analyzed on a 12% sequencing gel.",
+            "cite_spans": [],
+            "section": "Enzymatic sequencing of the HCV RNA ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Huh7 cells were maintained in Dulbecco\u2019s modified essential medium containing 10% fetal bovine serum. The luciferase reporter constructs were transfected into Huh7 cells by the calcium phosphate precipitation method. Luciferase assay was conducted \u223c48 h post-transfection, using a kit supplied by Promega. To monitor the transfection efficiency, pXGH, an hGH-expressing plasmid (Lu et al., 1999), was co-transfected into Huh7 cells, and the level of hGH released into the medium was determined. Relative frameshift efficiencies were calculated using the following equation:",
+            "cite_spans": [
+                {
+                    "start": 379,
+                    "end": 394,
+                    "mention": "Lu et al., 1999",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Cell transfection and the luciferase assay ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "",
+            "cite_spans": [],
+            "section": "Cell transfection and the luciferase assay ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "where Lucx is luciferase activity, LucB is background luciferase activity, Luc0 is luciferase activity of FS(0)Luc, TEx is transfection efficiency, and TE0 is transfection efficiency of FS(0)Luc. Background luciferase activity represents the luciferase activity determined using pCDEF-transfected Huh7 lysates.",
+            "cite_spans": [],
+            "section": "Cell transfection and the luciferase assay ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "This truncated F protein sequence was expressed in E.coli using the pET-3a vector following our previous procedures (Lo and Ou, 1998). The cells were lysed by sonication in phosphate-buffered saline (PBS), and the F protein was solubilized with 6 M guanidine\u2013HCl. The F protein sample was dialyzed against PBS, followed by a brief centrifugation in a microfuge. The protein was resuspended in 0.9 M acetic acid containing 6.25 M urea and purified on an acid\u2013urea gel (McNabb and Courtney, 1992). For the serological assay, 100\u2013125 ng of F protein were coated in a well of a microtiter plate and incubated with 20 \u00b5l of serum and 180 \u00b5l of diluent at 37\u00b0C for 1 h. The well was then washed and subsequently incubated with 200 \u00b5l of horseradish peroxidase-conjugated anti-human antibody at 37\u00b0C for another hour. The sample was then washed again for color development.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 132,
+                    "mention": "Lo and Ou, 1998",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 468,
+                    "end": 493,
+                    "mention": "McNabb and Courtney, 1992",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "section": "Enzymatic immunoassay ::: Materials and methods",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Hepatology",
+            "volume": "30",
+            "issn": "",
+            "pages": "316-324",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "4",
+            "issn": "",
+            "pages": "1230-1238",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "19",
+            "issn": "",
+            "pages": "1907-1917",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "230",
+            "issn": "",
+            "pages": "1237-1242",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "277",
+            "issn": "",
+            "pages": "570-574",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "325-330",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "199",
+            "issn": "",
+            "pages": "124-131",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "213",
+            "issn": "",
+            "pages": "455-461",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "70",
+            "issn": "",
+            "pages": "5177-5182",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "285",
+            "issn": "",
+            "pages": "110-113",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "264",
+            "issn": "",
+            "pages": "134-141",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "290",
+            "issn": "",
+            "pages": "1972-1974",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "68",
+            "issn": "",
+            "pages": "5588-5595",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "15",
+            "issn": "",
+            "pages": "1360-1370",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "66",
+            "issn": "",
+            "pages": "4839-4847",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "159-164",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "70",
+            "issn": "",
+            "pages": "4438-4443",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Curr. Top. Microbiol. Immunol.",
+            "volume": "242",
+            "issn": "",
+            "pages": "85-116",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "74",
+            "issn": "",
+            "pages": "1103-1113",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "133-146",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "94",
+            "issn": "",
+            "pages": "8738-8743",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "244",
+            "issn": "",
+            "pages": "161-172",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "57",
+            "issn": "",
+            "pages": "537-547",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "262",
+            "issn": "",
+            "pages": "250-263",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "262",
+            "issn": "",
+            "pages": "470-478",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "244",
+            "issn": "",
+            "pages": "359-362",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "88",
+            "issn": "",
+            "pages": "2451-2455",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Trends Biotechnol.",
+            "volume": "16",
+            "issn": "",
+            "pages": "190-196",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "4",
+            "issn": "",
+            "pages": "479-486",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Evol.",
+            "volume": "38",
+            "issn": "",
+            "pages": "50-56",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

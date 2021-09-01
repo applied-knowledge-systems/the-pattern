@@ -1,0 +1,1321 @@
+{
+    "paper_id": "PMC156578",
+    "metadata": {
+        "title": "Discovering human history from stomach bacteria",
+        "authors": [
+            {
+                "first": "Todd",
+                "middle": [
+                    "R"
+                ],
+                "last": "Disotell",
+                "suffix": "",
+                "email": "todd.disotell@nyu.edu",
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Charles Darwin recognized that the distribution and form of parasites was evolutionarily significant. He noted, for instance, that \"... the Pediculi [lice] collected in different countries from the different races of man ... differ, not only in colour, but in the structure of their claws and limbs. In every case in which many specimens were obtained the differences were constant\" [1]. More recently, several research groups [2-7] have found interesting correlations between the evolutionary relationships among various bacterial and viral strains hosted by humans and the pattern of migrations of modern humans throughout the world.",
+            "cite_spans": [
+                {
+                    "start": 384,
+                    "end": 385,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 428,
+                    "end": 429,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 430,
+                    "end": 431,
+                    "mention": "7",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "A particularly interesting case is that of Helicobacter pylori, a Gram-negative bacterium associated with gastritis, peptic ulcers, and gastric cancer that may infect up to half of all humans [8]. The discovery that a bacterial infection could lead to what were considered chronic diseases [8] was a striking example of the fact that infectious diseases have not yet been conquered. The continuing acquired immune deficiency syndrome (AIDS) epidemic, outbreaks of Ebola in Central Africa, and the current spread of West Nile Virus in the United States and of severe acute respiratory syndrome (SARS) from Asia provide evidence of the pervasiveness and health consequences of infectious agents even in the age of vaccination and antimicrobial and antiviral therapies. Many infectious diseases are thought to have arisen concurrently with the development of agriculture and the rise of urban living. If, instead, many pathogens' relationships with humans are much older, it would not be surprising to find deeper evolutionary associations between humans and their microbial and viral invaders.",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 194,
+                    "mention": "8",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 291,
+                    "end": 292,
+                    "mention": "8",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "The evolutionary history of H. pylori may provide an example of the coevolution of a bacterium and its only known host. The H. pylori genome is relatively small at 1.67 megabases, with a minimal complement of metabolic genes [9]. Variation between H. pylori isolates from different people or even from one person is large, leading to unique fingerprints for nearly every isolate so far typed. The coding genes are not very diverse, however: most of the variation occurs in the third base position within codons or through inversions or translo-cations, leaving the encoded amino-acid sequences relatively similar [2]. This amino-acid sequence conservation is fortunate for vaccine research, as one vaccine is likely to be effective on many strains. More interesting is the fact that H. pylori has an extremely high rate of recombination, higher in fact than that of any other organism characterized to date [3,10].",
+            "cite_spans": [
+                {
+                    "start": 226,
+                    "end": 227,
+                    "mention": "9",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 614,
+                    "end": 615,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 908,
+                    "end": 909,
+                    "mention": "3",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 910,
+                    "end": 912,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "Normally, such a high rate of recombination would make inferring an organism's evolutionary history very difficult, as information about the origin of each mutation would be lost as it spreads throughout a population. But coupled with the mode of transmission of H. pylori, this extremely high rate of recombination may in fact make evolutionary inferences easier. Several studies strongly suggest that H. pylori is usually transmitted within families, generally from mother to child [11,12]. Thus, the transmission of H. pylori in some ways mimics that of maternally transmitted mitochondrial DNA [13]. Because mitochondrial DNA is transmitted solely from one parent (the mother) and does not recombine, it has proved to be an ideal genetic system for inferring human evolutionary history (see below) [14,15]. If H. pylori is indeed predominantly maternally transmitted, new strains will generally not infect a person during their lifetime; together with the high rate of recombination, this would mean that the mutations that accumulate within the population of bacteria in an individual's stomach will be relatively homogeneous. This should result in a swarm of strains that are very closely related to each other, containing many of the mutations that have occurred in individual bacteria. Swarms found in different people will thus be more different from each other than if there was less recombination.",
+            "cite_spans": [
+                {
+                    "start": 485,
+                    "end": 487,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 488,
+                    "end": 490,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 599,
+                    "end": 601,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 803,
+                    "end": 805,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 806,
+                    "end": 808,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "Most infectious diseases spread quickly throughout the world and strains from different regions are relatively similar, but initial sampling of H. pylori from people from different regions of the world revealed fairly strong geographic partitioning into European and Asian H. pylori types [2-4]. Recently, Falush and colleagues [5] have examined this partitioning in greater detail. After sequencing eight genes - a total of 3,850 nucleotides - in 370 strains derived from 27 human populations, they found 1,418 polymorphic nucleotide positions. They then applied a new analytic tool, STRUCTURE [16], that was developed to infer human genetic structure from multilocus genotype data. The program uses Bayesian methods to identify subgroups with distinctive allele frequencies, and clusters of the subgroups, even in the presence of recombination [16]. When this technique was applied to the H. pylori sequences, four main clusters were found - two from Africa and one each from Europe and Asia (Figure 1a) [5].",
+            "cite_spans": [
+                {
+                    "start": 290,
+                    "end": 291,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 292,
+                    "end": 293,
+                    "mention": "4",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 329,
+                    "end": 330,
+                    "mention": "5",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 596,
+                    "end": 598,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 847,
+                    "end": 849,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1007,
+                    "end": 1008,
+                    "mention": "5",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "section": "",
+            "ref_spans": [
+                {
+                    "start": 1002,
+                    "end": 1004,
+                    "mention": "1a",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "Each cluster found by Falush and colleagues [5] could be divided into subgroups; for instance, the 'Africa 1' cluster could be subdivided further into West and South African subclusters, and the East Asia cluster could be split into East Asian, Amerind, and Maori subclusters. The geographic partitioning within the 200 European strains was particularly complicated, presumably because numerous groups have swept back and forth across Europe over the past several millennia. European strains also occasionally appeared in the Americas, Australia, and among South Africans, presumably reflecting colonial conquest.",
+            "cite_spans": [
+                {
+                    "start": 45,
+                    "end": 46,
+                    "mention": "5",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "The phylogenetic relationships of these clusters (Figure 1b) and their subdivisions [5] show a pattern similar to that obtained using mitochondrial DNA variation (Figure 1c) [14,15]. The modern human gene pool, as inferred from mitochondrial DNA and corroborated by Y chromosome studies, is thought to have had an African origin approximately 150,000-200,000 years ago [14,15,17,18]. The original human population then spread and diversified throughout Africa for nearly 100,000 years, before expanding into Western Asia and Europe and into Southern and Eastern Asia approximately 50,000-60,000 years ago, replacing the existing archaic populations of humans in these regions. Subsequent migrations spread into Australasia by 40,000 years ago, then to the Pacific Islands, and later into North America, approximately 15,000 years ago (Figure 2) [14,15,17,18]. The remarkable similarity between this view of human history and the results from studies of H. pylori have led Falush and colleagues [5] as well as others [2] to conclude that H. pylori evolution has followed the path of modern human expansion and migration. This work thus provides another type of data for analysis of human evolution and migration, independent of mitochondrial DNA and Y chromosomes, that will be valuable in further studies. Unfortunately, however, estimating the divergence dates from H. pylori is particularly difficult, owing to the extremely high rate of recombination [10]. Additional sampling and analytical techniques may be required to further test the migratory hypothesis.",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 86,
+                    "mention": "5",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 175,
+                    "end": 177,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 178,
+                    "end": 180,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 370,
+                    "end": 372,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 373,
+                    "end": 375,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 376,
+                    "end": 378,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 379,
+                    "end": 381,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 846,
+                    "end": 848,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 849,
+                    "end": 851,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 852,
+                    "end": 854,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 855,
+                    "end": 857,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 995,
+                    "end": 996,
+                    "mention": "5",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1017,
+                    "end": 1018,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1455,
+                    "end": 1457,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "section": "",
+            "ref_spans": [
+                {
+                    "start": 57,
+                    "end": 59,
+                    "mention": "1b",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 170,
+                    "end": 172,
+                    "mention": "1c",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 842,
+                    "end": 843,
+                    "mention": "2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "Other pathogens have also been proposed to follow evolutionary histories similar to their hosts. One of the most interesting examples, though with a non-human host, is that of aphids, a bacterium found within them, and two plasmids associated with the bacterium. Funk et al. [19] found that the inferred intraspecifrc phylogenies of these four genomes were completely congruent. Returning to human pathogens, the human polyomavirus JC virus (JCV) can be divided into genotypes that correspond to the major continental land masses [6]. Like H. pylori, JCV - which can cause progressive multifocal leukoencephalopathy (loss of myelination in the central nervous system) - is very widespread amongst humans as a result of familial transmission. A total of 12 known subtypes have been defined, with European, African, and Asian distributions [7]. Although direct inferences of an African origin for JCV are problematic because there is no suitable outgroup with which to root the phylogenetic tree, when an African origin is assumed, a reasonable evolutionary history can be hypothesized (Figure 3) [7]. As with H. pylori, inferring molecular divergence dates is currently problematic for JCV. Further investigation into the evolutionary history of these human pathogens is therefore necessary.",
+            "cite_spans": [
+                {
+                    "start": 276,
+                    "end": 278,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 531,
+                    "end": 532,
+                    "mention": "6",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 839,
+                    "end": 840,
+                    "mention": "7",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1096,
+                    "end": 1097,
+                    "mention": "7",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "",
+            "ref_spans": [
+                {
+                    "start": 1092,
+                    "end": 1093,
+                    "mention": "3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "Elucidating the patterns of evolution of human pathogens may ultimately provide additional evidence not only about their history but also about human evolution and history. This will be especially true for pathogens such as H. pylori that have a predominantly mother-child mode of transmission, mimicking mitochondrial DNA evolution. H. pylori's causative role in several chronic stomach conditions is just one of many current examples of the known or suspected role of an infectious agent leading to chronic diseases. Bacteria are suspected to be involved in the development of arteriosclerosis, stroke, and Crohn's disease, whereas viruses are known to lead to AIDS and the various forms of chronic hepatitis. Cervical cancer, hepatocellular carcinoma, Burkitt's lymphoma, Kaposi's sarcoma, and perhaps diabetes mellitus are also either known or suspected to be of viral origin. If some of the ubiquitous chronic diseases prove to be of bacterial or viral origin, worldwide surveys of these pathogens in human populations should be carried out immediately, so that knowledge about the evolution and diversity of these pathogens can be incorporated into the research programs designed to ameliorate the conditions that they cause.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Figure 1: The relationships between human populations, as calculated from H. pylori found in stomachs and from mitochondrial DNA data. (a) Relationships between modern subpopulations of H. pylori [5]. Each subpopulation is represented by a circle with a diameter proportional to the genetic diversity within it. The centres of the circles are joined by a phylogenetic tree showing the relationships between the four subpopulations. Bacteria in each subpopulation are found predominantly in people who originate from the regions shown. (b) A population-level phylogenetic tree of the H. pylori geographic subpopulations shown in (a). (c) A median-joining network of human populations derived from mitochondrial DNA [14]. Such a network shows alternative potential evolutionary relationships between clusters. Each circle represents a cluster of mitochondrial types with a diameter proportional to the frequency of that type within the subpopulations. All non-African populations are derived from one African lineage; the network of relationships within this lineage is magnified (top). (a,b) Adapted from [5]; (c) adapted from [14].",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2: A map of the pattern of expansion and migration of modern humans throughout the world, derived from studies of mitochondrial DNA and Y chromosomes [14,15,17,18]. Numbers indicate the approximate time (in years before the present) when modern humans first appeared in the indicated region.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3: Relationships of human polyoma JC virus (JCV) subtypes found in humans from different parts of the world [7]. Letters refer to individual subtypes. (a) The hypothesized pattern of spread of JCV subtypes through the world (excluding the Americas); (b) an inferred phylogeny of JCV subtypes, assuming an African origin for the virus. Adapted from [7].",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Darwin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1872,
+            "venue": "The Descent of Man and Selection in Relation to Sex",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Recombination and mutation during long-term gastric colonization by Helicobacter pylori: estimates of clock rates, recombination size, and minimal age.",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Falush",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kraft",
+                    "suffix": ""
+                },
+                {
+                    "first": "NS",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Correa",
+                    "suffix": ""
+                },
+                {
+                    "first": "JG",
+                    "middle": [],
+                    "last": "Fox",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Achtman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Suerbaum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Proc Natl Acad Sci USA",
+            "volume": "98",
+            "issn": "",
+            "pages": "15056-15061",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Helicobacter pylori among preschool children and their parents: evidence of parent-child transmission.",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rothenbacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bode",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Berg",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Knayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gonser",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Adler",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Brenner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J Infect Dis",
+            "volume": "179",
+            "issn": "",
+            "pages": "398-402",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Helicobacter pylori infection in Swedish school children: lack of evidence of child-to-child transmission outside the family.",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tindberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bengtsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Granath",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Blennow",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Nyr\u00e9n",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Granstr\u00f6m",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Gastroenterology",
+            "volume": "121",
+            "issn": "",
+            "pages": "310-316",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Maternal inheritance of human mitochondrial DNA.",
+            "authors": [
+                {
+                    "first": "RE",
+                    "middle": [],
+                    "last": "Giles",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Blanc",
+                    "suffix": ""
+                },
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Cann",
+                    "suffix": ""
+                },
+                {
+                    "first": "DC",
+                    "middle": [],
+                    "last": "Wallace",
+                    "suffix": ""
+                }
+            ],
+            "year": 1980,
+            "venue": "Proc Natl Acad Sci USA",
+            "volume": "77",
+            "issn": "",
+            "pages": "6715-6719",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "Deep common ancestry of Indian and western Eurasian mtDNA lineages.",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kivisild",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Bamshad",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kaldma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Metspalu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Metspalu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Reidla",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Laos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Parik",
+                    "suffix": ""
+                },
+                {
+                    "first": "WS",
+                    "middle": [],
+                    "last": "Watkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "ME",
+                    "middle": [],
+                    "last": "Dixon",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Curr Biol",
+            "volume": "9",
+            "issn": "",
+            "pages": "1331-1334",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Mitochondrial genome variation and the origin of modern humans.",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ingman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kaessmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Paabo",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Gyllensten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nature",
+            "volume": "408",
+            "issn": "",
+            "pages": "708-713",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Inference of population structure using multilocus genotype data.",
+            "authors": [
+                {
+                    "first": "JK",
+                    "middle": [],
+                    "last": "Pritchard",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stephens",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Donnelly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Genetics",
+            "volume": "155",
+            "issn": "",
+            "pages": "945-959",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Hierarchical patterns of global human Y-chromosome diversity.",
+            "authors": [
+                {
+                    "first": "MF",
+                    "middle": [],
+                    "last": "Hammer",
+                    "suffix": ""
+                },
+                {
+                    "first": "TM",
+                    "middle": [],
+                    "last": "Karafet",
+                    "suffix": ""
+                },
+                {
+                    "first": "AJ",
+                    "middle": [],
+                    "last": "Redd",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jarjanazi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Santachiara-Benerecetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Soodyall",
+                    "suffix": ""
+                },
+                {
+                    "first": "SL",
+                    "middle": [],
+                    "last": "Zegura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Mol Biol Evol",
+            "volume": "18",
+            "issn": "",
+            "pages": "1189-1203",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "The phylogeography of Y chromosome binary haplotypes and the origins of modern human populations.",
+            "authors": [
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Underhill",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Passarino",
+                    "suffix": ""
+                },
+                {
+                    "first": "AA",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mirazon Lahr",
+                    "suffix": ""
+                },
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Foley",
+                    "suffix": ""
+                },
+                {
+                    "first": "PJ",
+                    "middle": [],
+                    "last": "Oefner",
+                    "suffix": ""
+                },
+                {
+                    "first": "LL",
+                    "middle": [],
+                    "last": "Cavalli-Sforza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Ann Hum Genet",
+            "volume": "65",
+            "issn": "",
+            "pages": "43-62",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "Intraspecific phylogenetic congruence among multiple symbiont genomes.",
+            "authors": [
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Helbling",
+                    "suffix": ""
+                },
+                {
+                    "first": "JJ",
+                    "middle": [],
+                    "last": "Wernegreen",
+                    "suffix": ""
+                },
+                {
+                    "first": "NA",
+                    "middle": [],
+                    "last": "Moran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Proc R Soc Lond B Biol Sci",
+            "volume": "267",
+            "issn": "",
+            "pages": "2517-2521",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Helicobacter pylori virulence and genetic geography.",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Covacci",
+                    "suffix": ""
+                },
+                {
+                    "first": "JL",
+                    "middle": [],
+                    "last": "Telford",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Del Giudice",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Parsonnet",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rappuoli",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Science",
+            "volume": "284",
+            "issn": "",
+            "pages": "1328-1333",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "Evolution of Helicobacter pylori: the role of recombination.",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Suerbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Achtman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Trends Microbiol",
+            "volume": "7",
+            "issn": "",
+            "pages": "182-184",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "Recombination and clonal groupings within Helicobacter pylori from different geographical regions.",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Achtman",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Azuma",
+                    "suffix": ""
+                },
+                {
+                    "first": "DE",
+                    "middle": [],
+                    "last": "Berg",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ito",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Morelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-J",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Suerbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "SA",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "van der Ende",
+                    "suffix": ""
+                },
+                {
+                    "first": "L-J",
+                    "middle": [],
+                    "last": "van Doorn",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Mol Microbiol",
+            "volume": "32",
+            "issn": "",
+            "pages": "459-470",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "Traces of human migrations in Helicobacter pylori populations.",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Falush",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wirth",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Linz",
+                    "suffix": ""
+                },
+                {
+                    "first": "JK",
+                    "middle": [],
+                    "last": "Pritchard",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stephens",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kidd",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Blaser",
+                    "suffix": ""
+                },
+                {
+                    "first": "DY",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "GI",
+                    "middle": [],
+                    "last": "Perez-Perez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "299",
+            "issn": "",
+            "pages": "1582-1585",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "Genotypes of JC virus in East, Central and Southwest Europe.",
+            "authors": [
+                {
+                    "first": "HT",
+                    "middle": [],
+                    "last": "Agostini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Deckhut",
+                    "suffix": ""
+                },
+                {
+                    "first": "DV",
+                    "middle": [],
+                    "last": "Jobes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Girones",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Schlunck",
+                    "suffix": ""
+                },
+                {
+                    "first": "MG",
+                    "middle": [],
+                    "last": "Prost",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Frias",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "P\u00e9rez-Trallero",
+                    "suffix": ""
+                },
+                {
+                    "first": "CF",
+                    "middle": [],
+                    "last": "Ryschkewitsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "GL",
+                    "middle": [],
+                    "last": "Stoner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J Gen Virol",
+            "volume": "82",
+            "issn": "",
+            "pages": "1221-1331",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "Evolution of human polyomvirus JC: implications for the population history of humans.",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sugimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hasegawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kato",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-Y",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ebihara",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Taguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kitamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yogo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J Mol Evol",
+            "volume": "54",
+            "issn": "",
+            "pages": "285-297",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration.",
+            "authors": [
+                {
+                    "first": "BJ",
+                    "middle": [],
+                    "last": "Marshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "JR",
+                    "middle": [],
+                    "last": "Warren",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Lancet",
+            "volume": "1",
+            "issn": "",
+            "pages": "1311-1315",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "The complete genome sequence of the gastric pathogen Helicobacter pylori.",
+            "authors": [
+                {
+                    "first": "JF",
+                    "middle": [],
+                    "last": "Tomb",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "AR",
+                    "middle": [],
+                    "last": "Kerlavage",
+                    "suffix": ""
+                },
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Clayton",
+                    "suffix": ""
+                },
+                {
+                    "first": "GG",
+                    "middle": [],
+                    "last": "Sutton",
+                    "suffix": ""
+                },
+                {
+                    "first": "RD",
+                    "middle": [],
+                    "last": "Fleischmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "KA",
+                    "middle": [],
+                    "last": "Ketchum",
+                    "suffix": ""
+                },
+                {
+                    "first": "HP",
+                    "middle": [],
+                    "last": "Klenk",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gill",
+                    "suffix": ""
+                },
+                {
+                    "first": "BA",
+                    "middle": [],
+                    "last": "Dougherty",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nature",
+            "volume": "388",
+            "issn": "",
+            "pages": "539-547",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

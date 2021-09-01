@@ -1,0 +1,1840 @@
+{
+    "paper_id": "PMC126080",
+    "metadata": {
+        "title": "Structure of coronavirus main proteinase reveals combination of a chymotrypsin fold with an extra \u03b1-helical domain",
+        "authors": [
+            {
+                "first": "Kanchan",
+                "middle": [],
+                "last": "Anand",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Gottfried",
+                "middle": [
+                    "J."
+                ],
+                "last": "Palm",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Jeroen",
+                "middle": [
+                    "R."
+                ],
+                "last": "Mesters",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Stuart",
+                "middle": [
+                    "G."
+                ],
+                "last": "Siddell",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "John",
+                "middle": [],
+                "last": "Ziebuhr",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Rolf",
+                "middle": [],
+                "last": "Hilgenfeld",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Transmissible gastroenteritis virus (TGEV) belongs to the Coronaviridae, a family of positive-strand RNA viruses. Coronaviruses have the largest RNA viral genomes known to date (28 500 nucleotides in the case of TGEV) and share a similar genome organization and common transcriptional and translational strategies with the Arteriviridae (den Boon et al., 1991; Cavanagh, 1997). TGEV infection is associated with severe and often fatal diarrhoea in young pigs (for reviews see Enjuanes and van der Zeijst, 1995; Saif and Wesley, 1999).",
+            "cite_spans": [
+                {
+                    "start": 338,
+                    "end": 359,
+                    "mention": "den Boon et al., 1991",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 361,
+                    "end": 375,
+                    "mention": "Cavanagh, 1997",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 476,
+                    "end": 509,
+                    "mention": "Enjuanes and van der Zeijst, 1995",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 511,
+                    "end": 532,
+                    "mention": "Saif and Wesley, 1999",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "The viral proteins required for TGEV genome replication and transcription are encoded by the replicase gene (Eleouet et al., 1995; Penzes et al., 2001). This gene encodes two replicative polyproteins, pp1a (447 kDa) and pp1ab (754 kDa) that are processed by virus-encoded proteinases to produce the functional subunits of the replication complex (reviewed in Ziebuhr et al., 2000). The central and C-proximal regions of pp1a and pp1ab are processed by a 33.1 kDa viral cysteine proteinase which is called the \u2018main proteinase\u2019 (Mpro) or, alternatively, the \u20183C-like proteinase\u2019 (3CLpro). The name \u20183C-like proteinase\u2019 was introduced originally because of similar substrate specificities of the coronavirus Mpro and picornavirus 3C proteinases (3Cpro) and the identification of cysteine as the principal catalytic residue in the context of a predicted two-\u03b2-barrel fold (Gorbalenya et al., 1989a,b). Meanwhile however, several studies have revealed significant differences in both the active sites and domain structures between the coronavirus and picornavirus enzymes (Liu and Brown, 1995; Lu and Denison, 1997; Ziebuhr et al., 1997, 2000; Hegyi et al., 2002). Also, the crystal structures reported for a number of picornavirus 3C proteinases (Allaire et al., 1994; Matthews et al., 1994; Bergmann et al., 1997; Mosimann et al., 1997) have not been useful in predicting the three-dimensional structures of coronavirus main proteinases. Because of the large phylogenetic distance between the two groups of enzymes, we will use the term coronavirus Mpro throughout this article.",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 129,
+                    "mention": "Eleouet et al., 1995",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 131,
+                    "end": 150,
+                    "mention": "Penzes et al., 2001",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 359,
+                    "end": 379,
+                    "mention": "Ziebuhr et al., 2000",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 870,
+                    "end": 894,
+                    "mention": "Gorbalenya et al., 1989a",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 895,
+                    "end": 896,
+                    "mention": "b",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1069,
+                    "end": 1088,
+                    "mention": "Liu and Brown, 1995",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1090,
+                    "end": 1110,
+                    "mention": "Lu and Denison, 1997",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1112,
+                    "end": 1132,
+                    "mention": "Ziebuhr et al., 1997",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1134,
+                    "end": 1138,
+                    "mention": "2000",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1140,
+                    "end": 1158,
+                    "mention": "Hegyi et al., 2002",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1244,
+                    "end": 1264,
+                    "mention": "Allaire et al., 1994",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1266,
+                    "end": 1287,
+                    "mention": "Matthews et al., 1994",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1289,
+                    "end": 1310,
+                    "mention": "Bergmann et al., 1997",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1312,
+                    "end": 1333,
+                    "mention": "Mosimann et al., 1997",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "Sequence comparisons (Figure 1) and experimental data obtained for other coronavirus homologues allow us to predict that the mature form of the TGEV Mpro is released from pp1a and pp1ab by autoproteolytic cleavage at flanking Gln\u2193(Ser,Ala) sites (Eleouet et al., 1995; Hegyi and Ziebuhr, 2002). Accordingly, the TGEV Mpro has 302 amino acid residues that correspond to the pp1a/pp1ab residues 2879\u20133180. In vivo and in vitro analyses of avian infectious bronchitis virus (IBV), mouse hepatitis virus (MHV) and human coronavirus 229E (HCoV 229E) Mpro activities have shown consistently that the proteinase cleaves the replicase polyproteins at 11 conserved sites and, therefore, it seems reasonable to conclude that the Mpro-mediated processing pathways are conserved in all coronaviruses, including TGEV.",
+            "cite_spans": [
+                {
+                    "start": 247,
+                    "end": 267,
+                    "mention": "Eleouet et al., 1995",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 269,
+                    "end": 292,
+                    "mention": "Hegyi and Ziebuhr, 2002",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": [
+                {
+                    "start": 29,
+                    "end": 30,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Previous theoretical studies and experimental data have led to the following conclusions (Bazan and Fletterick, 1988; Gorbalenya et al., 1989a,b; Liu and Brown, 1995; Lu et al., 1995; Ziebuhr et al., 1995, 1997, 2000; Lu and Denison, 1997; Seybert et al., 1997; Ziebuhr and Siddell, 1999; Ng and Liu, 2000; Hegyi et al., 2002): (i) Corona virus main proteinases employ conserved cysteine and histidine residues in the catalytic site. In TGEV Mpro, these are Cys144 and His41. There has been some debate on the existence of a third residue in the catalytic centre. In common with picornavirus 3C proteinases, the catalytic centre of the coronavirus Mpro is predicted to be embedded in a chymotrypsin-like, two-\u03b2-barrel structure in which cysteine (rather than serine) serves as the principal nucleophile. (ii) Coronavirus main proteinases have well-defined substrate specificities. All known cleavage sites contain bulky hydrophobic residues (mainly leucine) at the P2 position, glutamine at the P1 position, and small aliphatic residues at the P1\u2032 position. (iii) Coronavirus main proteinases possess a large C-terminal domain of \u223c110 amino acid residues that is not found in other RNA virus 3C-like proteinases. The characterization of recombinant proteins, in which 33, 28 and 34 C-terminal amino acid residues were deleted from the IBV, MHV and HCoV main proteinases, respectively, resulted consistently in dramatic losses of proteolytic activity, suggesting that the C-terminal domain of Mpro contributes to proteolytic activity through undefined mechanisms.",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 116,
+                    "mention": "Bazan and Fletterick, 1988",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 118,
+                    "end": 142,
+                    "mention": "Gorbalenya et al., 1989a",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 143,
+                    "end": 144,
+                    "mention": "b",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 146,
+                    "end": 165,
+                    "mention": "Liu and Brown, 1995",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 167,
+                    "end": 182,
+                    "mention": "Lu et al., 1995",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 184,
+                    "end": 204,
+                    "mention": "Ziebuhr et al., 1995",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 206,
+                    "end": 210,
+                    "mention": "1997",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 212,
+                    "end": 216,
+                    "mention": "2000",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 218,
+                    "end": 238,
+                    "mention": "Lu and Denison, 1997",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 240,
+                    "end": 260,
+                    "mention": "Seybert et al., 1997",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 262,
+                    "end": 287,
+                    "mention": "Ziebuhr and Siddell, 1999",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 289,
+                    "end": 305,
+                    "mention": "Ng and Liu, 2000",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 307,
+                    "end": 325,
+                    "mention": "Hegyi et al., 2002",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "The 1.96 \u212b TGEV Mpro crystal structure reported herein reveals the structural details of a unique catalytic system and facilitates the interpretation of previously published mutagenesis studies that have, at least in part, remained speculative due to the complete lack of structural information on \u20183C-like\u2019 enzymes.",
+            "cite_spans": [],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "The presence of 10 methionine residues in the TGEV Mpro molecule suggested that selenomethionine-based multiwavelength anomalous dispersion (MAD; Hendrickson et al., 1990) could be used to solve the phase problem. The unit cell dimensions of the crystals (a = 72.8 \u212b, b = 160.1 \u212b, c = 88.9 \u212b, \u03b2 = 94.3\u00b0, space group P21) and self-rotation calculations indicated the presence of as many as six TGEV Mpro molecules per asymmetric unit. In the MAD phasing process, we finally succeeded in locating 48 (out of 60) crystallographically independent selenium sites by the \u2018Shake & Bake\u2019 approach to direct methods (Weeks and Miller, 1999), without recourse to heavy atom derivatives or other methods of phasing (see Materials and methods). The phases obtained resulted in a readily interpretable electron density map.",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 170,
+                    "mention": "Hendrickson et al., 1990",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 608,
+                    "end": 630,
+                    "mention": "Weeks and Miller, 1999",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "section": "Structure determination by MAD phasing ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "All six copies (designated A\u2013F) of the TGEV Mpro in the asymmetric unit of the crystal could be built into well-defined electron density (Figure 2), which covered almost all of the 302 amino acid residues of each monomer. The only exceptions were the two C-terminal residues which were not visible in five of the six chains. Monomers A, E and F also lacked electron density for residue 300.",
+            "cite_spans": [],
+            "section": "Quality of the model ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 145,
+                    "end": 146,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The final model comprises 1798 amino acid residues and 1006 water molecules, as well as 27 sulfate ions, nine dioxane molecules and six 2-methyl-2,4-pentanediol (MPD) molecules from the crystallization medium. The refinement converged to a final R-factor of 0.210 and an Rfree (Br\u00fcnger, 1992) of 0.256, with good stereochemistry. Altogether, 88.4% of the amino acid residues were found in the most favoured regions of the Ramachandran plot, and 10.8% were in additionally allowed regions. Residues Asn70, Asn71 and Ser279 were in regions only generously allowed, but had clear electron density.",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 291,
+                    "mention": "Br\u00fcnger, 1992",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "section": "Quality of the model ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The six TGEV Mpro monomers present in the asymmetric unit are arranged in three dimers (Figure 3). Each monomer is folded into three domains, the first two of which are antiparallel \u03b2-barrels reminiscent of those found in serine proteinases of the chymotrypsin family (Figure 4). Residues 8\u2013100 form domain I, and residues 101\u2013183 make up domain II. The connection to the C-terminal domain III is formed by a long loop comprising residues 184\u2013199. Domain III (residues 200\u2013302) contains a novel arrangement of five \u03b1-helices. A deep cleft between domains I and II, lined by hydrophobic residues, constitutes the substrate-binding site. The catalytic site is situated at the centre of the cleft.",
+            "cite_spans": [],
+            "section": "Domain structure ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 95,
+                    "end": 96,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 276,
+                    "end": 277,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The interior of the \u03b2-barrel of domain I consists entirely of hydrophobic residues. A short \u03b1-helix (helix A; Tyr53\u2013Ser58) closes the barrel like a lid. Domain II is smaller than domain I and also smaller than the homologous domain II of chymotrypsin and hepatitis A virus (HAV) 3Cpro (Tsukada and Blow, 1985; Allaire et al., 1994; Bergmann et al., 1997). Several secondary structure elements of HAV 3Cpro (strands b2II and cII and the intervening loop) are missing in the TGEV Mpro. Also, the domain II barrel of the TGEV Mpro is far from perfect (Figure 4). The segment from Gly135 to Ser146 forms a part of the barrel, even though it consists mostly of consecutive loops and turns. In fact, in contrast to domain I, a structural alignment of domain II has proven difficult. The superposition of domains I and II of the TGEV Mpro onto those of the HAV 3Cpro yields an r.m.s.d. of 1.85 \u00b1 0.05 \u212b for 114 equivalent (out of 184 compared) C\u03b1 pairs, while domain II alone displays an r.m.s.d. of 3.25 \u00b1 0.28 \u212b for 57 (out of 85) C\u03b1 pairs.",
+            "cite_spans": [
+                {
+                    "start": 286,
+                    "end": 308,
+                    "mention": "Tsukada and Blow, 1985",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 310,
+                    "end": 330,
+                    "mention": "Allaire et al., 1994",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 332,
+                    "end": 353,
+                    "mention": "Bergmann et al., 1997",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "section": "Domain structure ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 556,
+                    "end": 557,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Domain III is composed of five, mostly antiparallel, \u03b1-helices and the loops connecting them. The crossover angles are \u223c90\u00b0 between helices B and E, \u223c30\u00b0 between B and D, \u223c20\u00b0 between C and E, and \u223c80\u00b0 between E and F, whereas C\u2013B and B\u2013F are parallel to each other (see Figure 5). Interhelical contacts are mediated by hydrophobic side chains. The loops between the helices are quite long and fill up most of the interstitial space of domain III. Database searches (Holm and Sander, 1993; Gilbert et al., 1999) did not reveal other proteins or protein domains with the same topology as domain III. The N-terminal segment (residues 1\u20135) of the polypeptide chain folds onto domain III, placing the N-terminus of the protein within 17.0 (\u00b12.7) \u212b of the C-terminus (Figure 4).",
+            "cite_spans": [
+                {
+                    "start": 467,
+                    "end": 488,
+                    "mention": "Holm and Sander, 1993",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 490,
+                    "end": 510,
+                    "mention": "Gilbert et al., 1999",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "section": "Domain structure ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 278,
+                    "end": 279,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 770,
+                    "end": 771,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The six copies of the TGEV Mpro in the asymmetric unit of the crystal are highly similar. The core regions of domains I and II display an r.m.s.d. of 0.29 (\u00b10.09) \u212b for 130 equivalent C\u03b1 atoms (monomer A as a reference; herein, geometrical values given are the r.m.s. over the six monomers, with the corresponding standard deviation). If all 299 well-determined C\u03b1 positions are included, the average r.m.s.d. for all monomers is 0.57 (\u00b10.18) \u212b. The largest deviations of the main chain trace are in: (i) the N-terminal segment from residues 1 to 4 (average r.m.s.d. 1.69 \u00b1 0.91 \u212b); (ii) the flexible surface loop from residues 216 to 225 (average r.m.s.d. 0.99 \u00b1 0.51 \u212b); (iii) the C-terminus of helix E and the loop region between residues 267 and 276 (average r.m.s.d. 0.99 \u00b1 0.42 \u212b); and (iv) the segment 294\u2013300 following the C-terminal F helix (average r.m.s.d. 1.55 \u00b1 0.44 \u212b). In addition to being flexible and at the surface of the molecules, segments (ii) and (iii) are involved in interdimer crystal contacts in some but not all of the six protomers. Surprisingly, the regions with the highest r.m.s.d. are not the regions with the highest temperature factors, except for the C-terminal domain of monomer F which does have high temperature factors (\u223c70 \u212b2; whole model 47 \u212b2, including all 1006 water molecules).",
+            "cite_spans": [],
+            "section": "Domain structure ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The active site of the coronavirus Mpro is similar to those of the picornavirus 3C proteinases, as had been predicted earlier (Gorbalenya et al., 1989b). The mutual arrangement of the nucleophilic Cys144 and the general acid\u2013base catalyst His41 of TGEV Mpro is identical to that of the HAV 3Cpro Cys172 and His44 residues and the Ser195 and His57 residues of chymotrypsin. The distance between the sulfur atom of Cys144 and the N\u03b52 of His41 is 4.05 (\u00b10.04) \u212b, i.e. longer than the corresponding cysteine\u2013 histidine distances in HAV 3Cpro (3.92 \u212b; Bergmann et al., 1997), poliovirus (PV) 3Cpro (3.4 \u212b; Mosimann et al., 1997) and papain (3.65 \u212b; Kamphuis et al., 1984) (Figure 6B and C). In contrast to papain, but in agreement with the picornavirus 3C proteinases, the sulfur atom is in the plane of the histidine imidazole. There are clear indications from the difference Fourier synthesis (Figure 6A) that Cys144 is oxidized, at least to the stage of the sulfinic acid, -SO2\u2013, and probably to the sulfonic acid, -SO3\u2013, in all six copies of TGEV Mpro in the crystal. Such oxidation could occur during the time required for crystallization or during X-ray data collection, and would lead to inactivation of the enzyme. Refinement of the corresponding derivatives was, however, not successful.",
+            "cite_spans": [
+                {
+                    "start": 127,
+                    "end": 151,
+                    "mention": "Gorbalenya et al., 1989b",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 547,
+                    "end": 568,
+                    "mention": "Bergmann et al., 1997",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 601,
+                    "end": 622,
+                    "mention": "Mosimann et al., 1997",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 644,
+                    "end": 665,
+                    "mention": "Kamphuis et al., 1984",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "section": "Active site ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 675,
+                    "end": 676,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 898,
+                    "end": 899,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "It is generally assumed that the native state of the active site of papain-like cysteine proteinases is a thiolate\u2013 imidazolium ion pair formed by cysteine and histidine residues (Polg\u00e1r, 1974). In proteinases of the papain family, an asparagine is the third member of the catalytic triad. Chymotrypsin and other members of this serine proteinase family have a catalytic triad consisting of Ser195...His57...Asp102. In HAV 3Cpro, Asp84 is present at the required position, although its side chain points away from His44, making its role disputable (Malcolm, 1995; Bergmann et al., 1997). PV 3Cpro, human rhinovirus (HRV) 3Cpro and HRV 2Apro have a glutamate or aspartate in the proper orientation to accept a hydrogen bond from the active site histidine (Matthews et al., 1994; Mosimann et al., 1997; Petersen et al., 1999). In contrast, TGEV Mpro has Val84 in the corresponding position, with its side chain pointing away from the catalytic site (Figure 6B and C). A buried water molecule is found in the place that normally would be occupied by the side chain of the third member of the catalytic triad. This water molecule makes hydrogen bonds to His41 N\u03b41, His163 N\u03b41 and Asp186 O\u03b41 (Figure 6B). His163 is not conserved among coronavirus main proteinases and its substitution by leucine (Mpro-H163L) had no significant effect on the proteolytic activity in the standard peptide assay (see Materials and methods), as compared with the activity of the wild-type Mpro (Table I). Asp186 makes a salt bridge to Arg40 that appears to be required to maintain the active site geometry, since both Asp186 and Arg40 are absolutely conserved among coronaviruses. Through this (and other) interaction(s), the polypeptide segment 184\u2013199, which connects domains II and III and is probably involved in substrate binding (see below), is held in the proper position. Taken together, the data contradict a direct involvement of His163 or Asp186 in catalysis, making the TGEV Mpro a clear case of a viral cysteine proteinase employing only a catalytic dyad.",
+            "cite_spans": [
+                {
+                    "start": 180,
+                    "end": 192,
+                    "mention": "Polg\u00e1r, 1974",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 549,
+                    "end": 562,
+                    "mention": "Malcolm, 1995",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 564,
+                    "end": 585,
+                    "mention": "Bergmann et al., 1997",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 755,
+                    "end": 776,
+                    "mention": "Matthews et al., 1994",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 778,
+                    "end": 799,
+                    "mention": "Mosimann et al., 1997",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 801,
+                    "end": 822,
+                    "mention": "Petersen et al., 1999",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "section": "Active site ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 955,
+                    "end": 956,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1195,
+                    "end": 1196,
+                    "mention": "6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1476,
+                    "end": 1477,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Substrate hydrolysis by cysteine and serine proteinases occurs through a covalent tetrahedral intermediate resulting from attack of the active site nucleophile on the carbonyl carbon of the scissile bond. The developing oxyanion is stabilized by strong hydrogen bonds donated by amide groups of the enzyme. This so-called \u2018oxyanion hole\u2019 is also found in TGEV Mpro. It is made up by the main chain amides of Gly142, Thr143 and Cys144 (Figure 6B).",
+            "cite_spans": [],
+            "section": "Active site ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 442,
+                    "end": 443,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The specificity of Mpro for a very limited range of amino acids at the P1, P2 and P4 positions resembles the substrate specificity of picornavirus 3C proteinases (Palmenberg, 1990; Ziebuhr et al., 2000). This leads us to believe that, similarly to 3Cpro (Matthews et al., 1994; Bergmann et al., 1997; Mosimann et al., 1997), specific substrate binding by Mpro is ensured by well-defined S4, S2 and S1 specificity pockets. In order to visualize potential interactions with the substrate, we have modelled a pentapeptide representing the P5\u2013P1 residues of a TGEV Mpro cleavage site (Asn\u2013Ser\u2013Thr\u2013Leu\u2013Gln, pp1a amino acids 2874\u20132878; Hegyi and Ziebuhr, 2002) into the substrate-binding cleft of Mpro (Figure 7). The model is based on the assumption that Mpro binds substrates in a manner analogous to that found in complexes of chymotrypsin-like proteinases with peptide inhibitors. X-ray structures have shown that the P4\u2013P1 residues of peptide inhibitors assume a common main chain conformation when bound to these proteinases, with the P4 and P3 residues adopting a \u03b2 conformation and the P2 and P1 residues assuming a specific main-chain conformation suitable to place their side chains in the pre-formed S1 and S2 specificity pockets (James et al., 1980; Fujinaga et al., 1985, 1987, Matthews et al., 1999). These studies lead us to suggest that the residues P5 to P3 of Mpro substrates may form an antiparallel \u03b2-sheet with segment 164\u2013167 of the long strand eII on one side, and with the segment 186\u2013191 (which links domains II and III) on the other. Hydrogen bonding interactions are likely between the main chain amide and carbonyl oxygen atoms of substrate residues Thr(P3), Ser(P4) and Asn(P5) and the main chain atoms of TGEV Mpro residues Glu165, Ser189 and Gly167 (see Figure 7).",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 179,
+                    "mention": "Palmenberg, 1990",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 181,
+                    "end": 201,
+                    "mention": "Ziebuhr et al., 2000",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 255,
+                    "end": 276,
+                    "mention": "Matthews et al., 1994",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 278,
+                    "end": 299,
+                    "mention": "Bergmann et al., 1997",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 301,
+                    "end": 322,
+                    "mention": "Mosimann et al., 1997",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 630,
+                    "end": 653,
+                    "mention": "Hegyi and Ziebuhr, 2002",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1236,
+                    "end": 1254,
+                    "mention": "James et al., 1980",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1256,
+                    "end": 1277,
+                    "mention": "Fujinaga et al., 1985",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1279,
+                    "end": 1283,
+                    "mention": "1987",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1285,
+                    "end": 1306,
+                    "mention": "Matthews et al., 1999",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "section": "Substrate-binding site ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 704,
+                    "end": 705,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1786,
+                    "end": 1787,
+                    "mention": "7",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "It has been shown for the HAV, HRV and PV 3Cpro enzymes that the imidazole side chain of a conserved histidine, which is located in the centre of a hydrophobic pocket, interacts with the P1 carboxamide side chain of the substrate. This interaction is generally accepted to determine the picornavirus 3Cpro specificity for glutamine at P1 (Matthews et al., 1994, 1999; Bergmann et al., 1997; Mosimann et al., 1997). Mutational analyses revealed that any replacement of His162 completely abolished the proteolytic activities of the HCoV and feline infectious peritonitis virus (FIPV) Mpro enzymes (Ziebuhr et al., 1997; Hegyi et al., 2002). The structure shows that the imidazole side chain of His162 is positioned suitably to interact with a P1 glutamine side chain. His162 is located at the very bottom of a hydrophobic pocket which is formed by residues Phe139 and the main-chain atoms of Ile140, Leu164, Glu165 and His171. The side chain of Glu165 forms an ion pair (2.96 \u00b1 0.14 \u212b) with His171. This salt bridge is itself on the periphery of the molecule, forming part of the \u2018outer wall\u2019 of the S1 subsite. Accordingly, mutants of the HCoV 229E Mpro, in which the residue equivalent to His171 had been replaced by alanine, serine or threonine, retained significant proteolytic activities (Ziebuhr et al., 1997). In order to interact with the P1 glutamine side chain of the substrate, His162 has to maintain a neutral state over a wide pH range. Most probably, this is achieved by two important interactions: (i) stacking onto the phenyl ring of Phe139, at a distance of 3.53 \u00b1 0.18 \u212b; and (ii) accepting a hydrogen bond from the buried Tyr160 hydroxyl group which has no other hydrogen-bonding partner. The role proposed for the hydroxyl group of Tyr160 is strongly supported by FIPV Mpro mutagenesis studies in which the proteolytic activities of Y160F, Y160G, Y160A and Y160T mutants were shown to be dramatically reduced (Hegyi et al., 2002). Tyr160 is part of the absolutely conserved coronavirus Mpro sequence signature, 160Tyr-X-His162 (Figures 1 and 2), whereas Gly(Ala)-X-His is found at the equivalent sequence position in most 3C and 3C-like proteinases (Gorbalenya et al., 1989a). Accordingly, in the 3C and 3C-like proteinases, stabilization of histidine in the neutral tautomeric state has to be ensured by other residues. Notably, in the case of PV 3Cpro, this involves a tyrosine residue (Tyr138) which, however, is provided by a different part of the structure (\u03b2-strand cII; Mosimann et al., 1997). For HAV 3Cpro, other mechanisms are proposed (Bergmann et al., 1997).",
+            "cite_spans": [
+                {
+                    "start": 339,
+                    "end": 360,
+                    "mention": "Matthews et al., 1994",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 362,
+                    "end": 366,
+                    "mention": "1999",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 368,
+                    "end": 389,
+                    "mention": "Bergmann et al., 1997",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 391,
+                    "end": 412,
+                    "mention": "Mosimann et al., 1997",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 596,
+                    "end": 616,
+                    "mention": "Ziebuhr et al., 1997",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 618,
+                    "end": 636,
+                    "mention": "Hegyi et al., 2002",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1292,
+                    "end": 1312,
+                    "mention": "Ziebuhr et al., 1997",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1928,
+                    "end": 1946,
+                    "mention": "Hegyi et al., 2002",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2168,
+                    "end": 2192,
+                    "mention": "Gorbalenya et al., 1989a",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 2495,
+                    "end": 2516,
+                    "mention": "Mosimann et al., 1997",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 2565,
+                    "end": 2586,
+                    "mention": "Bergmann et al., 1997",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "section": "S1 subsite ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 2054,
+                    "end": 2055,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 2060,
+                    "end": 2061,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Halfway down the S1 subsite of TGEV Mpro, there is dumbbell-shaped electron density which we have assigned to two water molecules, although theoretically they are too close to one another (2.10 \u00b1 0.16 \u212b). One of them makes a hydrogen bond with N\u03b52 of His162, while the second one, unusually for water, makes no additional contacts. In our model of the substrate complex, these two water molecules mark the position of the carboxamide group of the P1 glutamine side chain.",
+            "cite_spans": [],
+            "section": "S1 subsite ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Coronavirus main proteinases have a strong preference for leucine at the P2 position (Ziebuhr et al., 2000). The putative S2 subsite identified in the structure is a hydrophobic pocket that is suitably positioned and large enough to accommodate a leucine side chain easily. The S2 pocket is lined by the side chains of Leu164 (the main chain of which forms part of the S1 subsite, see above), Pro188, Ile51, His41 and Thr47 (Figure 7). In our electron density maps, part of the S2 subsite (of all six copies of the monomer) harbours extra electron density that we interpreted as an MPD molecule from the crystallization medium. In the HAV 3Cpro, the corresponding subsite is formed by different parts of the polypeptide chain. It is also smaller and can accommodate the side chains of serine and threonine (Bergmann et al., 1997).",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 106,
+                    "mention": "Ziebuhr et al., 2000",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 807,
+                    "end": 828,
+                    "mention": "Bergmann et al., 1997",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "section": "S2 subsite ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 432,
+                    "end": 433,
+                    "mention": "7",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The quaternary arrangement of the proteinase is a homodimer, with three copies in the asymmetric unit (monomers A and B, C and D, and E and F). All dimers have approximate C2 symmetry (Figure 3) and \u223c1580 (\u00b1199) \u212b2 of each monomer, i.e. 11\u201312% of its solvent-accessible surface, are buried upon dimerization. The dimer formation is driven mainly by intermolecular interactions between domains II and III of one monomer and the N-terminal residues of the other (see below for further details). In contrast, the domain III\u2013domain III interface appears to be the consequence rather than the cause of other intermolecular interactions. It involves a relatively small area of 337 \u00b1 45 \u212b2 and comprises only two hydrogen bonds, between the amide group of Gly281 (molecule A) and the main-chain oxygen of Ser279 (molecule B), as well as its symmetry mate, Gly281B...Ser279A (3.22 \u00b1 0.37 \u212b, averaged over all six monomers).",
+            "cite_spans": [],
+            "section": "Quaternary structure ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 192,
+                    "end": 193,
+                    "mention": "3",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Interestingly, the N-terminal residues of each monomer are relatively close to the substrate-binding site of the other monomer in the dimer. The following observations for monomer A hold true for all other monomers. The NH3+ group of Ser1A, which is the P1\u2032 residue of the autocleavage reaction of TGEV Mpro, is 11.9 \u00b1 1.6 \u212b from the active site Cys144B S\u03b3 of the second molecule in the dimer but as much as 34.2 \u00b1 0.9 \u212b away from its own active site cysteine. Ser1A is in contact with residues participating in the substrate-binding site of monomer B. Its NH3+ group makes a salt bridge (4.99 \u00b1 1.04 \u212b) to the carboxylate of Glu165B (Figure 8). This glutamate, which is absolutely conserved among coronaviruses, is part of the S1 subsite (see above), where it also interacts with His171. Although these two side chains form the \u2018wall\u2019 of the specificity site, they have their polar groups oriented towards the surface of the proteinase molecule and away from the substrate\u2019s P1 glutamine. An intermolecular ionic interaction between Arg4A and Glu286B (6.0 \u00b1 0.7 \u212b) appears to play a role in positioning the N-terminal residues. Because of the 2-fold non-crystallographic symmetry (NCS), the same interaction occurs between Arg4B and Glu286A. Residues 6A\u20138A form a short \u03b2-strand interacting with strand cII of monomer B (at Val124B). Most of the interactions between the N-terminus of molecule A and the region next to the S1 subsite of molecule B constitute a perfect fit. Given the fact that the P\u2032 residues in serine and cysteine proteinases constitute the leaving group of the cleavage reaction and, in coronavirus main proteinases, are not subject to stringent specificity requirements, it is quite conceivable that, after autoproteolysis, the N-terminus of one monomer slides over the active site of the partner monomer and adopts the position seen in our crystal structure, i.e. with Ser1A interacting with Glu165B at the \u2018outer wall\u2019 of the S1 subsite. This, in turn, would suggest that the dimer we are seeing corresponds to the product of the autolysis reaction and that this occurs in trans. Molecular modelling revealed that binding of the Mpro N-terminus in the active site cleft of the same molecule would require remodelling of the entire N-terminal segment and beyond (residues 1\u201313; data not shown), making cleavage in cis less likely. There is additional experimental evidence supporting these conclusions. First, dilution experiments with MHV Mpro translated in vitro contradict cis-cleavage activity (Lu et al., 1996). Secondly, the fact that, early in infection, Mpro remains part of a relatively stable 150 kDa precursor protein in which it is flanked by hydrophobic domains (Schiller et al., 1998) argues against rapid autoprocessing in cis. The proposed model of intermolecular self-processing would imply that components of the replication complex could first be anchored to membranes (i.e. the site of RNA replication) in an uncleaved form, and only later, when the precursor proteins accumulate to high local concentrations, will Mpro release itself by intermolecular cleavage, thereby triggering the complete spectrum of trans-processing reactions.",
+            "cite_spans": [
+                {
+                    "start": 2522,
+                    "end": 2537,
+                    "mention": "Lu et al., 1996",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2699,
+                    "end": 2720,
+                    "mention": "Schiller et al., 1998",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "section": "Quaternary structure ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 642,
+                    "end": 643,
+                    "mention": "8",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "A specific conformation of the N-terminal segment allows it to \u2018squeeze\u2019 residues 1\u20138 in between domains II and III of the same monomer and domains II and III of monomer B (see above and Figure 8). In this context, the N-terminus also interacts with domains II and III of its own protomer. For example, the side-chain amino group of Lys5A makes strong intramolecular hydrogen bonds with Ser110A O\u03b3 of domain II (2.83 \u00b1 0.15 \u212b), and with the Glu286A main chain oxygen (2.80 \u00b1 0.07 \u212b), as well as with Glu291A O\u03b51 (2.74 \u00b1 0.13 \u212b) of domain III. Furthermore, the side chain of Leu3A completes a hydrophobic patch on domain III which includes Phe206A, Ala209A, Phe287A, Val292A, the C\u03b2 atom of Gln295A and Met296A; these residues belong to helices B and F. All sequenced members of the coronavirus proteinase family have a hydrophobic residue in position 3, while glycine is absolutely conserved in position 2 (see Figure 1). The latter residue adopts the \u03b1L conformation which is easily accessible only to glycine. To investigate the functional significance of these interactions, a recombinant protein, Mpro\u03941\u20135, in which the N-terminal residues Ser1\u2013Lys5 were removed from the Mpro sequence, was expressed and tested for proteolytic activity in a trans-cleavage assay using a 15mer peptide representing the N-terminal TGEV Mpro autoprocessing site. As shown in Table I, the activity of Mpro\u03941\u20135 was decreased to only 0.3% of the Mpro activity. We conclude from these data that, indeed, residues 1\u20135 may be critically involved in stabilizing the mutual orientation of domains II and III and thus, indirectly, in maintaining the proper orientation of the intervening loop region (residues 184\u2013199). If this hypothesis is correct, then the deletion of domain III should have similarly detrimental effects on the proteolytic activity and, in fact, the published data (see Introduction) seem to support this conclusion. To corroborate this hypothesis further, an additional set of Mpro mutants was characterized in which we used the structural information to remove domain III completely. In this approach, the probability of domain III misfolding, which might have been the cause of Mpro inactivation in previous studies using randomly \u2018truncated\u2019 coronavirus main proteinases (Lu and Denison, 1997; Ziebuhr et al., 1997; Ng and Liu, 2000), should be significantly reduced. The TGEV Mpro deletion mutants tested for activity comprised (i) domains I and II (Mpro\u0394184\u2013302); (ii) domains I and II together with the entire loop region (Mpro\u0394200\u2013302); or (iii) domains I and II combined with the loop region but lacking the five N-terminal residues (Mpro\u03941\u20135/\u0394200\u2013 302). As Table I shows, Mpro\u0394200\u2013302 had clearly detectable (albeit significantly reduced) activity (0.4% of Mpro). Similarly, the mutant Mpro\u03941\u20135/\u0394200\u2013302 had significantly reduced activity (0.6% of Mpro). In sharp contrast, no activities were detectable for Mpro\u0394184\u2013302 and the active site mutant, Mpro-C144A (the latter being used as a negative control). The fact that residues 184\u2013199 proved to be indispensable for proteolytic activity supports our model of substrate binding (Figure 7) in which residues of the loop are predicted to be critically involved in the formation of a \u03b2-sheet-type structure with the substrate (see above). The data also show that an intact N-terminus and the C-terminal domain are required for full activity. The structure suggests that the additional \u03b1-helical domain III as well as the N-terminal residues help fix domains II and the loop 184\u2013199 in a catalytically competent orientation. It will be interesting to investigate whether similar mechanisms are also operating in other 3C-like proteinases with (smaller) C-terminal domains (e.g. arteriviruses and potyviruses; Ziebuhr et al., 2000; Hegyi et al., 2002).",
+            "cite_spans": [
+                {
+                    "start": 2273,
+                    "end": 2293,
+                    "mention": "Lu and Denison, 1997",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 2295,
+                    "end": 2315,
+                    "mention": "Ziebuhr et al., 1997",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 2317,
+                    "end": 2333,
+                    "mention": "Ng and Liu, 2000",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 3764,
+                    "end": 3784,
+                    "mention": "Ziebuhr et al., 2000",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 3786,
+                    "end": 3804,
+                    "mention": "Hegyi et al., 2002",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "section": "Intramolecular interactions of the N-terminus ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 194,
+                    "end": 195,
+                    "mention": "8",
+                    "ref_id": null
+                },
+                {
+                    "start": 918,
+                    "end": 919,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 3145,
+                    "end": 3146,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1366,
+                    "end": 1367,
+                    "mention": "I",
+                    "ref_id": null
+                },
+                {
+                    "start": 2670,
+                    "end": 2671,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Beyond its presumed role in proteolytic activity, domain III may have other functions, which remain to be determined. In contrast to picornavirus 3C proteinases for which RNA-binding activities are well established (Andino et al., 1993; Leong et al., 1993; Xiang et al., 1995), the Mpro structure does not support such an activity for the coronavirus main proteinase. Thus, calculation of the electrostatic potential (Nicholls et al., 1991) does not reveal an overall basic character of domain III, nor are there distinct patches of basic or aromatic residues (data not shown). The same applies to domains I and II. Also, the conserved picornavirus sequence motif, KFRDI, located between domains I and II, as well as the small helices and reverse turns that together form the RNA-binding site of HAV 3Cpro (Bergmann et al., 1997) are missing in the TGEV Mpro structure.",
+            "cite_spans": [
+                {
+                    "start": 216,
+                    "end": 235,
+                    "mention": "Andino et al., 1993",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 237,
+                    "end": 255,
+                    "mention": "Leong et al., 1993",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 257,
+                    "end": 275,
+                    "mention": "Xiang et al., 1995",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 418,
+                    "end": 439,
+                    "mention": "Nicholls et al., 1991",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 807,
+                    "end": 828,
+                    "mention": "Bergmann et al., 1997",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "section": "Intramolecular interactions of the N-terminus ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The crystal structure of TGEV Mpro shows that coronaviruses have evolved proteinases in which a thiolate\u2013 imidazolium catalytic dyad has been combined with a two-\u03b2-barrel fold. This framework is extended further by a novel \u03b1-helical domain that, together with the N-terminal residues 1\u20135, appears to be involved in proteolytic activity by maintaining the proper positioning of the presumed substrate-binding loop, 184\u2013199. We are confident that the first crystal structure of a non-picornaviral chymotrypsin-like cysteine proteinase will facilitate further molecular modelling of other members of the huge family of RNA viral \u20183C-like\u2019 enzymes for which structural information is still lacking.",
+            "cite_spans": [],
+            "section": "Conclusion ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Recombinant TGEV Mpro was expressed and purified as previously described for the HCoV and FIPV main proteinases (Ziebuhr et al., 1997; Hegyi et al., 2002). Briefly, the coding sequence of the TGEV Mpro was inserted into the XmnI and BamHI sites of pMal-c2 plasmid DNA (New England Biolabs). The resulting plasmid, pMal-Mpro, was used to transform Escherichia coli TB1 cells. The maltose-binding protein (MBP)\u2013TGEV Mpro fusion protein was purified by amylose\u2013agarose chromatography, cleaved with factor Xa, and the recombinant Mpro (residues Ser1\u2013Gln302) was purified by hydrophobic interaction, anion exchange and size exclusion chromatography (Hegyi et al., 2002). The purified and concentrated TGEV Mpro (12.5 mg/ml) was stored in 12 mM Tris\u2013HCl pH 7.5, 120 mM NaCl, 1 mM dithiothreitol (DTT), 0.1 mM EDTA. This protein solution was used to crystallize Mpro by the hanging drop vapour diffusion method at 4\u00b0C. The best crystals, which were of triangular shape and had dimensions of \u223c0.3 \u00d7 0.25 \u00d7 0.3 mm, were obtained by using 100 mM HEPES pH 8.8, 1.8 M ammonium sulfate, 6% MPD, 5 mM DTT and 4% dioxane as the reservoir and grew in \u223c10 days.",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 133,
+                    "mention": "Ziebuhr et al., 1997",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 135,
+                    "end": 153,
+                    "mention": "Hegyi et al., 2002",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 645,
+                    "end": 663,
+                    "mention": "Hegyi et al., 2002",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "section": "Protein purification and crystallization ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The Mpro structure could not be solved using conventional molecular replacement techniques. Therefore, selenomethionine (SeMet)-substituted TGEV Mpro was produced. The coding sequence of the MBP\u2013TGEV Mpro fusion protein was inserted into pET-11d (Novagen), and the resulting plasmid, pET-TGEV-Mpro, was used to transform the methionine-auxotrophic 834(DE3) E.coli strain (Novagen), which was propagated in minimal medium containing 40 \u00b5g/ml seleno-l-methionine. The SeMet-substituted TGEV Mpro was purified as described above and concentrated to 9.5 mg/ml. Crystals of the SeMet-substituted Mpro were grown as decribed for the native protein but using 2 M ammonium sulfate and 8% MPD.",
+            "cite_spans": [],
+            "section": "Incorporation of selenomethionine ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Crystals used for data collection were rinsed with mustard oil and cryo-cooled in liquid nitrogen. Diffraction data up to 1.95 \u212b resolution were collected from native crystals at 100 K on the X-ray diffraction beamline at ELETTRA (Sincrotrone Trieste, Trieste, Italy), using a Mar165 CCD detector (Table II). MAD data sets were collected to 2.8 \u212b resolution at four wavelengths using a Mar165 CCD detector on beamline BW7A of the EMBL Outstation at DESY (Hamburg, Germany). SeMet data sets were collected for the f\u201d maximum and f\u2032 minimum wavelengths. Additional data were collected at remote wavelengths below and above the Se K-edge (Table II). Data integration and scaling were performed using DENZO and SCALEPACK (Otwinowski and Minor, 1997).",
+            "cite_spans": [
+                {
+                    "start": 718,
+                    "end": 744,
+                    "mention": "Otwinowski and Minor, 1997",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "section": "Diffraction data collection ::: Materials and methods",
+            "ref_spans": [
+                {
+                    "start": 304,
+                    "end": 306,
+                    "mention": "II",
+                    "ref_id": null
+                },
+                {
+                    "start": 642,
+                    "end": 644,
+                    "mention": "II",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The unit cell dimensions, as well as the self-rotation function (ALMN; CCP4, 1994), implied that several monomers were present in the asymmetric unit. A Matthews coefficient (Matthews, 1968) of 2.3 \u212b3/Da and a solvent content of 51% were obtained assuming six molecules in the asymmetric unit. The bottleneck of the structure determination was the identification of the 60 selenium positions (six monomers with 10 Se each). Solving the problem by SnB v2.0 (Weeks and Miller, 1999) required data of increased precision, which were obtained by averaging of several data sets and monitoring the process by Rpim (Weiss and Hilgenfeld, 1997). Only after we had combined three merged peak-wavelength data sets with two merged edge-wavelength data sets (redundancy = 18) were we able to obtain 105 solutions (from 5000 trials) with significantly reduced minimal function values (Rmin = 0.49, CC = 0.51; Hauptman, 1991) (details to be published elsewhere). The positions of the best 60 atom solutions from SnB were examined for NCS. In total, 37 positions were found to obey a 2-fold NCS. This symmetry predicted a further 11 positions. All 48 positions were used in MLPHARE (CCP4, 1994) for phasing, followed by solvent flattening and NCS averaging in DM (Cowtan and Main, 1996). The resulting electron density maps were of sufficient quality for chain tracing. The first monomer was built manually into the experimental electron density map, using the program \u2018O\u2019 (Jones et al., 1991). All other monomers were generated by NCS. NCS restraints were applied during the initial stages of refinement at low resolution and later gradually released as the resolution limit was extended to 1.96 \u212b.",
+            "cite_spans": [
+                {
+                    "start": 71,
+                    "end": 81,
+                    "mention": "CCP4, 1994",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 175,
+                    "end": 189,
+                    "mention": "Matthews, 1968",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 457,
+                    "end": 479,
+                    "mention": "Weeks and Miller, 1999",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 609,
+                    "end": 635,
+                    "mention": "Weiss and Hilgenfeld, 1997",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 896,
+                    "end": 910,
+                    "mention": "Hauptman, 1991",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1168,
+                    "end": 1178,
+                    "mention": "CCP4, 1994",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 1249,
+                    "end": 1270,
+                    "mention": "Cowtan and Main, 1996",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1459,
+                    "end": 1477,
+                    "mention": "Jones et al., 1991",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Structure determination ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Cycles of adjustments to the model with O and subsequent refinement using the program CNS (Br\u00fcnger et al., 1998) converged to an Rfree of 0.256 and a crystallographic R-factor of 0.210. Data quality and refinement statistics are given in Table III. The quality of the structural model and its agreement with the structure factors were checked with programs PROCHECK (Laskowski et al., 1993), WHATCHECK (Vriend, 1990) and SFCHECK (Vaguine et al., 1999). Solvent accessibility was calculated using the algorithm of Lee and Richards (1971; program NACCESS), using a solvent probe of radius 1.4 \u212b. The molecular diagrams were drawn using MOLSCRIPT (Kraulis, 1991) and rendered with RASTER 3D (Bacon and Anderson, 1988). Atomic coordinates and structure factors have been submitted to the RCSB Protein Data Bank under accession code 1LVO.",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 111,
+                    "mention": "Br\u00fcnger et al., 1998",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 367,
+                    "end": 389,
+                    "mention": "Laskowski et al., 1993",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 403,
+                    "end": 415,
+                    "mention": "Vriend, 1990",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 430,
+                    "end": 450,
+                    "mention": "Vaguine et al., 1999",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 513,
+                    "end": 535,
+                    "mention": "Lee and Richards (1971",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 645,
+                    "end": 658,
+                    "mention": "Kraulis, 1991",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 689,
+                    "end": 713,
+                    "mention": "Bacon and Anderson, 1988",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "section": "Structure determination ::: Materials and methods",
+            "ref_spans": [
+                {
+                    "start": 244,
+                    "end": 247,
+                    "mention": "III",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "For the expression of Mpro proteins with N- and C-terminal deletions (Mpro\u0394184\u2013302, Mpro\u0394200\u2013302, Mpro\u03941\u20135 and Mpro\u03941\u20135/\u0394200\u2013302), the corresponding Mpro coding sequences were amplified by PCR and inserted into XmnI\u2013BamHI-digested pMal-c2 plasmid DNA. To substitute the Mpro residues Cys144 (by Ala) and His163 (by Leu), the corresponding codons were replaced in pMal-Mpro by site-directed mutagenesis using a recombination-PCR method (Yao et al., 1992). The details of the primers used for cloning and mutagenesis and the amino acid sequences of the recombinant proteins expressed and tested for proteolytic activity are given in Table I. The plasmid DNAs were transformed into E.coli TB1 cells and the recombinant proteins were synthesized, affinity purified and cleaved with factor Xa as described previously (Hegyi et al., 2002). The purity and structural integrity of the mutant proteins were analysed by SDS\u2013PAGE. The control protein for this experiment, wild-type TGEV Mpropro, was purified in an identical manner. Enzymatic activities of the mutant proteins were measured by using a peptide cleavage assay (Ziebuhr et al., 1997) with a peptide substrate representing the N-terminal TGEV Mpro autoprocessing site (H2N-VSVNSTLQSGLRKMA-COOH; letters in bold indicate the scissile bond that is cleaved by Mpro).",
+            "cite_spans": [
+                {
+                    "start": 436,
+                    "end": 452,
+                    "mention": "Yao et al., 1992",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 813,
+                    "end": 831,
+                    "mention": "Hegyi et al., 2002",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1115,
+                    "end": 1135,
+                    "mention": "Ziebuhr et al., 1997",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "section": "Proteolytic activities of TGEV Mpro mutants ::: Materials and methods",
+            "ref_spans": [
+                {
+                    "start": 637,
+                    "end": 638,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "369",
+            "issn": "",
+            "pages": "72-76",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Acta Crystallogr. D",
+            "volume": "52",
+            "issn": "",
+            "pages": "43-48",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "65",
+            "issn": "",
+            "pages": "2910-2920",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "206",
+            "issn": "",
+            "pages": "817-822",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "337-376",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "184",
+            "issn": "",
+            "pages": "479-502",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "195",
+            "issn": "",
+            "pages": "397-418",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Bioinformatics",
+            "volume": "15",
+            "issn": "",
+            "pages": "317-326",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "FEBS Lett.",
+            "volume": "243",
+            "issn": "",
+            "pages": "103-114",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res.",
+            "volume": "17",
+            "issn": "",
+            "pages": "4847-4861",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "324-332",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "12",
+            "issn": "",
+            "pages": "3587-3598",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "83",
+            "issn": "",
+            "pages": "595-599",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "83",
+            "issn": "",
+            "pages": "581-593",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "9",
+            "issn": "",
+            "pages": "1665-1672",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "233",
+            "issn": "",
+            "pages": "123-138",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "144",
+            "issn": "",
+            "pages": "43-88",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Acta Crystallogr. A",
+            "volume": "47",
+            "issn": "",
+            "pages": "110-119",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "179",
+            "issn": "",
+            "pages": "233-256",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Appl. Crystallogr.",
+            "volume": "24",
+            "issn": "",
+            "pages": "946-950",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Appl. Crystallogr.",
+            "volume": "26",
+            "issn": "",
+            "pages": "283-291",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "55",
+            "issn": "",
+            "pages": "379-400",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Graphics",
+            "volume": "6",
+            "issn": "",
+            "pages": "219-220",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "268",
+            "issn": "",
+            "pages": "25735-25739",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "209",
+            "issn": "",
+            "pages": "420-427",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "222",
+            "issn": "",
+            "pages": "375-382",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "230",
+            "issn": "",
+            "pages": "335-342",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "69",
+            "issn": "",
+            "pages": "3554-3559",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Protein Sci.",
+            "volume": "4",
+            "issn": "",
+            "pages": "1439-1445",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "33",
+            "issn": "",
+            "pages": "491-497",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "77",
+            "issn": "",
+            "pages": "761-771",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "96",
+            "issn": "",
+            "pages": "11000-11007",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "273",
+            "issn": "",
+            "pages": "1032-1047",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "85",
+            "issn": "",
+            "pages": "7872-7876",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "272",
+            "issn": "",
+            "pages": "27-39",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proteins",
+            "volume": "11",
+            "issn": "",
+            "pages": "281-296",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Methods Enzymol.",
+            "volume": "276",
+            "issn": "",
+            "pages": "307-325",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Annu. Rev. Microbiol.",
+            "volume": "44",
+            "issn": "",
+            "pages": "603-623",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virus Genes",
+            "volume": "23",
+            "issn": "",
+            "pages": "105-118",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "18",
+            "issn": "",
+            "pages": "5463-5475",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "FEBS Lett.",
+            "volume": "47",
+            "issn": "",
+            "pages": "15-18",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF41": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "295-325",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF42": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "242",
+            "issn": "",
+            "pages": "288-302",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF43": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "78",
+            "issn": "",
+            "pages": "71-75",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF44": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "71",
+            "issn": "",
+            "pages": "2436-2448",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF45": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res.",
+            "volume": "25",
+            "issn": "",
+            "pages": "4876-4882",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF46": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Biol.",
+            "volume": "184",
+            "issn": "",
+            "pages": "703-711",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF47": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Acta Crystallogr. D",
+            "volume": "55",
+            "issn": "",
+            "pages": "191-205",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF48": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Mol. Graphics",
+            "volume": "8",
+            "issn": "",
+            "pages": "52-56",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF49": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Appl. Crystallogr.",
+            "volume": "32",
+            "issn": "",
+            "pages": "120-124",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF50": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Appl. Crystallogr.",
+            "volume": "30",
+            "issn": "",
+            "pages": "203-205",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF51": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "69",
+            "issn": "",
+            "pages": "3658-3667",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF52": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "PCR Methods Appl.",
+            "volume": "1",
+            "issn": "",
+            "pages": "205-207",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF53": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "73",
+            "issn": "",
+            "pages": "177-185",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF54": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "69",
+            "issn": "",
+            "pages": "4331-4338",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF55": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "355",
+            "issn": "",
+            "pages": "472-475",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF56": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "71",
+            "issn": "",
+            "pages": "3992-3997",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF57": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "81",
+            "issn": "",
+            "pages": "853-879",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF58": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Acta Crystallogr. D",
+            "volume": "54",
+            "issn": "",
+            "pages": "905-921",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF59": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Arch. Virol.",
+            "volume": "142",
+            "issn": "",
+            "pages": "629-633",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF60": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Acta Crystallogr. D",
+            "volume": "50",
+            "issn": "",
+            "pages": "760-763",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

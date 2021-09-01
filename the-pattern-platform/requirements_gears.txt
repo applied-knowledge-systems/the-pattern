@@ -1,0 +1,6 @@
+langdetect==1.0.8
+joblib
+git+https://github.com/WojciechMula/pyahocorasick@master#egg=pyahocorasick
+#https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
+git+https://github.com/mediacloud/sentence-splitter.git
+symspellpy

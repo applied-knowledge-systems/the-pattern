@@ -1,0 +1,36 @@
+@import "../scss/variables";
+
+.navbar{
+  height: 64px;
+  background-color: #263238;
+}
+
+.search-form{
+  input{
+      width: 360px;
+      border-left: none;
+      background: #37474f ;
+      border: none;
+      color: #90a4ae;
+      font-weight: 400;
+      border-radius: 0;
+      border-color: #78909c;
+
+      &:focus{
+        box-shadow: none;
+      }
+  }
+
+  .input-group-text{
+      background: $primary-color;
+      color: $white-color;
+      border-right: none;
+      border: 0;
+  }
+}
+
+@media (min-width: 576px){
+  .form-inline .input-group, .form-inline .custom-select {
+    width: 100%;
+  }
+}

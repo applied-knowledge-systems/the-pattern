@@ -1,0 +1,626 @@
+{
+    "paper_id": "PMC270701",
+    "metadata": {
+        "title": "Challenging beliefs and ethical concepts: the collateral damage of SARS",
+        "authors": [
+            {
+                "first": "Mark",
+                "middle": [],
+                "last": "Bernstein",
+                "suffix": "",
+                "email": "mark.bernstein@uhn.on.ca",
+                "affiliation": {}
+            },
+            {
+                "first": "Laura",
+                "middle": [],
+                "last": "Hawryluck",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "SARS (severe acute respiratory syndrome) exploded on the face of the global village and on health care like a dormant volcano erupting in the dead of night. Members of the health care system and the public were caught off guard. Patients, doctors and nurses in hospital intensive care units (ICUs) arguably bore the brunt of the SARS epidemic more acutely and painfully than most other groups, especially in geographic hotspots' such as Toronto [1].",
+            "cite_spans": [
+                {
+                    "start": 446,
+                    "end": 447,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "There are many ethical issues raised by the SARS epidemic, including global cooperation and information sharing [2], isolation of patients and their families, quarantining of patients and health care workers [3], lack of patient access to medical care [4], loss of privacy, stigmatization of individuals or populations [5], and appropriate priority setting and use of limited resources.",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 114,
+                    "mention": "2",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 209,
+                    "end": 210,
+                    "mention": "3",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 253,
+                    "end": 254,
+                    "mention": "4",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 320,
+                    "end": 321,
+                    "mention": "5",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "Much has already been published describing the epidemiology of the illness, its clinical symptoms and its treatment. There has also been some discussion of the nonmedical effects of SARS and potentially future similar outbreaks on the relationships between health care providers and patients and families, their notions of professional integrity, and issues of resource allocation [6]. Such ethical and psychologic issues \u2013 the collateral damage' of the outbreak \u2013 cannot be ignored because they challenge some deeply held convictions and ethical conceptions in ways that they have never been questioned previously and, as a result, may be altered for ever.",
+            "cite_spans": [
+                {
+                    "start": 382,
+                    "end": 383,
+                    "mention": "6",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "During the SARS outbreak, frontline health care providers found themselves in the midst of conflicting and confusing reports of the nature, seriousness, infectiousness and precautions needed. Although droplet transmission was repeatedly said to be the main mode of transmission, providers were ordered to take not only droplet but also fomite and airborne precautions as well, all the while being told that this was not an airborne virus. On the one hand, measures to increase personal safety were welcomed; on the other, the reassurances that did not always match infection control directives raised concerns about whose information, among infection control and public health colleagues, was most reliable. Health care workers suffered from lack of accurate information because the nuances of this strange new epidemic were not fully understood. Media reports further contributed to confusion and lack of trust by sensationalizing world events, with daily headlines reporting the number of suspected and probable cases, the number of dead and the number of health care providers succumbing to the illness.",
+            "cite_spans": [],
+            "section": "Trust, truth-telling and relationships with colleagues",
+            "ref_spans": []
+        },
+        {
+            "text": "Another challenge to our previously unconditional trust of our colleagues occurred when staff members found themselves watching others to ensure that infection control measures were strictly adhered to and confronting them when they were not. Although such vigilance is crucial to the success of infection control protocols, it engenders a lack of trust and challenges multidisciplinary professional relationships in an unprecedented manner.",
+            "cite_spans": [],
+            "section": "Trust, truth-telling and relationships with colleagues",
+            "ref_spans": []
+        },
+        {
+            "text": "Although infection control measures were welcomed and understood, they severely compromised quality of life and heightened the degree of complexity of work tasks that were previously fairly straightforward. The physical discomfort associated with containment precautions, such as wearing tight-fitting masks all day, two sets of gowns, goggles, double gloving and washing hands repeatedly in alcohol-based cleaners, tested workers' endurance and patience. At the beginning of each shift, they had to stand in lines outside the only open hospital door, filling out forms, having their temperature taken and washing their hands before onlooking volunteers or redeployed workers. Such restrictions and monitoring were unprecedented. On the positive side, new close relationships were forged between infection control and ICU teams, and it was a unique opportunity for us to work together, learn from each other and gain a deep respect for each other's knowledge and expertise.",
+            "cite_spans": [],
+            "section": "Public health and infection control in the intensive care unit",
+            "ref_spans": []
+        },
+        {
+            "text": "Ethical justification for measures forced upon society by public health policy has been thoughtfully articulated [7]. However, questions of balancing the hardship such measures imposed and staff safety arose. When could these precautions be lifted? Could the staff be given some hope of a light at the end of the tunnel? Our infection control colleagues, both physicians and nonphysicians, cannot be praised highly enough for their herculean efforts and patience. They bore the brunt of the frustrations and complaints. While new relationships were forged between infection control and ICU teams, the pressure on them was immense as their knowledge and directives were repeatedly challenged. People are much quicker to criticize than to praise. The SARS outbreak challenged us to learn how to convey respect in the midst of frustrations over the lack of knowledge and challenging working conditions, and to thank our colleagues for their incredible efforts to keep us safe.",
+            "cite_spans": [
+                {
+                    "start": 114,
+                    "end": 115,
+                    "mention": "7",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "section": "Public health and infection control in the intensive care unit",
+            "ref_spans": []
+        },
+        {
+            "text": "SARS has forced us to confront our notions of professional integrity. Patients with SARS were cared for in negative pressure isolation rooms and staff were told to minimize entry as much as possible. In many units video cameras were used to monitor patients. In recent years ICU teams have focused on bringing the humanity back into our highly technological environment, and so having to decrease human contact and deploy more technology struck many of us as sadly ironic. Furthermore, the ICU team, trained to rush in to save someone's life and to respond quickly to any deterioration, found themselves being asked to put aside this ingrained sense of professional responsibility and to ensure that they took infection control precautions and were properly attired before rushing in. The resulting delays when every minute counts led many to question their professional integrity \u2013 how do you balance your own safety and your patient's needs?",
+            "cite_spans": [],
+            "section": "Professional integrity and relationships with patients and families",
+            "ref_spans": []
+        },
+        {
+            "text": "Imagine the devastating psychological distress when you must deny patients access to the hospital for relatively urgent tests and/or treatments and deny families access to hospitalized patients; in other words, imagine the distress of health care workers who are functionally paralyzed from doing their job for patients [8]. For professionals who pride themselves on caring, to deny access and to fail to be able to support patients and families during this time was devastating psychologically. It quickly became apparent that many patients who would have to be denied access might well die or be irreversibly compromised by delays in their care. Receiving referral calls about patients who required your centre's particular expertise, and either being unable to accept them because of a lack of beds or knowing the delay in transfer and/or treatment required to observe the necessary infection controls might result in worse outcomes was demoralizing.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 322,
+                    "mention": "8",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "Professional integrity and relationships with patients and families",
+            "ref_spans": []
+        },
+        {
+            "text": "The contemporary framework to evaluate fairness of resource allocation, which is gaining acceptance and traction in the real world, is the so-called accountability for reasonableness framework [9]. This was recently applied to the issue of ICU resource allocation in two studies in the pre-SARS era in Toronto [10,11]. The framework has four basic components: relevance, publicity, appeal and enforcement. These four components could well be applied to the ethical issues surrounding SARS, with specific emphasis on the first two. Relevance means reasons; decisions must be based on the best scientific and public health information available. Every effort must be made to avoid heresay, over-reacting and making decisions apparently motivated by simply being seen to be exercising due diligence [12]. Publicity means transparency; all stakeholders must be informed of policies and procedures in an open and timely manner. This includes patients, their families and health care workers.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 195,
+                    "mention": "9",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 311,
+                    "end": 313,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 314,
+                    "end": 316,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 797,
+                    "end": 799,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "Resource allocation",
+            "ref_spans": []
+        },
+        {
+            "text": "The psychological distress to both consumers and deliverers of health care that result from a tragic outbreak such as SARS cannot be underestimated. Public health officials, hospital administrations and governments must do everything in their power to ameliorate the suffering of patients and health care workers. Perhaps the best defence for such a disaster is to have a contingency plan in place, to have well conceived and developed plans well known in advance and rehearsed, in order to limit the damage a natural disaster like SARS can unleash.",
+            "cite_spans": [],
+            "section": "Conclusion",
+            "ref_spans": []
+        },
+        {
+            "text": "In order to protect patients, families, doctors, nurses and other health care professionals, public health systems and their component hospitals must have access to up-to-date scientific information [13], as well as conceptual, ethical and practical frameworks in place to minimize the damage and support all parties when an unforeseen and unexpected enemy such as SARS arises. These modern day plagues are unlikely to go away, and in fact SARS perhaps was a light dress rehearsal for the next anticipated massive outbreak of influenza, for which there is ongoing planning and intense surveillance [14].",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 202,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 599,
+                    "end": 601,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "section": "Conclusion",
+            "ref_spans": []
+        },
+        {
+            "text": "None declared.",
+            "cite_spans": [],
+            "section": "Competing interests",
+            "ref_spans": []
+        },
+        {
+            "text": "ICU = intensive care unit; SARS = severe acute respiratory syndrome.",
+            "cite_spans": [],
+            "section": "Abbreviations",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Severe acute respiratory syndrome: the Mount Sinai experience",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hynes-Gay",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sarjoo-Devries",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "McGeer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Can Nurse",
+            "volume": "5",
+            "issn": "",
+            "pages": "17-19",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Access to ICU beds for neurosurgery patients: a qualitative case study",
+            "authors": [
+                {
+                    "first": "DK",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Singer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bernstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Neurol Neurosurg Psychiatry",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "Priority setting in critical care: a qualitative case study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mielke",
+                    "suffix": ""
+                },
+                {
+                    "first": "DK",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Singer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Crit Care Med",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "WHO decision was insult to herculean work in Toronto",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bernstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "The Ottawa Citizen",
+            "volume": "April 30",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "",
+            "authors": [],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "Influenza pandemic planning",
+            "authors": [
+                {
+                    "first": "NJ",
+                    "middle": [],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "SE",
+                    "middle": [],
+                    "last": "Tamblyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Vaccine",
+            "volume": "21",
+            "issn": "",
+            "pages": "1801-1803",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Infectious diseases: deferring competition, global net closes in on SARS",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Enserink",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Vogel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "224-225",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Large-scale quarantine following biological terrorism in the United States: scientific examination, logistic and legal limits, and possible consequences",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Barbera",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Macintyre",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gostin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Inglesby",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "O'Toole",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "DeAtley",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tonat",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Layton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "JAMA",
+            "volume": "286",
+            "issn": "",
+            "pages": "2711-2717",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "As Sick Kids' backlog rises, elective cases may become emergent",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Skelly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Med Post",
+            "volume": "39",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "A bad joke",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bernstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "The Ottawa Citizen",
+            "volume": "May 14",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "The immediate psychological and occupational impact of the 2003 SARS outbreak in a teaching hospital",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Maunder",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hunter",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vincent",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Peladeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leszcz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sadavoy",
+                    "suffix": ""
+                },
+                {
+                    "first": "LM",
+                    "middle": [],
+                    "last": "Verhaeghe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Steinberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mazzulli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Can Med Assoc J",
+            "volume": "168",
+            "issn": "",
+            "pages": "1245-1251",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Principles for the justification of public health intervention",
+            "authors": [
+                {
+                    "first": "RE",
+                    "middle": [],
+                    "last": "Upshur",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Can J Public Health",
+            "volume": "93",
+            "issn": "",
+            "pages": "101-103",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "Digging out after the SARS storm",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bernstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "The Toronto Star",
+            "volume": "April 18",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "Accountability for reasonableness",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Daniels",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "BMJ",
+            "volume": "321",
+            "issn": "",
+            "pages": "1300-1301",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

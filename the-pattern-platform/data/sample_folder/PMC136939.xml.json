@@ -1,0 +1,1670 @@
+{
+    "paper_id": "PMC136939",
+    "metadata": {
+        "title": "Discontinuous and non-discontinuous subgenomic RNA transcription in a nidovirus",
+        "authors": [
+            {
+                "first": "A.L.W.",
+                "middle": [],
+                "last": "van Vliet",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "S.L.",
+                "middle": [],
+                "last": "Smits",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "P.J.M.",
+                "middle": [],
+                "last": "Rottier",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "R.J.",
+                "middle": [],
+                "last": "de Groot",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Positive (+)-strand RNA viruses have developed a wide range of strategies to express their genes. One recurring strategy, employed by many non-related viruses, entails the synthesis of subgenomic (sg) mRNAs (Miller and Koev, 2000). While the genome invariably serves as the mRNA for the viral replicase, the sgRNAs mediate the expression of structural and accessory proteins from cistrons, downstream of the replicase gene. These sg mRNAs are always 3\u2032-coterminal with the viral genome but, with regard to their synthesis, important differences exist among the various virus groups. For some viruses, e.g. brome mosaic virus (Miller et al., 1985), transcription initiation of sg mRNAs occurs at internal promoter sequences on a genome-length, negative (\u2013)-strand template. Alternatively, as proposed for red clover necrotic mosaic virus (Sit et al., 1998) and tomato bushy stunt virus (Choi et al., 2001), sg (\u2013)strand RNAs, resulting from premature transcription\u2013termination, may serve as templates. The Nidovirales, pathogens of vertebrates and invertebrates, are unique among (+)strand RNA viruses: the best studied nidoviruses, i.e. the corona- and arteriviruses, employ an unusual transcription mechanism, involving discontinuous RNA synthesis.",
+            "cite_spans": [
+                {
+                    "start": 208,
+                    "end": 229,
+                    "mention": "Miller and Koev, 2000",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 626,
+                    "end": 645,
+                    "mention": "Miller et al., 1985",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 838,
+                    "end": 854,
+                    "mention": "Sit et al., 1998",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 886,
+                    "end": 903,
+                    "mention": "Choi et al., 2001",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "The Nidovirales, i.e. the toro-, corona-, arteri- and okaviruses, differ markedly in genome size, virion architecture and host range. Yet, their common ancestry is evident from sequence identity in their replicase proteins and from similarities in genome organization, gene order and replication strategy (Cowley et al., 2000; reviewed by Snijder et al., 1993; de Vries et al., 1997). Toro- and coronaviruses, because of their close evolutionary relationship (Snijder et al., 1990a), have been united taxonomically in the family Coronaviridae as separate genera (Cavanagh et al., 1993); the more distantly related arteri- and okaviruses (den Boon et al., 1991; Cowley et al., 2000) are assigned to the monogeneric families Arteriviridae and Roniviridae, respectively.",
+            "cite_spans": [
+                {
+                    "start": 306,
+                    "end": 325,
+                    "mention": "Cowley et al., 2000",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 339,
+                    "end": 359,
+                    "mention": "Snijder et al., 1993",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 361,
+                    "end": 382,
+                    "mention": "de Vries et al., 1997",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 460,
+                    "end": 481,
+                    "mention": "Snijder et al., 1990a",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 563,
+                    "end": 584,
+                    "mention": "Cavanagh et al., 1993",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 638,
+                    "end": 659,
+                    "mention": "den Boon et al., 1991",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 661,
+                    "end": 680,
+                    "mention": "Cowley et al., 2000",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "For all nidoviruses, the 5\u2032-most two-thirds of the genome are taken up by the replicase polyprotein gene. Downstream, there are multiple smaller genes, which are expressed from a nested set of up to eight sg mRNAs. In the case of the arteri- and coronaviruses, these sg mRNAs are chimeric and both 3\u2032- and 5\u2032-coterminal with the genome: they all possess a 5\u2032 common leader sequence, which is derived from the 5\u2032 terminus of the genomic RNA and fused to the \u2018body\u2019 of the transcript (i.e. the 3\u2032-terminal part, which carries the coding information). Coronavirus leaders are 55\u201392 nucleotides in length, whereas those of arteriviruses measure \u223c200 nucleotides. The leader and mRNA body sequences are joined within a short conserved sequence motif, the transcription-regulating sequence (TRS), which precedes each transcription unit (van der Most and Spaan, 1995; de Vries et al., 1997; Lai and Cavanagh, 1997; Snijder and Meulenberg, 1998). A TRS is also found immediately downstream of the genomic leader sequence. Direct evidence that the TRSs are required for and determine the extent of sg mRNA synthesis was provided by mutagenesis studies (Makino et al., 1991; van der Most et al., 1994; van Marle et al., 1999).",
+            "cite_spans": [
+                {
+                    "start": 831,
+                    "end": 859,
+                    "mention": "van der Most and Spaan, 1995",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 861,
+                    "end": 882,
+                    "mention": "de Vries et al., 1997",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 884,
+                    "end": 906,
+                    "mention": "Lai and Cavanagh, 1997",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 908,
+                    "end": 936,
+                    "mention": "Snijder and Meulenberg, 1998",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1144,
+                    "end": 1163,
+                    "mention": "Makino et al., 1991",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1165,
+                    "end": 1190,
+                    "mention": "van der Most et al., 1994",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1192,
+                    "end": 1214,
+                    "mention": "van Marle et al., 1999",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "Although there is general agreement that corona- and arteriviral mRNA synthesis involves discontinuous transcription, the models for the actual mechanism are still subject to debate. Initially, it was proposed that fusion of non-contiguous sequences occurs during (+)strand synthesis. Leader molecules, including the TRS, would be transcribed from the 3\u2032 end of a genome-sized, negative-strand RNA, anneal internally to complementary (anti-) TRS sequences on this (\u2013)strand template, and thus act as primers for transcription of mRNA body sequences (Lai et al., 1982b; Baric et al., 1983, 1985, 1987). The discovery of sg (\u2013)strand RNAs (Sethna et al., 1989), which carry anti-leader sequences (Sethna et al., 1991) and serve as templates for transcription (Sawicki and Sawicki, 1990), has led to an alternative model, in which discontinuous transcription takes place during minus-strand synthesis (Sawicki and Sawicki, 1990, 1995, 1998). This latter view is gaining increasing experimental support (Schaad and Baric, 1994; Chang et al., 1996; Krishnan et al., 1996; Baric and Yount, 2000; Sawicki et al., 2001). In a series of elegant reverse genetics experiments, Snijder and co-workers (van Marle et al., 1999; Pasternak et al., 2000, 2001) recently provided persuasive evidence that, in arteriviruses, leader\u2013body fusion indeed occurs during the synthesis of (\u2013)strand RNA, presumably via a process resembling similarity-assisted copy-choice RNA recombination. Template switching apparently is guided by base pairing between the anti-TRS on the nascent sg (\u2013)strand and the 5\u2032-most genomic TRS.",
+            "cite_spans": [
+                {
+                    "start": 550,
+                    "end": 567,
+                    "mention": "Lai et al., 1982b",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 569,
+                    "end": 587,
+                    "mention": "Baric et al., 1983",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 589,
+                    "end": 593,
+                    "mention": "1985",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 595,
+                    "end": 599,
+                    "mention": "1987",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 638,
+                    "end": 657,
+                    "mention": "Sethna et al., 1989",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 695,
+                    "end": 714,
+                    "mention": "Sethna et al., 1991",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 758,
+                    "end": 783,
+                    "mention": "Sawicki and Sawicki, 1990",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 899,
+                    "end": 924,
+                    "mention": "Sawicki and Sawicki, 1990",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 926,
+                    "end": 930,
+                    "mention": "1995",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 932,
+                    "end": 936,
+                    "mention": "1998",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1000,
+                    "end": 1022,
+                    "mention": "Schaad and Baric, 1994",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1024,
+                    "end": 1042,
+                    "mention": "Chang et al., 1996",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1044,
+                    "end": 1065,
+                    "mention": "Krishnan et al., 1996",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1067,
+                    "end": 1088,
+                    "mention": "Baric and Yount, 2000",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1090,
+                    "end": 1110,
+                    "mention": "Sawicki et al., 2001",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1190,
+                    "end": 1212,
+                    "mention": "van Marle et al., 1999",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1214,
+                    "end": 1236,
+                    "mention": "Pasternak et al., 2000",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1238,
+                    "end": 1242,
+                    "mention": "2001",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "It is tempting to assume that corona- and arteriviruses employ essentially the same transcription mechanism and that this mechanism applies for all nidoviruses. However, the mRNAs of gill-associated virus (GAV), the type Okavirus, were shown recently to be leader-less (Cowley et al., 2002). Moreover, there are indications that torovirus mRNAs may not have a common leader sequence (Snijder et al., 1990c, 1991).",
+            "cite_spans": [
+                {
+                    "start": 270,
+                    "end": 289,
+                    "mention": "Cowley et al., 2002",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 384,
+                    "end": 405,
+                    "mention": "Snijder et al., 1990c",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 407,
+                    "end": 411,
+                    "mention": "1991",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "The equine isolate Berne virus (BEV) so far is the only torovirus that can be propagated in tissue culture (Snijder and Horzinek, 1993). During infection, a genome-sized, 27 992 nucleotide mRNA 1 is produced and, in addition, four sg mRNA species (numbered 2\u20135) of 7, 2, 1.2 and 0.7 kb. The latter code for the spike protein (S), the membrane protein (M), a truncated hemagglutinin- esterase protein (HE) and the nucleocapsid protein (N), respectively (Figure 1; Snijder and Horzinek, 1993). The genes for M, HE and N are preceded by non-coding intergenic regions (IGRs), which contain the conserved sequence UCUUUAGA, the torovirus TRS equivalent. In contrast, the S gene overlaps with the replicase gene and there is no obvious TRS; a related motif, UGUUUAGU, was postulated to direct the synthesis of mRNA 2 (Snijder et al., 1990b,c).",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 134,
+                    "mention": "Snijder and Horzinek, 1993",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 463,
+                    "end": 489,
+                    "mention": "Snijder and Horzinek, 1993",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 812,
+                    "end": 833,
+                    "mention": "Snijder et al., 1990b",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 834,
+                    "end": 835,
+                    "mention": "c",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": [
+                {
+                    "start": 460,
+                    "end": 461,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Snijder et al. (1990c) characterized the 5\u2032 end of BEV mRNA 5 by primer extension and hybridization analysis. A comparison with the putative 5\u2032 end of the BEV genome, as deduced by sequence analysis of defective interfering (DI) RNAs, led the authors to conclude that torovirus mRNAs do not possess large common leader sequences. However, the existence of a small leader (e.g. comprising the conserved sequence and some upstream nucleotides) could not be excluded rigorously. In particular, comparative primer extension analysis of BEV genomic and DI RNAs yielded conflicting results, raising doubts as to whether the DI sequences faithfully represented the 5\u2032 terminus of the BEV genome (Snijder et al., 1991).",
+            "cite_spans": [
+                {
+                    "start": 0,
+                    "end": 22,
+                    "mention": "Snijder et al. (1990c)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 689,
+                    "end": 709,
+                    "mention": "Snijder et al., 1991",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "Here we have determined what we believe to be the true 5\u2032 ends of the BEV genome and the sg mRNAs. We first ascertained that toroviral mRNAs contain a 5\u2032 cap structure, and then employed an advanced RACE RT\u2013PCR approach, which aims at the specific amplification of cDNA copies derived from capped transcripts (Maruyama and Sugano, 1994). The results were corroborated by primer extension analysis and RNA hybridization studies. Our data provide definitive proof that the BEV sg mRNAs 3\u20135 lack a common leader. Astoundingly, however, sg mRNA 2 contains a short non-contiguous leader, derived from the 5\u2032 end of the BEV genome. BEV apparently utilizes both continuous and discontinuous RNA synthesis to produce its full set of sg mRNAs. These findings have important implications for our understanding of the mechanism and evolution of nidovirus transcription.",
+            "cite_spans": [
+                {
+                    "start": 310,
+                    "end": 335,
+                    "mention": "Maruyama and Sugano, 1994",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "Although most RNA viruses provide their (+)strand transcripts with a 5\u2032 cap (Furuichi and Shatkin, 2000), there are conspicuous exceptions. Information with regard to the capping of nidoviral RNAs is limited (Brian, 2001): direct evidence for capping has been presented only for the genome and sg mRNAs of the coronavirus mouse hepatitis virus (Lai and Stohlman, 1981; Lai et al., 1982a) and for the genome of the arterivirus simian hemorrhagic fever virus (Sagripanti et al., 1986). In accordance with the latter observation, equine arteritis virus RNA transcribed in vitro from full-length cDNA templates is infectious only when provided with a cap (Glaser et al., 1999). To examine whether BEV mRNAs are capped, total cytoplasmic RNA was extracted from BEV-infected cells and subjected to immunoaffinity purification (IAP) using the cap-specific monoclonal antibody (mAb) H20 (Bochnig et al., 1987; Kabrane Lazizi et al., 1999). As a negative control, IAP with an isotype-matched mAb R78, directed against the T-cell receptor, was performed in parallel. Affinity-purified RNAs were separated by formaldehyde\u2013agarose gel electrophoresis and subjected to in-gel hybridization with a 32P-labeled oligonucleotide probe 294. As this probe is designed after the 3\u2032 end of the BEV genome (Table I), the complete nested set of viral mRNAs can be visualized. Torovirus mRNAs specifically bound to mAb H20 (Figure 2A, lanes \u2018\u03b1Cap +\u2019). In short fluorographic exposures, only the smaller mRNAs 3\u20135 were seen; upon prolonged exposure, mRNA 2 could also be discerned. These results suggest that at least the sg mRNAs are capped. Most probably, however, full-length (intact) mRNAs 1 and 2 were selectively lost during IAP because of their large target size. In particular, RNA 1, with its length of 28 kb, is extremely vulnerable to mechanical shearing and enzymatic degradation.",
+            "cite_spans": [
+                {
+                    "start": 77,
+                    "end": 103,
+                    "mention": "Furuichi and Shatkin, 2000",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 209,
+                    "end": 220,
+                    "mention": "Brian, 2001",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 345,
+                    "end": 367,
+                    "mention": "Lai and Stohlman, 1981",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 369,
+                    "end": 386,
+                    "mention": "Lai et al., 1982a",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 458,
+                    "end": 481,
+                    "mention": "Sagripanti et al., 1986",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 652,
+                    "end": 671,
+                    "mention": "Glaser et al., 1999",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 880,
+                    "end": 900,
+                    "mention": "Bochnig et al., 1987",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 902,
+                    "end": 929,
+                    "mention": "Kabrane Lazizi et al., 1999",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "section": "Toroviral mRNAs possess a 5\u2032 cap structure ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 1407,
+                    "end": 1408,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1291,
+                    "end": 1292,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To corroborate and extend the results of the IAP, total intracellular RNA of BEV-infected cells was subjected to digestion with RNase Xrn1p, a cytoplasmic 5\u2032\u21923\u2032 exoribonuclease, which exclusively degrades non-capped RNA (Boeck et al., 1998). Samples were analyzed in parallel in denaturing and in non-denaturing agarose gels (Figure 2B). Whereas the 28S and 18S rRNAs were degraded, the BEV sg mRNAs appeared fully resistant to digestion. Also, RNA 1 proved resistant to Xrn1p; as determined by \u03b2-scanning, 70% of this RNA species survived treatment versus only 7.5% of the 18S rRNA. Partial loss of mRNA 1, again, is most probably related to its huge target size. The combined data indicate that BEV (+)strand RNAs possess a 5\u2032 cap structure.",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 239,
+                    "mention": "Boeck et al., 1998",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "section": "Toroviral mRNAs possess a 5\u2032 cap structure ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 333,
+                    "end": 334,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The true 5\u2032 termini of capped mRNAs can be determined by advanced RNA ligase-mediated rapid amplification of cDNA ends (RLM-RACE) PCR (Maruyama and Sugano, 1994). This technique involves the specific attachment of a synthetic adaptor oligonucleotide to the 5\u2032 ends of tobacco acid pyrophosphatase-treated, de-capped mRNAs. The chimeric adaptor\u2013mRNA sequences can then be amplified readily by RT\u2013PCR with a combination of RNA-specific and adaptor-specific primers.",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 160,
+                    "mention": "Maruyama and Sugano, 1994",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "section": "BEV mRNAs 3 (M), 4 (HE) and 5 (N) lack a 5\u2032 common leader sequence ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "RLM-RACE PCR was performed on total intracellular RNA of BEV-infected cells with primers located \u223c160\u2013220 nucleotides downstream of the TRSs. For BEV mRNAs 1, 2, 3 and 5, single, discrete PCR products were obtained; in the case of mRNA 4, two amplicons of 240 and 350 bp were generated (Figure 3A). All PCR products were inserted into cloning vector pGEM-T easy and subjected to sequence analysis. For each construct, 6\u201312 clones were characterized.",
+            "cite_spans": [],
+            "section": "BEV mRNAs 3 (M), 4 (HE) and 5 (N) lack a 5\u2032 common leader sequence ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 294,
+                    "end": 295,
+                    "mention": "3",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Sequence analysis of mRNA 1-derived RT\u2013PCR products identified adenosine as the 5\u2032-terminal residue, with a cytidine at position 2, located in close proximity (four nucleotides) to a TRS consensus sequence (Figure 4). The 5\u2032 end of mRNA 1, as predicted by RLM-RACE, is collinear with that of the BEV DI RNA DI-1000 (Snijder et al., 1991), but three nucleotides shorter. To confirm our observations, primer extension analysis was performed with oligonucleotide 1407 (Table I); 1407-primed dideoxy-sequencing samples of a DI-1000 cDNA clone served as molecular size marker. A predominant product of 197 nucleotides was detected, consistent with initiation at the AC-dinucleotide sequence identified by RLM-RACE PCR (Figure 4). In addition, a minor 198 nucleotide product was found. It is well established that reverse transcriptases, including Moloney murine leukemia virus (M-MuLV), exhibit terminal transferase activity (Patel and Preston, 1994; Kulpa et al., 1997). Most probably, the larger extension products seen by us and others (Snijder et al., 1991) result from the addition of non-templated nucleotides to the 3\u2032 end of the full-length cDNA strand.",
+            "cite_spans": [
+                {
+                    "start": 316,
+                    "end": 336,
+                    "mention": "Snijder et al., 1991",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 921,
+                    "end": 944,
+                    "mention": "Patel and Preston, 1994",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 946,
+                    "end": 964,
+                    "mention": "Kulpa et al., 1997",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1035,
+                    "end": 1055,
+                    "mention": "Snijder et al., 1991",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "section": "BEV mRNAs 3 (M), 4 (HE) and 5 (N) lack a 5\u2032 common leader sequence ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 214,
+                    "end": 215,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 721,
+                    "end": 722,
+                    "mention": "4",
+                    "ref_id": null
+                },
+                {
+                    "start": 472,
+                    "end": 473,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Theoretically, the 5\u2032 terminus of the intracellular mRNA 1 species may differ from that of the genome. To study this possibility, BEV genomic RNA was extracted from purified virus (Figure 3B) and subjected to RLM-RACE. Sequence analysis of the resulting RT\u2013PCR product provided formal evidence that the 5\u2032 termini of BEV mRNA 1 and genomic RNA are identical (Figure 4).",
+            "cite_spans": [],
+            "section": "BEV mRNAs 3 (M), 4 (HE) and 5 (N) lack a 5\u2032 common leader sequence ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 188,
+                    "end": 189,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 366,
+                    "end": 367,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "RLM-RACE and primer extension analysis of the 5\u2032 termini of mRNAs 3\u20135 also identified adenosines as the 5\u2032-most residues, with cytidines at positions 2. Again, the 5\u2032 end of the RNAs was located in close proximity, three or four nucleotides, to a core TRS consensus sequence (Figures 5 and 6). Transcription initiation of mRNAs 3 and 4 was predicted to occur at A26 057 and A26 787, respect ively. Initiation of RNA 5 at A27 289, as predicted by RLM-RACE, is in perfect agreement with the results of primer extension analysis as reported by Snijder et al. (1990c).",
+            "cite_spans": [
+                {
+                    "start": 541,
+                    "end": 563,
+                    "mention": "Snijder et al. (1990c)",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "section": "BEV mRNAs 3 (M), 4 (HE) and 5 (N) lack a 5\u2032 common leader sequence ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 284,
+                    "end": 285,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 290,
+                    "end": 291,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "As mentioned, RLM-RACE PCR amplification of the 5\u2032 terminus of mRNA 4 yielded, in addition to the expected 240 bp amplicon, a product of \u223c350 bp (Figure 3A). This latter DNA resulted from mispriming by oligo 1405 at a 5\u2032 CACCC 3\u2032 motif within the BEV HE pseudogene, 111 residues downstream of the correct primer-binding site; the adaptor oligonucleotide, however, was fused to the 5\u2032-terminal residue of mRNA 4, A26 787 (not shown).",
+            "cite_spans": [],
+            "section": "BEV mRNAs 3 (M), 4 (HE) and 5 (N) lack a 5\u2032 common leader sequence ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 153,
+                    "end": 154,
+                    "mention": "3",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The 5\u2032 ends of sg RNAs 3\u20135 differ from each other and from the 5\u2032 end of the viral genome, but they match in sequence the corresponding extended TRSs (AC-N2\u20133-UCUUUAGA) within the IGRs of the M, HE and N genes, respectively (Figure 6). These findings provide definitive evidence that BEV sg RNAs 3\u20135 lack a common leader sequence and are not produced via discontinuous transcription. Toroviruses thus differ in this respect from their closest relatives, the coronaviruses. Yet they are not unique among nidoviruses: GAV, a member of a recently recognized group of invertebrate nidoviruses (family Roniviridae, genus Okavirus) (Cowley et al., 2000), also specifies leaderless sg mRNAs (Cowley et al., 2002). Interestingly, transcription of the GAV mRNAs also initiates at AC-dinucleotides. Whether this similarity is fortuitous or reflects a common mechanism of transcription initiation in toro- and okaviruses remains to be determined.",
+            "cite_spans": [
+                {
+                    "start": 627,
+                    "end": 646,
+                    "mention": "Cowley et al., 2000",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 685,
+                    "end": 704,
+                    "mention": "Cowley et al., 2002",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "BEV mRNAs 3 (M), 4 (HE) and 5 (N) lack a 5\u2032 common leader sequence ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 232,
+                    "end": 233,
+                    "mention": "6",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Snijder et al. (1990b) previously proposed that the sequence UGUUUAG (residues 21 257\u201321 263), which is located 50 nucleotides from the S initiation codon, represents the TRS of sg RNA 2. However, RLM-RACE amplification of the 5\u2032-terminal sequences of RNA 2 with primer 1403 consistently yielded a 350 bp product (Figure 3A), suggesting that transcription initiation does not occur at the predicted site but some 150 nucleotides further upstream. Most surprisingly, the RLM-RACE product proved to be chimeric, comprising the 5\u2032-most 15\u201318 nucleotides of the genome fused to open reading frame 1b (ORF1b) sequences (Snijder et al., 1990a), within the stretch G21 133\u2013U21 136 (Figures 5 and 7). The chimeric product was not only found after RT\u2013PCR with M-MuLV Superscript and Taq polymerase, but also under more stringent conditions with Thermus thermophilus (Tth) DNA polymerase, in one-tube reactions at temperatures \u226560\u00b0C. In accordance with the RLM-RACE data, primer extension analysis with oligonucleotide 1403 yielded one major run-off product of 303 nucleotides (Figure 5). A minor product of 314 nucleotides was also observed, the 3\u2032 end of which would map to U21 108. There is no TRS-like sequence present at this location; the 314 nucleotide cDNA may well have arisen from premature termination during reverse transcription of mRNA 1 or from mispriming. The combined results of RLM-RACE and primer extension analysis would suggest that: (i) the proposed promoter motif UGUUUAG does not direct transcription; (ii) mRNA 2 extends far into ORF1b, at least up to U21 136; and (iii) perplexingly, mRNA 2 synthesis entails fusion of non-contiguous sequences.",
+            "cite_spans": [
+                {
+                    "start": 0,
+                    "end": 22,
+                    "mention": "Snijder et al. (1990b)",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 615,
+                    "end": 636,
+                    "mention": "Snijder et al., 1990a",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "section": "Synthesis of BEV mRNA\u00a02 (S) involves fusion of non-contiguous sequences ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 321,
+                    "end": 322,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 683,
+                    "end": 684,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 689,
+                    "end": 690,
+                    "mention": "7",
+                    "ref_id": null
+                },
+                {
+                    "start": 1075,
+                    "end": 1076,
+                    "mention": "5",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To exclude in vitro recombination artifacts, which may have arisen during reverse transcription or subsequent PCR amplification, in-gel hybridization analysis of intracellular BEV RNAs was performed with a set of oligonucleotide probes (Figure 7). Probe 1748, designed after the 5\u2032-most 16 residues of the BEV genome, detected both BEV RNAs 1 and 2. A second probe, 1553, was designed after the 5\u2032-most 20 residues of the BEV genome, spanning the predicted mRNA 2 leader\u2013body junction by two nucleotides. Thus, this oligonucleotide is fully complementary to the BEV RNA 1, but differs from the predicted chimeric RNA 2 sequence by a one-nucleotide mismatch. As anticipated, under stringent hybridization conditions at 44\u00b0C, only RNA 1 was detected. At 40\u00b0C, however, probe 1553 hybridized to both RNA 1 and 2. None of the other sg mRNAs was detected, not even when hybridization was performed at 36\u00b0C. Finally, probe 1746, which spans the mRNA 2 leader\u2013body junction and contains three and four mismatches with the ORF1b sequence and the 5\u2032 non-translated region (NTR) of the BEV genome, respectively, under stringent conditions preferentially bound to RNA 2.",
+            "cite_spans": [],
+            "section": "Synthesis of BEV mRNA\u00a02 (S) involves fusion of non-contiguous sequences ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 244,
+                    "end": 245,
+                    "mention": "7",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To exclude the possibility that the chimeric RNA 2 species represented a DI RNA, BEV was plaque purified, and virus, taken from four separate plaques, was propagated at a low m.o.i. (\u22640.05 p.f.u./cell). Under these conditions, DI RNAs are readily lost. However, in all cases, hybridization analysis of intracellular RNAs with primers 1553 and 1746 still detected RNA 2 (not shown). Based upon the combined data, we conclude that BEV RNA 2 is a genuine sg mRNA species, which, in contrast to the three other sg mRNAs, possesses a genome-derived 5\u2032 leader sequence.",
+            "cite_spans": [],
+            "section": "Synthesis of BEV mRNA\u00a02 (S) involves fusion of non-contiguous sequences ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The BEV (\u2013)strand RNAs have not yet been identified and characterized. Hence, we cannot formally exclude the possibility that toroviruses, for the synthesis of mRNAs 3\u20135, utilize an alphavirus-like transcription mechanism, in which the extended anti-TRSs on a genome-sized (\u2013)strand RNA function as internal promoters. Most probably, however, toroviruses resemble the other nidoviruses in directing the synthesis of sg (\u2013)strand templates (Sethna et al., 1989, 1991; Sawicki and Sawicki, 1990; den Boon et al., 1996). We propose that the toroviral promoters serve a dual function, acting as both (\u2013)strand termination signals and transcription initiation signals for (+)strand synthesis (Figure 8B). As noted by Cowley et al. (2002), such a transcription mechanism would be reminiscent of that of the closteroviruses, (+)strand RNA viruses of plants (Gowda et al., 2001).",
+            "cite_spans": [
+                {
+                    "start": 440,
+                    "end": 459,
+                    "mention": "Sethna et al., 1989",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 461,
+                    "end": 465,
+                    "mention": "1991",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 467,
+                    "end": 492,
+                    "mention": "Sawicki and Sawicki, 1990",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 494,
+                    "end": 515,
+                    "mention": "den Boon et al., 1996",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 712,
+                    "end": 732,
+                    "mention": "Cowley et al. (2002)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 851,
+                    "end": 869,
+                    "mention": "Gowda et al., 2001",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "Fusion of mRNA\u00a02 body and leader sequences: mediated by RNA secondary structure and duplex formation? ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 695,
+                    "end": 696,
+                    "mention": "8",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "In contrast to the genes for M, HE and N, the BEV S gene seems to lack a TRS. Obviously, the absence of this cis-element would preclude the synthesis of a transcription-competent (\u2013)strand template and, hence, expression of the S gene. We hypothesize that BEV solves this problem by producing (\u2013)strand RNA 2 templates, which are provided with the genome anti-TRS via discontinuous transcription.",
+            "cite_spans": [],
+            "section": "Fusion of mRNA\u00a02 body and leader sequences: mediated by RNA secondary structure and duplex formation? ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "For discontinuous transcription in corona- and arteriviruses, current evidence supports a model in which (\u2013)strand RNA synthesis is attenuated after copying a body TRS from the donor (+)strand template; pausing of the RdRp may be controlled by protein\u2013TRS interaction and possibly local RNA secondary structure (Pasternak et al., 2000, 2001). The nascent (\u2013)strand, presumably while still in complex with the RdRp, then detaches and switches to the leader TRS at the 5\u2032 end of the genome, which serves as the acceptor template. Upon anti-TRS\u2013TRS duplex formation, transcription resumes and synthesis of a chimeric, anti-leader-containing sg (\u2013)strand RNA is completed. We believe that an analogous similarity-assisted, copy-choice RNA recombination event during (\u2013)strand synthesis would best explain the chimeric structure of BEV sg RNA 2. Inspection of the mRNA 2 fusion region in ORF1b revealed the presence of a 17 nucleotide sequence (A21 118\u2013U21 134), which can adopt a stem\u2013loop structure (\u0394G = \u20138.6 kcal/mol). Strikingly, this hairpin loop immediately precedes the leader\u2013body junction site, followed by a stretch of 24 residues, with remarkable identity (79%) to residues 15\u201338 of the BEV genome (Figure 8A). Conceivably, this combination of sequence elements may create a recombinational hot spot, with the hairpin in the donor template causing attenuation of (\u2013)strand synthesis and dissociation of the RdRp\u2013RNA complex, after which the ORF1b-derived \u2018guiding\u2019 sequence mediates a template switch by base pairing to its complementary sequence at the 5\u2032 end of the viral genome (Figure 8B). Such a mechanism would not be without precedent. Studies on tombusvirus RNA recombination showed that the 3\u2032 base of a stem\u2013loop structure in the donor template is a preferred site for similarity-assisted template switching (White and Morris, 1995). Torovirus discontinuous transcription would, however, differ from that of corona- and arteriviruses: the TRSs of the latter are not preceded by evident hairpins (A.O.Pasternak and E.J.Snijder, personal communication; R.J.de Groot, unpublished).",
+            "cite_spans": [
+                {
+                    "start": 312,
+                    "end": 334,
+                    "mention": "Pasternak et al., 2000",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 336,
+                    "end": 340,
+                    "mention": "2001",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1826,
+                    "end": 1848,
+                    "mention": "White and Morris, 1995",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "section": "Fusion of mRNA\u00a02 body and leader sequences: mediated by RNA secondary structure and duplex formation? ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 1213,
+                    "end": 1214,
+                    "mention": "8",
+                    "ref_id": null
+                },
+                {
+                    "start": 1596,
+                    "end": 1597,
+                    "mention": "8",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Our model for mRNA 2 synthesis is supported by phylogenetic data: the structural genes of porcine torovirus strain Markelo (Kroneman et al., 1998) display only 65% nucleotide identity with those of BEV. Yet, the BEV sg RNA promoter motif, 5\u2032 AC-N2\u20133-UCUUUAGA 3\u2032, is conserved in PoTV and is found immediately upstream of the PoTV genes for M, HE and N (S.L.Smits and R.J.de Groot, unpublished). However, as in BEV, the region upstream of the PoTV S gene does not contain an evident promoter motif. In fact, it bears a strong resemblance to the corresponding BEV sequence, and the potential stem\u2013loop structure is conserved. Most notably, as compared with the BEV element, there are two substitutions in the stem of the PoTV hairpin, but base pairing is maintained (C\u2013G\u2192U\u2013A; Figure 8A), reinforcing the notion that this RNA secondary structure may be relevant to discontintuous RNA 2 synthesis. Moreover, the similarities between BEV and PoTV suggest that the unusual combination of discontinuous and non-discontinuous transcription, displayed by BEV, does not result from tissue culture adaptation, but may also be employed by related naturally occurring toroviruses.",
+            "cite_spans": [
+                {
+                    "start": 124,
+                    "end": 145,
+                    "mention": "Kroneman et al., 1998",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "section": "Fusion of mRNA\u00a02 body and leader sequences: mediated by RNA secondary structure and duplex formation? ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 781,
+                    "end": 782,
+                    "mention": "8",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "It is commonly held that discontinuous transcription arose in a proto-nidovirus and that this mechanism was preserved in corona- and arteriviruses. This would imply that, in toroviruses, discontinuous transcription was replaced by a non-discontinuous transcription strategy for three of the four sg mRNAs, while in okaviruses, leader addition via discontinuous transcription was lost completely. However, it seems counterintuitive that a trait that survived the considerable evolutionary distance between corona- and arteriviruses would have been lost during the radiation of the corona-, toro- and okaviruses, which seems to have occurred more recently (A.E.Gorbalenya, personal communication). We would therefore like to offer an alternative and equally plausible explanation, namely that the proto-nidovirus utilized an okavirus/torovirus-like non-discontinuous transcription strategy and that discontinuous transcription arose independently in arteri-, corona- and toroviruses through convergent evolution. Indeed, there are remarkable differences between arteri- and coronaviruses with regard to the sizes of their leaders and TRSs. High frequency homologous RNA recombination appears to be a universal trait of nidoviruses (Brian and Spaan, 1997; Lai and Cavanagh, 1997; Molenkamp et al., 2000), which may have made them prone to developing analogous discontinuous transcription strategies. In arteri- and coronaviruses, the transcription initiation and termination signals, initially combined in the ancestral nidovirus TRS, may have become separated. In this view, leader addition would be refinement of a common nidoviral transcription scheme, in which the central phenomenon is not the fusion of non-contiguous sequences, but rather the attenuation/termination of (\u2013)strand RNA synthesis at the TRS (Sawicki and Sawicki, 1995, 1998). Such a mechanism may have evolved to provide each of the sg mRNAs with an identical translational enhancer (i.e. a sequence element that increases translation efficiency).",
+            "cite_spans": [
+                {
+                    "start": 1230,
+                    "end": 1251,
+                    "mention": "Brian and Spaan, 1997",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1253,
+                    "end": 1275,
+                    "mention": "Lai and Cavanagh, 1997",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1277,
+                    "end": 1299,
+                    "mention": "Molenkamp et al., 2000",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1810,
+                    "end": 1835,
+                    "mention": "Sawicki and Sawicki, 1995",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1837,
+                    "end": 1841,
+                    "mention": "1998",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "section": "Discontinuous transcription in corona-, arteri- and toroviruses: divergent or convergent evolution? ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "This is the first report of an RNA virus that com bines two different strategies, discontinuous and non-discontinuous transcription, to produce its full set of sg mRNAs. Why toroviruses do so and how this situation arose is not known. If toroviruses evolved from an ancestor that relied on discontinuous mRNA synthesis, mRNA 2 transcription perhaps represents a relict. If, however, the torovirus ancestor utilized a non-discontinuous transcription strategy, the peculiar synthesis of mRNA 2 may be the consequence of a heterologous RNA recombination event. It is of note that the S gene overlaps with the replicase gene and, in contrast to the genes for M, HE and N, is not preceded by a non-coding IGR. A scenario can be envisaged in which the 5\u2032 part of the S gene, including the IGR and TRS, was deleted or replaced by a foreign sequence and in which a new initiation codon was acquired by fusion to an internal (\u20131) ORF at the 3\u2032 end of the replicase gene. If the resulting novel spike protein provided a strong selection advantage, even an initial inefficient expression may have allowed survival of the mutant virus. An infrequent, though consistent template switch in torovirus-infected cells, driven merely by chance sequence identity between ORF1b and the 5\u2032 end of the BEV genome, may have given rise to a minor transcription-competent sg (\u2013)strand RNA species. Subsequently, the discontinuous synthesis of mRNA 2 may have been perfected rapidly to optimize S expression. Be that as it may, torovirus transcription deserves further scrutiny.",
+            "cite_spans": [],
+            "section": "Discontinuous transcription in corona-, arteri- and toroviruses: divergent or convergent evolution? ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "BEV was grown in equine dermis (Ederm) cells (American Type Tissue Culture Collection). A BEV stock, devoid of DI viruses, was used in all experiments. This stock was prepared by performing single round plaque purification, followed by two rounds of end-point dilution. The purified virus was propagated at an m.o.i. of 0.05 TCID50 units/cell.",
+            "cite_spans": [],
+            "section": "Cells and virus ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "For the isolation of genomic RNA, 2 \u00d7 108 Ederm cells were infected with BEV at an m.o.i. of 0.05 TCID50 units/cell. Tissue culture supernatant, harvested at 16 h post-infection, was pre-cleared by centrifugation at 2400 g for 10 min at 4\u00b0C. Virus was pelleted through a 10% (w/v) sucrose cushion by centrifugation in a Beckman SW28 rotor at 26 000 r.p.m. (\u223c120 000 g) for 2 h. Virus was resuspended in 3 ml of phosphate-buffered saline (PBS) containing 1% Triton X-100 and mixed with an equal volume of 7 M urea, 2% SDS. Genomic RNA was extracted three times with acid phenol and once with diethyl ether, and was recovered by ethanol precipitation. Total cytoplasmic RNA was isolated from BEV-infected cells according to Spaan et al. (1981).",
+            "cite_spans": [
+                {
+                    "start": 722,
+                    "end": 741,
+                    "mention": "Spaan et al. (1981)",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "section": "Isolation of genomic and intracellular BEV RNA ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "mAb H20, though raised against the rare nucleoside 2,2,7-trimethylguanosine, cross-reacts with 7-methylguanosine (m7G) cap structures, allowing its application in the characterization and IAP of m7G-capped transcripts (Bochnig et al., 1987). mAb H20 was a kind gift from Dr Reinhard L\u00fchrmann (Department of Cellular Biochemistry; Max Planck Institute for Biophysical Chemistry). mAb R78, which served as an isotype-matched negative control, was kindly provided by Peter van Kooten (Immunology Unit, Faculty of Veterinary Medicine, Utrecht University).",
+            "cite_spans": [
+                {
+                    "start": 219,
+                    "end": 239,
+                    "mention": "Bochnig et al., 1987",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "section": "Immunoaffinity purification of capped RNA ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "IAP of capped RNAs was performed as described previously (Kabrane Lazizi et al., 1999). Protein G\u2013Sepharose beads (Gammabind G-Sepharose; Pharmacia, Uppsala, Sweden; 500 \u00b5l of a 50% suspension) were washed twice in 5 M guanidine\u2013HCl for 30 min at room temperature to remove RNases, followed by three additional washes in RNA binding buffer (10 mM NaPi pH 7, 150 mM NaCl, 10 mM EDTA). The beads were collected by low speed centrifugation and taken up in 500 \u00b5l of RNA binding buffer containing 150 \u00b5g of either mAb H20 or R78. Incubation was for 16 h at 4\u00b0C. The antibody-coupled beads were washed three times in RNA binding buffer and resuspended as a 50% solution. SDS\u2013PAGE analysis of aliquots of the beads confirmed that equal amounts of mAbs H20 and R78 had been coupled.",
+            "cite_spans": [
+                {
+                    "start": 58,
+                    "end": 85,
+                    "mention": "Kabrane Lazizi et al., 1999",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "section": "Immunoaffinity purification of capped RNA ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Total cytoplasmic RNA extracted from the equivalent of 4 \u00d7 106 BEV-infected cells was added to a 150 \u00b5l reaction volume of RNA binding buffer, containing 25% mAb-coupled beads and 2000 U/ml RNAguard (Pharmacia). Incubation was for 1 h at 4\u00b0C under constant rotation. Subsequently, beads were washed four times with RNA binding buffer supplemented with 0.5% NP-40 (Fluka, Buchs, Germany). RNA bound to the mAb-coupled beads was eluted with 1% SDS, 3.5 M urea in TES for 5 min at room temperature, extracted twice with acid phenol and once with diethyl ether, and finally recovered by ethanol precipitation. The RNA pellet was dissolved in 10 \u00b5l of water and analyzed by hybridization with BEV-specific 32P-labeled oligonucleotide probes.",
+            "cite_spans": [],
+            "section": "Immunoaffinity purification of capped RNA ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "To confirm the specificity of the procedure, total RNAs purified from cells infected with the coronavirus mouse hepatitis virus (MHV) strain A59 were subjected to IAP. The capped MHV mRNAs exclusively bound to mAb H20-coupled beads. In addition, synthetic RNAs were produced by in vitro transcription of plasmid DNA with T7 RNA polymerase in either the presence or absence of the cap analog M7G(5\u2032)ppp(5\u2032)G (Amersham). Again, these transcripts only bound to mAb H20-coupled beads and only when provided with a 5\u2032 cap structure (see Supplementary data available at The EMBO Journal Online).",
+            "cite_spans": [],
+            "section": "Immunoaffinity purification of capped RNA ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Xrn1p digestion was performed essentially as described by Boeck et al. (1998). Total intracellular RNA, extracted from the equivalent of 2.5 \u00d7 106 BEV-infected cells, was incubated with 2 \u00b5g of purified Xrn1p (generous gift of N.Cozzarelli, University of California, Berkely) in a final volume of 10 \u00b5l of 33 mM Tris\u2013HCl pH 8.0, 50 mM NaCl, 2.5 mM MgCl2, 0.2 mM dithiothreitol in either the presence or absence of 5 mM EDTA. Incubation was for 30 min at 37\u00b0C.",
+            "cite_spans": [
+                {
+                    "start": 58,
+                    "end": 77,
+                    "mention": "Boeck et al. (1998)",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "section": "Xrn1p assay ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "RNA was separated in 1% agarose gels containing 2.2 M formaldehyde in MOPS buffer (10 mM MOPS pH 7, 5 mM sodium acetate, 1 mM EDTA) as described by Sawicki and Sawicki (1990). Gels were dried under a vacuum at 58\u00b0C and hybridized with 5\u2032-end-labeled oligonucleotide probes for 16 h at 5\u00b0C below the Tm (Meinkoth and Wahl, 1984), unless stated otherwise.",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 174,
+                    "mention": "Sawicki and Sawicki (1990)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 303,
+                    "end": 326,
+                    "mention": "Meinkoth and Wahl, 1984",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "section": "RNA hybridization analysis ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The true 5\u2032 termini of capped mRNAs can be determined by advanced RLM-RACE PCR (Maruyama and Sugano, 1994). This technique involves the attachment of synthetic adaptor oligonucleotide to the 5\u2032 end of the mRNA. The adaptor is transcribed and included into the first-strand cDNA copy only when reverse transcription proceeds across the 5\u2032 terminus of the mRNA. To ensure that the adaptor is ligated exclusively to mRNAs with an intact 5\u2032 end, the RNA sample is pre-treated with calf intestinal phosphatase. Thus, contaminating rRNA, tRNA, degraded mRNA fragments and DNA are dephosphorylated and excluded from ligation reactions. mRNAs with an intact, capped 5\u2032 end are then decapped by treatment with tobacco acid pyrophosphatase, leaving a monophosphorylated 5\u2032 terminus and allowing subsequent ligation of the adaptor using T4 RNA ligase. RLM-RACE was performed with the FirstChoice\u2122 RLM-RACE kit (Ambion, Austin, TX) according to the manufacturer\u2019s instructions. The amounts of intracellular and genomic RNA used per reaction corresponded to that extracted from 2 \u00d7 104 BEV-infected Ederm cells and 3 \u00d7 107 TCID50 units, respectively. RT\u2013PCR with gene- and adaptor-specific primers was either performed with M-MuLV reverse transcriptase (Superscript II) and Taq polymerase (Gibco-BRL, Gaithersburg, MD) or with Tth DNA polymerase (Roche, Mannheim, Germany) according to the manufacturer\u2019s instructions. PCR DNAs were excised from agarose\u20130.5\u00d7 TAE gels, purified using the Qiagen gel extraction kit (Qiagen, Hilden, The Netherlands), ligated in vector pGEM-T easy (Promega, Madison, WI) and cloned in Escherichia coli strain pc2495. Plasmid DNA, extracted from individual clones, was subjected to sequence analysis using a T7 RNA polymerase sequencing kit (Pharmacia). For each construct, 6\u201312 clones were characterized.",
+            "cite_spans": [
+                {
+                    "start": 80,
+                    "end": 105,
+                    "mention": "Maruyama and Sugano, 1994",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "section": "RLM-RACE RT\u2013PCR ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Ten nanograms of 5\u2032-end-labeled oligonucleotide was annealed to intracellular RNA, extracted from 2 \u00d7 106 BEV-infected cells. Annealing and first-strand cDNA synthesis were carried out with M-MuLV reverse transcriptase (Superscript II; Gibco-BRL) according to Fichot and Girard (1990), except that dideoxynucleotides were omitted from the reaction mixture. Extension products were separated in 6% acrylamide\u20137.5 M urea gels.",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 284,
+                    "mention": "Fichot and Girard (1990)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "Primer extension analysis ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Supplementary data are available at The EMBO Journal Online.",
+            "cite_spans": [],
+            "section": "Supplementary data ::: Materials and methods",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "74",
+            "issn": "",
+            "pages": "4039-4046",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "70",
+            "issn": "",
+            "pages": "2720-2729",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Biol. Chem.",
+            "volume": "276",
+            "issn": "",
+            "pages": "41761-41768",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "81",
+            "issn": "",
+            "pages": "1473-1484",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "83",
+            "issn": "",
+            "pages": "927-935",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Semin. Virol.",
+            "volume": "8",
+            "issn": "",
+            "pages": "33-47",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "65",
+            "issn": "",
+            "pages": "2910-2920",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "70",
+            "issn": "",
+            "pages": "4291-4298",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res.",
+            "volume": "18",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Adv. Virus Res.",
+            "volume": "55",
+            "issn": "",
+            "pages": "135-184",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "166-176",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "48",
+            "issn": "",
+            "pages": "633-640",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "286",
+            "issn": "",
+            "pages": "134-151",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "73",
+            "issn": "",
+            "pages": "8848-8850",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "218",
+            "issn": "",
+            "pages": "400-405",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "72",
+            "issn": "",
+            "pages": "3507-3511",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "16",
+            "issn": "",
+            "pages": "856-865",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Adv. Virus Res.",
+            "volume": "48",
+            "issn": "",
+            "pages": "1-100",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "38",
+            "issn": "",
+            "pages": "661-670",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "41",
+            "issn": "",
+            "pages": "557-565",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "44",
+            "issn": "",
+            "pages": "487-492",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "65",
+            "issn": "",
+            "pages": "6031-6041",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virus Res.",
+            "volume": "3",
+            "issn": "",
+            "pages": "19-33",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Gene",
+            "volume": "138",
+            "issn": "",
+            "pages": "171-174",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Anal. Biochem.",
+            "volume": "138",
+            "issn": "",
+            "pages": "267-284",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "273",
+            "issn": "",
+            "pages": "1-8",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "313",
+            "issn": "",
+            "pages": "68-70",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "74",
+            "issn": "",
+            "pages": "9062-9070",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "74",
+            "issn": "",
+            "pages": "11642-11653",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "20",
+            "issn": "",
+            "pages": "7220-7228",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "91",
+            "issn": "",
+            "pages": "549-553",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "151",
+            "issn": "",
+            "pages": "146-150",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "64",
+            "issn": "",
+            "pages": "1050-1056",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "156",
+            "issn": "",
+            "pages": "342-354",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Adv. Exp. Med. Biol.",
+            "volume": "380",
+            "issn": "",
+            "pages": "499-506",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Adv. Exp. Med. Biol.",
+            "volume": "440",
+            "issn": "",
+            "pages": "215-219",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "82",
+            "issn": "",
+            "pages": "385-396",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "68",
+            "issn": "",
+            "pages": "8169-8179",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "86",
+            "issn": "",
+            "pages": "5626-5630",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "65",
+            "issn": "",
+            "pages": "320-325",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "281",
+            "issn": "",
+            "pages": "829-832",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF41": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "74",
+            "issn": "",
+            "pages": "2305-2316",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF42": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "79",
+            "issn": "",
+            "pages": "961-979",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF43": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nucleic Acids Res.",
+            "volume": "18",
+            "issn": "",
+            "pages": "4535-4542",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF44": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Eur. J. Biochem.",
+            "volume": "168",
+            "issn": "",
+            "pages": "461-467",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF45": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "178",
+            "issn": "",
+            "pages": "355-363",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF46": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "64",
+            "issn": "",
+            "pages": "331-338",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF47": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "72",
+            "issn": "",
+            "pages": "1635-1643",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF48": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Adv. Exp. Med. Biol.",
+            "volume": "342",
+            "issn": "",
+            "pages": "235-244",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF49": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "108",
+            "issn": "",
+            "pages": "424-434",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF50": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "11-31",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF51": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "68",
+            "issn": "",
+            "pages": "3656-3666",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF52": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "96",
+            "issn": "",
+            "pages": "12056-12061",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF53": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "1",
+            "issn": "",
+            "pages": "1029-1040",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF54": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Mol. Cell. Biol.",
+            "volume": "18",
+            "issn": "",
+            "pages": "5062-5072",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF55": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "415-428",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF56": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Semin. Virol.",
+            "volume": "8",
+            "issn": "",
+            "pages": "101-111",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF57": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Adv. Exp. Med. Biol.",
+            "volume": "342",
+            "issn": "",
+            "pages": "255-257",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

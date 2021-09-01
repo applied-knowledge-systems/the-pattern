@@ -1,0 +1,3 @@
+langdetect==1.0.8
+git+https://github.com/mediacloud/sentence-splitter.git
+symspellpy

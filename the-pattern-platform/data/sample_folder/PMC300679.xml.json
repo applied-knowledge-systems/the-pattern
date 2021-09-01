@@ -1,0 +1,191 @@
+{
+    "paper_id": "PMC300679",
+    "metadata": {
+        "title": "The Virus That Changed My World",
+        "authors": [
+            {
+                "first": "Lisa",
+                "middle": [
+                    "Fong"
+                ],
+                "last": "Poh Ng",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "When I first read this little poem in The Lancet in January 2003 (Heikkinen and Jarvinen 2003), it elicited little more than a bemused chortle. There are few who would deny the paradox that for all the medical advances providing cures for multitudinous diseases afflicting the human condition, there remains a large hole in the understanding of and treatment for the common cold. We know that it is caused mainly by rhinoviruses and coronaviruses, but that's about it. Having worked on coronaviruses for my doctoral thesis, I knew some of the many open questions.",
+            "cite_spans": [
+                {
+                    "start": 66,
+                    "end": 93,
+                    "mention": "Heikkinen and Jarvinen 2003",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "A few months later, however, our ignorance concerning these viruses took on an urgent relevance when an exploding viral pandemic in southern China, Hong Kong, Vietnam, Canada, and Singapore left the scientific community stunned. In March 2003, nobody was prepared for the onslaught of SARS (severe acute respiratory syndrome)\u2014we knew nothing about the causative agent for the disease and had no idea how to treat it.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "In Singapore, the SARS outbreak constituted the most challenging medical crisis in decades. Doctors, scientists, government officials, educators, and even businessmen scrambled to contain the epidemic. Schools were closed and children were ordered to stay at home. Business organizations granted their employees medical leave, and many offices shut down temporarily. The bustling commerce and social scene in the country all but ground to a halt as people were afraid to gather in crowded places. Even some churches were closed and Sunday masses cancelled; those that remained opened required the congregation to don protective masks at all times. Travelling on public buses and trains suddenly became an exercise in not merely avoiding the rush-hour crowds, but in avoiding any crowds at all. Trendy shopping centres, cafes, and restaurants, once vaunted for packing in the throngs, became places to be avoided as the forbidding belief quickly spread that crowded places were hotspots for the transmission of SARS.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "At Changi Airport, all in- and out-bound passengers from Singapore were \u201ctemperature-printed\u201d (that is, they were asked to walk through scanners that picked up body temperatures above 37.4\u00b0C) in order to curb the export and import of SARS. With close to 100 medical workers dressed in camouflage fatigues, gloves, and surgical masks stationed at the gateways to the country and ambulances ready to whisk away anyone who was sick or showed questionable signs of infection, the international press labelled the normally bustling airport a \u201ccombat zone.\u201d",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "Despite the rampant fear of SARS and the frantic measures to contain it, not everyone complied with the rules and regulations. Schools required that students declare the countries and places they had visited over the weekend or during the mid-semester holidays, but there were parents who told their children to conceal questionable information for fear of having to quarantine them at home. Violation of quarantine orders by a few prompted the Singapore government to threaten fines and jail sentences for those who failed to comply. Cameras were installed in homes to ensure that people put under quarantine stayed indoors, and those who refused had electronic tags strapped around their wrists. Such drastic measures\u2014prompting the International Herald Tribute to refer to Singapore as \u201ca country with a reputation for dramatic approaches to public policy\u201d (Bradsher 2003)\u2014may have been greeted with defiance and frustration at first, but the vast majority of the population got quickly behind the approach. There was to be no letting up on the vigilance and precaution. Not when it came to SARS. In the three months that Singapore was labelled as a \u201cSARS country\u201d by the World Health Organization (WHO), over 200 cases of SARS were reported, and 33 people died. These figures were devastating for Singapore, which had not witnessed an epidemic of such proportions since the 1950s, when polio was a major problem. Referring to the high standards of medical care and the societal measures put in place, Dr David Mansoor of WHO said that if not even Singapore could contain the outbreak, it was going to be very hard for other countries to prevent SARS from spreading (Chua 2003).",
+            "cite_spans": [
+                {
+                    "start": 860,
+                    "end": 873,
+                    "mention": "Bradsher 2003",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1669,
+                    "end": 1678,
+                    "mention": "Chua 2003",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "On the research front, WHO wasted no time in assembling a network of international laboratories to facilitate the identification of the causative agent of SARS. On April 3, 2003, it was announced that a new coronavirus variant had been isolated from patients with SARS in Hong Kong, and therefore this virus was hypothesized to be the primary cause of the disease.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "I remember that day clearly. It proved to be a turning point in the worldwide effort to contain SARS\u2014especially for Singapore and countries in Asia at large\u2014and it changed the course of my scientific career, if not my life. On March 8, 2002, I had joined the Genome Institute of Singapore (GIS)\u2014a new organization funded by the quasi-governmental Agency for Science, Technology, and Research (A*STAR) and headed by Professor Edison Liu and Professor Ren Ee Chee\u2014to work with Professor Ren as a postdoctoral fellow on hepatitis B virus (HBV). The study aimed to uncover novel therapeutic targets by using various technology platforms to enhance current treatments available to HBV sufferers and carriers. My posting at GIS was a refreshing change from my previous research experiences in animal coronaviruses, as I got to work more closely with human diseases and genomics.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "When the SARS virus was linked to the Coronaviridae (CoV) family, my first reaction was one of excitement and trepidation. Excitement because I knew a lot about these viruses from my PhD research, and trepidation because I was aware that the virus had been afflicting the agricultural industry for years, with devastating consequences. Together with senior staff from the local hospitals, I took part in an emergency meeting called by Professor Liu, who stated the challenge: we needed to identify the new strain of virus and to develop an accurate and reliable diagnosis for SARS.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "I was to be part of the diagnostic team, and work began almost immediately. Although we were under a great deal of pressure and stress, there was also a certain level of excitement in the face of a real-life crisis situation. The early days were the toughest, as we had very little information and were more or less groping in the dark. Long, exhausting hours took over our lives, and on many occasions I felt discouraged and frustrated when the experiments did not yield anticipated results. However, there was no time to be despondent and ponder the vicissitudes of life as more and more people\u2014friends among them\u2014were struck down by the disease. All of us felt the need to work even harder, as we knew we could not afford to fail. The key goal was to uncover the complete sequence of the virus.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "At the end of April, researchers at the Michael Smith Genome Sciences Centre in Vancouver, British Columbia, Canada, and at the National Microbiology Laboratory in Winnipeg, Manitoba, Canada, were the first to obtain the full sequence of SARS\u2013CoV. In the following week, the sequencing team at GIS, led by Dr Ruan Yijun, obtained five different complete sequences (designated \u201cSIN\u201d) and compared these with the isolates from Canada (TOR2), Hong Kong (CUHK-W1 and HKU39849), Hanoi (URBANI), Guangzhou (GZ01), and Beijing (BJ01, BJ02, BJ03, and BJ04). Dr Ruan's team identified sequence variations among the 14 isolates, and common variant sequences at four loci defined two distinct genotypes of the SARS virus, whose signatures could be used to trace the sources of infection.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "Shortly after this achievement, GIS entered into a collaboration, through Exploit Technologies (the commercial arm of A*STAR), with Roche Diagnostics GmbH to develop a reliable diagnostic kit for SARS. The GIS team, which involved Prof Ren, Dr Martin Hibberd, and myself, aimed to develop a clinically reliable polymerase chain reaction (PCR) assay for the SARS sequence based on Roche's LightCycler system. A one-step reverse transcription PCR (RT-PCR) assay was developed for specific and highly sensitive detection of SARS\u2013CoV RNA from clinical samples. Multiple teleconferences were held with our collaborator, Dr Thomas Emrich from Roche Diagnostics Penzberg, to work out technical details before the optimal conditions were obtained. After two months of work, the kit performed to our satisfaction and became available commercially. Collaborating with Roche not only made a big difference to my ideas and my few experiments, but it was also a truly enriching experience to work with some of the world's experts in clinical diagnostics.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "From my earlier work, I had a good understanding of coronaviruses and their functional gene products, as my previous projects involved the study of the proteolytic processing of viral products. Data obtained from this work were significant for further understanding of coronavirus replication and pathogenesis, but never had I imagined that I would be able to use this knowledge in designing the SARS\u2013CoV diagnostic kit with Roche.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "Beginning in May, the SARS pandemic started to retreat, and by the end of July, the WHO declared the end of the outbreak. The vigilance, however, is expected to continue for some time, as WHO authorities have warned of a possible return of SARS during the winter months in the Northern Hemisphere. In Singapore, temperature monitoring is still in place in many organizations, and as I was writing this article, news broke that another SARS case had been discovered here. However, this time round, the authorities and the people are technically, academically, and emotionally much better prepared for the challenge.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        },
+        {
+            "text": "The months working on SARS opened my mind, as it did my heart, about the importance of research and of keeping our faith and motivation even in the toughest times. Interacting with some of the best minds in the field strengthened my commitment to a scientific vocation. But even more importantly, it reminded me of the true reasons for and potential of cold-eyed, back-breaking scientific exploration. I feel truly privileged to have been part of the unfolding of a small medical revolution.",
+            "cite_spans": [],
+            "section": "",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Hong Kong moving modestly on SARS. International Herald Tribune 11 April",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bradsher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Sars puts Singapore under the microscope. The Straits Times 16 April",
+            "authors": [
+                {
+                    "first": "LH",
+                    "middle": [],
+                    "last": "Chua",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "The common cold",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Heikkinen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jarvinen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "361",
+            "issn": "",
+            "pages": "51-59",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

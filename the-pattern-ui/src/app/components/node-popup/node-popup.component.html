@@ -1,0 +1,18 @@
+<div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Node: </h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <ul class="content">
+      <li >
+          <span class="title">{{ node.name }} {{ node.id }}</span>  <br/>
+      </li>
+  </ul>
+
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="notImportant()"><i class="fa fa-thumbs-down"></i>Mark as not
+        important</button>
+</div>

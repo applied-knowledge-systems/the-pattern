@@ -1,0 +1,12 @@
+httpimport
+redis==3.5.3
+git+https://github.com/AlexMikhalev/redis-py-cluster@gears_rg_trigger#egg=redis-py-cluster
+joblib
+git+https://github.com/WojciechMula/pyahocorasick@master#egg=pyahocorasick
+ujson==2.0.3
+flask
+flask_cors
+redisgraph
+gunicorn
+transformers
+git+https://github.com/RedisAI/redisai-py.git@cluster_api#egg=redisai

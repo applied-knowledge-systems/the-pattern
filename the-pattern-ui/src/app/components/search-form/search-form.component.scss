@@ -1,0 +1,77 @@
+@import "../../../scss/variables";
+.search-form{
+    display: inline-block;
+    width: 100%;
+    input{
+        border-left: none;
+        background: #37474f ;
+        border: none;
+        color: #90a4ae;
+        font-weight: 400;
+        border-radius: 0;
+        border-color: #78909c;
+  
+        &:focus{
+          box-shadow: none;
+        }
+    }
+  
+    .input-group-text{
+        background: $primary-color;
+        color: $white-color;
+        border-right: none;
+        border: 0;
+    }
+
+    
+}
+
+.search-form.big{
+    input{
+        height: 48px;
+        font-size: 16px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .input-group-text{
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+        span{
+            margin-left: 8px;
+        }
+    }
+    .hint{
+        color: $white-color;
+    }
+    
+}
+
+.search-form.small{
+    input{
+        width: 400px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    .input-group-text{
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+        span{
+            display: none;
+        }
+    }
+    
+}
+  
+@media (min-width: 576px){
+    .form-inline .input-group, .form-inline .custom-select {
+      width: 100%;
+    }
+}

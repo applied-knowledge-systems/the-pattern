@@ -1,0 +1,29 @@
+<div ngbDropdown class="d-inline-block" *ngIf="mode=='inline-add'">
+    <a class="" id="dropdownBasic1" ngbDropdownToggle>Add to role</a>
+    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+      <button ngbDropdownItem *ngFor="let role of roles">{{role}}</button>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg"  *ngIf="mode=='3d-viewer'">
+  <div class="container">
+      <div class="row flex-fill">
+          <a class="navbar-brand" routerLink="/">
+              <img src="" alt="" />
+          </a>
+          <app-search-form mode="small"></app-search-form>
+          <app-audio mode="toggle"></app-audio>
+      </div>
+  </div>
+</nav>
+<app-graph 
+  *ngIf="mode=='3d-viewer'"
+  [renderer] = "selected3DView"
+  [controller] = "selectedController"></app-graph>
+<section  *ngIf="mode=='role-selector'">
+  <ul>
+    <li *ngFor="let role of roles; let i = index">
+      <button class="btn btn-primary" (click)="selectRole(i)">{{role.label}}</button>
+    </li>
+  </ul>
+</section>

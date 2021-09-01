@@ -1,0 +1,3323 @@
+{
+    "paper_id": "PMC280685",
+    "metadata": {
+        "title": "A model of tripeptidyl-peptidase I (CLN2), a ubiquitous and highly conserved member of the sedolisin family of serine-carboxyl peptidases",
+        "authors": [
+            {
+                "first": "Alexander",
+                "middle": [],
+                "last": "Wlodawer",
+                "suffix": "",
+                "email": "wlodawer@ncifcrf.gov",
+                "affiliation": {}
+            },
+            {
+                "first": "Stewart",
+                "middle": [
+                    "R"
+                ],
+                "last": "Durell",
+                "suffix": "",
+                "email": "durells@exchange.nih.gov",
+                "affiliation": {}
+            },
+            {
+                "first": "Mi",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "email": "mili@ncifcrf.gov",
+                "affiliation": {}
+            },
+            {
+                "first": "Hiroshi",
+                "middle": [],
+                "last": "Oyama",
+                "suffix": "",
+                "email": "oyama@ipc.kit.ac.jp",
+                "affiliation": {}
+            },
+            {
+                "first": "Kohei",
+                "middle": [],
+                "last": "Oda",
+                "suffix": "",
+                "email": "bika@ipc.kit.ac.jp",
+                "affiliation": {}
+            },
+            {
+                "first": "Ben",
+                "middle": [
+                    "M"
+                ],
+                "last": "Dunn",
+                "suffix": "",
+                "email": "bdunn@college.med.uf.edu",
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Although the existence of tripeptidyl-peptidase I (TPP-I) was first noted over 40 years ago [1], the structural and mechanistic basis of its activity has been largely misunderstood until quite recently. The situation changed after it was shown that TPP-I is identical to an independently characterized enzyme named CLN2. It was also demonstrated that mutations leading to abolishment of the enzymatic activity of CLN2 were the direct cause of a fatal inherited neurodegenerative disease, classical late-infantile neuronal ceroid lipofuscinosis [2]. This important observation was followed by the identification of CLN2 as a serine peptidase [3,4], without, however, specifying its structural fold and the details of the catalytic site. More accurate placement of CLN2 within the context of a family of related enzymes became possible only after high-resolution crystal structures of two bacterial enzymes with a limited sequence similarity to CLN2, sedolisin and kumamolisin, became available [5-7]. These structures defined a novel family of enzymes, now called sedolisins or serine-carboxyl peptidases, that is characterized by the utilization of a fully conserved catalytic triad (Ser, Glu, Asp) and by the presence of an Asp in the oxyanion hole [8]. Sedolisin and its several variants (e.g., kumamolisin, aorsin [9], and physarolisin [10]) have now been found in archaea, bacteria, fungi and amoebae, whereas the higher organisms seem to contain only variants of CLN2 [8]. The physiological role of sedolisins in the lower organisms has not yet been elucidated.",
+            "cite_spans": [
+                {
+                    "start": 93,
+                    "end": 94,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 545,
+                    "end": 546,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 642,
+                    "end": 643,
+                    "mention": "3",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 644,
+                    "end": 645,
+                    "mention": "4",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 994,
+                    "end": 995,
+                    "mention": "5",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 996,
+                    "end": 997,
+                    "mention": "7",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1251,
+                    "end": 1252,
+                    "mention": "8",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1318,
+                    "end": 1319,
+                    "mention": "9",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1340,
+                    "end": 1342,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1474,
+                    "end": 1475,
+                    "mention": "8",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "section": "Background",
+            "ref_spans": []
+        },
+        {
+            "text": "Despite the potential medical importance of CLN2 and related enzymes, no systematic studies of their genomic distribution have been published to date. There are also no published reports of the crystallization of this enzyme. In the absence of an experimental structure obtained by crystallography or NMR it is sometimes necessary to resort to molecular modeling in order to provide a structural basis for the explanation of the biological properties of an enzyme, and, in particular, to initiate design of its inhibitors. Examples of such very successful and useful modeling efforts are provided by HIV protease [11], or very recently by the peptidase from a coronavirus involved in the severe acute respiratory syndrome [12], among others. We have now applied the tools of molecular homology modeling to predicting a structure of CLN2 that could be used as a basis for a search for the biological substrates of this family of enzymes and for the design of specific inhibitors.",
+            "cite_spans": [
+                {
+                    "start": 614,
+                    "end": 616,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 723,
+                    "end": 725,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "Background",
+            "ref_spans": []
+        },
+        {
+            "text": "Mammalian enzymes homologous to human CLN2 [2,4] form a subfamily of sedolisins with highly conserved sequences (Figure 1). These enzymes are expressed with a prosegment consisting of 195 residues that is cleaved off during maturation, yielding the active catalytic domain. Complete sequences are available for CLN2 from six species in which it has been found so far (human, macaque, dog, mouse, rat, and cow). The full-length enzymes consist of 563 amino acids arranged in a single polypeptide chain containing both the prosegment and the catalytic domain, with the exception of mouse CLN2 that has a single deletion in the prosegment. The overall sequence identity for these enzymes is 81%, whereas the similarity is 92%. A pairwise comparison of the human and mouse enzymes yields 88% identity and 94% similarity, considerably higher than the median 78.5% identity reported for all identified mouse-human orthologs [13]. Thus, mammalian CLN2 appears to be a highly conserved enzyme.",
+            "cite_spans": [
+                {
+                    "start": 44,
+                    "end": 45,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 46,
+                    "end": 47,
+                    "mention": "4",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 919,
+                    "end": 921,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "Sequence comparisons of the CLN2-like enzymes ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 120,
+                    "end": 121,
+                    "mention": "1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "In addition to the mammals, CLN2-like enzymes are also found in fugu (puffer fish \u2013 unannotated record SINFRUP00000077297 in the NCBI fugu sequence database, ) and zebrafish (contig wz4596.2 in the zebrafish EST database, ). Only a fragment of the sequence of the latter enzyme agreed with the former. However, a few comparatively minor modifications can bring the zebrafish sequence into good agreement with that of the fugu CLN2. These modifications include a deletion of a single nucleotide from a run of three, as well as three insertions of repeated nucleotide pairs (Figure 2). It must be stressed that these modifications are speculative and may lead to prediction of several incorrect amino acids; however, they bring the two sequences into good global agreement (69% identities and 83% similarities).",
+            "cite_spans": [],
+            "section": "Sequence comparisons of the CLN2-like enzymes ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 580,
+                    "end": 581,
+                    "mention": "2",
+                    "ref_id": "FIGREF1"
+                }
+            ]
+        },
+        {
+            "text": "The available amino acid sequence of the fugu CLN2 analog, named by us sedolisin-TPP [8], is also in good agreement with the sequences of the mammalian orthologs (Figure 3). The only major difference in the translated amino acid sequence compared to the mammalian and zebrafish enzymes is in the amino terminus of the propeptide region that is shorter by 30 amino acids (not shown). It is very likely that this represents a fault in the assembled sequence rather than a real variation, since the current coding frame is not initiated with a methionine, and a few extra residues are present in the full genomic sequence available from the fugu sequencing consortium .",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 87,
+                    "mention": "8",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "section": "Sequence comparisons of the CLN2-like enzymes ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 170,
+                    "end": 171,
+                    "mention": "3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "CLN2 is present not only in fish, but also in amphibians, in particular in Xenopus tropicalis (a species of frog). A partial sequence of its sedolisin-TPP (AL594774) found in the EST database  spans the middle part of the catalytic domain, without reaching the part of the active site closer to the N terminus that contains the aspartic and glutamic acids that belong to the catalytic triad. However, the sequenced part of the enzyme shows 75% identity with the fugu sedolisin-TPP, and 69% identity with human CLN2 (Figure 3). Sequence similarity to bacterial or fungal sedolisins is much lower, indicating that the enzyme found in frogs might also share the functional properties of the CLN2 subfamily.",
+            "cite_spans": [],
+            "section": "Sequence comparisons of the CLN2-like enzymes ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 523,
+                    "end": 524,
+                    "mention": "3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "The discovery of highly conserved CLN2-like enzymes not only in mammals but also in two fish species and one of frogs may indicate that these peptidases are universally present in the vertebrates, and that their important role identified in humans [2] and mice [14] might be a more general feature.",
+            "cite_spans": [
+                {
+                    "start": 249,
+                    "end": 250,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 262,
+                    "end": 264,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "section": "Sequence comparisons of the CLN2-like enzymes ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The medical importance of CLN2 and the lack of a crystal structure inspired attempts at protein modeling. The first such model assumed that this enzyme is membrane-bound, with the sequence 271\u2013294 (numbering corresponding to the mature enzyme, Figure 1) forming the putative transmembrane anchor [15]. However, in view of the subsequently obtained structures of the fully water-soluble sedolisins, this model was clearly incorrect. Exploiting the sequence similarity between CLN2, sedolisin, and kumamolisin (Figure 4), we have now used the experimentally obtained structures of the latter two enzymes to form a new, homology-derived model of human CLN2. The primary basis of the homology model was the structure of a complex of sedolisin with a covalently-bound inhibitor, pseudo-iodotyrostatin. Although it has not been directly shown that this compound can inhibit human CLN2, other similar peptides with an aldehyde functionality on their \"C-termini\" are weak, but detectable, inhibitors of this enzyme (Oda, unpublished). It is thus likely that pseudo-iodotyrostatin or a similar inhibitor might work for CLN2 as well, although the actual contacts between the inhibitor and the enzyme that are seen in the model have to be treated with caution. Another reason for the modeling of a pseudo-iodotyrostatin complex is that CLN2 is a tripeptidase, and that this inhibitor it represents the only experimental structure of a tripeptide analog bound to sedolisin.",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 299,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "section": "Modeling of the structure of human CLN2 ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 251,
+                    "end": 252,
+                    "mention": "1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 516,
+                    "end": 517,
+                    "mention": "4",
+                    "ref_id": "FIGREF3"
+                }
+            ]
+        },
+        {
+            "text": "The r.m.s. deviation between the corresponding C\u03b1 coordinates of the model of CLN2 (Figure 5) and the experimental structure of sedolisin is about 1.75 \u00c5, not much larger than the experimental difference between sedolisin and kumamolisin. Interestingly, the Cys327 and Cys342 residues in the model were found to be ideally positioned to form a disulfide bond even though this was not part of the design strategy. That this bond likely occurs in the real protein is suggested by the fact that these two cysteines are strictly conserved in all known animal species of CLN2 (Figures 1 and 3), although they are absent in all known sequences of bacterial sedolisins. Thus, if this disulfide were experimentally found to exist in CLN2 it would provide support for the correctness of the model.",
+            "cite_spans": [],
+            "section": "Modeling of the structure of human CLN2 ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 91,
+                    "end": 92,
+                    "mention": "5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 580,
+                    "end": 581,
+                    "mention": "1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 586,
+                    "end": 587,
+                    "mention": "3",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "Since the principal known activity of CLN2 is that of a tripeptidase, it is expected that three substrate-binding pockets, S1 through S3 (using the nomenclature of Schechter and Berger [16]), should be discernible. Residues P1-P3 of the inhibitor that should occupy these pockets are shown in Figure 6. All the available structures of the complexes of either sedolisin or kumamolisin with inhibitors contain either a tyrosine or a phenylalanine occupying the S1 pocket. Parts of this pocket are fully conserved among different sedolisins, whereas other parts of it differ. The right-hand side of the pocket (in the view used in Figure 6) is made of the main chain including residues 164\u2013165 (unless otherwise indicated, the numbering refers to the sequence of the mature human CLN2). This part of the main chain is held in place through a hydrogen-bonded interaction with the side chain of Thr279, part of the signature sequence SGTSAS surrounding the catalytic Ser280 and its equivalents in the other enzymes. Asp165 itself is also conserved since that residue provides the lining of the oxyanion hole, so it can be safely assumed that this part of the S1 pocket is virtually identical. No side chains point into the pocket from there, though, so its importance is limited to providing a steric barrier and excluding solvent. Another wall of the pocket is made up of the main chain of residues 130\u2013132 that flank the conserved Gly131. Again, this part of the chain does not provide any specific interactions with the P1 residue of the substrate.",
+            "cite_spans": [
+                {
+                    "start": 186,
+                    "end": 188,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "section": "Comparisons of the substrate binding pockets of CLN2 and sedolisin ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 300,
+                    "end": 301,
+                    "mention": "6",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 635,
+                    "end": 636,
+                    "mention": "6",
+                    "ref_id": "FIGREF5"
+                }
+            ]
+        },
+        {
+            "text": "Considerable differences are seen, however, at the bottom of the pocket, where the side chains of Asp179 in kumamolisin and the equivalent Ser190 in sedolisin make hydrogen bonds to the P1 tyrosine of the inhibitor (if present). The equivalent residue in CLN2 is Thr182, but it is very unlikely that it can assume an orientation that would allow it to make a hydrogen bond to a P1 tyrosine. Other polar residues in the vicinity are Glu175 in sedolisin and the corresponding Asp169 in kumamolisin. However, the residue found here in CLN2 is Cys170, much less polar than its counterparts. There is also no equivalent to the polar interaction between Glu175 and Glu171 in sedolisin, since the equivalent of the latter residue in CLN2 is Ser166, much smaller and pointing away.",
+            "cite_spans": [],
+            "section": "Comparisons of the substrate binding pockets of CLN2 and sedolisin ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The side of the S1 pocket that is created by the very flexible side chain of Arg179 in sedolisin contains only a much smaller Ser174 in CLN2, and thus is much more open in the latter protein. This part of the pocket, with the main chain of the protein quite distant from the substrate, is indeed not well conserved in these proteins, with kumamolisin missing it entirely due to a deletion in the corresponding sequence position. In summary, the S1 pocket in CLN2 has less polar character than the equivalent pocket in the related proteins, and is lacking direct polar anchors for any side chains that might be present in the substrate.",
+            "cite_spans": [],
+            "section": "Comparisons of the substrate binding pockets of CLN2 and sedolisin ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The S2 pocket in CLN2 is also quite open and accessible to solvent. It is most likely larger than the equivalent pockets in either sedolisin or kumamolisin, since these are limited by Trp81 in the former and Trp129 in the latter (these residues originate from different parts of the backbone in the two enzymes and are not topologically related). Tyr130, an equivalent of the latter residue in CLN2, is unlikely to come into direct contact with the P2 residue of the substrate due to its greater distance (almost 4 \u00c5 for the closest atoms).",
+            "cite_spans": [],
+            "section": "Comparisons of the substrate binding pockets of CLN2 and sedolisin ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "An important remaining puzzle is that the predicted structure of CLN2 does not show any clear limitations of the S3 pocket that could explain the tripeptidase activity of this enzyme. The location of the P3 side chain of the substrate is ambiguous, since it could point in either one of two directions by exchange with the N-terminal amine. The only negatively charged residue of CLN2 that is found in this vicinity is Asp132. Although in the current model the distance between its carboxylate and the nitrogen of the N-terminus of the modeled substrate is about 6 \u00c5, these two groups could be brought into hydrogen-bonding range by some allowed changes in the torsion angles of the protein. Such a conformational change would involve breaking of the hydrogen bond between Asp132 and Ser139. However, this latter interaction is not likely to be structurally crucial since the serine is not absolutely conserved in all CLN2-like enzymes.",
+            "cite_spans": [],
+            "section": "Comparisons of the substrate binding pockets of CLN2 and sedolisin ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Location of mutations found through a genetic survey of families of classic late-infantile neuronal ceroid lipofuscinosis patients has been described previously [17]. Most such mutations result in expression of either truncated enzyme or in incorrect intron-exon splices. However, some of the mutations lead to single amino acid substitutions in the mature enzyme. Such mutations include I92N, E148K, C170R and C170Y, V190D, G194E, Q227H, R252H, A259E, and S280L (Figure 5). Only the role of the latter mutation is completely clear, since it replaces the catalytic serine of CLN2 with a side chain that cannot support its enzymatic activity. No other residues appear to be located in the immediate vicinity of the substrate. Residues Val190, Gly194, and Arg252 are very highly conserved not only in CLN2 but also in other sedolisins and must play an important structural role. The reasons why the remaining mutations would lead to the loss of enzymatic activity are much less clear, but the wide distribution of these mutations in the structure supports the conclusion that any modifications to CLN2 that would abolish or impair its function could lead to the development of the disease.",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 164,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "Location of mutations implicated in disease ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 471,
+                    "end": 472,
+                    "mention": "5",
+                    "ref_id": "FIGREF4"
+                }
+            ]
+        },
+        {
+            "text": "Little is known at this time about biologically-relevant substrates of CLN2. Various defects that include truncations and single-site mutations in CLN2 have been found in the genes of patients that display symptoms of late-infantile neuronal ceroid lipofuscinosis [17]. One of the symptoms of the disease is the accumulation of an autofluorescent material, ceroid-lipofuscin, in lysosomal storage bodies in various cell types, primarily in the nervous system. Since a major component of such bodies appears to be intact subunit c of mitochondrial ATP synthase, this protein has been implicated as a potential biological target of the protease. It has been shown recently that CLN2 can indeed degrade this subunit on its N terminus [18], but the unambiguous proof that this is indeed the most important target is still lacking. CLN2 is capable of processing a number of different angiotensin-derived peptides [19], with the efficiency of cleavage dependent on the length of such peptides. The most efficiently processed peptide consisted of 14 amino acids, with the tripeptide Asp-Arg-Val removed from its N terminus. The model of CLN2 presented here can easily accommodate this peptide on the P side of the substrate-binding site, although the exact mode of binding of the long P' portion of the substrate remains obscure. The observation that an analogous peptide acetylated on its N terminus cannot be processed supports the postulate that the interactions of the N-terminal amino group with the side chain of Asp132 may be the most important feature defining the tripeptidase specificity of CLN2. A number of different tripeptides can be serially processed from glucagon, with their sequences varying widely [20]. Again, however, all of these tripeptides can be easily accommodated in the substrate-binding site of the CLN2 model. Other potentially biologically relevant substrates include cholecystokinin and possibly other neuropeptides [21].",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 267,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 732,
+                    "end": 734,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 909,
+                    "end": 911,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1712,
+                    "end": 1714,
+                    "mention": "20",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1943,
+                    "end": 1945,
+                    "mention": "21",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "section": "Substrates and inhibitors of CLN2 ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "An intriguing property of CLN2 is its reported ability to cleave collagen-related peptides [22]. The tripeptides resulting from such processing include Gly-Pro-Met, Gly-Pro-Arg, and Gly-Pro-Ala. It has been recently reported that kumamolisin, and particularly a closely related protein from Alicyclobacillus sendaiensis (kumamolisin-As) can efficiently cleave not only collagen-related peptides, but also native type I collagen [23]. With the substrate-binding site of CLN2 resembling that of kumamolisin more than sedolisin (the latter enzyme has low, if any, collagenase activity), the potential collagen-processing role of CLN2 might warrant further investigation.",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 94,
+                    "mention": "22",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 429,
+                    "end": 431,
+                    "mention": "23",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "section": "Substrates and inhibitors of CLN2 ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Since the catalytic machinery of CLN2 matches closely that of sedolisin, kumamolisin, and other members of the family of serine-carboxyl peptidases, the enzymatic mechanism of all these enzymes is most likely the same. Design of inhibitors specific for CLN2 should incorporate the features that have been proven to be important for the related enzymes, such as the placement of an aldehyde functionality capable of making covalent interactions with the catalytic serine, or the utilization of chloromethyl ketone for the same purpose. Since the few inhibitors that have been successfully used in the studies of sedolisins are either longer than tripeptides or contain blocking groups on their N termini, new tripeptide-based inhibitors with free N termini are now being synthesized (Oda, unpublished). It will be necessary to test the binding properties of different substrates in order to determine the most promising peptide sequences. Analysis of the model of CLN2 suggests that the size of the S1 subsite is much larger than in either sedolisin or kumamolisin, and thus the use of a large P1 group might be indicated. Of course, the availability of an experimental crystal structure will make the design of inhibitors easier and we are continuing our efforts to crystallize CLN2 from different sources.",
+            "cite_spans": [],
+            "section": "Conclusions",
+            "ref_spans": []
+        },
+        {
+            "text": "Three-dimensional, atomic-scale models of CLN2 were developed by exploiting the sequence similarity to the sedolisin and kumamolisin proteins (r.m.s. deviation of 1.0 \u00c5 for 273 pairs of C\u03b1 atoms in the core of the enzymes). Presently, these two enzymes are the only members of the newly-defined sedolisin/serine-carboxyl peptidase family [8] for which the crystal structures have been published [5-7]. The actual Protein Data Bank [24]: ) entries used in the modeling were 1GA4.pdb and 1GT9.pdb for sedolisin and kumamolisin, respectively.",
+            "cite_spans": [
+                {
+                    "start": 339,
+                    "end": 340,
+                    "mention": "8",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 396,
+                    "end": 397,
+                    "mention": "5",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 398,
+                    "end": 399,
+                    "mention": "7",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 432,
+                    "end": 434,
+                    "mention": "24",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "Homology modeling ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The first step was to form a global, multiple sequence alignment between all known members of the sedolisin family. Studies have shown that incorporating the specific patterns of amino acid residue-type variation and conservation among a family of homologous proteins provides superior results over simple, pair-wise sequence alignment [25]. Sequence files representing the different subfamilies were extracted from the non-redundant GenBank database [26] using sedolisin, kumamolisin, and the human CLN2 sequences as queries to the web-based version of the BLAST program [27]: . Initial multiple sequence alignments were formed with the ClustalX computer program [28]. As is expected for a family of proteins, highly-conserved segments were found aligned to the crystal structure-identified core regions of the sedolisin and kumamolisin sequences. Subsequently, the sequences were divided into two groups: those closer to sedolisin than kumamolisin and vise-a-versa. The alignment of these two groups was then manually set by the observed structural alignment of the sedolisin and kumamolisin proteins. Finally, some additional adjustment was required to correct the few places where highly conserved residues of the core regions were slightly out of alignment among different subfamilies of sequences.",
+            "cite_spans": [
+                {
+                    "start": 337,
+                    "end": 339,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 452,
+                    "end": 454,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 573,
+                    "end": 575,
+                    "mention": "27",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 665,
+                    "end": 667,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "section": "Homology modeling ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The model of human CLN2 was built using the structure of sedolisin complexed with the inhibitor pseudo-tyrostatin [5,6] as a template. The reason for this choice is that while different protein models were generally comparable, the chosen inhibitor was most compatible with the tripeptidase character of CLN2. With the correspondence of residues specified in the alignments, atomic coordinates were transferred to the target sequence by a variety of methods, including the homology modeling modules of the Look/GeneMine [29] and DeepView [30] computer program packages. For the core and active site of the protein, coordinates for identical residues were simply transferred unchanged; whereas, special care was required to position the side chains of residues differing from the template. This was first accomplished automatically by the two computer packages, then manually adjusted in the Quanta molecular modeling package (Accelrys, Inc.) to better mimic the templates and optimize the interactions with surrounding residues. A similar two-step approach was used to manifest the insertions and deletions in the variable, loop regions of the protein, where it was necessary to create new backbone as well as side chain coordinates for the models. It should be noted that, for obvious reasons, the conformation of poorly conserved loop regions is generally the least accurate aspect of a homology model. Fortunately, these problematic loops will not significantly affect the active site of the model, since only two of them impinge on the boundary of this highly conserved, functional region.",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 116,
+                    "mention": "5",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 117,
+                    "end": 118,
+                    "mention": "6",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 521,
+                    "end": 523,
+                    "mention": "29",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 539,
+                    "end": 541,
+                    "mention": "30",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "section": "Homology modeling ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The model was finished by performing energy minimization in vacuo with the computer program CHARMM [31]. This refined the structure by bringing the covalent geometry and non-bonded interactions into agreement with experimentally observed and calculated values. Such optimizations included adjusting bond lengths, 3-point angles and 4-point dihedral angles, as well as eliminating atomic overlap and forming salt-bridges and hydrogen bonds. Since presently the potential energy functions used to describe the atomic-scale models are not sufficiently comprehensive and accurate, the final energy of the model was not used as an indicator of the realistic quality of the structure. The final quality of the structure was analyzed with the computer program PROCHECK [32]. The structure was deposited at the PDB under accession code 1R60.",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 102,
+                    "mention": "31",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 763,
+                    "end": 765,
+                    "mention": "32",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "section": "Refinement and analysis of the model ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "AW initiated this project and analyzed the genomic distribution of this family of enzymes. SRD contributed the modeling of the three-dimensional structure of CLN2. ML analyzed the model and compared it to the crystal structures of sedolisins. HO, KO and BMD contributed their experience gained from studies of serine-carboxyl peptidases and the design of their inhibitors, aimed at analysis of substrate-enzyme interactions and enzyme specificity. All authors read and approved the final manuscript.",
+            "cite_spans": [],
+            "section": "Authors' contributions",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Figure 1: Sequence comparisons of mammalian CLN2-like enzymes.These sequences correspond to the complete enzymes, including the prosegment. Residues forming the active site are shown in yellow on red background, other conserved residues identified as important for the stability of the enzyme are marked with yellow background, residues identical in at least 5 of the structures are green, and residues similar in their character are shown in magenta. The maturation cleavage point generating the N terminus of the active enzyme is marked with black triangles.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2: Corrected gene sequence of the zebrafish CLN2.This putative sequence shows the manual corrections that bring it into alignment with the sequence of the fugu enzyme. Inserted nucleotides are marked in green and a deleted one in red.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3: Sequences of the catalytic domains of CLN2. Complete sequences are shown for CLN2 from human, fugu, and zebrafish, together with the partial sequence of putative CLN2 in Xenopus tropicalis. Residues identical in all four enzymes are colored green and those similar are colored magenta. Active site residues are marked as in Figure 1.",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 4: Sequence alignment of bacterial and mammalian enzymes. Alignment of the sequences of sedolisin, kumamolisin, and human CLN2 used in the construction of the model of the latter enzyme. The colors scheme is the same as in Figure 2.",
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 5: A homology-derived model of human CLN2. Ribbon diagram of the C\u03b1 trace of CLN2, with the segments that were modeled based on the highly conserved core of sedolisin and kumamolisin (r.m.s. deviation of 1 \u00c5) colored in red. Side chains of the residues that were found to be mutated in the genes of families of patients with late-infantile neuronal ceroid lipofuscinosis [17] are marked in ball-and-stick.",
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Figure 6: A model of the active site of human CLN2. The enzyme is shown in complex with pseudo-iodotyrostatin, a good inhibitor of the sedolisin family of peptidases. Only selected residues of the enzyme are explicitly shown on the background consisting of the molecular surface. The stick model of the inhibitor is colored gold and the P1-P3 residues are labeled in black. Similar views have been previously published for the experimentally-determined structures of sedolisin and kumamolisin [8]. The figure was prepared using the program DINO .",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Studies on the serial extraction of pituitary proteins",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ellis",
+                    "suffix": ""
+                }
+            ],
+            "year": 1961,
+            "venue": "Endocrinology",
+            "volume": "69",
+            "issn": "",
+            "pages": "554-570",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Structural and enzymatic characterization of physarolisin (formerly physaropepsin) proves that it is a unique serine-carboxyl proteinase",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Nishii",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ueki",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Miyashita",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kojima",
+                    "suffix": ""
+                },
+                {
+                    "first": "YT",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sasaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Murakami-Murofushi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Biochem Biophys Res Commun",
+            "volume": "301",
+            "issn": "",
+            "pages": "1023-1029",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0006-291X(03)00083-4"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "title": "Molecular modeling of the HIV-1 protease and its substrate binding site",
+            "authors": [
+                {
+                    "first": "IT",
+                    "middle": [],
+                    "last": "Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jask\u00f3lski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Leis",
+                    "suffix": ""
+                },
+                {
+                    "first": "AM",
+                    "middle": [],
+                    "last": "Skalka",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wlodawer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Science",
+            "volume": "243",
+            "issn": "",
+            "pages": "928-931",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Coronavirus main proteinase (3CLpro) structure: basis for design of anti-SARS drugs",
+            "authors": [
+                {
+                    "first": "K,",
+                    "middle": [],
+                    "last": "Anand",
+                    "suffix": ""
+                },
+                {
+                    "first": "J,",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                },
+                {
+                    "first": "P,",
+                    "middle": [],
+                    "last": "Wadhwani",
+                    "suffix": ""
+                },
+                {
+                    "first": "JR,",
+                    "middle": [],
+                    "last": "Mesters",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hilgenfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1763-1767",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1085658"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "title": "Initial sequencing and comparative analysis of the mouse genome",
+            "authors": [
+                {
+                    "first": "RH",
+                    "middle": [],
+                    "last": "Waterston",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lindblad-Toh",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Birney",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "JF",
+                    "middle": [],
+                    "last": "Abril",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Agarwal",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Agarwala",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ainscough",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alexandersson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "An",
+                    "suffix": ""
+                },
+                {
+                    "first": "SE",
+                    "middle": [],
+                    "last": "Antonarakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Attwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Baertsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bailey",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Barlow",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Beck",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Berry",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Birren",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bloom",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bork",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Botcherby",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bray",
+                    "suffix": ""
+                },
+                {
+                    "first": "MR",
+                    "middle": [],
+                    "last": "Brent",
+                    "suffix": ""
+                },
+                {
+                    "first": "DG",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "SD",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bult",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Burton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "RD",
+                    "middle": [],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Carninci",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cawley",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chiaromonte",
+                    "suffix": ""
+                },
+                {
+                    "first": "AT",
+                    "middle": [],
+                    "last": "Chinwalla",
+                    "suffix": ""
+                },
+                {
+                    "first": "DM",
+                    "middle": [],
+                    "last": "Church",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Clamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Clee",
+                    "suffix": ""
+                },
+                {
+                    "first": "FS",
+                    "middle": [],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "LL",
+                    "middle": [],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "RR",
+                    "middle": [],
+                    "last": "Copley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Coulson",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Couronne",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cuff",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Curwen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cutts",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Daly",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "David",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "KD",
+                    "middle": [],
+                    "last": "Delehaunty",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Deri",
+                    "suffix": ""
+                },
+                {
+                    "first": "ET",
+                    "middle": [],
+                    "last": "Dermitzakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dewey",
+                    "suffix": ""
+                },
+                {
+                    "first": "NJ",
+                    "middle": [],
+                    "last": "Dickens",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Diekhans",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dodge",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Dubchak",
+                    "suffix": ""
+                },
+                {
+                    "first": "DM",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "SR",
+                    "middle": [],
+                    "last": "Eddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Elnitski",
+                    "suffix": ""
+                },
+                {
+                    "first": "RD",
+                    "middle": [],
+                    "last": "Emes",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Eswara",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Eyras",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Felsenfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "GA",
+                    "middle": [],
+                    "last": "Fewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Flicek",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Foley",
+                    "suffix": ""
+                },
+                {
+                    "first": "WN",
+                    "middle": [],
+                    "last": "Frankel",
+                    "suffix": ""
+                },
+                {
+                    "first": "LA",
+                    "middle": [],
+                    "last": "Fulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "RS",
+                    "middle": [],
+                    "last": "Fulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "TS",
+                    "middle": [],
+                    "last": "Furey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gage",
+                    "suffix": ""
+                },
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Gibbs",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Glusman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gnerre",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Goldman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Goodstadt",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Grafham",
+                    "suffix": ""
+                },
+                {
+                    "first": "TA",
+                    "middle": [],
+                    "last": "Graves",
+                    "suffix": ""
+                },
+                {
+                    "first": "ED",
+                    "middle": [],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gregory",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Guigo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Guyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "RC",
+                    "middle": [],
+                    "last": "Hardison",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Haussler",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hayashizaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "LW",
+                    "middle": [],
+                    "last": "Hillier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hinrichs",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hlavina",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Holzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hua",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hubbard",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "DB",
+                    "middle": [],
+                    "last": "Jaffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "LS",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "TA",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Joy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kamal",
+                    "suffix": ""
+                },
+                {
+                    "first": "EK",
+                    "middle": [],
+                    "last": "Karlsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Karolchik",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kasprzyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kawai",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Keibler",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kells",
+                    "suffix": ""
+                },
+                {
+                    "first": "WJ",
+                    "middle": [],
+                    "last": "Kent",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kirby",
+                    "suffix": ""
+                },
+                {
+                    "first": "DL",
+                    "middle": [],
+                    "last": "Kolbe",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Korf",
+                    "suffix": ""
+                },
+                {
+                    "first": "RS",
+                    "middle": [],
+                    "last": "Kucherlapati",
+                    "suffix": ""
+                },
+                {
+                    "first": "EJ",
+                    "middle": [],
+                    "last": "Kulbokas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kulp",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Landers",
+                    "suffix": ""
+                },
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Leger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Leonard",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Letunic",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Levine",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lloyd",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lucas",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "DR",
+                    "middle": [],
+                    "last": "Maglott",
+                    "suffix": ""
+                },
+                {
+                    "first": "ER",
+                    "middle": [],
+                    "last": "Mardis",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Matthews",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mauceli",
+                    "suffix": ""
+                },
+                {
+                    "first": "JH",
+                    "middle": [],
+                    "last": "Mayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "McCarthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "WR",
+                    "middle": [],
+                    "last": "McCombie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "McLaren",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "McLay",
+                    "suffix": ""
+                },
+                {
+                    "first": "JD",
+                    "middle": [],
+                    "last": "McPherson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Meldrim",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Meredith",
+                    "suffix": ""
+                },
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Mesirov",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "TL",
+                    "middle": [],
+                    "last": "Miner",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mongin",
+                    "suffix": ""
+                },
+                {
+                    "first": "KT",
+                    "middle": [],
+                    "last": "Montgomery",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Morgan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mott",
+                    "suffix": ""
+                },
+                {
+                    "first": "JC",
+                    "middle": [],
+                    "last": "Mullikin",
+                    "suffix": ""
+                },
+                {
+                    "first": "DM",
+                    "middle": [],
+                    "last": "Muzny",
+                    "suffix": ""
+                },
+                {
+                    "first": "WE",
+                    "middle": [],
+                    "last": "Nash",
+                    "suffix": ""
+                },
+                {
+                    "first": "JO",
+                    "middle": [],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "MN",
+                    "middle": [],
+                    "last": "Nhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nicol",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ning",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Nusbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "O'Connor",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Okazaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Oliver",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Overton-Larty",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pachter",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Parra",
+                    "suffix": ""
+                },
+                {
+                    "first": "KH",
+                    "middle": [],
+                    "last": "Pepin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pevzner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Plumb",
+                    "suffix": ""
+                },
+                {
+                    "first": "CS",
+                    "middle": [],
+                    "last": "Pohl",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Poliakov",
+                    "suffix": ""
+                },
+                {
+                    "first": "TC",
+                    "middle": [],
+                    "last": "Ponce",
+                    "suffix": ""
+                },
+                {
+                    "first": "CP",
+                    "middle": [],
+                    "last": "Ponting",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Potter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Quail",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Reymond",
+                    "suffix": ""
+                },
+                {
+                    "first": "BA",
+                    "middle": [],
+                    "last": "Roe",
+                    "suffix": ""
+                },
+                {
+                    "first": "KM",
+                    "middle": [],
+                    "last": "Roskin",
+                    "suffix": ""
+                },
+                {
+                    "first": "EM",
+                    "middle": [],
+                    "last": "Rubin",
+                    "suffix": ""
+                },
+                {
+                    "first": "AG",
+                    "middle": [],
+                    "last": "Rust",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Sapojnikov",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schultz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schultz",
+                    "suffix": ""
+                },
+                {
+                    "first": "MS",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Seaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Searle",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sharpe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sheridan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Shownkeen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sims",
+                    "suffix": ""
+                },
+                {
+                    "first": "JB",
+                    "middle": [],
+                    "last": "Singer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Slater",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Smit",
+                    "suffix": ""
+                },
+                {
+                    "first": "DR",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Spencer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Stabenau",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Stange-Thomann",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sugnet",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Suyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tesler",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Torrents",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Trevaskis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tromp",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ucla",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ureta-Vidal",
+                    "suffix": ""
+                },
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Vinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "AC",
+                    "middle": [],
+                    "last": "Von Niederhausern",
+                    "suffix": ""
+                },
+                {
+                    "first": "CM",
+                    "middle": [],
+                    "last": "Wade",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wall",
+                    "suffix": ""
+                },
+                {
+                    "first": "RJ",
+                    "middle": [],
+                    "last": "Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "RB",
+                    "middle": [],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "MC",
+                    "middle": [],
+                    "last": "Wendl",
+                    "suffix": ""
+                },
+                {
+                    "first": "AP",
+                    "middle": [],
+                    "last": "West",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wetterstrand",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wheeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Whelan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wierzbowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Willey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "RK",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Winter",
+                    "suffix": ""
+                },
+                {
+                    "first": "KC",
+                    "middle": [],
+                    "last": "Worley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wyman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "SP",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "EM",
+                    "middle": [],
+                    "last": "Zdobnov",
+                    "suffix": ""
+                },
+                {
+                    "first": "MC",
+                    "middle": [],
+                    "last": "Zody",
+                    "suffix": ""
+                },
+                {
+                    "first": "ES",
+                    "middle": [],
+                    "last": "Lander",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nature",
+            "volume": "420",
+            "issn": "",
+            "pages": "520-562",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature01262"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "title": "Mouse gene knockout models for the CLN2 and CLN3 forms of ceroid lipofuscinosis",
+            "authors": [
+                {
+                    "first": "ML",
+                    "middle": [],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "GS",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Eur J Paediatr Neurol",
+            "volume": "5 Suppl A",
+            "issn": "",
+            "pages": "109-114",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "A proposed model for the late-infantile neuronal ceroid lipofuscinosis (Batten Disease) protein CLN2.",
+            "authors": [
+                {
+                    "first": "A,",
+                    "middle": [],
+                    "last": "Orry",
+                    "suffix": ""
+                },
+                {
+                    "first": "BA",
+                    "middle": [],
+                    "last": "Wallace",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Protein Pept Lett",
+            "volume": "6",
+            "issn": "",
+            "pages": "1-5",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "On the size of the active site in proteases. I. Papain",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Schechter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Berger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1967,
+            "venue": "Biochem Biophys Res Commun",
+            "volume": "27",
+            "issn": "",
+            "pages": "157-162",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "Mutational analysis of the defective protease in classic late-infantile neuronal ceroid lipofuscinosis, a neurodegenerative lysosomal storage disorder",
+            "authors": [
+                {
+                    "first": "DE",
+                    "middle": [],
+                    "last": "Sleat",
+                    "suffix": ""
+                },
+                {
+                    "first": "RM",
+                    "middle": [],
+                    "last": "Gin",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sohar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wisniewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sklower-Brooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "RK",
+                    "middle": [],
+                    "last": "Pullarkat",
+                    "suffix": ""
+                },
+                {
+                    "first": "DN",
+                    "middle": [],
+                    "last": "Palmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "TJ",
+                    "middle": [],
+                    "last": "Lerner",
+                    "suffix": ""
+                },
+                {
+                    "first": "RM",
+                    "middle": [],
+                    "last": "Boustany",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Uldall",
+                    "suffix": ""
+                },
+                {
+                    "first": "AN",
+                    "middle": [],
+                    "last": "Siakotos",
+                    "suffix": ""
+                },
+                {
+                    "first": "RJ",
+                    "middle": [],
+                    "last": "Donnelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lobel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Am J Hum Genet",
+            "volume": "64",
+            "issn": "",
+            "pages": "1511-1523",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/302427"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "title": "Tripeptidyl peptidase I, the late infantile neuronal ceroid lipofuscinosis gene product, initiates the lysosomal degradation of subunit c of ATP synthase",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ezaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Takeda-Ezaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kominami",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J Biochem (Tokyo)",
+            "volume": "128",
+            "issn": "",
+            "pages": "509-516",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "The specificity of lysosomal tripeptidyl peptidase-I determined by its action on angiotensin-II analogues",
+            "authors": [
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Warburton",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bernardini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "FEBS Lett",
+            "volume": "500",
+            "issn": "",
+            "pages": "145-148",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0014-5793(01)02608-4"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "title": "Association of mutations in a lysosomal protein with classical late- infantile neuronal ceroid lipofuscinosis",
+            "authors": [
+                {
+                    "first": "DE",
+                    "middle": [],
+                    "last": "Sleat",
+                    "suffix": ""
+                },
+                {
+                    "first": "RJ",
+                    "middle": [],
+                    "last": "Donnelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lackland",
+                    "suffix": ""
+                },
+                {
+                    "first": "CG",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sohar",
+                    "suffix": ""
+                },
+                {
+                    "first": "RK",
+                    "middle": [],
+                    "last": "Pullarkat",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lobel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Science",
+            "volume": "277",
+            "issn": "",
+            "pages": "1802-1805",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.277.5333.1802"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "title": "Purification and characterisation of a tripeptidyl aminopeptidase I from rat spleen",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vines",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Warburton",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Biochim Biophys Acta",
+            "volume": "1384",
+            "issn": "",
+            "pages": "233-242",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0167-4838(98)00012-0"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "title": "Lysosomal degradation of cholecystokinin-(29-33)-amide in mouse brain is dependent on tripeptidyl peptidase-1: implications for the degradation and storage of peptides in classical late-infantile neuronal ceroid lipofuscinosis",
+            "authors": [
+                {
+                    "first": "F,",
+                    "middle": [],
+                    "last": "Bernardini",
+                    "suffix": ""
+                },
+                {
+                    "first": "MJ",
+                    "middle": [],
+                    "last": "Warburton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Biochem J",
+            "volume": "366",
+            "issn": "",
+            "pages": "521-529",
+            "other_ids": {
+                "DOI": [
+                    "10.1042/BJ20020467"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "title": "Partial purification and characterization of an ovarian tripeptidyl peptidase: a lysosomal exopeptidase that sequentially releases collagen-related (Gly-Pro-X) triplets",
+            "authors": [
+                {
+                    "first": "JK",
+                    "middle": [],
+                    "last": "McDonald",
+                    "suffix": ""
+                },
+                {
+                    "first": "AR",
+                    "middle": [],
+                    "last": "Hoisington",
+                    "suffix": ""
+                },
+                {
+                    "first": "DA",
+                    "middle": [],
+                    "last": "Eisenhauer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Biochem Biophys Res Commun",
+            "volume": "126",
+            "issn": "",
+            "pages": "63-71",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "Collagenolytic serine-carboxyl proteinase from Alicyclobacillus sendaiensis strain NTAP-1: Purification, characterization, gene cloning, and heterologous expression",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tsuruoka",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nakayama",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ashida",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hemmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nakao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Minakata",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Oyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Oda",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nishino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Appl Environ Microbiol",
+            "volume": "69",
+            "issn": "",
+            "pages": "162-169",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/AEM.69.1.162-169.2003"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "title": "The Protein Data Bank",
+            "authors": [
+                {
+                    "first": "HM",
+                    "middle": [],
+                    "last": "Berman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Westbrook",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gilliland",
+                    "suffix": ""
+                },
+                {
+                    "first": "TN",
+                    "middle": [],
+                    "last": "Bhat",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Weissig",
+                    "suffix": ""
+                },
+                {
+                    "first": "IN",
+                    "middle": [],
+                    "last": "Shindyalov",
+                    "suffix": ""
+                },
+                {
+                    "first": "PE",
+                    "middle": [],
+                    "last": "Bourne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nucleic Acids Res",
+            "volume": "28",
+            "issn": "",
+            "pages": "235-242",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/28.1.235"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "title": "Sequence comparisons using multiple sequences detect three times as many remote homologues as pairwise methods",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Karplus",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Barrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hughey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Haussler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hubbard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chothia",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J Mol Biol",
+            "volume": "284",
+            "issn": "",
+            "pages": "1201-1210",
+            "other_ids": {
+                "DOI": [
+                    "10.1006/jmbi.1998.2221"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "title": "GenBank",
+            "authors": [
+                {
+                    "first": "DA",
+                    "middle": [],
+                    "last": "Benson",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Karsch-Mizrachi",
+                    "suffix": ""
+                },
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Lipman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ostell",
+                    "suffix": ""
+                },
+                {
+                    "first": "BA",
+                    "middle": [],
+                    "last": "Rapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "DL",
+                    "middle": [],
+                    "last": "Wheeler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nucleic Acids Res",
+            "volume": "30",
+            "issn": "",
+            "pages": "17-20",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/30.1.17"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+            "authors": [
+                {
+                    "first": "SF",
+                    "middle": [],
+                    "last": "Altschul",
+                    "suffix": ""
+                },
+                {
+                    "first": "TL",
+                    "middle": [],
+                    "last": "Madden",
+                    "suffix": ""
+                },
+                {
+                    "first": "AA",
+                    "middle": [],
+                    "last": "Schaffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Lipman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nucleic Acids Res",
+            "volume": "25",
+            "issn": "",
+            "pages": "3389-3402",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/25.17.3389"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "title": "The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools",
+            "authors": [
+                {
+                    "first": "JD",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "TJ",
+                    "middle": [],
+                    "last": "Gibson",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Plewniak",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Jeanmougin",
+                    "suffix": ""
+                },
+                {
+                    "first": "DG",
+                    "middle": [],
+                    "last": "Higgins",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Nucleic Acids Res",
+            "volume": "25",
+            "issn": "",
+            "pages": "4876-4882",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/25.24.4876"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "title": "The GeneMine System for genome/proteome annotation and collaborative data mining",
+            "authors": [
+                {
+                    "first": "C,",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Irizarry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "IBM Systems Journal",
+            "volume": "40",
+            "issn": "",
+            "pages": "592-603",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "Tripeptidyl-peptidase I is apparently the CLN2 protein absent in classical late-infantile neuronal ceroid lipofuscinosis",
+            "authors": [
+                {
+                    "first": "ND",
+                    "middle": [],
+                    "last": "Rawlings",
+                    "suffix": ""
+                },
+                {
+                    "first": "AJ",
+                    "middle": [],
+                    "last": "Barrett",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Biochim Biophys Acta",
+            "volume": "1429",
+            "issn": "",
+            "pages": "496-500",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0167-4838(98)00238-6"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "title": "SWISS-MODEL and the Swiss-PdbViewer: an environment for comparative protein modeling",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Guex",
+                    "suffix": ""
+                },
+                {
+                    "first": "MC",
+                    "middle": [],
+                    "last": "Peitsch",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Electrophoresis",
+            "volume": "18",
+            "issn": "",
+            "pages": "2714-2723",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "CHARMM: A program for macromolecular energy, minimization, and dynamics calculations",
+            "authors": [
+                {
+                    "first": "BR,",
+                    "middle": [],
+                    "last": "Brooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "RE,",
+                    "middle": [],
+                    "last": "Bruccoleri",
+                    "suffix": ""
+                },
+                {
+                    "first": "BD,",
+                    "middle": [],
+                    "last": "Olafson",
+                    "suffix": ""
+                },
+                {
+                    "first": "DJ,",
+                    "middle": [],
+                    "last": "States",
+                    "suffix": ""
+                },
+                {
+                    "first": "S,",
+                    "middle": [],
+                    "last": "Swaminathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Karplus",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "J Comp Chem",
+            "volume": "4",
+            "issn": "",
+            "pages": "187-217",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "PROCHECK: program to check the stereochemical quality of protein structures",
+            "authors": [
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Laskowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "MW",
+                    "middle": [],
+                    "last": "MacArthur",
+                    "suffix": ""
+                },
+                {
+                    "first": "DS",
+                    "middle": [],
+                    "last": "Moss",
+                    "suffix": ""
+                },
+                {
+                    "first": "JM",
+                    "middle": [],
+                    "last": "Thornton",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J Appl Crystallogr",
+            "volume": "26",
+            "issn": "",
+            "pages": "283-291",
+            "other_ids": {
+                "DOI": [
+                    "10.1107/S0021889892009944"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "title": "The human CLN2 protein/tripeptidyl-peptidase I is a serine protease that autoactivates at acidic pH.",
+            "authors": [
+                {
+                    "first": "L,",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "I,",
+                    "middle": [],
+                    "last": "Sohar",
+                    "suffix": ""
+                },
+                {
+                    "first": "H,",
+                    "middle": [],
+                    "last": "Lackland",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lobel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J Biol Chem",
+            "volume": "276",
+            "issn": "",
+            "pages": "2249-2255",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "Carboxyl proteinase from Pseudomonas defines a novel family of subtilisin-like enzymes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wlodawer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Dauter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gustchina",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Uchida",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Oyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "BM",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Oda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Nature Struct Biol",
+            "volume": "8",
+            "issn": "",
+            "pages": "442-446",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/87610"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "title": "Inhibitor complexes of the Pseudomonas serine-carboxyl proteinase",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wlodawer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gustchina",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Dauter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Uchida",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Oyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "NE",
+                    "middle": [],
+                    "last": "Goldfarb",
+                    "suffix": ""
+                },
+                {
+                    "first": "BM",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Oda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Biochemistry",
+            "volume": "40",
+            "issn": "",
+            "pages": "15602-15611",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/bi011817n"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "title": "The 1.4 \u00c5 crystal structure of kumamolysin: a thermostable serine- carboxyl-type proteinase",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Comellas-Bigler",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fuentes-Prior",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Maskos",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Huber",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Oyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Uchida",
+                    "suffix": ""
+                },
+                {
+                    "first": "BM",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Oda",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Bode",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Structure",
+            "volume": "10",
+            "issn": "",
+            "pages": "865-876",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0969-2126(02)00772-4"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "title": "Structural and enzymatic properties of the sedolisin family of serine-carboxyl peptidases",
+            "authors": [
+                {
+                    "first": "A,",
+                    "middle": [],
+                    "last": "Wlodawer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M,",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "A,",
+                    "middle": [],
+                    "last": "Gustchina",
+                    "suffix": ""
+                },
+                {
+                    "first": "H,",
+                    "middle": [],
+                    "last": "Oyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "BM,",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Oda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Acta Biochim Polon",
+            "volume": "50",
+            "issn": "",
+            "pages": "81-102",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "Aorsin, a novel serine proteinase with trypsin-like specificity at acidic pH",
+            "authors": [
+                {
+                    "first": "BR",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Furukawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yamashita",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kanasugi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kawabata",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hirano",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ando",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ichishima",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Biochem J",
+            "volume": "371",
+            "issn": "",
+            "pages": "541-548",
+            "other_ids": {
+                "DOI": [
+                    "10.1042/BJ20021691"
+                ]
+            }
+        }
+    }
+}

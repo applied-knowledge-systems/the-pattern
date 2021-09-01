@@ -1,0 +1,1298 @@
+{
+    "paper_id": "PMC222908",
+    "metadata": {
+        "title": "A double epidemic model for the SARS propagation",
+        "authors": [
+            {
+                "first": "Tuen",
+                "middle": [
+                    "Wai"
+                ],
+                "last": "Ng",
+                "suffix": "",
+                "email": "ntw@maths.hku.hk",
+                "affiliation": {}
+            },
+            {
+                "first": "Gabriel",
+                "middle": [],
+                "last": "Turinici",
+                "suffix": "",
+                "email": "Gabriel.Turinici@inria.fr",
+                "affiliation": {}
+            },
+            {
+                "first": "Antoine",
+                "middle": [],
+                "last": "Danchin",
+                "suffix": "",
+                "email": "adanchin@pasteur.fr",
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Since November 2002 (and perhaps earlier) an outbreak of a very contagious atypical pneumonia (now named Severe Acute Respiratory Syndrome) initiated in the Guangdong Province of China. This outbreak started a world-wide epidemic after a medical doctor from Guangzhou infected several persons at an hotel in Kowloon around February 21st, 2003 (SAR Hong Kong, China). Although apparently classical in its onset, the pattern of the outbreak became puzzling after an estate in Hong Kong was affected, with a huge number of patients infected by the virus apparently causing the disease. In particular it appeared that underlying this highly focused outbreak there remained a more or less constant background infection level, that remained present in Guangdong for a long time and witnessed a slow decline in Hong Kong, on which superimposes sudden local outbreaks. This pattern is difficult to reconcile with a standard epidemic pattern for reasons that have to be analyzed. Many hypotheses can be put forward to account for this observation. Learning from a set of coronavirus mediated epidemics that affected pigs in the 1983 \u20131985 [1] we chose to explore here the consequences of a situation where two overlapping epidemics interfere with each other. The hypothesis of the double epidemic model for SARS we develop here is as follow. It is based on the high mutation and recombination rate of coronaviruses [2], and on the observation that tissue tropism can be changed by simple mutations [3]. There are two epidemics, one epidemic is SARS caused by a coronavirus virus, call it virus A. Another epidemic, which may have appeared before SARS, is assumed to be extremely contagious because of the nature of the virus and of its relative innocuousness, could be propagated by contaminated food and soiled surfaces. It could be caused by some coronavirus, call it virus B. The most likely is that it would cause gastro-enteritis (this fits with the observation that many people had diarrhoea for about one day, during this winter in Guangdong and in Hong Kong). The most likely origin of virus A is a more or less complicated mutation or recombination event from virus B [4-6]. We also explore the possible situation where viruses A and B would be of totally different origin, but would cause an overlapping immune response of the host. Both epidemics would spread in parallel, and it can be expected that the epidemic caused by virus B which is rather innocuous, protects against SARS (so that na\u00efve regions, not protected by the epidemic B can get SARS large outbreaks). Various consequences of the spreading pattern of this double epidemic hypothesis are discussed in relation with the puzzling distribution of the disease in Mainland China, noticeably, in the huge difference witnessed between the situation in Beijing and in Shanghai (both regions have tight and frequent contacts with Guangdong and Hong Kong). As a side prediction of the model we can infer conclusions on the accuracy of available epidemiological data.",
+            "cite_spans": [
+                {
+                    "start": 1131,
+                    "end": 1132,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1407,
+                    "end": 1408,
+                    "mention": "2",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1490,
+                    "end": 1491,
+                    "mention": "3",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 2169,
+                    "end": 2170,
+                    "mention": "4",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2171,
+                    "end": 2172,
+                    "mention": "6",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "section": "Background",
+            "ref_spans": []
+        },
+        {
+            "text": "Consider a disease that, after recovery, confers immunity (which includes deaths: dead individuals are still counted). We assume that there is no entry into or departure from the population. The population can then be divided into three distinct classes; the susceptibles, S, who can catch the disease; the infectives, I, who have the disease and can transmit it; and the removed class, R, namely those who have either had the disease, or are recovered, immune or isolated until recovered. Here we follow the definition of the class R given in [8]. However, we would like to draw the readers' attention that this definition of the class R is different from those given in [7], [11] which do not include isolated infectives in the class R. The progress of individuals is schematically described by S \u2192 I \u2192 R. Let S(t), I(t) and R(t) be the number of individuals in each of the corresponding class at time t. Note that usually only R(t) can be known. It is often considered that R(t) is the cumulative number of patients admitted to hospitals. With some reasonable assumptions (which will be explained in details in the next section), we can show that these three functions are governed by the following system of nonlinear ordinary differential equations (see next section for the derivation of these differential equations):",
+            "cite_spans": [
+                {
+                    "start": 545,
+                    "end": 546,
+                    "mention": "8",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 673,
+                    "end": 674,
+                    "mention": "7",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 678,
+                    "end": 680,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "Review on the standard SIR model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "",
+            "cite_spans": [],
+            "section": "Review on the standard SIR model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "where r is the infection rate and a the removal rate of infectives. The parameters r and a characterize the propagation of the disease and can also be used as control parameters in order to stop the epidemic. In general, the functions S, I and R behave as the three curves in Figure 1. The characteristics of these curves are as follow.",
+            "cite_spans": [],
+            "section": "Review on the standard SIR model ::: Results",
+            "ref_spans": [
+                {
+                    "start": 283,
+                    "end": 284,
+                    "mention": "1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "- S decreases monotonically from its initial value to its final value, while R increases monotonically until it reaches the limiting value R\u221e. Both curves have two distinct periods where the decrease (or increase) is exponentially slow or exponentially fast.",
+            "cite_spans": [],
+            "section": "Review on the standard SIR model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "- The function I first increases exponentially and reaches the maximum value at time t0 and then decreases to zero. The time t0 is the critical point of the function I at which . It follows from the equation SIR-2 that the relation rS(t0) = a holds. Note that since R is available from the observations, it follows that the values of I can be estimated from the relation  (up to the unknown multiplicative parameter a). Knowing whether the I has reached its maximum value can be used by the health authorities as a criterion to determine if the epidemic has entered the decay (extinction) phase.",
+            "cite_spans": [],
+            "section": "Review on the standard SIR model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "There are two important figures one would like to know from the SIR model. First, the limiting value R\u221e, called the total size of the epidemic which is the total number of people having the disease at the end of the epidemic. Second, R0 = r/a, the basic reproduction number which is the average number of secondary infections produced when one infected individual is introduced into a host population where everyone is susceptible. For many deterministic epidemic models, an infection can get started in a fully susceptible population if and only if R0>1. For the other aspects of the SIR model, the reader may consult refs [7,8] and [9].",
+            "cite_spans": [
+                {
+                    "start": 625,
+                    "end": 626,
+                    "mention": "7",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 627,
+                    "end": 628,
+                    "mention": "8",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 635,
+                    "end": 636,
+                    "mention": "9",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Review on the standard SIR model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "Even though the SIR model provides a general framework to understand the spread of a disease, it may be too simple to accurately model a real epidemic like the outbreak of SARS in Hong Kong. The spread of SARS in Hong Kong started on February 21, 2003, when a doctor from Guangdong province traveled to Hong Kong to visit his family and stayed in a local hotel. He had become unwell a few days earlier and was now seriously ill. He was admitted to a hospital on February 22 and died shortly after. By the time he died, he had infected 10 guests who had been staying at the same hotel. These individuals were subsequently responsible for major outbreaks in hospitals in Hong Kong and the Amoy Gardens, a housing estate in Hong Kong.",
+            "cite_spans": [],
+            "section": "Review on the standard SIR model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "Figure 2 shows the daily new number of confirmed SARS cases in Hong Kong from 17 March, 2003 to 10 May, 2003 (source: Hong Kong SAR Government press release, ). The daily number of SARS cases are grouped into three categories: i) the Amoy Gardens, ii) the community, iii) the hospital staff. The graph can be considered as an approximation of . The graph has several peaks and it therefore looks very different from the general shape of the graph of the function I. In the SIR model once the I curve decreases, it will decrease to the zero value Therefore, the standard SIR model could not be used to model the outbreak of SARS in Hong Kong. If we take away those cases from the hospital staff and the Amoy Gardens Estate, that is if we only consider the cases from the community, then the graph looks closer to the general shape of a graph for a function I. However, it is still difficult for a general SIR model to produce a I curve whose values are within a narrow range (say 15 to 25 cases) for a relatively long time interval. This motivated us to replace the SIR model by the SEIR model. In this model there is a fixed period between exposure and becoming infectious, called latent period (this is in fact the case for SARS and it is another reason why we consider the SEIR model). Thus, rather than an exposed susceptible becoming immediately infectious, it enters the Exposed class, labeled E, remaining there a fixed period of time. More detailed description of this model will be given in the next section. It is worth mentioning here that the SEIR model can produce much more interesting and complicated I, R and  curves. It is also possible to produce a I curve whose values are within a narrow range for a relatively long time interval and result thus in a relatively large R\u221e. Note that the SIR model is the limiting case of the SEIR model when the time interval from the infection to onset is zero; for given parameters r and a the total size of the epidemic is the same in the two models; however the duration is longer for the SEIR model which will display lower admission per day curves (or the I curves); if we see this result from the reciprocal point of view, the same level of admissions per day will result in a higher total epidemic size for the SEIR model than for the SIR model because of the Exposed class which is \"hidden\" in the sense that it has no effects on the other classes until the individuals move to the Infective class and thus contributing to the propagation of the epidemic. A numerical illustration of this phenomena is given in Figure 3 that plots the evolution of the S,E, I and R classes for the two models with the same parameters r and a.",
+            "cite_spans": [],
+            "section": "Review on the standard SIR model ::: Results",
+            "ref_spans": [
+                {
+                    "start": 7,
+                    "end": 8,
+                    "mention": "2",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 2578,
+                    "end": 2579,
+                    "mention": "3",
+                    "ref_id": "FIGREF4"
+                }
+            ]
+        },
+        {
+            "text": "The parameters estimations are very crucial when one applies the SIR models. When the initial population of the susceptibles is very large, a small change in the parameters can result in a large difference in the values of R\u221e. For example, if we take the total initial population, S(0) = 6.8 millions (e.g. the case of Hong Kong) and an initial infected class of I(0) = 10 persons, together with a = 2/3 and r = 9.788 \u00d7 10-8, then R\u221e is about 5,000. Suppose we increase the r parameter by 1% to have r = 9.88588 \u00d7 10-8, then R\u221e will become 116464. This sensitivity in the parameters can therefore give rise to unacceptable errors in predicting the size of the epidemic and invalidates thus the model. Contrariwise, when we try to fit the data with respect to a hypothetical much smaller population, the sensitivity decreases. Therefore, we are lead to consider a model for which the effective population, i.e. the total population that enters the susceptible class is, for some yet to define reason, much less than the total population. In other words, a large portion of the total population is protected during the epidemic. Note that this happens when a population undergoes vaccination against a disease, i.e. some people become not only immune to the epidemic but do not transmit it neither. It is also possible that the vaccination against another disease can protect people from being infected by SARS. Another possibility is that a different, but similar, disease that spread before (or is spreading simultaneously with SARS) has immunized some of the population against SARS; this is our working hypothesis because it fits better with the relatively surprising SARS propagation which is less severe in places with low hygiene conditions. Based on this hypothesis, we shall develop a double epidemic model, the SEIRP model to study the outbreak of SARS in the next section.",
+            "cite_spans": [],
+            "section": "Review on the standard SIR model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "As will be discussed at the end of this paper an outbreak of infections caused by a coronavirus and its mutants [1,10] provided hints that epidemics that superimpose on each other might account for the situation we are witnessing at several places in the world.",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 114,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 115,
+                    "end": 117,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "section": "Review on the standard SIR model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "Motivated by the above considerations we shall introduce a new epidemic model here to describe a double epidemic interaction. This new model will be called SEIRP model (E stands for the Exposed class while P stands for protection) which can be considered as a variant of the standard SIR. Other variants of the SIR model can be found in 17. We shall show here that by choosing the parameters carefully, the solution of the system of non-linear differential equations governing the SEIRP model can decay extremely slowly and therefore remains almost constant for a long time interval. This may explain the fact that a more or less constant background infection level can be maintained (eg in Hong Kong or in Guangdong), on which superimposes large local outbreaks.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "We assume that two groups of infected individuals are introduced into a large population. One group is infected by virus A and the other group by virus B. One would like to describe the spread of the infection within the population as a function of time. This will depend on a variety of circumstances, including the actual disease involved, but as a first attempt to model directly transmitted diseases we make some reasonable general assumptions. Assume both diseases which, after recovery, confers immunity (which includes deaths: dead individuals are still counted). We assume that there is no entry into or departure from the population. The population can then be divided into six distinct classes. The class of Susceptibles, S, are those who can catch the disease A or disease B. A susceptible who catches the disease A first will enter the Exposed class E which includes those in the latent period, who are infected by disease A but not yet infectious. After the latent period ends, the individual enters the class I of infectives, which includes those who have the disease A and can transmit it. When the infectious period ends, the individual enters the Removed class R, namely those who are either recovered from disease A, immune or isolated until recovered from disease. A susceptible who catches the disease B first will enter the class IP of infectives and then the Removed class RP. It is assumed that catching disease B first will protect the individual from catching disease A. The progress of individuals is schematically described by the following diagram.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "With, S(t), E(t), I(t), R(t) IP(t) and RP(t) as the number of individuals in each class at time t, we assume here that:",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "(i) There is no entry into or departure from the population, except possibly through death from the disease.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "(ii) The gain in the exposed class E is at a rate proportional to the number of people in the infective class I and that of the susceptibles S, that is rS(t)I(t), where r > 0 is a constant.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "(iii) The gain in the infective class IP is at a rate proportional to the number of people in the infective class IP and that of the susceptibles S, that is rPS(t)IP(t), where rP > 0 is a constant.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "(iv) The susceptibles are therefore lost at the rate rS(t)I(t) + rPS(t)IP(t).",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "(v) The rate of removal of the people in class E to the infective class I is proportional to the number of people in class E, that is bE(t), where b is a positive number. It can be shown that the fraction of people remaining in the exposed class E s time unit after entering class E is e-bs, so the length of the latent period is distributed exponentially with mean equals to e-bs ds = 1/b (c.f. [11]).",
+            "cite_spans": [
+                {
+                    "start": 397,
+                    "end": 399,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "(vi) The rate of removal of infectives in class I to the removed class R is proportional to the number of infectives in class I, that is aI(t), where a is a positive number. It can be shown that the fraction of people remaining in the infective class I s time unit after entering class I is e-as, so the length of the infectious period is distributed exponentially with mean equals to e-as ds = 1/a.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "(vii) The rate of removal of people in infective class IP to the removal class RP is proportional to the number of people in class IP, that is aPIP(t), where aPis a positive number.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "(viii) The incubation period (the time from first infection to the appearances of symptoms) plus the onset to admission interval is equal to the sum of the latent period and the infectious period and is therefore equal to 1/b + 1/a.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "We now assume the various classes as uniformly mixed: that is each pair of individuals has equal probability of coming into contact with one another. The model mechanism is then governed by the following system of non-linear ordinary differential equations:",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "The above system of differential equations are derived from the so-called simple mass action incidence approach which is described in [11]. The interpretation of the constant r is as follows. An average infective of disease A makes contact sufficient to transmit infection with rN others per unit time, where N is the total population. Note that the probability that a random contact by an infective with a susceptible, who can then transmit infection, is S/N, therefore the number of new infections in unit time is (rN)(S/N)I = rSI. One can also interpret rP in a similar way. Here r and rP are related to the infection rate of disease A and B respectively, while a, aP and b are the removal rate of individuals in class I, IP and E respectively. The last two equations follow from the assumption that the population size N is constant. We are, of course, only interested in non-negative solutions for S, E, I,R, IP and RP.",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 137,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "In the SEIRP model, there is no latency for the disease B. The inclusion of the latency for the disease B will imply the introduction of one additional parameter bP and will further complicate the model. Since the main purpose of the paper is to provide some indirect evidence that a double epidemic may exist, our simpler model may already be good enough for this purpose because of the following reasons. Firstly, even if the diseases A and B are generated from similar viruses, they can still be quite different (for instance at the level of the physical location of the infection) and therefore they need not share similar models. Secondly, since we only want to study phenomena that immunize people from the initial S class, the details of the (SIR or SEIR-like) spread of the protective disease B are less important that those of the propagation of the epidemic A. Of course, future studies may try to analyze at a finer level the spread of the protective epidemic once its existence and characteristics have been assessed in practice.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "Note that two types of protections \"static\" and \"dynamic\" can be seen as particular cases of a double epidemic model:",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "- the \"static\" protection is given by a protective epidemic (that has already finished its spreading) or a vaccine leaving some of the population immune; this amounts to only consider a fraction of the initial population in the Susceptibles class S (and to set IP(0) = 0 because the spread has already taken place); equivalently this can be implemented by putting at the initial time some of the population in the Removed class R (i.e., R(0) > 0).",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "- the \"dynamic\" protection is when the protective epidemic spreads at the same time with the SARS giving rise to various interference patterns.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "One may wonder if the \"dynamic\" protection assumption is really necessary to get a good fit of the data. We have tested the \"static\" protection assumption by setting the total population to several initial values less than the real population (see also the case a) of Hong-Kong simulations below) but the fit quality was generally less satisfactory than in the case of the co-existing epidemics (i.e. \"dynamic\" effect) ; more testing is needed to fully certify this conclusion.",
+            "cite_spans": [],
+            "section": "A Double Epidemic SEIRP Model ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "First, we assume that IP(0) = 0.5 million, that is 0.5 million Hong Kong people are infected by disease B. This assumption is quite reasonable because we believe that disease B is caused by a gastro-enteritis virus which is usually highly contagious. Since the population of Hong Kong is about 6.8 million, we therefore assume that S(0) = 6.8 \u2013 0.5 = 6.3 million. We then assume rather arbitrarily that E(0) = 100 and I(0) = 50. With these initial conditions, we tried to search the parameter values by a gradient-based optimization algorithm. The result is if we use the parameter values r = 10.19 \u00d7 10-8, rP = 7.079 \u00d7 10-8, a = 0.47, aP = 0.461 and b = 0.103, then the resulting curve for R fits very well with the observed total number of confirmed cases of SARS from the community. We fit the model with the total number of confirmed cases from 17 March, 2003 to 10 May, 2003 (totally 55 days). Figure 4 is the curve for R, while figure 5 shows the expected and observed daily new cases. The limiting value of the curve R is 1011.",
+            "cite_spans": [],
+            "section": "Case a ::: Case study : the Outbreak of SARS in Hong Kong ::: Results",
+            "ref_spans": [
+                {
+                    "start": 906,
+                    "end": 907,
+                    "mention": "4",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 941,
+                    "end": 942,
+                    "mention": "5",
+                    "ref_id": "FIGREF6"
+                }
+            ]
+        },
+        {
+            "text": "Recall that the incubation period plus the time from onset to admission can be estimated by 1/a + 1/b. If we take a = 0.47 and b = 0.103, then 1/a + 1/b = 11.83. On the other hand, from the statistics obtained in, the observed mean of the incubation period for SARS is 6.37. The observed mean of the time from onset to admission is about 3.75. Therefore, the observed sum 10.12 = 6.37+3.75 which is close to the estimation 11.83.",
+            "cite_spans": [],
+            "section": "Case a ::: Case study : the Outbreak of SARS in Hong Kong ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "We consider here the extreme case that IP(0) = 10, that is only 10 Hong Kong people are infected by disease B. S(0) is assumed to be 6.8 million and we still assume that E(0) = 100 and I(0) = 50. The parameters obtained by the gradient-based optimization algorithm are as follows: r = 10.08 \u00d7 10-8, rP = 7.94 \u00d7 10-8, a = 0.52, aP = 0.12 and b = 0.105. The resulting curve for R fits well with the observed total number of confirmed cases of SARS from the community from 17 March, 2003 to 10 May, 2003 (totally 55 days). Figure 6 is the curve for R, while Figure 7 shows the expected and observed daily new cases. The limiting value of the curve R is 1033. Note that a = 0.52 and b = 0.105 and therefore 1/a + 1/b = 11.44 which is close to the observed figure 10.12. Both the parameters rP and a are greater than the corresponding parameters in case a. This is reasonable as the initial population IP(0) = 10 is much smaller than the previous case. Therefore disease B needs to spread much faster in order to \"protect\" people from being infected by SARS.",
+            "cite_spans": [],
+            "section": "Case b ::: Case study : the Outbreak of SARS in Hong Kong ::: Results",
+            "ref_spans": [
+                {
+                    "start": 527,
+                    "end": 528,
+                    "mention": "6",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 562,
+                    "end": 563,
+                    "mention": "7",
+                    "ref_id": "FIGREF8"
+                }
+            ]
+        },
+        {
+            "text": "We have also applied the SEIRP model to study the outbreak of SARS in Beijing. The statistics on the numbers of SARS cases in Beijing are obtained from . The initial population S(0) was set to be 13.82 millions; the other parameters (including the initial conditions) that characterise the model were optimised to obtain the best fit; we obtained thus E(0) = 400; IP(0) = 35000; I(0) = 340; R(0) = 0; RP(0) = 0; r = 7.69 \u00d7 10-8; rP = 10.79 \u00d7 10-8; a = 0.488; aP = 0.618; b = 0.103. Figure 8 and 9 show that the model fit well with the observation in both the numbers cumulative cases and the daily new cases. The total number of people infected with the protective virus is RP = 12 millions. If the values of the parameters defining the model remain the same this simulation results in a final value of the total people infected with the SARS virus (that is R\u221e) at the level of 2700.",
+            "cite_spans": [],
+            "section": "Case study : the Outbreak of SARS in Beijing ::: Results",
+            "ref_spans": [
+                {
+                    "start": 489,
+                    "end": 490,
+                    "mention": "8",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 495,
+                    "end": 496,
+                    "mention": "9",
+                    "ref_id": "FIGREF10"
+                }
+            ]
+        },
+        {
+            "text": "Here we consider the outbreak of SARS in Inner Mongolia. The statistics on the numbers of SARS cases in Inner Mongolia are obtained from . The initial population S(0) was The total population was taken to be S(0) = 23.67 millions ; the other parameters (including the initial conditions) were optimised to ensure a good agreement with the data and were obtained to be E(0) = 2; IP(0) = 137638; I(0) = 32; R(0) = 0; RP(0) = 0; r = 1.62 \u00d7 10-8; rP = 3.87 \u00d7 10-8; a = 0.120, aP = 0.272; b = 7.644. The graphical representation of the simulation is given in figure 10 and figure 11. If the parameters above are used to simulate the future spread of epidemic we obtain the value of R\u221e to be 350.",
+            "cite_spans": [],
+            "section": "Case study : the Outbreak of SARS in Inner Mongolia ::: Results",
+            "ref_spans": [
+                {
+                    "start": 561,
+                    "end": 563,
+                    "mention": "10",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 575,
+                    "end": 577,
+                    "mention": "11",
+                    "ref_id": "FIGREF2"
+                }
+            ]
+        },
+        {
+            "text": "Note that there are two possible ways of estimating the parameters in the model. The first one is to first fix the values of a and b for all the different scenarios before the parameters r, rP and aP are chosen to fit the data. The second approach is simply choosing all the parameters to fit the data. We chose the second approach because we do believe that there are also some good reasons for the variations of the parameters a and b in different cases.",
+            "cite_spans": [],
+            "section": "Comment on the estimations of the parameters ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "The parameters a and aP describe the removal from the classes I and IP to the classes R and RP respectively. Since the removed classes R are considered to contain the individuals with infections the parameters a and aP characterize the identification rate of potential cases; it is then rather related to the health policy than to the disease itself (e.g. a is not the mortality rate!). Since health policies vary from places to places and the parameters a and aP are not directly related to the disease itself these parameters are not to be considered known but will rather be computed by fitting the simulation results to the data.",
+            "cite_spans": [],
+            "section": "Comment on the estimations of the parameters ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "The parameter b describes the evolution from the exposed class E to the infectives class I; its reciprocal 1/b is related to the latent period of the disease; as such it is indeed more characteristic of the disease itself than the parameter a but it may still be affected by the geographic region. For instance, the lifestyles of the people in Beijing and Inner Mongolia are very different because Beijing is the capital, and hence much richer (with better hygiene, but with more important air pollution). The value of the b parameter will also be obtained from the fitting procedure.",
+            "cite_spans": [],
+            "section": "Comment on the estimations of the parameters ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "Finally, our approach that not fixing the parameters a and b at the very beginning but rather than estimating them from the data can let us to indirectly verify the double epidemic hypothesis. In fact, as already pointed out in the paper, 1/a+1/b can be considered as the incubation period plus the onset to admission interval. For the two Hong Kong scenarios we considered, our estimations are quite close to the observed figures.",
+            "cite_spans": [],
+            "section": "Comment on the estimations of the parameters ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "Note that in Hong Kong, r >rP but this relation is reversed in Beijing and Inner Mongolia. One possible reason for these differences is that the values of r and rP depend on how the daily contact patterns of people. The usual number of social contacts of a person is in general higher in big cities like Beijing and Hong Kong while lower in remote area like Inner Mongolia. This may explain the difference of the r and rP values in these cases.",
+            "cite_spans": [],
+            "section": "Comment on the estimations of the parameters ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "While parameters r and rP are related to the infective rates that may depend on the hygienic situation, the a's and b are closer to clinical properties of the infection. That they differ quite a lot in different scenarios is surprising. In particular, the b value for Inner Mongolia is 76 times that of Beijing, implying that latency lasts so much longer in Beijing. One explanation is there may be a difference in the spread of the \"protective\" epidemic, that might have started earlier at one of those places. Another explanation is due to the latent immunodepression of the people there. This means that people do not build up a strong immune response when infected, because they are either infected by other viruses (this is the case of AIDS) or because they are generally in poor health. Note that they were recently more or less submitted to a severe draught, which meant that they were probably undernourished.",
+            "cite_spans": [],
+            "section": "Comment on the estimations of the parameters ::: Results",
+            "ref_spans": []
+        },
+        {
+            "text": "The Severe Acute Respiratory Syndrome outbreak is the first epidemic of the XXIst century. We do not know whether it will start again next autumn, and we need to combine a variety of approaches to tackle the epidemic, making it as short as possible, and preparing for future similar, or less similar outbreaks. In this context, mathematical models can have several functions. They may be phenomenological and descriptive, to predict the immediate future [7]. They may also propose hypotheses and explore their consequences in order to provide political and medical authorities with orientations that may help them to take decisions, at a time when a situation is rapidly evolving. The model we explore here is meant to that purpose. We started to try to account for the data collected on the disease using the standard epidemiological model, the Susceptible-Infected-Removed (SIR) epidemic model [12,13,17]. As shown in the first section of our work, data do not fit with the model. In particular, the long \"tail\" of the number of cases that appears to be trailing for a long time cannot be easily accounted for in this framework. In addition there are huge discrepancies, within the same country, and with people who are highly connected both in terms of travelling and communication, and in genetic background, between the number of cases, as illustrated by the difference between the number of SARS cases in Beijing (in thousands) and in Shanghai (in tens at most). Of course one obvious explanation might be a difference in reporting cases (see below), but this looks unlikely in these two cities which are so tightly connected to the rest of the world that it would be difficult to hide such a severe disease.",
+            "cite_spans": [
+                {
+                    "start": 455,
+                    "end": 456,
+                    "mention": "7",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 897,
+                    "end": 899,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 900,
+                    "end": 902,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 903,
+                    "end": 905,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "In a situation where the accuracy of data is disputable, it would be counterproductive (and even unscientific) to try to incorporate the many fine details of causes of an epidemic. It is important to extract an outline of what is happening with models that are progressively made more complex, in order to extract the relevant parameters and try to draw conclusions on the many possible causes and controls of epidemics. When finding that the SIR model could not account for the available data we faced many possibilities based on virus behavior, population dynamics, technical difficulties in identifying the disease (many atypical to the respiratory tract. We explored two major situations. One when the epidemics pneumonia types exist) and socio-political constraints that cast significant doubt on the accuracy of data collection. Knowing the nature of the virus that causes SARS [14], a coronavirus, we chose here to start by exploring the consequences of a situation that prevailed twenty years ago in the population of pigs in Europe [10,15], where a virus and its variant caused a double epidemic when it changed its tropism from the small intestine are subsequent to each other, in a way allowing the first one to provide some protection to part of the exposed population. This situation is not fundamentally different from the situation explored by the SIR model. It may account for places with a large population and a low level of prevalence. In contrast, a second situation where both epidemics overlap, the first one being highly contagious and under no control because it is understood as a mild frequent ailment and the second one causing SARS, will give rise to patterns that appear to be similar to what is observed in places such as Hong Kong and the Guangdong province. It is worth stressing that we did not explore the intricacies of the mathematical solutions of this new epidemiological model, but, rather, tried to test with very crude hypotheses whether a new mode of transmission might not account for surprising aspects of some epidemics. The central reason for our approach is that the more parameters introduced, the easier it is to represent any type of reality (this was the basis of the epicycle representation of the movement of planets in the Ptolemean system). Because data may be inaccurate (and at the time of writing this is a major concern for the WHO authorities) it is convenient to smooth them out. This is convenient in a continuous model represented by a set of simple differential equations. A drawback of this approach appears when the number of cases becomes small: a discrete model involving stochastic parameters would be more adapted. However this would probably require even more accuracy in the data, a feat that is impossible to achieve. A second constraint introduced by inaccuracy in the data set is that the behavior of the epidemic is so complex that it would require many parameters to be represented, implying, in fact that a very large set of causes would account for the observations. We tried to overcome these difficulties by restricting as much as possible the number of fitting parameters in the model. Furthermore we checked that the parameters we introduced were consistent with a purely phenomenological description of the disease. In fact, from the work of Donnelly C. et al. [18] on the statistics about the outbreak of SARS in Hong Kong, the incubation period plus the time from onset to admission is about 10.12 days. On the other hand, the incubation period plus the time from onset to admission is about 1/a + 1/b days and from our parameters estimations on a and b, we find that 1/a + 1/b is about 11.8 and 11.4 for two different scenarios. With these constraints we were able to simulate the epidemic at several places (Hong Kong, Beijing, Inner Mongolia) while other places failed to be represented faithfully (for instance for the Guangdong region where the size of the epidemic \u2013 with only 2 or 3 new cases for some days \u2013 is too small when compared with the total population of over 80 millions : in this case either the data does not reflect the real situation or the differential model is not relevant for this setting). Furthermore we could use the set of parameters measured from the past unfolding of the epidemic, to construct scenarios for its future trends and monitor the impact of political decisions to control its spread and development.",
+            "cite_spans": [
+                {
+                    "start": 885,
+                    "end": 887,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1042,
+                    "end": 1044,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1045,
+                    "end": 1047,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 3346,
+                    "end": 3348,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Note that the above results are to be treated with care when trying to validate provisional hypothesis. Indeed, we noticed that due to the imprecision inherent in the data many sets of parameters display good fit with the observed time series; however the difference of behaviour between e.g. the final size of the epidemic as given by this simulations is sometimes important (error bars too large) and cannot be reliably asserted in the absence of further investigations. However some qualitative properties of the dynamics of the system under consideration can prove to be important when analysing this epidemic. For instance one important problem is the question of whether the epidemic is under control or not. Contrary to the standard SIR model where this question has a simple answer, here we cannot say that the epidemic is under control when the number of admission per day decreases; indeed in the SEIR models, it may happen that momentarily the number of people in the Infective class is low while the Exposed class is still high (they have not yet been infectious); thus the epidemic may seem stopped but will then be out of control again when in people in the Exposed class migrate to the Infected class and will start contaminating other people (especially if sanitary security policy has been relaxed). Thus an effective policy necessarily takes into account the time required for the Exposed (E) class to become infectious and will require zero new cases during all the period. The double epidemic can have a flat, extended peak and short tail compared to a single epidemic, and it may have more than one peak because of the latency so that claims of success may be premature.",
+            "cite_spans": [],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "An interesting outcome of the present model is that it can point out places where either the model does not hold (indicating that there are other causes interfering with the disease) or that data collection is not accurate (providing a way to political authorities to enforce a new policy for identifying patients and collecting data). A second, perhaps more comforting consequence is that it suggests that a vaccine will be possible: indeed, in our model one form of the virus (or, alternatively, other viruses displaying cross immunity) is protecting against SARS. This is typically what is expected from a vaccine and this is perhaps what is witnessed with the apparent low infection rate or, at least mild infection, in children and young adults (an observation that needs to be fully documented). We should however remain cautious, since vaccination against coronaviruses is not always straightforward [16]. If our model is right, then it is likely that virus B gave several different types of A variants, causing SARS with a variety of virulence. This may also account for some of the variability observed at different places. This might be substantiated by sequencing CoV genomes isolated from many patients. If this were true, then the reservoir might be much larger than suspected and SARS may happen again when the weather cools down in autumn. Our model would then be useful to enforce proper precautionary measures immediately.",
+            "cite_spans": [
+                {
+                    "start": 908,
+                    "end": 910,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Finally, there are many other possible scenarios, and as stated in the conclusion of the WHO panel held on 15\u201317 May 2003 in Geneva: \"Participants from the main outbreak sites noted the striking similarity of the pattern of outbreaks in different countries and the consistent effectiveness of specific control measures, including early identification and isolation of patients, vigorous contact tracing, management of close contacts by home confinement or quarantine, and public information and education to encourage prompt reporting of symptoms. The effectiveness of these measures was observed in all outbreak sites under widely varying conditions, supporting the overall WHO view that SARS can be contained and driven back out of its new human host.\" The present work aims at helping exploring one possible route accounting for at least some of the features of the epidemic.",
+            "cite_spans": [],
+            "section": "Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The first conclusion of the present work is that except at very restricted places recording a simple event, such as the Amoy Gardens Estate outbreak, the SIR model cannot represent the unfolding of the SARS epidemic, even at its first steps. This indicates that the simple model of contagion by a single stable virus does not hold. The second conclusion is that, at least in some regions, data may be inaccurate to account for the reality of the epidemic. This is true in various parts of mainland China and can be accounted for by the large variation in SARS symptoms, and perhaps in provinces next to Beijing, by underreporting. Finally, this study sends a message of hope: lack of fitting of predicted curves with actual recent data indicate that the containment measures decided by the WHO and relayed by governments are effective. Furthermore, this model, that assumes that a mild epidemic protects against SARS would predict that a vaccine is possible, and may soon be created. It also suggests that there might exist a SARS precursor in a large reservoir, prompting for implementation of precautionary measures when the weather cools down.",
+            "cite_spans": [],
+            "section": "Conclusions",
+            "ref_spans": []
+        },
+        {
+            "text": "None declared.",
+            "cite_spans": [],
+            "section": "Competing interests",
+            "ref_spans": []
+        },
+        {
+            "text": "TW Ng derived the system of non-linear differential equations governing the SEIRP model, collected the figures of SARS cases in different cities, carried out some numerical simulations and the parameters estimations.",
+            "cite_spans": [],
+            "section": "Authors' contributions",
+            "ref_spans": []
+        },
+        {
+            "text": "GT contributed to the derivation of the differential equations that describe the model, carried out numerical simulations and the parameter fitting procedures.",
+            "cite_spans": [],
+            "section": "Authors' contributions",
+            "ref_spans": []
+        },
+        {
+            "text": "AD provided the biological background for setting up the model and proposed, based on the 1983\u20131985 outbreak of coronavirus infection in European pigs the \"double epidemic\" hypothesis.",
+            "cite_spans": [],
+            "section": "Authors' contributions",
+            "ref_spans": []
+        },
+        {
+            "text": "The pre-publication history for this paper can be accessed here:",
+            "cite_spans": [],
+            "section": "Pre-publication history",
+            "ref_spans": []
+        },
+        {
+            "text": "",
+            "cite_spans": [],
+            "section": "Pre-publication history",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Figure 1: Typical dynamics for the SIR model.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 10: Cumulative number of SARS cases in Inner Mongolia.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 11: Number of SARS cases per day in Inner Mongolia.",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 2: Daily new number of confirmed SARS cases from Hong Kong: hospital, community and the Amoy Gardens.",
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 3: Comparison of the SEIR (red) and SIR (green) models with the same parameters \"r\" and \"a\". SEIR model evolution (in red) is much slower (and thus may seam less severe) but reaches the same final size of epidemic.",
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Figure 4: The cumulative number of SARS cases in Hong Kong community (and the simulated case \"a\").",
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Figure 5: Number of SARS cases in Hong Kong community (and the simulated case \"a\") per three days.",
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Figure 6: The cumulative number of SARS cases in Hong Kong community (and the simulated case \"b\").",
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Figure 7: Number of SARS cases in Hong-Kong community (and the simulated case \"b\") per three days.",
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Figure 8: Cumulative number of SARS cases in Beijing.",
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Figure 9: Number of SARS cases per day in Beijing.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Porcine respiratory coronavirus differs from transmissible gastroenteritis virus by a few genomic deletions",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rasschaert",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Duarte",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Laude",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J Gen Virol",
+            "volume": "71 ( Pt 11)",
+            "issn": "",
+            "pages": "2599-2607",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Transmissible gastroenteritis",
+            "authors": [
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Garwes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Vet Rec",
+            "volume": "122",
+            "issn": "",
+            "pages": "462-463",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Brauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Castillo-Chavez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Mathematical Models in Population Biology and Epidemiology",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "Stochastic Epidemic models and Their Statiatical Analysis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Britton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Lecture Notes in Statistics",
+            "volume": "151",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "Mathematical  Epidemiology of Infectious disease",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Diekmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Wiley Series in Mathematical and Computational Biology",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "Aetiology: Koch's postulates fulfilled for SARS virus",
+            "authors": [
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Fouchier",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kuiken",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schutten",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Van Amerongen",
+                    "suffix": ""
+                },
+                {
+                    "first": "GJ",
+                    "middle": [],
+                    "last": "Van Doornum",
+                    "suffix": ""
+                },
+                {
+                    "first": "BG",
+                    "middle": [],
+                    "last": "Van Den Hoogen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Stohr",
+                    "suffix": ""
+                },
+                {
+                    "first": "AD",
+                    "middle": [],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "423",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": [
+                    "10.1038/423240a"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "title": "Le coronavirus respiratoire porcin PRCV :\nun virus \u00e9mergent pas comme les autres",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Laude\u00a0",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rasschaert",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Delmas\u00a0",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-F",
+                    "middle": [],
+                    "last": "Eleou\u00ebt",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Virologie",
+            "volume": "2",
+            "issn": "",
+            "pages": "305-316",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Immunity to transmissible gastroenteritis virus and porcine respiratory coronavirus infections in swine",
+            "authors": [
+                {
+                    "first": "LJ",
+                    "middle": [],
+                    "last": "Saif",
+                    "suffix": ""
+                },
+                {
+                    "first": "JL",
+                    "middle": [],
+                    "last": "van Cott",
+                    "suffix": ""
+                },
+                {
+                    "first": "TA",
+                    "middle": [],
+                    "last": "Brim",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Vet Immunol Immunopathol",
+            "volume": "43",
+            "issn": "",
+            "pages": "89-97",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0165-2427(94)90124-4"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "title": "The Mathematics of Infectious Diseases",
+            "authors": [
+                {
+                    "first": "HW",
+                    "middle": [],
+                    "last": "Hethcote",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "SIAM Review",
+            "volume": "42",
+            "issn": "",
+            "pages": "599-653",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "Epidemiological determinants of spread of causal agent of severe acute respiratory syndrome in Hong Kong.",
+            "authors": [
+                {
+                    "first": "CA",
+                    "middle": [],
+                    "last": "Donnelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "AC",
+                    "middle": [],
+                    "last": "Ghani",
+                    "suffix": ""
+                },
+                {
+                    "first": "GM",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "AJ",
+                    "middle": [],
+                    "last": "Hedley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "LJ",
+                    "middle": [],
+                    "last": "Abu-Raddad",
+                    "suffix": ""
+                },
+                {
+                    "first": "LM",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "TQ",
+                    "middle": [],
+                    "last": "Thach",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chau",
+                    "suffix": ""
+                },
+                {
+                    "first": "KP",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "TH",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "LY",
+                    "middle": [],
+                    "last": "Tse",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "SH",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "JH",
+                    "middle": [],
+                    "last": "Kong",
+                    "suffix": ""
+                },
+                {
+                    "first": "EM",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "NM",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "RM",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "361",
+            "issn": "",
+            "pages": "1761-1766",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(03)13410-1"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "title": "The cellular and molecular pathogenesis of coronaviruses",
+            "authors": [
+                {
+                    "first": "SR",
+                    "middle": [],
+                    "last": "Compton",
+                    "suffix": ""
+                },
+                {
+                    "first": "SW",
+                    "middle": [],
+                    "last": "Barthold",
+                    "suffix": ""
+                },
+                {
+                    "first": "AL",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Lab Anim Sci",
+            "volume": "43",
+            "issn": "",
+            "pages": "15-28",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Switching species tropism: an effective way to manipulate the feline coronavirus genome",
+            "authors": [
+                {
+                    "first": "BJ",
+                    "middle": [],
+                    "last": "Haijema",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Volders",
+                    "suffix": ""
+                },
+                {
+                    "first": "PJ",
+                    "middle": [],
+                    "last": "Rottier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Virol",
+            "volume": "77",
+            "issn": "",
+            "pages": "4528-4538",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.77.8.4528-4538.2003"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "title": "Evolution and tropism of transmissible gastroenteritis coronavirus",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Enjuanes",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gebauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mendez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dopazo",
+                    "suffix": ""
+                },
+                {
+                    "first": "ML",
+                    "middle": [],
+                    "last": "Ballesteros",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Adv Exp Med Biol",
+            "volume": "342",
+            "issn": "",
+            "pages": "35-42",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "Molecular bases of tropism in the PUR46 cluster of transmissible gastroenteritis coronaviruses",
+            "authors": [
+                {
+                    "first": "ML",
+                    "middle": [],
+                    "last": "Ballesteros",
+                    "suffix": ""
+                },
+                {
+                    "first": "CM",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Martin-Caballero",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Enjuanes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Adv Exp Med Biol",
+            "volume": "380",
+            "issn": "",
+            "pages": "557-562",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "Two amino acid changes at the N-terminus of transmissible gastroenteritis coronavirus spike protein result in the loss of enteric tropism",
+            "authors": [
+                {
+                    "first": "ML",
+                    "middle": [],
+                    "last": "Ballesteros",
+                    "suffix": ""
+                },
+                {
+                    "first": "CM",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Enjuanes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Virology",
+            "volume": "227",
+            "issn": "",
+            "pages": "378-388",
+            "other_ids": {
+                "DOI": [
+                    "10.1006/viro.1996.8344"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "May",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Infectious diseases in humans",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "JD",
+                    "middle": [],
+                    "last": "Murray",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Mathematical Biology",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "NJT",
+                    "middle": [],
+                    "last": "Bailey",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "The Mathematical theory of Infectious Diseases and its Applications",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

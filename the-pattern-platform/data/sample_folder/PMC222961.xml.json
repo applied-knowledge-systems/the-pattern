@@ -1,0 +1,2404 @@
+{
+    "paper_id": "PMC222961",
+    "metadata": {
+        "title": "Relationship of SARS-CoV to other pathogenic RNA viruses explored by tetranucleotide usage profiling",
+        "authors": [
+            {
+                "first": "Yee",
+                "middle": [
+                    "Leng"
+                ],
+                "last": "Yap",
+                "suffix": "",
+                "email": "daniely@hkusua.hku.hk",
+                "affiliation": {}
+            },
+            {
+                "first": "Xue",
+                "middle": [
+                    "Wu"
+                ],
+                "last": "Zhang",
+                "suffix": "",
+                "email": "xwzhang@hkucc.hku.hk",
+                "affiliation": {}
+            },
+            {
+                "first": "Antoine",
+                "middle": [],
+                "last": "Danchin",
+                "suffix": "",
+                "email": "adanchin@pasteur.fr",
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "Severe Acute Respiratory Syndrome (SARS), a newly identified infectious disease, has imperilled the health of human population in more than 30 nations. It has claimed over 812 lives and infected more than 8442 (9.61% death rate) by July 2, 2003 [1] since its outbreak in November 2002 in the province of GuangDong, People's Republic of China. By May 15, 2003, the primary etiological agent for SARS was found to fulfil Koch's postulate through experimental infection of cynomolgus macaques (Macaca fascicularis) [2]. Chronicles for the discovery of SARS CoronaVirus (SARS-CoV) can be found in articles [e.g. [3,4]] and websites [e.g. [5]].",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 247,
+                    "mention": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 513,
+                    "end": 514,
+                    "mention": "2",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 609,
+                    "end": 610,
+                    "mention": "3",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 611,
+                    "end": 612,
+                    "mention": "4",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 635,
+                    "end": 636,
+                    "mention": "5",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "section": "Background",
+            "ref_spans": []
+        },
+        {
+            "text": "A common question is often asked when investigating viral evolution: what hallmark, in term of genome sequence or RNA word usage, could be used to trace back the emergence of a new pathogen in humans/animals? In particular, CoronaViruses are prone to recombination [6,7] and like all other viruses they mutate at a high frequency [8]. This makes extremely hazardous to try to trace the origin of the virus. Nevertheless, this prompted us to investigate their relationships using the RNA word usage hoping to identify some RNA viruses that display similar word usage pattern. Such RNA viruses might hint about the origin of SARS-CoV. This study will contribute to our understanding of the RNA word usage of SARS-CoV and some other pathogenic RNA viruses. In the present study, we explored the relationships of 31 RNA viruses, which are known to cause diseases to their corresponding hosts with either similar symptoms or infectiousness, including SARS-CoV, based on their global tetra-nucleotide usage pattern.",
+            "cite_spans": [
+                {
+                    "start": 266,
+                    "end": 267,
+                    "mention": "6",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 268,
+                    "end": 269,
+                    "mention": "7",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 331,
+                    "end": 332,
+                    "mention": "8",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "section": "Background",
+            "ref_spans": []
+        },
+        {
+            "text": "Preliminary analysis of the sequence data indicated that there are 11\u201314 open reading frames in the SARS-CoV genome [9-11]. The overall gene order for this novel pathogen supported its placement in the family of Coronaviridae which includes the animal/human CoronaViruses. It should be emphasized that the sequence similarity shown is attributed mainly to the large RNA-dependent RNA polymerase (replication enzyme or RdRp) residing in the first two open reading frames (ORFs). These two ORFs constitute more than 65% (>20 kb) of the total genome size and these regions are more conserved in their nucleotide sequences due to their specialized role for viral RNA replication. Therefore, the possible relationship based on the sequence of the replication enzyme alone was also investigated.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 118,
+                    "mention": "9",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 119,
+                    "end": 121,
+                    "mention": "11",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "Background",
+            "ref_spans": []
+        },
+        {
+            "text": "Table 1 presents the breakdown of the RNA sequence into mononucleotide frequencies for the 31 viral genomes in our dataset. Except for the Rabbit Hemorrhagic disease Virus (RHV) that shows a fair usage of the four nucleotides in approximately equal number, the other RNA viruses have a biased genome composition. Bovine CoronaVirus (BCoV) and Human CoronaVirus 229E (HCoV) favor the U nucleotide (35.5% and 34.6%) at the expense of the C nucleotide (15.3% and 16.7%). Relatively strong nucleotide biases are visible in the other genomes and we will mention a few of the extremes. The highest base count is 28.4% G in the Yellow Fever Virus (YFV), 38.9% A in the Respiratory Syncytial Virus (RSV), 35.5% U in the Bovine CoronaVirus (BCoV) and 28.5% C count in the Foot-and-Mouth disease Virus (FMV). The lowest base counts are 15.8% G in the Human Respiratory syncytial Virus (HRV), 21.2% A in the Equine arteritis Virus (EV1), 20.9% U in the Igbo Ora Virus (IOV) and 13.6% C in the Bovine ephemeral Fever Virus (BFV). The A nucleotide is the most popular base among RNA viruses (ranging from 21.2% to 38.9%), and C is the most variable nucleotide (ranging from 13.6% to 33.1%).",
+            "cite_spans": [],
+            "section": "Mono-nucleotide bias ::: Results and Discussion",
+            "ref_spans": [
+                {
+                    "start": 6,
+                    "end": 7,
+                    "mention": "1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "From the standpoint of the overall genomic composition analysis, the G+C content is an interesting property for a genome, in that the overall content often correlates with the organism pathogenicity [12]. Most of the pathogens genomes have a low G+C content, while some such as Mycobacterium tuberculosis has a relatively high G+C content. Therefore, as expected in Table 1, we noted that most of the pathogenic viruses are A+U-rich (>50%), except for Porcine reproductive and Respiratory syndrome Virus (PRV), Equine arteritis virus (EV1), Rabbit hemorrhagic disease virus (RHV), Simian hemorrhagic Fever Virus (SFV) and Foot-and-Mouth disease Virus C (FMV).",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 202,
+                    "mention": "12",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "section": "Mono-nucleotide bias ::: Results and Discussion",
+            "ref_spans": [
+                {
+                    "start": 372,
+                    "end": 373,
+                    "mention": "1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "The frequencies of occurrence for di-nucleotides were compared to the random RNA counterparts having the same base proportion in order to compute the z value that reflected their di-nucleotide bias (Table 2). Among the 31 virus sequences examined, the frequencies of occurrence for di-nucleotide were not randomly distributed, with only a few exceptional di-nucleotides starting with a purine residue present at the expected frequencies (ApC, ApG, GpC, |z| < 3). A remarkable deviation from the expected frequencies occurs for the di-nucleotide pairs CpG and UpA (suppression or under-representation, z < -50) as well as di-nucleotides pairs CpA and UpG (enhancement or over-representation, z > 40). These di-nucleotide biases, together with mono-nucleotide bias [13], have a direct impact on the codon usage of viruses. For example, in the codon usage for the 24 protein coding sequences in human CoronaVirus 229E (Table 3), only 2.85% of codons contain the under-represented subword CpG di-nucleotide whereas 11.26% of the codons contain the over-represented CpA di-nucleotide (the aggregate codon usage containing each di-nucleotide subword without mono- and di-nucleotide bias is close to 6.25%).",
+            "cite_spans": [
+                {
+                    "start": 764,
+                    "end": 766,
+                    "mention": "13",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "section": "Di-nucleotide bias ::: Results and Discussion",
+            "ref_spans": [
+                {
+                    "start": 205,
+                    "end": 206,
+                    "mention": "2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 922,
+                    "end": 923,
+                    "mention": "3",
+                    "ref_id": "TABREF2"
+                }
+            ]
+        },
+        {
+            "text": "In double stranded DNA genomes the deficiency in di-nucleotide CpG is often supposed to be due to the fact that they are the targets for methyltransferase activity that leads to cytosine deamination [14,15]. It is however unlikely that the mechanism of deamination that alters the genetic contents at the DNA level would affect the viral RNA content of most RNA viruses without a DNA stage. There might exist specific cytosine RNA methylases that could be responsible for this effect [16]. However it is more consistent to propose that, unlike the mechanism of cytosine deamination in the DNA realm, the dominating process is cytosine deamination in RNA viruses, converting cytosine to uracil (C \u2666 U) instead of thymine (T). As a consequence of this mechanism, di-nucleotide CpG changes to either di-nucleotide UpG or CpA in the direct/complementary strands of RNA viruses and causes the over-representation in di-nucleotide UpG and CpA (z > 19). Interestingly, there is experimental evidence in vitro that the rate of cytosine deamination is faster (>100 times) in the single stranded than in double-stranded state [17]. Apart from the under-representation in di-nucleotide CpG and over-representation in di-nucleotide CpA and UpG, the reason for the observed di-nucleotide UpA scarcity in RNA may be explained by its chemical lability [18]. The UpA dinucleotide is chemically the most unstable among the 16 dinucleotides. Furthermore, UpA appears to be a preferential target for ribonucleases [19]. This lability would create a selection pressure against di-nucleotide UpA in RNA viruses.",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 202,
+                    "mention": "14",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 203,
+                    "end": 205,
+                    "mention": "15",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 485,
+                    "end": 487,
+                    "mention": "16",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1117,
+                    "end": 1119,
+                    "mention": "17",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1338,
+                    "end": 1340,
+                    "mention": "18",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1496,
+                    "end": 1498,
+                    "mention": "19",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "section": "Di-nucleotide bias ::: Results and Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "If we choose a critical value for z (|z| = 3.29) that only allows a chance of 1 in 1000 error for classifying a word as biased (over/under-represented), all di-nucleotides show some kind of bias in their usage pattern across 31 different viruses (Table 4, derived from the complete form of Table 2 provided as the additional file 1). The causes for these biases await further investigation.",
+            "cite_spans": [],
+            "section": "Di-nucleotide bias ::: Results and Discussion",
+            "ref_spans": [
+                {
+                    "start": 253,
+                    "end": 254,
+                    "mention": "4",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 296,
+                    "end": 297,
+                    "mention": "2",
+                    "ref_id": "TABREF1"
+                }
+            ]
+        },
+        {
+            "text": "Inspection of the tetra-nucleotide usage pattern for RNA viruses (additional file 2) reveals considerable differences. The frequencies of occurrence for tetra-nucleotides were compared to artificial chromosomes constructed as random RNA sequences having the same nucleotide succession up to order three to compute the z values that reflect their tetra-nucleotide bias in the corresponding virus (Table 5). If we choose a critical value for z (|z| = 3.29) that only allows a chance of 1 in 1000 error for classifying a word as over/under-represented, 96% of the tetra-nucleotides show a strong bias in their usage pattern across 31 viruses (shown in Table 4, derived from the complete form of Table 5 provided as the additional file 1). This indicated strongly that tetra-nucleotides are being used in a different manner between different viruses, providing us with a tool to study the relationships between viruses based on the tetra-nucleotide bias exhibited in their genomes.",
+            "cite_spans": [],
+            "section": "Tetra-nucleotide bias ::: Results and Discussion",
+            "ref_spans": [
+                {
+                    "start": 402,
+                    "end": 403,
+                    "mention": "5",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 655,
+                    "end": 656,
+                    "mention": "4",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 698,
+                    "end": 699,
+                    "mention": "5",
+                    "ref_id": "TABREF4"
+                }
+            ]
+        },
+        {
+            "text": "Two relationship trees were derived, one from the entire genome and the other from the replication enzyme (Figure 1). The result based on the replication enzyme sequence was included because these regions in RNA viruses are submitted to a strong selective pressure to ensure successful replication of their own RNA in the host cell. The two distance trees can be clustered distinctly into two major groups of viruses. Interestingly, this clustering validates our approach, since these clusters are consistent with biological properties of the viruses: Group #1 corresponds to all positive strand ssRNA viruses while Group #2 corresponds to negative strand ssRNA viruses. Each group must undergo different evolutionary paths which lead to their distinct pattern in tetra-nucleotide usage. The classification for the two main groups of viruses (positive/negative strand ssRNA viruses) demonstrate a level of congruence with the taxonomy of the viruses [20] and indicated that there exists a relationship signal in tetra-nucleotide usage patterns.",
+            "cite_spans": [
+                {
+                    "start": 951,
+                    "end": 953,
+                    "mention": "20",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "section": "Approach one \u2013 Sequence Relationship of Viruses based on The Correlation of Tetra-nucleotide Bias ::: Results and Discussion",
+            "ref_spans": [
+                {
+                    "start": 114,
+                    "end": 115,
+                    "mention": "1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "Inside both relationship trees, Avian Encephalomyelitis Virus (AEV), Lactate Dehydrogenase-elevating Virus (LDV), Porcine Reproductive and respiratory syndrome Virus (PRV), Equine arteritis Virus (EV1), Rabbit Hemorrhagic disease Virus (RHV), Yellow Fever Virus (YFV), are the outermost group of viruses, exhibiting differences in their tetra-nucleotide usage pattern. From the family of positive strand ssRNA viruses, CoronaViruses form the largest cluster. The SARS-CoV is found to be at the basal position of other CoronaVirus types and remains closest to the Transmissible Gastroenteritis Virus (TGV) and Feline CoronaVirus (FCoV). This placement is consistent with the findings from two seminal papers [9,10] where the SARS-CoV was classified in a separate group from the rest of the known CoronaViruses. In addition, both distance trees suggested that the Bovine CoronaVirus (BCoV) and the Mouse Hepatitis Virus (MHV) should be grouped together whereas the Human CoronaVirus 229E (HCoV) is the closest to the Porcine epidemic Diarrhea Virus (PDV). For the family of negative strand ssRNA viruses, there are two obvious classes that have evolved through different branches of word usage pattern. The first class covers Hantaan Virus (HV1), Reston Ebola Virus (REV), Bovine Ephemeral Fever Virus (BFV), Bovine Respiratory syncytial Virus (BRV), Respiratory Syncytial Virus (RSV) and Human Respiratory syncytial Virus (HRV). The second class covers the remaining negative strand ssRNA viruses.",
+            "cite_spans": [
+                {
+                    "start": 708,
+                    "end": 709,
+                    "mention": "9",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 710,
+                    "end": 712,
+                    "mention": "10",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "section": "Approach one \u2013 Sequence Relationship of Viruses based on The Correlation of Tetra-nucleotide Bias ::: Results and Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The overall tetra-nucleotide usage pattern (additional file 2) was decomposed into several eigen-vectors using a factor analysis algorithm. They are the uncorrelated components of the original usage pattern embedded within the overall tetra-nucleotide usage pattern. Three eigen-vectors, which carry 83.3% of the variance for the viral tetra-nucleotide usage patterns, were retained (Figure 2). From the three dimensional figures (Figure 3, Figure 4, Figure 5 and Figure 6) plotted against these retained eigen-vectors, the negative strand ssRNA viruses stemmed clearly out from the positive strand ssRNA viruses. This is most obvious when the axes of projection were the 1st and 3rd eigen-vectors. This indicated that both types of viruses have a complex component of tetra-nucleotide usage patterns and that these patterns changes with different family of viruses.",
+            "cite_spans": [],
+            "section": "Approach two \u2013 Sequence Relationship of Viruses based on The Factors of the Tetra-nucleotide Usage Pattern [21B21bibr-23B23bibr] ::: Results and Discussion",
+            "ref_spans": [
+                {
+                    "start": 391,
+                    "end": 392,
+                    "mention": "2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 438,
+                    "end": 439,
+                    "mention": "3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 448,
+                    "end": 449,
+                    "mention": "4",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 458,
+                    "end": 459,
+                    "mention": "5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 471,
+                    "end": 472,
+                    "mention": "6",
+                    "ref_id": "FIGREF5"
+                }
+            ]
+        },
+        {
+            "text": "In the result based on replication enzyme sequence (Figure 3 and Figure 4), we observed a clear splitting between two main families of RNA viruses (positive/negative strand ssRNA virus). All viruses that belong to a specific family were clustered together closely. This pointed to an interesting hypothesis that the replication enzyme sequence between closely related RNA viruses adopt a common word usage pattern that are closely linked. In addition, it is clear that the viruses from different family groups adopt different strategy of word usage.",
+            "cite_spans": [],
+            "section": "Approach two \u2013 Sequence Relationship of Viruses based on The Factors of the Tetra-nucleotide Usage Pattern [21B21bibr-23B23bibr] ::: Results and Discussion",
+            "ref_spans": [
+                {
+                    "start": 59,
+                    "end": 60,
+                    "mention": "3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 72,
+                    "end": 73,
+                    "mention": "4",
+                    "ref_id": "FIGREF3"
+                }
+            ]
+        },
+        {
+            "text": "However in Figure 5 and Figure 6, when we project the tetra-nucleotide usage patterns (entire genome) for each virus on the 1st, 2nd and 3rd eigen-vector axes, the separation between viruses showed a different outcome when V was derived from the entire genome. The two main families of viruses were grouped into three clusters, two being allocated to the positive strand ssRNA viruses. It is particularly interesting that all viruses in the upper left corner corresponded to the viruses originating from the CoronaVirus family. Unexpectedly, the Hantaan Virus (HV1) is the only negative strand ssRNA virus to have a high loading on the eigen-vector that corresponded to the tetra-nucleotide usage pattern for the positive strand ssRNA viruses.",
+            "cite_spans": [],
+            "section": "Approach two \u2013 Sequence Relationship of Viruses based on The Factors of the Tetra-nucleotide Usage Pattern [21B21bibr-23B23bibr] ::: Results and Discussion",
+            "ref_spans": [
+                {
+                    "start": 18,
+                    "end": 19,
+                    "mention": "5",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 31,
+                    "end": 32,
+                    "mention": "6",
+                    "ref_id": "FIGREF5"
+                }
+            ]
+        },
+        {
+            "text": "It is important to realize what factor analysis will provide and how this analysis is different from the previous method of relationship tree generation using correlation coefficient. For the previous method that is based on correlation coefficient of word usage patterns, it treats the vectorial profiling V for each virus as a whole entity, However, the factor analysis considered the vectorial profiling V as a superposition of many patterns which can be separated into mutually uncorrelated patterns of word usage. Each eigen-vector represents the embedded component of RNA word usage patterns communalised by a group of viruses presumably under the same selection pressures. By projecting the overall usage patterns on these eigen-vectors, it is possible to determine a group of viruses that adopt a common strategy of word usage.",
+            "cite_spans": [],
+            "section": "Approach two \u2013 Sequence Relationship of Viruses based on The Factors of the Tetra-nucleotide Usage Pattern [21B21bibr-23B23bibr] ::: Results and Discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Using the two approaches to study the tetra-nucleotide usage pattern in RNA viruses, we reached the following conclusions:",
+            "cite_spans": [],
+            "section": "Conclusion",
+            "ref_spans": []
+        },
+        {
+            "text": "1. Based on the correlation of the overall tetra-nucleotide usage patterns, the Transmissible Gastroenteritis Virus (TGV) and the Feline CoronaVirus (FCoV) are closest to SARS-CoV.",
+            "cite_spans": [],
+            "section": "Conclusion",
+            "ref_spans": []
+        },
+        {
+            "text": "2. Based on the three most significant eigen-vectors, the genomes of the viruses from the same family conform to a similar tetra-nucleotide usage pattern, irrespective of their genome size.",
+            "cite_spans": [],
+            "section": "Conclusion",
+            "ref_spans": []
+        },
+        {
+            "text": "3. The study of word usage is a powerful method to classify RNA viruses. The congruence of the relationship trees with the known classification indicates that there exist phylogenetic signals in tetra-nucleotide usage patterns, and this signal is most prominent in the replicase open reading frames.",
+            "cite_spans": [],
+            "section": "Conclusion",
+            "ref_spans": []
+        },
+        {
+            "text": "We focused our study on the genomic sequences (their translated strand) of ssRNA viruses (Table 1), which incorporated 20 species from the family of positive strand ssRNA viruses and 11 species from the family of negative strand ssRNA viruses. We are aware of the fact that these viruses constitute completely different species, most probably unrelated to one another. They are included in a common study in order to try to have means to identify relevant features from purely statistical background properties. The coverage included the viruses that are known to cause diseases to their corresponding hosts. The acronym for each virus is shown in the table and is referred to throughout this study. All sequences corresponding to their translated strand were retrieved from GenBank, and the accession numbers and genomic size (in nucleotides) for individual virus were provided for reference. For the present study, two sets of data were generated from the complete sequence for each virus. Dataset 1 covered the entire genome and dataset 2 covered only their replicase open reading frame. The flowchart for studying the tetra-nucleotide usage pattern in 31 viruses is shown in Figure 7.",
+            "cite_spans": [],
+            "section": "Dataset ::: Methods",
+            "ref_spans": [
+                {
+                    "start": 1186,
+                    "end": 1187,
+                    "mention": "7",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 96,
+                    "end": 97,
+                    "mention": "1",
+                    "ref_id": "TABREF0"
+                }
+            ]
+        },
+        {
+            "text": "Sun Fire 6800 Server with 24 CPUs (each running with a clock speed of 900 MHz) was employed throughout this study. The computation of correlation coefficient and factor analysis algorithm were implemented using Matlab Technical Programming language.",
+            "cite_spans": [],
+            "section": "Computer hardware and software ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "It is necessary to address the question of how we counted the number of time each tetra-nucleotide (for example 'GAGA' or any other tetra-nucleotide), appeared in a given genome. For this study, we adopted the convention of not counting overlapping words [24]. Take a sequence \"UAUGAGAGAUCCGAGA' as example. With second or higher overlapping words not counted, the tetra-nucleotide 'GAGA' is counted as occurring only twice, namely in position 4\u20137 and 13\u201316. Positions 6\u20139 are omitted because they overlap with 'GAGA' at position 4\u20137.",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 258,
+                    "mention": "24",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "section": "Method for counting the frequency of occurrence for RNA words ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "However, when we counted tetra-nucleotide 'UGAG', position 3\u20136 would also be registered as position 4\u20136 already recorded when counting tetra-nucleotide 'GAGA'. In short, all frequency counting of tetra-nucleotide were started anew when we changed from counting the frequency of one tetra-nucleotide to another; this was to preserve the correlation of tetra-nucleotides which have overlapping subword (e.g: 'UAGA' and 'GACA'). A table showing the frequencies of tetra-nucleotides is shown in the additional file 2.",
+            "cite_spans": [],
+            "section": "Method for counting the frequency of occurrence for RNA words ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "The nucleotide composition has being suggested to be a specific characteristic in different virus phylogeny [25]. Because most viral genomes are short, and because we lack a prior information on the tempo and modes of evolution of RNA viruses, we proceeded as follows. We created a vector, V = [C1,C2, ... Ci, ... Ck], with each element representing the frequency for a specific RNA word of length n. The number of components (k) in V increases exponentially with word size (n) - k = 4n. In order to use V for discrimination between viruses, two criteria must be met. First, V must contain sufficient components (di-nucleotide k = 16; tri-nucleotide k = 64; tetra-nucleotide k = 256); second, the frequencies for tetra-nucleotides must show a prominent bias (over/under-representation) that is unique for a family of viruses.",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 111,
+                    "mention": "25",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "section": "Vectorial profiling (V) of the viral RNA genome word usage pattern ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "For the first criteria, there are pros and cons for choosing either longer or shorter words. When the shorter words are used, they inherit the problem of inadequate representation of the viral genome because the long motifs will be neglected. But the shorter words have an advantage of saving computational time. On the other hand, when the longer words are used, they cause a problem of computer tractability due to a larger word set to explore (k = 4n). However, the larger words have an advantage of accounting for the correlation of their sub-words. In contrast the number of their occurrences falls down rapidly, preventing accurate statistical analysis. We chose tetra-nucleotides for our study because they provide 256 vector components (additional file 2) and account for correlation of sub-words up to the order three.",
+            "cite_spans": [],
+            "section": "Vectorial profiling (V) of the viral RNA genome word usage pattern ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "For the second criteria, the bias in RNA word usage was examined. The bias in word usage (of size n) is influenced by the bias of word with sizes less than n [26]. Therefore, in order to evaluate the true bias of word size m, it is required to compare the frequencies of word usage in the original sequence to that of model chromosomes that take into account the biases of word size m - 1, m - 2 ... 1. These model chromosomes were generated by obeying the Markov model of the order (m - 1)th. This can be achieved by shuffling m - 1 viral nucleotides as one whole unit so that the nucleotide successions up to order (m - 1)th were being preserved. Several statistical approaches have been proposed for quantifying word biases [27,28]. In this study, we employed the z statistics (Equation 1) for di-nucleotide and tetra-nucleotide biases [27,28]. The z value is a measure of the bias of a word, with values close to zero meaning no bias, negative values meaning under-representation and positive values meaning over-representation of the word w in the RNA text.",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 161,
+                    "mention": "26",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 728,
+                    "end": 730,
+                    "mention": "27",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 731,
+                    "end": 733,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 840,
+                    "end": 842,
+                    "mention": "27",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 843,
+                    "end": 845,
+                    "mention": "28",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "section": "Vectorial profiling (V) of the viral RNA genome word usage pattern ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "",
+            "cite_spans": [],
+            "section": "Vectorial profiling (V) of the viral RNA genome word usage pattern ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "where w is a word of size m; N(w) is observed count in actual viral RNA; E(w) and Var(w) are expected count and variance for w derived from the 100 artificial chromosomes that preserved the nucleotide succession up to order m - 1.",
+            "cite_spans": [],
+            "section": "Vectorial profiling (V) of the viral RNA genome word usage pattern ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "A scale-invariant parameter, the correlation coefficient r, was employed to compare between word usage patterns of viruses. The correlation coefficient r measures the degree of linear relationship between two vectors. Here, the two vectors are the tetra-nucleotide word usage pattern V corresponding to each viral genome. The magnitude of r would indicate how much of the change of pattern in the tetra-nucleotide word usage in one virus is explained by the change in another. The magnitude of r is always between -1 and +1 and the relationship between the two variables will approach perfect linearity as the magnitude of correlation coefficient approaches to extreme values (+/-1). However, perfect positive correlation (r = 1) does not mean identity of the paired Vi, but, rather, identity up to positive linearity, that is, identity between the paired standardized values. This is a crucial property of r (scale-invariant) that enables the comparison of viral genome despite their differences in genomic sizes. Positive magnitude of r indicates positive association whereas negative magnitude of r indicates negative association between two usage patterns. For this study, correlation coefficient, r, for let say virus 1 and virus 2, is defined as follow:",
+            "cite_spans": [],
+            "section": "Approach one \u2013 sequence relationship of viruses based on the correlation of tetra-nucleotide bias ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "",
+            "cite_spans": [],
+            "section": "Approach one \u2013 sequence relationship of viruses based on the correlation of tetra-nucleotide bias ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "where V1, V2 are vector representing the tetra-nucleotide usage pattern; SV1 and SV2 standard deviation of V1, V2;  are the mean of V1, V2.",
+            "cite_spans": [],
+            "section": "Approach one \u2013 sequence relationship of viruses based on the correlation of tetra-nucleotide bias ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Then, the distance between the tetra-nucleotide usage patterns of two viruses is defined as follows:",
+            "cite_spans": [],
+            "section": "Approach one \u2013 sequence relationship of viruses based on the correlation of tetra-nucleotide bias ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Distance Dij = 1 - rij;     (3)",
+            "cite_spans": [],
+            "section": "Approach one \u2013 sequence relationship of viruses based on the correlation of tetra-nucleotide bias ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "where Dij is the distance between the tetra-nucleotide usage patterns of virus i and virus j; rij is the correlation coefficient between the tetra-nucleotide usage patterns of virus i and virus j",
+            "cite_spans": [],
+            "section": "Approach one \u2013 sequence relationship of viruses based on the correlation of tetra-nucleotide bias ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "Prior to the construction of a relationship tree, the pair-wise distance matrix M of size 31 by 31 was constructed (see additional file 3). Pair-wise distance between two viral genomes is measured by the value of (1 - r). Each row/column corresponds to a specific virus and an entry at the intersection of row X and column Y corresponds to the distance between virus X and virus Y. Such matrix has a diagonal entry of value 0. For the purpose of constructing a relationship tree, only the lower/upper triangular matrix of M is required. After obtaining lower/upper triangular matrix of M, the neighbor-joining method (NJ) algorithm was used to construct the relationship tree (Figure 1). The neighbor-joining method is based on minimum-distance principle. Details of the NJ algorithm are available in [29].",
+            "cite_spans": [
+                {
+                    "start": 802,
+                    "end": 804,
+                    "mention": "29",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "section": "Approach one \u2013 sequence relationship of viruses based on the correlation of tetra-nucleotide bias ::: Methods",
+            "ref_spans": [
+                {
+                    "start": 684,
+                    "end": 685,
+                    "mention": "1",
+                    "ref_id": "FIGREF0"
+                }
+            ]
+        },
+        {
+            "text": "The factor analysis is a statistical method that reveals simpler patterns within a complex set of tetra-nucleotide usage patterns V (additional file 2). It seeks to discover if the observed usage patterns can be explained in terms of a much smaller number of un-correlated pattern sets called factors (eigen-vectors). Suppose we take a simple case where there are 31 viruses each represented by two components (x,y) in vector V (x,y represent the frequencies of occurrence for two specific tetra-nucleotides). Then, in a scatter-plot we can think of the regression line as the original X-axis, rotated so that it approximates the regression line. This type of rotation maximize the variance of the variables (x,y) on the eigen-vector. The remaining variability around this the first eigen-vector was captured in the subsequent eigen-vectors. In this manner, consecutive eigen-vectors are extracted but with a diminishing importance. What each eigen-vector represents is the embedded RNA word usage patterns communalised by a group of viruses presumably under the same selection pressures.",
+            "cite_spans": [],
+            "section": "Approach two \u2013 sequence relationship of viruses based on the factors of the tetra-nucleotide usage pattern ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "We implemented the factor analysis algorithm [21-23] in Matlab Technical Programming Language and computed a set of eigen-vectors. Then, the original usage pattern V was re-mapped for each virus onto the new coordinate system based on these derived eigen-vectors. The difference between approach two and approach one is discussed in the results and discussion section.",
+            "cite_spans": [
+                {
+                    "start": 46,
+                    "end": 48,
+                    "mention": "21",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 49,
+                    "end": 51,
+                    "mention": "23",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "section": "Approach two \u2013 sequence relationship of viruses based on the factors of the tetra-nucleotide usage pattern ::: Methods",
+            "ref_spans": []
+        },
+        {
+            "text": "YLY participated in the design and performed the statistical analysis.",
+            "cite_spans": [],
+            "section": "Authors' contributions",
+            "ref_spans": []
+        },
+        {
+            "text": "AD participated in the design and overall coordination of this study.",
+            "cite_spans": [],
+            "section": "Authors' contributions",
+            "ref_spans": []
+        },
+        {
+            "text": "XWZ participated in the design of the study.",
+            "cite_spans": [],
+            "section": "Authors' contributions",
+            "ref_spans": []
+        },
+        {
+            "text": "All authors read and approved the final manuscript.",
+            "cite_spans": [],
+            "section": "Authors' contributions",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Table 1: RNA virus in current study.\nThe information about 31 RNA viruses being investigated in this study. Their accession number, abbreviation, genome size, number of segments and whether they undergo DNA stage are tabulated. The breakdown of the RNA nucleic acids and A+U contents are also shown.",
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Table 2: Di-nucleotide bias for six RNA viruses.\nThe di-nucleotide bias in six RNA viruses. The z value quantifies the di-nucleotide bias as defined in equation 1. N (w) and E (w) are actual and expected frequency of occurrence for word w. The last column is the average z value across 31 RNA viruses.",
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Table 3: Codon usage for Human CoronaVirus 229E (HCoV).\nThe relative usage of synonymous codons in the 24 known CDSs of Human Corona Virus 229E (HCoV).",
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Table 4: Overall statistics for biased di-nucleotides and tetra-nucleotides.\nThe percentage of biased di-nucleotides and tetra-nucleotides that shows strong biases (lzl > 3.29) in 31 RNA viruses (right). For di-nucleotides, all 16 (100%) of them show strong biases in part of or all 31 RNA viruses. For tetra-nucleotides, 246 (96%) of the tetra-nucleotides show strong biases in part of or all 31 RNA viruses.",
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Table 5: Tetra-nucleotide bias for three RNA viruses. The tetra-nucleotide bias in three viruses. z value quantifies the tetra-nucleotide bias, as defined in equation (1). N (w) and E (w) are actual and expected frequency of occurrence for word w.\n",
+            "type": "table"
+        },
+        "FIGREF0": {
+            "text": "Figure 1: Two Relationship trees based on the correlation coefficients of tetra-nucleotide usage bias The distance tree for 31 RNA viruses based on tetra-nucleotide usage pattern for the entire genome (right) and the replication enzyme (left). The correlation distances are shown on top of each branch.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2: Relationship between the number of eigen-vectors retained and the percentage of the variance they represent in the entire usage patterns for 31 viruses. As each consecutive factor is defined to identify a usage pattern that is not captured by the preceding eigen-vectors, each consecutive factors are therefore independent of each other. In addition, the order for the consecutive eigen-vectors is extracted with diminishing importance.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure 3: 3-D plot for the vectorial profiling of each virus onto the three eigen-vectors. The tetra-nucleotide usage patterns V for the replicase open reading frame in each virus have been redisplayed on the 1st, 2nd and 3rd eigen-vector axes ('o' represents positive strand ssRNA virus; x represents negative strand ssRNA virus). The two families of viruses clustered into two different regions of the plot.",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Figure 4: 2-D plots for Figure 3 with different viewpoint specifications. The tetra-nucleotide usage patterns for the replicase open reading frame in each virus have been redisplayed on the (1st vs 2nd), (1st vs 3rd) and (2nd vs 3rd) eigen-vector axes ('o' represents positive strand ssRNA virus; 'x' represents negative strand ssRNA virus). For the top figure, the order for 'o' is [15,17,12,16,8,14,9,11,13,4,7,3,10,6,2,5,1]* (left to right), whereas 'x' is [24,27,25,28,22,26,18,23,20,19,21]* (left to right). For the middle figure, the order for 'o' is [15,17,12,16,8,14,9,11,13,4,7,3,10,6,2,5,1]* (left to right), whereas 'x' is [24,27,25,28,22,26,18,23,20,19,21]* (left to right). For the bottom figure, the order for 'o' is [15,17,12,16,8,14,9,11,13,4,7,3,10,6,2,5,1]* (left to right), whereas 'x' is [24,27,25,28,22,26,18,23,20,19,21]* (left to right). *The corresponded virus for each number follows Figure 3.",
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 5: 3-D plot for the vectorial profiling of each virus onto the three eigen-vectors. The tetra-nucleotide usage patterns table in the additional file 2 (entire genome) for each virus have been redisplayed on the 1st, 2nd and 3rd eigen-vector axes ('o' represents positive strand ssRNA virus; 'x' represents negative strand ssRNA virus). The two families of viruses clustered into three different regions of the plot.",
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Figure 6: 2-D plots for Figure 5 with different viewpoint specifications. The tetra-nucleotide usage patterns table in the additional file 2 (entire genome) for each virus have been redisplayed on the (1st vs 2nd), (1st vs 3rd) and (2nd vs 3rd) eigen-vector axes ('o' represents positive strand ssRNA virus, 'x' represents negative strand ssRNA virus). For the top figure, the order for 'o' is [3,7,1,4,2,5,6,17,13,20,10,16,9,8,11,15,12,14,18,19]* (left to right), whereas 'x' is [26,22,30,23,24,28,31,27,25,29,21]* (left to right). For the middle figure, the order for 'o' is [3,7,1,4,2,5,6,17,13,20,10,16,9,8,11,15,12,14,18,19]* (left to right), whereas 'x' is [26,22,30,23,24,28,31,27,25,29,21]* (left to right). For the bottom figure, the order for 'o' is [3,7,1,4,2,5,6,17,13,20,10,16,9,8,11,15,12,14,18,19]* (left to right), whereas 'x' is [26,22,30,23,24,28,31,27,25,29,21]* (left to right). *The corresponded virus for each number follows Figure 5.",
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Figure 7: Flowchart for studying the tetra-nucleotide usage pattern. The FA and NJ algorithms stand for factor analysis [21-23] and neighbor joining [29] algorithm.",
+            "type": "figure"
+        }
+    },
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "Cumulative Number of Reported Probable Cases of SARS",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "Characterization of a Novel CoronaVirus Associated with Severe Acute Respiratory Syndrome",
+            "authors": [
+                {
+                    "first": "PA",
+                    "middle": [],
+                    "last": "Rota",
+                    "suffix": ""
+                },
+                {
+                    "first": "MS",
+                    "middle": [],
+                    "last": "Oberste",
+                    "suffix": ""
+                },
+                {
+                    "first": "SS",
+                    "middle": [],
+                    "last": "Monroe",
+                    "suffix": ""
+                },
+                {
+                    "first": "WA",
+                    "middle": [],
+                    "last": "Nix",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Campagnoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "JP",
+                    "middle": [],
+                    "last": "Icenogle",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Penaranda",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bankamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Maher",
+                    "suffix": ""
+                },
+                {
+                    "first": "MH",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tamin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Frace",
+                    "suffix": ""
+                },
+                {
+                    "first": "JL",
+                    "middle": [],
+                    "last": "DeRisi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "DD",
+                    "middle": [],
+                    "last": "Erdman",
+                    "suffix": ""
+                },
+                {
+                    "first": "TC",
+                    "middle": [],
+                    "last": "Peret",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Burns",
+                    "suffix": ""
+                },
+                {
+                    "first": "TG",
+                    "middle": [],
+                    "last": "Ksiazek",
+                    "suffix": ""
+                },
+                {
+                    "first": "PE",
+                    "middle": [],
+                    "last": "Rollin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liffick",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Holloway",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Limor",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "McCaustland",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Olsen-Rassmussen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fouchier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gunther",
+                    "suffix": ""
+                },
+                {
+                    "first": "AD",
+                    "middle": [],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                },
+                {
+                    "first": "MA",
+                    "middle": [],
+                    "last": "Pallansch",
+                    "suffix": ""
+                },
+                {
+                    "first": "LJ",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "WJ",
+                    "middle": [],
+                    "last": "Bellini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1394-9",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1085952"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "title": "A Novel CoronaVirus Associated with Severe Acute Respiratory Syndrome",
+            "authors": [
+                {
+                    "first": "TG",
+                    "middle": [],
+                    "last": "Ksiazek",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Erdman",
+                    "suffix": ""
+                },
+                {
+                    "first": "CS",
+                    "middle": [],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "SR",
+                    "middle": [],
+                    "last": "Zaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Peret",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Emery",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Urbani",
+                    "suffix": ""
+                },
+                {
+                    "first": "JA",
+                    "middle": [],
+                    "last": "Comer",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "PE",
+                    "middle": [],
+                    "last": "Rollin",
+                    "suffix": ""
+                },
+                {
+                    "first": "SF",
+                    "middle": [],
+                    "last": "Dowell",
+                    "suffix": ""
+                },
+                {
+                    "first": "AE",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "CD",
+                    "middle": [],
+                    "last": "Humphrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "WJ",
+                    "middle": [],
+                    "last": "Shieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guarner",
+                    "suffix": ""
+                },
+                {
+                    "first": "CD",
+                    "middle": [],
+                    "last": "Paddock",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rota",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Fields",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "DeRisi",
+                    "suffix": ""
+                },
+                {
+                    "first": "JY",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "JM",
+                    "middle": [],
+                    "last": "Hughes",
+                    "suffix": ""
+                },
+                {
+                    "first": "JW",
+                    "middle": [],
+                    "last": "LeDuc",
+                    "suffix": ""
+                },
+                {
+                    "first": "WJ",
+                    "middle": [],
+                    "last": "Bellini",
+                    "suffix": ""
+                },
+                {
+                    "first": "LJ",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "N Engl J Med",
+            "volume": "348",
+            "issn": "",
+            "pages": "1953-66",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa030781"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "title": "Ecological fitness, genomic islands and bacterial pathogenicity. A Darwinian view of the evolution of microbes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hacker",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Carniel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "EMBO Rep",
+            "volume": "2",
+            "issn": "",
+            "pages": "376-81",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "The tendency of lentiviral open reading frames to become A-rich: constraints imposed by viral genome organization and cellular tRNA availability",
+            "authors": [
+                {
+                    "first": "FJ",
+                    "middle": [],
+                    "last": "van Hemert",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Berkhout",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J Mol Evol",
+            "volume": "41",
+            "issn": "",
+            "pages": "132-40",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "Biological function of DNA methylation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hubacek",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Folia Microbiol (Praha)",
+            "volume": "37",
+            "issn": "",
+            "pages": "323-9",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "Why is CpG suppressed in the genomes of virtually all small eukaryotic viruses but not in those of large eukaryotic viruses?",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Karlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Doerfler",
+                    "suffix": ""
+                },
+                {
+                    "first": "LR",
+                    "middle": [],
+                    "last": "Cardon",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "J Virol",
+            "volume": "68",
+            "issn": "",
+            "pages": "2889-97",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "Specific RNA methylase associated with avian myeloblastosis virus",
+            "authors": [
+                {
+                    "first": "RR",
+                    "middle": [],
+                    "last": "Gantt",
+                    "suffix": ""
+                },
+                {
+                    "first": "KJ",
+                    "middle": [],
+                    "last": "Stromberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Montes de Oca",
+                    "suffix": ""
+                }
+            ],
+            "year": 1971,
+            "venue": "Nature",
+            "volume": "234",
+            "issn": "",
+            "pages": "35-37",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "A sensitive genetic assay for the detection of cytosine deamination: determination of rate constants and the activation energy",
+            "authors": [
+                {
+                    "first": "LA",
+                    "middle": [],
+                    "last": "Frederico",
+                    "suffix": ""
+                },
+                {
+                    "first": "TA",
+                    "middle": [],
+                    "last": "Kunkel",
+                    "suffix": ""
+                },
+                {
+                    "first": "BR",
+                    "middle": [],
+                    "last": "Shaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Biochemistry",
+            "volume": "29",
+            "issn": "",
+            "pages": "2532-7",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "The nonenzymatic hydrolysis of oligoribonucleotides. VII. Structural elements affecting hydrolysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bibillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Figlerowicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ziomek",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kierzek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nucleosides Nucleotides Nucleic Acids",
+            "volume": "19",
+            "issn": "",
+            "pages": "977-94",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "Evolution of the genome and the genetic code: selection at the dinucleotide level by methylation and polyribonucleotide cleavage",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Beutler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gelbart",
+                    "suffix": ""
+                },
+                {
+                    "first": "JH",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "JA",
+                    "middle": [],
+                    "last": "Koziol",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Beutler",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Proc Natl Acad Sci USA",
+            "volume": "86",
+            "issn": "",
+            "pages": "192-6",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "Aetiology: Koch's postulates fulfilled for SARS virus",
+            "authors": [
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Fouchier",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kuiken",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schutten",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Van Amerongen",
+                    "suffix": ""
+                },
+                {
+                    "first": "GJ",
+                    "middle": [],
+                    "last": "Van Doornum",
+                    "suffix": ""
+                },
+                {
+                    "first": "BG",
+                    "middle": [],
+                    "last": "Van Den Hoogen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Stohr",
+                    "suffix": ""
+                },
+                {
+                    "first": "AD",
+                    "middle": [],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "423",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": [
+                    "10.1038/423240a"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "MHV",
+                    "middle": [],
+                    "last": "Regenmortel",
+                    "suffix": ""
+                },
+                {
+                    "first": "CM",
+                    "middle": [],
+                    "last": "van Fauquet",
+                    "suffix": ""
+                },
+                {
+                    "first": "DHL",
+                    "middle": [],
+                    "last": "Bishop",
+                    "suffix": ""
+                },
+                {
+                    "first": "EB",
+                    "middle": [],
+                    "last": "Carstens",
+                    "suffix": ""
+                },
+                {
+                    "first": "MK",
+                    "middle": [],
+                    "last": "Estes",
+                    "suffix": ""
+                },
+                {
+                    "first": "SM",
+                    "middle": [],
+                    "last": "Lemon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Maniloff",
+                    "suffix": ""
+                },
+                {
+                    "first": "MA",
+                    "middle": [],
+                    "last": "Mayo",
+                    "suffix": ""
+                },
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "McGeoch",
+                    "suffix": ""
+                },
+                {
+                    "first": "CR",
+                    "middle": [],
+                    "last": "Pringle",
+                    "suffix": ""
+                },
+                {
+                    "first": "RB",
+                    "middle": [],
+                    "last": "Wickner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Virus Taxonomy: Classification and Nomenclature of Viruses Seventh Report of the International Committee on Taxonomy of Viruses",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "Factor Analysis for Categorical Data, Journal of the Royal Statistical Society. Series B (Methodological)",
+            "authors": [
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Bartholomew",
+                    "suffix": ""
+                }
+            ],
+            "year": 1980,
+            "venue": "",
+            "volume": "42",
+            "issn": "",
+            "pages": "293-321",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Mueller Charles",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Introduction to factor analysis: What it is and how to do it",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "Factor Analysis for Categorical Data, Journal of the Royal Statistical Society. Series B (Methodological)",
+            "authors": [
+                {
+                    "first": "DJ",
+                    "middle": [],
+                    "last": "Bartholomew",
+                    "suffix": ""
+                }
+            ],
+            "year": 1980,
+            "venue": "",
+            "volume": "42",
+            "issn": "",
+            "pages": "293-321",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [
+                {
+                    "first": "WJ",
+                    "middle": [],
+                    "last": "Ewens",
+                    "suffix": ""
+                },
+                {
+                    "first": "GR",
+                    "middle": [],
+                    "last": "Grant",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Statistical Methods in Bioinformatics",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "Nucleotide composition as a driving force in the evolution of retroviruses",
+            "authors": [
+                {
+                    "first": "EC",
+                    "middle": [],
+                    "last": "Bronson",
+                    "suffix": ""
+                },
+                {
+                    "first": "JN",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "J Mol Evol",
+            "volume": "38",
+            "issn": "",
+            "pages": "506-32",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "Oligo-nucleotide bias in Bacillus subtilis: general trends and taxonomic comparisons",
+            "authors": [
+                {
+                    "first": "EP",
+                    "middle": [],
+                    "last": "Rocha",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Viari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Danchin",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Nucleic Acids Res",
+            "volume": "26",
+            "issn": "",
+            "pages": "2971-80",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/26.12.2971"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "title": "Over- and underrepresentation of short DNA words in herpesvirus genomes",
+            "authors": [
+                {
+                    "first": "MY",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "GM",
+                    "middle": [],
+                    "last": "Marsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "TP",
+                    "middle": [],
+                    "last": "Speed",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J Comput Biol",
+            "volume": "3",
+            "issn": "",
+            "pages": "345-60",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "Exceptional motifs in different Markov chain models for a statistical analysis of DNA sequences",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schbath",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Prum",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "de Turckheim",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J Comput Biol",
+            "volume": "2",
+            "issn": "",
+            "pages": "417-37",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "The neighbor-joining method: A new method for reconstructing trees",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Saitou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nei",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Mol Biol and Evol",
+            "volume": "4",
+            "issn": "",
+            "pages": "406-425",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "SARS update",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hoey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Maskalyk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "CMAJ",
+            "volume": "168",
+            "issn": "",
+            "pages": "1294-5",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "SARS Web information",
+            "authors": [
+                {
+                    "first": "JS",
+                    "middle": [],
+                    "last": "James",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "AIDS Treat News",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "Situation Updates \u2013 SARS",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": null,
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "Identification of a Novel CoronaVirus in Patients with Severe Acute Respiratory Syndrome",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gunther",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Preiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Der Werf",
+                    "suffix": ""
+                },
+                {
+                    "first": "HR",
+                    "middle": [],
+                    "last": "Brodt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Becker",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rabenau",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Panning",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kolesnikova",
+                    "suffix": ""
+                },
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Fouchier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Berger",
+                    "suffix": ""
+                },
+                {
+                    "first": "AM",
+                    "middle": [],
+                    "last": "Burguiere",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cinatl",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Eickmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Escriou",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Grywna",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kramme",
+                    "suffix": ""
+                },
+                {
+                    "first": "JC",
+                    "middle": [],
+                    "last": "Manuguerra",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Rickerts",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sturmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vieth",
+                    "suffix": ""
+                },
+                {
+                    "first": "HD",
+                    "middle": [],
+                    "last": "Klenk",
+                    "suffix": ""
+                },
+                {
+                    "first": "AD",
+                    "middle": [],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Schmitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "HW",
+                    "middle": [],
+                    "last": "Doerr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "N Engl J Med",
+            "volume": "348",
+            "issn": "",
+            "pages": "1967-76",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa030747"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "title": "High frequency RNA recombination in porcine reproductive and respiratory syndrome virus occurs preferentially between parental sequences with high similarity",
+            "authors": [
+                {
+                    "first": "JJ",
+                    "middle": [],
+                    "last": "Van Vugt",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Storgaard",
+                    "suffix": ""
+                },
+                {
+                    "first": "MB",
+                    "middle": [],
+                    "last": "Oleksiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Botner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J Gen Virol",
+            "volume": "82",
+            "issn": "",
+            "pages": "2615-20",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "Increased mutation frequency of feline immunodeficiency virus lacking functional deoxyuridine-triphosphatase",
+            "authors": [
+                {
+                    "first": "DL",
+                    "middle": [],
+                    "last": "Lerner",
+                    "suffix": ""
+                },
+                {
+                    "first": "PC",
+                    "middle": [],
+                    "last": "Wagaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "TR",
+                    "middle": [],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Prospero-Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "SJ",
+                    "middle": [],
+                    "last": "Henriksen",
+                    "suffix": ""
+                },
+                {
+                    "first": "HS",
+                    "middle": [],
+                    "last": "Fox",
+                    "suffix": ""
+                },
+                {
+                    "first": "FE",
+                    "middle": [],
+                    "last": "Bloom",
+                    "suffix": ""
+                },
+                {
+                    "first": "JH",
+                    "middle": [],
+                    "last": "Elder",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Proc Natl Acad Sci USA",
+            "volume": "92",
+            "issn": "",
+            "pages": "7480-4",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "The Genome Sequence of the SARS-Associated CoronaVirus",
+            "authors": [
+                {
+                    "first": "MA",
+                    "middle": [],
+                    "last": "Marra",
+                    "suffix": ""
+                },
+                {
+                    "first": "SJ",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "CR",
+                    "middle": [],
+                    "last": "Astell",
+                    "suffix": ""
+                },
+                {
+                    "first": "RA",
+                    "middle": [],
+                    "last": "Holt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Brooks-Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "YS",
+                    "middle": [],
+                    "last": "Butterfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Khattra",
+                    "suffix": ""
+                },
+                {
+                    "first": "JK",
+                    "middle": [],
+                    "last": "Asano",
+                    "suffix": ""
+                },
+                {
+                    "first": "SA",
+                    "middle": [],
+                    "last": "Barber",
+                    "suffix": ""
+                },
+                {
+                    "first": "SY",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cloutier",
+                    "suffix": ""
+                },
+                {
+                    "first": "SM",
+                    "middle": [],
+                    "last": "Coughlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Freeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Girn",
+                    "suffix": ""
+                },
+                {
+                    "first": "OL",
+                    "middle": [],
+                    "last": "Griffith",
+                    "suffix": ""
+                },
+                {
+                    "first": "SR",
+                    "middle": [],
+                    "last": "Leach",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mayo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "McDonald",
+                    "suffix": ""
+                },
+                {
+                    "first": "SB",
+                    "middle": [],
+                    "last": "Montgomery",
+                    "suffix": ""
+                },
+                {
+                    "first": "PK",
+                    "middle": [],
+                    "last": "Pandoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "AS",
+                    "middle": [],
+                    "last": "Petrescu",
+                    "suffix": ""
+                },
+                {
+                    "first": "AG",
+                    "middle": [],
+                    "last": "Robertson",
+                    "suffix": ""
+                },
+                {
+                    "first": "JE",
+                    "middle": [],
+                    "last": "Schein",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Siddiqui",
+                    "suffix": ""
+                },
+                {
+                    "first": "DE",
+                    "middle": [],
+                    "last": "Smailus",
+                    "suffix": ""
+                },
+                {
+                    "first": "JM",
+                    "middle": [],
+                    "last": "Stott",
+                    "suffix": ""
+                },
+                {
+                    "first": "GS",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Plummer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Andonov",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Artsob",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bastien",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "BeRNArd",
+                    "suffix": ""
+                },
+                {
+                    "first": "TF",
+                    "middle": [],
+                    "last": "Booth",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bowness",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Drebot",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "FeRNAndo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Flick",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garbutt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gray",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Grolla",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Feldmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meyers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kabani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Normand",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Stroher",
+                    "suffix": ""
+                },
+                {
+                    "first": "GA",
+                    "middle": [],
+                    "last": "Tipples",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tyler",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Vogrig",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Watson",
+                    "suffix": ""
+                },
+                {
+                    "first": "RC",
+                    "middle": [],
+                    "last": "Brunham",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Krajden",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Petric",
+                    "suffix": ""
+                },
+                {
+                    "first": "DM",
+                    "middle": [],
+                    "last": "Skowronski",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Upton",
+                    "suffix": ""
+                },
+                {
+                    "first": "RL",
+                    "middle": [],
+                    "last": "Roper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1399-404",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1085953"
+                ]
+            }
+        }
+    }
+}

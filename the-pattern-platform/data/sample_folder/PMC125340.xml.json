@@ -1,0 +1,1428 @@
+{
+    "paper_id": "PMC125340",
+    "metadata": {
+        "title": "Sequence requirements for RNA strand transfer during nidovirus discontinuous subgenomic RNA synthesis",
+        "authors": [
+            {
+                "first": "Alexander",
+                "middle": [
+                    "O."
+                ],
+                "last": "Pasternak",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Erwin",
+                "middle": [],
+                "last": "van den Born",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Willy",
+                "middle": [
+                    "J.M."
+                ],
+                "last": "Spaan",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            },
+            {
+                "first": "Eric",
+                "middle": [
+                    "J."
+                ],
+                "last": "Snijder",
+                "suffix": "",
+                "email": null,
+                "affiliation": {}
+            }
+        ]
+    },
+    "body_text": [
+        {
+            "text": "The genetic information of RNA viruses is organized very efficiently. Practically every nucleotide of their genome is utilized, either as protein-coding sequence or as cis-acting signals for translation, RNA synthesis or RNA encapsidation. As part of their genome expression strategy, several groups of positive-strand RNA (+RNA) viruses produce subgenomic (sg) mRNAs (reviewed by Miller and Koev, 2000). The replication of their genomic RNA, which is also the mRNA for the viral replicase, is supplemented with the generation of sg transcripts to express structural and auxiliary proteins, which are encoded downstream of the replicase gene in the genome. Sg mRNAs of +RNA viruses are always 3\u2032-co-terminal with the genomic RNA, but different mechanisms are used for their synthesis. Some viruses, such as brome mosaic virus, initiate sg mRNA synthesis internally on the full-length minus strand RNA template (Miller et al., 1985). Others, exemplified by red clover necrotic mosaic virus (RCNMV), may rely on premature termination of minus strand synthesis from the genomic RNA template, followed by the synthesis of sg plus strands from the truncated minus strand template (Sit et al., 1998). Members of the order Nidovirales, which includes coronaviruses and arteriviruses, have evolved a third and unique mechanism, which employs discontinuous RNA synthesis for the generation of an extensive set of sg RNAs (reviewed by Brian and Spaan, 1997; Lai and Cavanagh, 1997; Snijder and Meulenberg, 1998). Nidovirus sg mRNAs differ fundamentally from other viral sg RNAs in that they are not only 3\u2032-co-terminal, but also 5\u2032-co-terminal with the genome (Figure 1A). A 5\u2032 common leader sequence of 65\u2013221 nucleotides, derived from the 5\u2032 end of the genomic RNA, is attached to the 3\u2032 part of each sg RNA (the \u2018mRNA body\u2019).",
+            "cite_spans": [
+                {
+                    "start": 381,
+                    "end": 402,
+                    "mention": "Miller and Koev, 2000",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 911,
+                    "end": 930,
+                    "mention": "Miller et al., 1985",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1176,
+                    "end": 1192,
+                    "mention": "Sit et al., 1998",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1425,
+                    "end": 1446,
+                    "mention": "Brian and Spaan, 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1448,
+                    "end": 1470,
+                    "mention": "Lai and Cavanagh, 1997",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1472,
+                    "end": 1500,
+                    "mention": "Snijder and Meulenberg, 1998",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": [
+                {
+                    "start": 1658,
+                    "end": 1659,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Various models have been put forward to explain the co-transcriptional fusion of non-contiguous parts of the nidovirus genome during sg RNA synthesis (Figure 1B and C). Central to each of these models are short transcription-regulating sequences (TRSs), which are present both at the 3\u2032 end of the leader and at the 5\u2032 end of the sg RNA body regions in the genomic RNA. The TRS is copied into the mRNA and connects its leader and body part (Spaan et al., 1983; Lai et al., 1984). Synthesis of sg mRNAs initially was proposed to be primed by free leader transcripts, which would base-pair to the complementary TRS regions in the full-length minus strand, and would be extended subsequently to make sg plus strands (Figure 1B; Baric et al., 1983, 1985). This model, however, was based on the report that sg minus strands were not present in coronavirus-infected cells (Lai et al., 1982). The subsequent discovery of such molecules (Sethna et al., 1989) resulted in reconsideration of the initial \u2018leader-primed transcription\u2019 model. Sawicki and Sawicki (1995) have proposed an alternative model (Figure 1C), in which the discontinuous step occurs during minus instead of plus strand RNA synthesis. In this model, minus strand synthesis would be attenuated after copying a body TRS from the plus strand template. Next, the nascent minus strand, with the TRS complement at its 3\u2032 end, would be transferred to the leader TRS and attach by means of TRS\u2013TRS base pairing. RNA synthesis would be reinitiated to complete the sg minus strand by adding the complement of the genomic leader sequence. Subse quently, the sg minus strand would be used as template for sg mRNA synthesis, and the presence of the leader complement at its 3\u2032 end might allow the use of the same RNA signals that direct genome synthesis from the full-length minus strand.",
+            "cite_spans": [
+                {
+                    "start": 441,
+                    "end": 459,
+                    "mention": "Spaan et al., 1983",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 461,
+                    "end": 477,
+                    "mention": "Lai et al., 1984",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 725,
+                    "end": 743,
+                    "mention": "Baric et al., 1983",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 745,
+                    "end": 749,
+                    "mention": "1985",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 867,
+                    "end": 883,
+                    "mention": "Lai et al., 1982",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 930,
+                    "end": 949,
+                    "mention": "Sethna et al., 1989",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1031,
+                    "end": 1057,
+                    "mention": "Sawicki and Sawicki (1995)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": [
+                {
+                    "start": 158,
+                    "end": 159,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 721,
+                    "end": 722,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1101,
+                    "end": 1102,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Using site-directed mutagenesis of TRSs of the arterivirus equine arteritis virus (EAV), we have shown previously that base pairing between the sense leader TRS and antisense body TRSs is crucial for sg mRNA synthesis (van Marle et al., 1999a). However, base pairing is only one step of the nascent strand transfer process and is essential in both models outlined in Figure 1. The EAV genomic RNA contains several sequences that match the leader TRS precisely, but nevertheless are not used for sg RNA synthesis (den Boon et al., 1996; Pasternak et al., 2000). This suggests that leader\u2013body TRS similarity alone is, though necessary, not sufficient for the strand transfer to occur.",
+            "cite_spans": [
+                {
+                    "start": 219,
+                    "end": 242,
+                    "mention": "van Marle et al., 1999a",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 513,
+                    "end": 534,
+                    "mention": "den Boon et al., 1996",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 536,
+                    "end": 558,
+                    "mention": "Pasternak et al., 2000",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "section": "Introduction",
+            "ref_spans": [
+                {
+                    "start": 374,
+                    "end": 375,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "To gain further insight into the cis-acting signals regulating sg RNA synthesis, we performed a comprehensive site-directed mutagenesis study of the EAV leader and body TRSs. Every nucleotide of the TRS (5\u2032-UCAACU-3\u2032) was substituted with each of the three alternative nucleotides. Our analysis revealed a number of striking similarities with the process of copy-choice RNA recombination, as it occurs in RNA viruses. Whereas the leader TRS plays only a targeting role in translocation of the nascent strand, body TRS nucleotides appear to fulfil diverse position-specific and base-specific functions. In addition, the sequence of the leader\u2013body junctions of the sg mRNAs produced by these mutants provided strong evidence for the discontinuous minus strand extension model.",
+            "cite_spans": [],
+            "section": "Introduction",
+            "ref_spans": []
+        },
+        {
+            "text": "To dissect EAV RNA synthesis, we routinely use a full-length cDNA clone (van Dinten et al., 1997), from which infectious EAV RNA is in vitro transcribed. Following transfection of the RNA into baby hamster kidney (BHK-21) cells, intracellular RNA is isolated and analysed by northern blot hybridization and RT\u2013PCR (van Marle et al., 1999a). Due to differences in transfection efficiency, the total amount of virus-specific RNA (genomic RNA and sg mRNA) isolated from transfected cell cultures is somewhat variable. Thus, the accurate quantitation of sg mRNA synthesis by TRS mutants requires an internal standard for transfection efficiency. The amount of viral genomic RNA can be this standard, but only if its amplification is not dramatically affected by the TRS mutations. To prove that this is the case, we used the previously described mutants L4, B4 and LB4 (van Marle et al., 1999a), in which five nucleotides of the TRS (5\u2032-UCAAC-3\u2032) were replaced by the sequence 5\u2032-AGUUG-3\u2032, either in the leader TRS (L4), RNA7 body TRS (B4) or both TRSs (LB4).",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 96,
+                    "mention": "van Dinten et al., 1997",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 315,
+                    "end": 338,
+                    "mention": "van Marle et al., 1999a",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 866,
+                    "end": 889,
+                    "mention": "van Marle et al., 1999a",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "section": "EAV genome replication is not significantly affected by leader TRS and body TRS mutations ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The three mutants were tested in three independent experiments. Intracellular RNA was isolated at 14 h post-transfection, early enough to prevent spread of the wild-type control virus to non-transfected cells (first cycle analysis). Transfection efficiencies were determined by immunofluorescence assays (see Materials and methods) and varied between 10 and 23% (data not shown). Prior to RNA analysis, the amount of isolated intracellular RNA was corrected for the transfection efficiency of the sample, so that each lane in Figure 2 represents EAV-specific RNA from an approximately equal number of EAV-positive cells. Phosphoimager quantitation revealed that genomic RNA replication of mutants L4, B4 and LB4 varied by not more than 30% (Table I). These differences could reflect, for example, a slight influence of RNA secondary structure changes in the TRS regions on genomic RNA synthesis. Remarkably, however, the genomic RNA level of the leader\u2013body TRS double mutant LB4 was not affected by more than 10%. In view of the results obtained with these pentanucleotide TRS mutants, we assumed that the amount of genomic RNA could indeed be used as an internal standard during the analysis of mutants containing only single nucleotide replacements in leader TRS and/or RNA7 body TRS.",
+            "cite_spans": [],
+            "section": "EAV genome replication is not significantly affected by leader TRS and body TRS mutations ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 533,
+                    "end": 534,
+                    "mention": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 747,
+                    "end": 748,
+                    "mention": "I",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "There are numerous examples of regulatory RNA\u2013RNA interactions in both eukaryotic and prokaryotic cells, as well as in RNA viruses. Essential processes such as translation, replication and encapsidation of RNA virus genomes frequently depend on RNA\u2013RNA interactions and higher order RNA structures. Regulation of sg RNA synthesis of +RNA viruses by RNA\u2013RNA interactions is also not without precedent. In tomato bushy stunt virus, an RNA element located 1000 nucleotide upstream of the sg RNA2 promoter base-pairs with the promoter and is necessary for sg RNA production (Zhang et al., 1999). Similarly, base pairing interactions between complementary sequences in the 5\u2032 end of the potato virus X genomic RNA and sequences upstream of two major sg RNA promoters are required for efficient sg RNA synthesis (Kim and Hemenway, 1999). In RCNMV, an intermolecular RNA\u2013RNA interaction is required for sg RNA synthesis (Sit et al., 1998).",
+            "cite_spans": [
+                {
+                    "start": 571,
+                    "end": 589,
+                    "mention": "Zhang et al., 1999",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 807,
+                    "end": 829,
+                    "mention": "Kim and Hemenway, 1999",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 914,
+                    "end": 930,
+                    "mention": "Sit et al., 1998",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "section": "The RNA\u2013RNA interaction between the leader and body TRSs is not the only factor that regulates EAV sg RNA synthesis ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Recently, we have established the pivotal role of an interaction between sense and antisense RNA sequences in the life cycle of EAV (van Marle et al., 1999a). In that study, the role of TRS nucleotides C2 and C5 was tested by substituting them with G. It was concluded that base pairing between the sense leader TRS and the antisense body TRS plays a crucial role in nidovirus sg RNA synthesis. We now took a more systematic approach and performed an extensive site-directed co-variation mutagenesis study of the entire leader TRS and RNA7 body TRS, which directs the synthesis of the most abundant EAV sg RNA. Every nucleotide of the TRS (5\u2032-UCA ACU-3\u2032) was replaced with each of the other possible nucleotides. As in the study of van Marle et al. (1999a), every mutation was introduced into leader TRS, RNA7 body TRS and both TRSs, resulting in 54 mutant constructs. Each mutant was given a unique name: e.g. BU1A refers to a mutant in which a U has been changed to A at position 1 of the body TRS; LU1A refers to the same substitution in the leader TRS; and DU1A means that these two substitutions were combined in one double mutant construct. The amount of sg RNA7 was quantitated by phosphoimager scanning of hybridized gels and was corrected for the amount of genomic RNA in the same lane (as outlined above). Figure 3 shows the relative sg RNA7 level of the 54 mutants, compared with the RNA7 level of the wild-type control. For a selection of 11 interesting mutants (see below), the analysis was repeated three times (Figure 4), without observing significant variations in sg RNA synthesis.",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 156,
+                    "mention": "van Marle et al., 1999a",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 732,
+                    "end": 756,
+                    "mention": "van Marle et al. (1999a)",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "section": "The RNA\u2013RNA interaction between the leader and body TRSs is not the only factor that regulates EAV sg RNA synthesis ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 1323,
+                    "end": 1324,
+                    "mention": "3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1533,
+                    "end": 1534,
+                    "mention": "4",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The comprehensive analysis of the effects of TRS mutations considerably expanded our understanding of discontinuous sg RNA synthesis. Remarkably, the effects of single (leader or body) TRS mutations were mostly base specific, i.e. different nucleotide substitutions at the same position affected sg RNA7 synthesis to different extents. For example, at position 1, the BU1A mutant retained 44% of the wild-type RNA7 synthesis level, whereas both the BU1C and BU1G mutants lost RNA7 synthesis almost completely. Conversely, when U1 of the leader TRS was changed to A or G, RNA7 synthesis was completely abolished, whereas 13% of the wild-type level was still maintained by LU1C. For position 2, only the BC2U mutant retained 30% of the wild-type RNA7 synthesis level, while all the other position 2 single mutants have lost 90% or more of wild-type RNA7 synthesis. Another example is position 6: BU6C left only 5% of wild-type RNA7 synthesis, whereas BU6A produced much higher RNA7 levels. This implied that for some positions (1, 2 and 6), certain mismatches in the duplex between plus leader TRS and minus body TRS, such as U\u2013U (BU1A and BU6A) or C\u2013A (LU1C and BC2U), are allowed to a limited extent. In contrast, no mismatches were allowed for position 5, where all single nucleotide substitutions abolished RNA7 synthesis almost completely.",
+            "cite_spans": [],
+            "section": "The RNA\u2013RNA interaction between the leader and body TRSs is not the only factor that regulates EAV sg RNA synthesis ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Surprisingly, both body TRS U to C substitutions at positions 1 and 6 (BU1C and BU6C) resulted in low levels of RNA7, despite the fact that these mutations allow the formation of a G\u2013U base pair between the plus leader TRS, providing the U nucleotide, and the minus body TRS, providing the G. On the other hand, for positions 3 and 4, G\u2013U base pairing was shown to be functional, because mutants LA3G and LA4G, which can form G\u2013U base pairs between the G in the plus leader TRS and U in the minus body TRS, were the only position 3 and 4 single mutants that produced reasonable levels of RNA7. Taken together, these findings suggest that other factors, besides leader\u2013 body base pairing, also play a role in sg RNA synthesis and that the primary sequence (or secondary structure) of TRSs may dictate strong base preferences at certain positions. Our analysis of the degree of complementation by the double mutants provided strong support for this assumption.",
+            "cite_spans": [],
+            "section": "The RNA\u2013RNA interaction between the leader and body TRSs is not the only factor that regulates EAV sg RNA synthesis ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "For some TRS nucleotides (2, 5 and 6, except in the case of DU6C), the RNA7 level of double mutants was clearly higher than that of the corresponding single mutants. This means that base pairing between these leader and body TRS nucleotides is involved in sg RNA synthesis. However, none of these double mutants reached the wild-type sg RNA7 level. In the other double mutants (all position 1, 3 and 4 mutants, and DU6C), in clear contradiction to the predictions of the \u2018base pairing model\u2019, RNA7 synthesis was not significantly restored. Moreover, a comparison of the values for the B and D mutants in Figure 3 showed that, for almost all of these mutants (e.g. the position 1 mutants), the amount of sg RNA7 produced by the double mutant appeared to be limited by the level allowed by the body TRS mutation. Sometimes the RNA7 level of the double mutant was even less than that of the leader mutant (DU1C, DA3G, DA4G or DU6C). Clearly, for these substitutions, restoration of the possibilities for leader\u2013body duplex formation did not restore sg RNA synthesis. Apparently this is because the effect of body TRS mutations at the level of primary sequence or secondary structure can be \u2018dominant\u2019 over the duplex-restoring effects of the double mutations.",
+            "cite_spans": [],
+            "section": "Differentiating between effects at the level of primary TRS sequence and the level of leader\u2013body duplex formation ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Body TRS mutants thus fell into two distinct types, determined by the position and chemistry of the substitution. In mutants of the first type, sg RNA synthesis was impaired mainly because of the disruption of the leader\u2013 body TRS duplex. This effect could be compensated for by introduction of the corresponding mutation in the leader TRS and, in the double mutant, sg RNA synthesis was restored compared with the corresponding single mutants. In mutants of the second type, sg RNA synthesis was down-regulated as a consequence of both TRS duplex disruption and disruption of the primary sequence (or secondary structure) of the body TRS. Obviously, the latter effect could not be compensated for by mutating the leader TRS, and the corresponding double mutants did not show restoration of sg RNA synthesis.",
+            "cite_spans": [],
+            "section": "Differentiating between effects at the level of primary TRS sequence and the level of leader\u2013body duplex formation ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "In contrast to our findings with the body TRS mutants, we did not obtain leader TRS mutations that appeared to determine the level of sg RNA7 synthesis of the corresponding double mutant (Figure 3). Thus, effects of mutations in the leader TRS were not \u2018dominant\u2019 over the duplex-restoring effects of the double mutations, suggesting that they only affected duplex formation. This indicated that the leader TRS probably does not have an additional, sequence-specific function in sg RNA synthesis in addition to its participation in TRS\u2013TRS base pairing. The fact that single leader TRS mutations at all six positions severely repressed RNA7 synthesis indicated that base pairing of every TRS nucleotide contributes to sg RNA production. In this respect, it was significant that the two leader TRS mutants with the highest RNA7 levels, LA3G and LA4G, can form G\u2013U base pairs to maintain the duplex.",
+            "cite_spans": [],
+            "section": "Differentiating between effects at the level of primary TRS sequence and the level of leader\u2013body duplex formation ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 195,
+                    "end": 196,
+                    "mention": "3",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "The observation that leader TRS mutations could be \u2018rescued\u2019 by introducing complementary mutations in the body TRS, but that many body TRS mutations could not be \u2018rescued\u2019 by corresponding changes in the leader TRS, is clearly illustrated by the U1A mutants. Due to the restoration of TRS base pairing possibilities, the RNA7 synthesis of double mutant DU1A was significantly increased compared with that of LU1A, but not above the level of BU1A. Thus, restoration of the leader\u2013body duplex in DU1A exerted a clear effect on sg RNA7 production compared with LU1A, but had no effect on sg RNA synthesis compared with BU1A. This exemplified the dominant nature of a mutation in the primary sequence of a body TRS. In contrast, for instance, the BC2U mutation probably affected duplex formation only, because RNA7 synthesis was restored almost to wild-type levels in the DC2U double mutant.",
+            "cite_spans": [],
+            "section": "Differentiating between effects at the level of primary TRS sequence and the level of leader\u2013body duplex formation ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "These results indicate that there are strong base preference constraints for some body TRS positions. To interpret these base preferences accurately, it is necessary to limit the analysis to the double mutants only, because in these mutants the down-regulation of sg RNA synthesis was only due to the sequence changes in the body TRS, and not to the disruption of the leader\u2013body TRS duplex. There were strict preferences for positions 1, 3 and 4 of the body TRS: at position 1, only the U to A substitution allowed for a significant RNA7 level (\u223c40% of wild-type); and at positions 3 and 4, only the A to U mutants retained 15\u201320% of the wild-type level. For positions 2 and 5, the sequence constraints were less stringent (all substitutions allowed for >20% of wild-type level), but still only DC2A and DC2U reached >50%. At position 6 of the body TRS, only U to C was not allowed, whereas the other two double mutants still produced 50% or more of RNA7. In other words, the functional EAV RNA7 body TRS (based on the analysis of our single nucleotide substitutions) can be described as U1(C/u/a)2A3A4C5(U/a/g)6, with wild-type nucleotides shown in upper case and nucleotides that allowed for at least 50% of the wild-type RNA7 level shown in lower case. Remarkably, TRS nucleotides A3, A4 and C5 are conserved in the TRSs of all other arteriviruses (Snijder and Meulenberg, 1998). Also the fact that DC2U retained 80% of RNA7 synthesis corresponded nicely to the presence of a U at this position in other arteriviruses.",
+            "cite_spans": [
+                {
+                    "start": 1353,
+                    "end": 1381,
+                    "mention": "Snijder and Meulenberg, 1998",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "section": "Differentiating between effects at the level of primary TRS sequence and the level of leader\u2013body duplex formation ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Until recently (Almazan et al., 2000; Thiel et al., 2001), infectious cDNA clones were lacking for coronaviruses. Consequently, most studies on coronavirus sg RNA synthesis were carried out using defective interfering (DI) RNAs. These replicons carried body TRSs from which moderate levels of sg mRNAs could be produced in the presence of helper virus. Using this system, Joo and Makino (1992) and van der Most et al. (1994) performed body TRS mutagenesis studies for the murine coronavirus (MHV). Joo and Makino systematically mutagenized the core of the MHV body TRS. In contrast to our results, they found that in only two of 21 body TRS mutants was sg RNA synthesis from the DI RNA genome abolished, whereas all others supported normal levels of sg RNA production. Thus, it is possible that the MHV TRS which was used in that study is more tolerant to single-nucleotide mismatches than the EAV sg RNA7 TRS.",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 36,
+                    "mention": "Almazan et al., 2000",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 38,
+                    "end": 56,
+                    "mention": "Thiel et al., 2001",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 372,
+                    "end": 393,
+                    "mention": "Joo and Makino (1992)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 398,
+                    "end": 424,
+                    "mention": "van der Most et al. (1994)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "section": "Differentiating between effects at the level of primary TRS sequence and the level of leader\u2013body duplex formation ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "In a similar study, van der Most et al. (1994) observed that U to C substitutions at positions 1 and 3 of the MHV body TRS, which maintained the duplex by changing a U\u2013A base pair into a U\u2013G base pair, reduced sg RNA levels more strongly than substitutions that disrupted the duplex (van der Most et al., 1994). This implies that, as in the case of EAV, leader\u2013body TRS duplex formation is not the only factor that determines coronavirus sg RNA synthesis. However, because of the limitations of the DI RNA system, the leader TRS could not be mutagenized in these studies, and body TRS-specific effects could not be distinguished from effects at the level of leader\u2013body duplex formation.",
+            "cite_spans": [
+                {
+                    "start": 20,
+                    "end": 46,
+                    "mention": "van der Most et al. (1994)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 284,
+                    "end": 309,
+                    "mention": "van der Most et al., 1994",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "section": "Differentiating between effects at the level of primary TRS sequence and the level of leader\u2013body duplex formation ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Due to recent studies of arterivirus and coronavirus sg RNA synthesis (van Marle et al., 1999a; Baric and Yount, 2000; Sawicki et al., 2001), the discontinuous minus strand extension model (Figure 1C) has been gaining more and more ground. This model predicts that the TRS-derived sequence that forms the leader\u2013body junction in the sg mRNA is a copy of the body TRS, and not of the leader TRS. The leader-primed transcription model predicts the opposite (Figure 1B). Therefore, determining the origin of the leader\u2013body junction of sg mRNAs would help to distinguish between the two models. However, in the wild-type situation, EAV leader and body TRSs are identical and consequently one cannot determine the origin of the sg mRNA leader\u2013body junction. This problem could be overcome by tracing the mutations introduced in leader or RNA7 body TRS mutants, most of which retained part of their ability to produce mRNA7. In a previous study (van Marle et al., 1999a), we found that nucleotides 2 and 5 of the mRNA7 leader\u2013body junction sequence were derived exclusively from the body TRS, and not from the leader TRS. This was shown by direct sequencing of RT\u2013PCR products obtained from the residual mRNA7 produced by mutants BC2G, LC2G, BC5G and LC5G (van Marle et al., 1999a).",
+            "cite_spans": [
+                {
+                    "start": 71,
+                    "end": 94,
+                    "mention": "van Marle et al., 1999a",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 96,
+                    "end": 117,
+                    "mention": "Baric and Yount, 2000",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 119,
+                    "end": 139,
+                    "mention": "Sawicki et al., 2001",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 941,
+                    "end": 964,
+                    "mention": "van Marle et al., 1999a",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1252,
+                    "end": 1275,
+                    "mention": "van Marle et al., 1999a",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "section": "The discontinuous step in nidovirus sg RNA synthesis occurs during minus strand RNA synthesis ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 197,
+                    "end": 198,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 463,
+                    "end": 464,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Using the same approach, we analysed mRNA7 from mutants BC2A and BC2U, and these transcripts also contained the mutated nucleotide derived from the body TRS (data not shown). Assuming that only one crossover event occurs during leader\u2013body joining, we could thus map this crossover between positions \u20131 and +2 of the sg RNA junction sequence. This left the intriguing question of whether the crossover site could be mapped even more precisely. In other words, was nucleotide +1 of the junction sequence derived from the body TRS or the leader TRS?",
+            "cite_spans": [],
+            "section": "The discontinuous step in nidovirus sg RNA synthesis occurs during minus strand RNA synthesis ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Using the position 1 mutants described above, we could answer this question (Figure 5). The most striking result was that mRNA7 of mutants BU1A, BU1G and LU1C contained exclusively the body TRS-derived nucleotide at position +1. Thus, for these mutants, the crossover site could be mapped precisely between TRS nucleotide positions \u20131 and +1, meaning that the complete leader\u2013 body junction sequence in an EAV sg mRNA can be body TRS derived. On the other hand, sg RNAs from mutants LU1A, BU1C and LU1G contained mixed populations of leader TRS- and body TRS-derived nucleotides at position +1 (Figure 5): A and U for LU1A, C and U for BU1C, and G and U for LU1G. Remarkably, this pattern correlated with the relative amounts of sg mRNA7 produced by these mutants (Figure 3). Mutants that produced populations of sg RNAs that were mixed with respect to the origin of the nucleotide at position +1 of the leader\u2013body junction had lost RNA7 synthesis almost completely. On the other hand, mutants that contained exclusively the body nucleotide at position +1 retained higher levels of RNA7 synthesis. This observation may be explained as follows: in the wild-type situation, the large majority of the crossovers probably occur between positions \u20131 and +1, leading to a body TRS-derived nucleotide at position +1 in the sg RNA; however, a low number of crossovers take place between nucleotides +1 and +2, resulting in a leader TRS-derived nucleotide at position +1. Mutants in which almost all sg RNA synthesis is blocked by a substitution at position +1 may somehow be deficient in the crossover between \u20131 and +1, but may have retained the ability for crossovers between +1 and +2, which were detected by sequence analysis. Conversely, in position +1 mutants that retain reasonable sg RNA synthesis, most crossovers occur between positions \u20131 and +1, and they obscure the minority of crossovers between +1 and +2 in the sequencing electropherogram. Alternatively, position +1 TRS mutations that strongly interfere with sg RNA synthesis may force a shift of the crossover site in the remaining molecules.",
+            "cite_spans": [],
+            "section": "The discontinuous step in nidovirus sg RNA synthesis occurs during minus strand RNA synthesis ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 84,
+                    "end": 85,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 602,
+                    "end": 603,
+                    "mention": "5",
+                    "ref_id": null
+                },
+                {
+                    "start": 772,
+                    "end": 773,
+                    "mention": "3",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "We believe that our present findings strongly support the discontinuous minus strand extension model. Indeed, the fact that a complete body TRS can be copied into the sg RNA is very difficult to reconcile with the alternative model, in which sg RNA synthesis from the genomic minus strand template is primed by free plus strand leader transcripts that contain the leader TRS at their 3\u2032 end (Figure 1B). To explain the presence of a complete copy of the body TRS in the sg mRNA in this model, one would have to assume that a 3\u2032\u20135\u2032 exonuclease activity trims back the free leader transcript prior to its extension into an sg mRNA (Baker and Lai, 1990). Note that there would not be a single base pair left to hold these \u2018trimmed\u2019 leader molecules on the template. Such an enzymatic activity, which is unprecedented in +RNA viruses, exists in yeast retrotransposon Ty5 (Ke et al., 1999), in which reverse transcription is primed by an internal region in a tRNA. However, in this system, it is not a part of the duplex that is removed, but the single-stranded 3\u2032 tail of the tRNA, which cannot base-pair with the Ty5 RNA.",
+            "cite_spans": [
+                {
+                    "start": 630,
+                    "end": 649,
+                    "mention": "Baker and Lai, 1990",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 868,
+                    "end": 883,
+                    "mention": "Ke et al., 1999",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "section": "The discontinuous step in nidovirus sg RNA synthesis occurs during minus strand RNA synthesis ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 399,
+                    "end": 400,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Removal of the TRS at the 3\u2032 end of the nidovirus leader, which has already base paired with the template, would be very energetically unfavourable for the RdRp. Instead of starting elongation using the intact and properly positioned leader as a primer, it would have to disrupt the newly formed duplex, degrade part of the leader RNA and then reinitiate polymerization, without any base pairing between primer and template. It has been shown that influenza virus transcription does not require a sequence match between the (cellular) RNA primer and the (viral) template (Plotch et al., 1981). However, if in the nidovirus system the \u2018trimmed\u2019 leader RNA could also be fixed on the template solely by RNA\u2013protein interactions, the targeting of the nascent strand by TRS base pairing would be extremely puzzling.",
+            "cite_spans": [
+                {
+                    "start": 572,
+                    "end": 591,
+                    "mention": "Plotch et al., 1981",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "section": "The discontinuous step in nidovirus sg RNA synthesis occurs during minus strand RNA synthesis ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Sequence data of sg RNA leader\u2013body junctions from other arteriviruses are also difficult to reconcile with the leader-primed transcription model. For the porcine and simian arteriviruses (Meulenberg et al., 1993; Godeny et al., 1998), the leader\u2013body junctions of some sg RNAs mapped two nucleotides upstream of the body TRS, which again would not leave a single nucleotide to hold the putative free leader on the template after the hypothetical \u2018back trimming\u2019. On the other hand, these findings and our data can be explained readily by the discontinuous minus strand extension model (Figure 1C). The six-nucleotide duplex formed between the body TRS complement at the 3\u2032 end of the leaderless sg minus strand and the leader TRS in the genomic RNA template should suffice to position the nascent minus strand properly for subsequent elongation to add the complement of the leader sequence. In most cases, the nascent minus strand contains the entire body TRS complement at its 3\u2032 end at the moment of strand transfer, leading to a body TRS-derived leader\u2013body junction sequence in the sg mRNA molecule. In a small number of transcripts, however, minus strand synthesis appears to be interrupted before nucleotide +1 of the body TRS is copied and, after strand transfer, resumes by incorporating the complement of the +1 nucleotide of the leader TRS. As stated above, we postulate that the detection of this phenomenon is determined by the level of crossovers between the \u20131 and +1 position that is allowed by the mutations introduced at the +1 position of body TRS or leader TRS. We cannot, however, formally exclude that a \u2018back trimming\u2019 activity degrades the 3\u2032-terminal nucleotide of the minus strand before or after strand transfer. However, note that in the discontinuous minus strand extension model (Figure 1C), such an activity would not disturb the proper positioning of the nascent minus strand on the leader template, because the TRS\u2013 TRS duplex would be shortened by one nucleotide only.",
+            "cite_spans": [
+                {
+                    "start": 189,
+                    "end": 212,
+                    "mention": "Meulenberg et al., 1993",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 214,
+                    "end": 233,
+                    "mention": "Godeny et al., 1998",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "section": "The discontinuous step in nidovirus sg RNA synthesis occurs during minus strand RNA synthesis ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 594,
+                    "end": 595,
+                    "mention": "1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1817,
+                    "end": 1818,
+                    "mention": "1",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "Due to their discontinuous sg RNA synthesis, nidoviruses occupy a special \u2018niche\u2019 in the +RNA virus world. Their mode of sg RNA production is clearly different from that of other +RNA viruses and resembles another well-documented +RNA virus feature: RNA recombination (for recent reviews see Nagy and Simon, 1997; Aaziz and Tepfer, 1999; Worobey and Holmes, 1999). Most of the experimental evidence supports an RdRp template switch (Kirkegaard and Baltimore, 1986) as the main mechanism of RNA recombination. Mechanistically, such a template switch involves the transfer of a nascent strand from one RNA template (donor) to the other (acceptor). Also, nidovirus discontinuous sg RNA synthesis involves transfer of a nascent RNA strand, the sg RNA, but now from one site to another in the same template.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 312,
+                    "mention": "Nagy and Simon, 1997",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 314,
+                    "end": 336,
+                    "mention": "Aaziz and Tepfer, 1999",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 338,
+                    "end": 362,
+                    "mention": "Worobey and Holmes, 1999",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 433,
+                    "end": 463,
+                    "mention": "Kirkegaard and Baltimore, 1986",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "section": "Nidovirus discontinuous minus strand extension resembles similarity-assisted, copy-choice RNA recombination ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Based on the data currently available, we refer to the discontinuous minus strand extension model as our working model for nidovirus sg RNA synthesis. If one applies the \u2018recombination terms\u2019 to this model (Chang et al., 1996; Brian and Spaan, 1997; van Marle et al., 1999a), the donor strand would be the body part of the genomic RNA template, the acceptor strand would be the leader part of the genomic RNA template and the nascent strand would be the discontinuously synthesized minus strand. Nagy and Simon (1997) have defined three main classes of RNA recombination: similarity-essential, similarity-non-essential and similarity-assisted recombination. The latter is defined as a mechanism in which strand transfer is determined by both sequence similarity between the parental RNAs and additional RNA determinants, present in only one of the parental RNAs.",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 225,
+                    "mention": "Chang et al., 1996",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 227,
+                    "end": 248,
+                    "mention": "Brian and Spaan, 1997",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 250,
+                    "end": 273,
+                    "mention": "van Marle et al., 1999a",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 496,
+                    "end": 517,
+                    "mention": "Nagy and Simon (1997)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "section": "Nidovirus discontinuous minus strand extension resembles similarity-assisted, copy-choice RNA recombination ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The results of our present study strongly suggest that nidovirus discontinuous sg RNA synthesis can be considered a special case of high-frequency similarity-assisted RNA recombination. While the only obvious function of the leader TRS is to ensure the fidelity of the strand transfer by base pairing with the 3\u2032 end of the nascent strand, the body TRS in the donor template indeed has additional, sequence-specific functions. One of these functions apparently is to pause (or terminate) nascent strand synthesis and thereby provide the opportunity for strand transfer. In addition, body TRS-derived nucleotides may play a role in the reinitiation of nascent strand synthesis on the acceptor template. Given the compact nature of the EAV TRS, it is quite possible that some nucleotides fulfil multiple tasks.",
+            "cite_spans": [],
+            "section": "Nidovirus discontinuous minus strand extension resembles similarity-assisted, copy-choice RNA recombination ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The sequence-specific function of the body TRS, revealed in this study, may be exerted at the level of either primary sequence or secondary structure. For a number of +RNA viruses, RNA secondary structure motifs located in the (proximity of) sg RNA promoters are vital for sg RNA synthesis. In alfalfa mosaic virus (Haasnoot et al., 2000), turnip crinkle virus (TCV) (Wang et al., 1999) and barley yellow dwarf virus (Koev et al., 1999), stem\u2013loop structures in sg RNA promoter regions of the template strand are required for sg RNA synthesis. The sg RNA1 promoter of the latter virus is especially interesting, since it contains two stem\u2013loop domains. For one of them, secondary structure, but not the primary sequence, is important for sg RNA synthesis, whereas the other domain acts through primary sequence, and not secondary structure (Koev et al., 1999). Similarly, RNA secondary structure may play only a minor role in the sequence-specific recognition of the BMV sg RNA promoter by the RdRp (Adkins et al., 1997; Siegel et al., 1997).",
+            "cite_spans": [
+                {
+                    "start": 316,
+                    "end": 337,
+                    "mention": "Haasnoot et al., 2000",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 368,
+                    "end": 385,
+                    "mention": "Wang et al., 1999",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 418,
+                    "end": 435,
+                    "mention": "Koev et al., 1999",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 841,
+                    "end": 858,
+                    "mention": "Koev et al., 1999",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1000,
+                    "end": 1019,
+                    "mention": "Adkins et al., 1997",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1021,
+                    "end": 1040,
+                    "mention": "Siegel et al., 1997",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "section": "RNA secondary structure of the body TRS may regulate sg RNA synthesis ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "We have suggested previously that RNA secondary structure of body TRS regions contributes to their attenuating potential and thereby determines the relative portion of the nascent minus strands that is transferred to the leader TRS in the template (Pasternak et al., 2000). At present, it is unknown whether EAV body TRSs are part of an RNA structural motif that is essential for body TRS function, or whether they are recognized by a protein factor in a sequence-specific manner. However, the latter seems less likely than the former, since even LB4 (Figure 2), in which five TRS nucleotides were substituted, still produced some sg RNA7, although \u223c30-fold less than the wild-type control. The fact that some sequences in the EAV genome match the leader TRS perfectly, but are not used for sg mRNA synthesis, also argues against the recognition of a specific sequence (Pasternak et al., 2000). More probably, mutagenesis of the RNA7 body TRS disturbed an RNA structure that is necessary for its function. This could, for example, explain the fact that the BU6C substitution reduced the amount of RNA7 by 20-fold (and could not be rescued by the same mutation in the leader TRS), whereas the wild-type RNA6 body TRS contains a C at the same position. If a protein factor were involved in sequence-specific TRS recognition, then one would expect it to recognize all TRSs similarly. If RNA structure is important for recognition by such a protein, then the BU6C substitution probably disturbs a structural motif of the RNA7 TRS, which is not present in the RNA6 TRS. On the other hand, conservation of part of the TRS in other arteriviruses suggests a sequence-specific recognition. Further studies are required to distinguish between these possibilities.",
+            "cite_spans": [
+                {
+                    "start": 249,
+                    "end": 271,
+                    "mention": "Pasternak et al., 2000",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 870,
+                    "end": 892,
+                    "mention": "Pasternak et al., 2000",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "section": "RNA secondary structure of the body TRS may regulate sg RNA synthesis ::: Results and discussion",
+            "ref_spans": [
+                {
+                    "start": 559,
+                    "end": 560,
+                    "mention": "2",
+                    "ref_id": null
+                }
+            ]
+        },
+        {
+            "text": "In the TCV satellite RNA recombination system, the hairpin structure in the acceptor strand, as well as the donor\u2013acceptor homology region, are necessary for the template switch (Nagy et al., 1998). The hairpin has been postulated to bind the RdRp, whereas the homology region targets the nascent strand to the crossover site. The TCV RdRp probably recognizes the secondary and/or tertiary structure of the hairpin, while individual nucleotides play a less important role (Nagy and Simon, 1998). In EAV, the leader TRS in the acceptor template is predicted to reside in the loop of an extensive hairpin, and its base pairing interaction with the body TRS complement at the 3\u2032 end of the nascent minus strand would resemble certain antisense RNA-regulated control mechanisms that are based on interactions between single-stranded tails and hairpin loops (van Marle et al., 1999a, and references therein). It is possible that the EAV RdRp, or its accessory proteins, also binds to the stem of the long hairpin that presents the leader TRS. In any case, the leader TRS itself does not seem to be recognized by a protein in a sequence-specific manner.",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 196,
+                    "mention": "Nagy et al., 1998",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 473,
+                    "end": 493,
+                    "mention": "Nagy and Simon, 1998",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 854,
+                    "end": 877,
+                    "mention": "van Marle et al., 1999a",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "section": "RNA secondary structure of the body TRS may regulate sg RNA synthesis ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "The body TRS is a better candidate to serve as a protein recognition site. This protein would then mediate the pausing of the nascent strand synthesis and/or nascent strand transfer. This would resemble the DNA-dependent RNA polymerase I termination system, in which specific DNA-binding terminator proteins bind to termination sequences (Reeder and Lang, 1997), or a function of the HIV nucleocapsid protein, which promotes the minus strand strong-stop DNA transfer (Guo et al., 1997). The EAV replicase component nsp1, which recently was shown to possess an sg RNA synthesis-specific activity (Tijms et al., 2001), may be a good candidate for such a regulatory role. Residues predicted to form a zinc finger structure in nsp1 were shown to be necessary for sg RNA synthesis. Interestingly, zinc finger structures in the HIV nucleocapsid protein facilitate strand transfer (Guo et al., 2000). Finally, it should be noted that the RNA structure of the nascent strand may also influence pausing, strand transfer or reinitiation, as illustrated by the fact that stable hairpin structures in the nascent strand promote termination of transcription by Escherichia coli RNA polymerase (Wilson and von Hippel, 1995).",
+            "cite_spans": [
+                {
+                    "start": 339,
+                    "end": 360,
+                    "mention": "Reeder and Lang, 1997",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 468,
+                    "end": 484,
+                    "mention": "Guo et al., 1997",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 596,
+                    "end": 614,
+                    "mention": "Tijms et al., 2001",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 875,
+                    "end": 891,
+                    "mention": "Guo et al., 2000",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1181,
+                    "end": 1208,
+                    "mention": "Wilson and von Hippel, 1995",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "section": "RNA secondary structure of the body TRS may regulate sg RNA synthesis ::: Results and discussion",
+            "ref_spans": []
+        },
+        {
+            "text": "Site-directed mutagenesis of EAV leader and body TRSs was carried out as described by van Marle et al. (1999a), and all mutant constructs were sequenced. Following in vitro transcription from infectious cDNA clones, full-length EAV RNA was introduced into BHK-21 cells by electroporation, as described by van Dinten et al. (1997). Immunofluorescence assays with EAV-specific antisera were performed at 14 h post-transfection as described by van der Meer et al. (1998). To visualize the nuclei for cell counting, nuclear DNA was stained with 5 \u00b5g/ml Hoechst B2883 (Sigma). Cells were counted using the Scion Image software (Scion Corporation) and the percentage of transfected cells was calculated on the basis of the number of cells positive for the EAV replicase component nsp3 (Pedersen et al., 1999).",
+            "cite_spans": [
+                {
+                    "start": 86,
+                    "end": 110,
+                    "mention": "van Marle et al. (1999a)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 305,
+                    "end": 329,
+                    "mention": "van Dinten et al. (1997)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 441,
+                    "end": 467,
+                    "mention": "van der Meer et al. (1998)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 780,
+                    "end": 801,
+                    "mention": "Pedersen et al., 1999",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "section": "Site-directed mutagenesis, RNA transfections and immunofluorescence analysis ::: Materials and methods",
+            "ref_spans": []
+        },
+        {
+            "text": "For RNA analyses, cells were lysed at 14 h post-transfection. Intracellular RNA isolation was performed using the acidic phenol method as described by Pasternak et al. (2000). Total intracellular RNA was resolved in denaturing agarose\u2013formaldehyde gels. Hybridization of dried gels with the radioactively labelled oligonucleotide probe E154, which is complementary to the 3\u2032 end of the EAV genome and recognizes all viral mRNA molecules (genomic and subgenomic), and phosphoimager quantitation of individual bands were performed as described by Pasternak et al. (2000). To determine the leader\u2013body junction sequence of sg mRNA7, mRNA7-specific RT\u2013PCRs were carried out as described by van Marle et al. (1999b) using an antisense (RT and PCR) primer from the RNA7 body region and a sense PCR primer matching a part of the leader sequence. RT\u2013PCR products were sequenced directly as described by Pasternak et al. (2000) using the leader-derived primer, an ABI PRISM\u2122 sequencing kit (Perkin Elmer) and an ABI PRISM\u2122 310 Genetic Analyser (Perkin Elmer).",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 174,
+                    "mention": "Pasternak et al. (2000)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 545,
+                    "end": 568,
+                    "mention": "Pasternak et al. (2000)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 686,
+                    "end": 710,
+                    "mention": "van Marle et al. (1999b)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 895,
+                    "end": 918,
+                    "mention": "Pasternak et al. (2000)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "section": "RNA isolation and analysis ::: Materials and methods",
+            "ref_spans": []
+        }
+    ],
+    "ref_entries": {},
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "80",
+            "issn": "",
+            "pages": "1339-1346",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF1": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "70",
+            "issn": "",
+            "pages": "4291-4298",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF2": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "72",
+            "issn": "",
+            "pages": "862-867",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF3": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "71",
+            "issn": "",
+            "pages": "5178-5188",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF4": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "74",
+            "issn": "",
+            "pages": "8980-8988",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF5": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "6",
+            "issn": "",
+            "pages": "708-716",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF6": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "66",
+            "issn": "",
+            "pages": "6330-6337",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF7": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "5",
+            "issn": "",
+            "pages": "929-938",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF8": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "5",
+            "issn": "",
+            "pages": "636-645",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF9": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "47",
+            "issn": "",
+            "pages": "433-443",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF10": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "73",
+            "issn": "",
+            "pages": "2876-2885",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF11": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "3",
+            "issn": "",
+            "pages": "634-647",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF12": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Adv. Virus Res.",
+            "volume": "48",
+            "issn": "",
+            "pages": "1-100",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF13": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "44",
+            "issn": "",
+            "pages": "487-492",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF14": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "81",
+            "issn": "",
+            "pages": "3626-3630",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF15": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "74",
+            "issn": "",
+            "pages": "1697-1701",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF16": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "273",
+            "issn": "",
+            "pages": "1-8",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF17": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "313",
+            "issn": "",
+            "pages": "68-70",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF18": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "235",
+            "issn": "",
+            "pages": "1-9",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF19": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "249",
+            "issn": "",
+            "pages": "379-392",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF20": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "17",
+            "issn": "",
+            "pages": "2392-2403",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF21": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "74",
+            "issn": "",
+            "pages": "11642-11653",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF22": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "97",
+            "issn": "",
+            "pages": "5516-5521",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF23": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "73",
+            "issn": "",
+            "pages": "2016-2026",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF24": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "23",
+            "issn": "",
+            "pages": "847-858",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF25": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Trends Biochem. Sci.",
+            "volume": "22",
+            "issn": "",
+            "pages": "473-477",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF26": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "82",
+            "issn": "",
+            "pages": "385-396",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF27": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Adv. Exp. Med. Biol.",
+            "volume": "380",
+            "issn": "",
+            "pages": "499-506",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF28": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "86",
+            "issn": "",
+            "pages": "5626-5630",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF29": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "94",
+            "issn": "",
+            "pages": "11238-11243",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF30": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "281",
+            "issn": "",
+            "pages": "829-832",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF31": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "79",
+            "issn": "",
+            "pages": "961-979",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF32": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "2",
+            "issn": "",
+            "pages": "1839-1844",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF33": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "EMBO J.",
+            "volume": "9",
+            "issn": "",
+            "pages": "4173-4179",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF34": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "82",
+            "issn": "",
+            "pages": "1273-1281",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF35": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "98",
+            "issn": "",
+            "pages": "1889-1894",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF36": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "72",
+            "issn": "",
+            "pages": "6689-6698",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF37": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "68",
+            "issn": "",
+            "pages": "3656-3666",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF38": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "94",
+            "issn": "",
+            "pages": "991-996",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF39": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "96",
+            "issn": "",
+            "pages": "12056-12061",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF40": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "73",
+            "issn": "",
+            "pages": "5274-5281",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF41": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virology",
+            "volume": "253",
+            "issn": "",
+            "pages": "327-336",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF42": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "92",
+            "issn": "",
+            "pages": "8793-8797",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF43": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Gen. Virol.",
+            "volume": "80",
+            "issn": "",
+            "pages": "2535-2543",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF44": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "74",
+            "issn": "",
+            "pages": "4039-4046",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF45": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "RNA",
+            "volume": "5",
+            "issn": "",
+            "pages": "550-561",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF46": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "48",
+            "issn": "",
+            "pages": "633-640",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF47": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Virus Res.",
+            "volume": "3",
+            "issn": "",
+            "pages": "19-33",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF48": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "Semin. Virol.",
+            "volume": "8",
+            "issn": "",
+            "pages": "101-111",
+            "other_ids": {
+                "DOI": []
+            }
+        },
+        "BIBREF49": {
+            "title": "",
+            "authors": [],
+            "year": null,
+            "venue": "J. Virol.",
+            "volume": "70",
+            "issn": "",
+            "pages": "2720-2729",
+            "other_ids": {
+                "DOI": []
+            }
+        }
+    }
+}

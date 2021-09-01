@@ -1,0 +1,162 @@
+<div class="wrap">
+    <!-- The Pattern Intro -->
+    <section id="intro">
+        <div class="intro-container" data-aos="fade-up">
+            <h1>Covid19 - Redis Knowledge Graph <span>in 3D</span></h1>
+            <h2>Explore medical literature graphically, leveraging industry knowledge and avoiding confirmation bias
+            </h2>
+            <button class="btn btn-primary" [routerLink]="['/start']">Get Started</button>
+        </div>
+
+    </section><!-- The Pattern Intro -->
+    <main id="main">
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="row">
+                    <div style="background-image: url(assets/about.jpg)" data-aos="fade-right"
+                        class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start">
+                    </div>
+                    <div class="col-xl-7 pt-4 pt-lg-0 d-flex align-items-stretch">
+                        <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
+                            <h3>Information exploration should be spatial and in VR</h3>
+                            <p>
+                                When exploring topics on science or engineering, you look at the diversity of the
+                                opinion, not the variety of the same cluster of words, same thought. You'd want to avoid
+                                confirmation bias and find articles relevant to the same concept, not necessary
+                                the ones which have similar words. This project "The Pattern" is the implementation of the following
+                            </p>
+                            <div class="row">
+                                <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+                                    <i class="bx bx-receipt"></i>
+                                    <h4>Vision</h4>
+                                    <p>Search or rather information exploration should be spatial preferably in VR (memory palace, see Theatre of Giulio Camillo).
+                                    </p>
+                                </div>
+                                <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+                                    <i class="bx bx-cube-alt"></i>
+                                    <h4>VR/AR visualisation</h4>
+                                    <p>Explore information in a spatial experience in virtual or augmented reality.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+                                    <i class="bx bx-network-chart"></i>
+                                    <h4>Force-directed graphs</h4>
+                                    <p>A force-directed graph is a path towards it, where visual assisted by text — relevant text pops up on the connection and where people explore the concepts and then dig deeper into text.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                    <i class="bx bx-code-curly"></i>
+                                    <h4>Redis Ecosystem</h4>
+                                    <p>Leveraging RedisLab modules, starting with Redis Gears,
+                                        RedisGraph and RedisAI</p>
+                                </div>
+                            </div>
+                        </div><!-- End .content-->
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+            <div class="container">
+
+                <div class="text-center" data-aos="zoom-in">
+                    <h3>Open Source</h3>
+                    <p> Build NLP pipeline leveraging Redis ecosystem whenever possible. We use <a href="https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge">COVID 19 (CORD19) medical articles corpus</a>  as input.</p>
+                    <a class="cta-btn" href="https://github.com/applied-knowledge-systems/the-pattern" target="_blank">Code on Github</a>
+                </div>
+
+            </div>
+        </section><!-- End Cta Section -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-down">
+                    <span>Implementation</span>
+                    <h2>Implementation</h2>
+                    <p>Redis components used: RedisGears, Redis Cluster, RedisGraph. Run all <a href="https://github.com/applied-knowledge-systems/the-pattern-platform/blob/6fe80e7bf6c8c3baf2d1bd6aa300ff1ef336d523/cluster_pipeline.sh">script</a></p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <i class="icofont-computer" style="color: #0ea5e0;"></i>
+                            <h4><a href="https://github.com/applied-knowledge-systems/the-pattern-platform/blob/6fe80e7bf6c8c3baf2d1bd6aa300ff1ef336d523/RedisIntakeRedisClusterSample.py">1. Ingest documents</a></h4>
+                            <p> Parses documents taking out body_text and saves under
+                                paragraphsin Redis cluster</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <i class="icofont-search-document" style="color: #07cc70;"></i>
+                            <h4><a href="https://github.com/applied-knowledge-systems/the-pattern-platform/blob/6fe80e7bf6c8c3baf2d1bd6aa300ff1ef336d523/gears_pipeline_sentence_register.py#L13">2. Detect language</a></h4>
+                            <p>Uses Redis Gears by registering key reader on ‘paragraphs:*’.Not all medical literature
+                                was in English. Currently discards non-English: it’s <a href="https://oss.redislabs.com/redisgears/operations.html#filter">“filter”</a> operation</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <i class="icofont-text-width" style="color: #e40373;"></i>
+                            <h4><a href="https://github.com/applied-knowledge-systems/the-pattern-platform/blob/main/gears_pipeline_sentence_register.py#L27">3. Split paragraphs into sentences</a></h4>
+                            <p>Map paragraphs into a sentence — <a href="https://oss.redislabs.com/redisgears/operations.html#flatmap">flatmap</a> operation</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                            <i class="icofont-ui-check" style="color: #f0b103;"></i>
+                            <h4><a href="https://github.com/applied-knowledge-systems/the-pattern-platform/blob/6fe80e7bf6c8c3baf2d1bd6aa300ff1ef336d523/gears_pipeline_sentence_register.py#L59">4. Spell checker</a></h4>
+                            <p>Uses symspell library and it’s <a href="https://oss.redislabs.com/redisgears/operations.html#map">“map”</a> and outputs saved into hash — <a href="https://oss.redislabs.com/redisgears/operations.html#processor">processor</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
+                            <i class="icofont-match-review" style="color: #3145fa;"></i>
+                            <h4><a href="https://github.com/applied-knowledge-systems/the-pattern-platform/blob/main/sentences_matcher_register.py">5. Matcher</a></h4>
+                            <p>Uses pre-build Aho-Corasick automata to match incoming words to Medical Concepts using <a href="https://uts.nlm.nih.gov/uts/umls/home">UMLS Methathesaurus</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="600">
+                            <i class="icofont-database" style="color: #a00098;"></i>
+                            <h4><a href="https://github.com/applied-knowledge-systems/the-pattern-platform/blob/main/edges_to_graph_streamed.py">6. Populate RedisGraph</a></h4>
+                            <p>Loading matched sentences into edges in RedisGraph with Nodes being Concept (CUI)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
+                            <i class="icofont-abacus" style="color: #3145fa;"></i>
+                            <h4><a href="https://github.com/applied-knowledge-systems/the-pattern-ui">7. Front-End repository</a></h4>
+                            <p> Stores code for this page and upcoming VR/AR</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="600">
+                            <i class="icofont-earth" style="color: #a00098;"></i>
+                            <h4><a href="https://github.com/applied-knowledge-systems/the-pattern-api">8. Flask API server to query RedisGraph</a></h4>
+                            <p>Just simple Flask API server</p>
+                        </div>
+                    </div>
+                </div>
+                <div><p class="hint justify-content-center"></p></div>
+            </div>
+
+        </section>
+        <!-- End Services Section -->
+    </main>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container py-4">
+            <div class="copyright">
+                &copy; Open Source | <strong><span>The Pattern</span></strong>.
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+</div>

@@ -1,0 +1,582 @@
+@import "../../../scss/variables";
+
+.wrap {
+    max-width: 1440px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+    width: 100%;
+    height: 80vh;
+    background: url("~/assets/intro-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+    border-bottom: 1px solid #222;
+}
+
+#intro:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#intro .intro-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+
+#intro h1 {
+    margin: 0 0 30px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+#intro h2 {
+    color: #eee;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+#intro p {
+    color: #eee;
+    margin: 40px 0px;
+    font-size: 16px;
+}
+
+app-search-form{
+    width: 45%;
+}
+
+.btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 5px;
+    transition: 0.5s;
+    border: 2px solid $primary-color;
+    color: #fff;
+}
+
+.btn-get-started:hover {
+    background: $primary-color;
+    border: 2px solid $primary-color;
+}
+
+@media (min-width: 1024px) {
+    #intro {
+        background-attachment: fixed;
+    }
+    #intro h1, #intro h2 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    #intro {
+        height: 100vh;
+    }
+    #intro h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #intro h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+} 
+  
+.section-bg {
+    background-color: #fafdfb;
+}
+  
+.section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+  
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: $primary-color;
+    position: relative;
+    z-index: 2;
+}
+  
+.section-title span {
+    position: absolute;
+    top: 30px;
+    color: #f4f4f4;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+  
+.section-title p {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+  
+@media (max-width: 575px) {
+    .section-title h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .section-title span {
+        font-size: 38px;
+    }
+}
+  
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content {
+    padding-left: 30px;
+}
+  
+.about .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+}
+  
+.about .content p {
+    margin-bottom: 0;
+}
+  
+.about .content .icon-box {
+    margin-top: 25px;
+}
+  
+.about .content .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 10px 60px;
+}
+  
+.about .content .icon-box i {
+    font-size: 48px;
+    float: left;
+    color: $primary-color;
+}
+  
+.about .content .icon-box p {
+    font-size: 15px;
+    color: #848484;
+    margin-left: 60px;
+}
+  
+.about .image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+  
+@media (max-width: 991px) {
+    .about {
+      padding-left: 0;
+    }
+    .about .image {
+      text-align: center;
+    }
+    .about .image img {
+      max-width: 80%;
+    }
+}
+  
+@media (max-width: 667px) {
+    .about .image img {
+      max-width: 100%;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.8)), url("~/assets/cta-bg.jpg") fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+}
+  
+.cta h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+  
+.cta p {
+    color: #fff;
+}
+  
+.cta .cta-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+  
+.cta .cta-btn:hover {
+    background: $primary-color;
+    border: 2px solid $primary-color;
+}
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services {
+    padding-bottom: 30px;
+}
+  
+.services .icon-box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    border-radius: 6px;
+    background: #fff;
+}
+  
+.services .icon-box i {
+    float: left;
+    color: $primary-color;
+    font-size: 40px;
+}
+  
+.services .icon-box h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+  
+.services .icon-box h4 a {
+    color: #444444;
+    transition: 0.3s;
+}
+  
+.services .icon-box .icon-box:hover h4 a {
+    color: $primary-color;
+}
+  
+.services .icon-box p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials {
+    padding: 80px 0;
+    background: url("~/assets/testimonials-bg.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+  
+.testimonials::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(17, 17, 17, 0.7);
+}
+  
+.testimonials .section-header {
+    margin-bottom: 40px;
+}
+  
+.testimonials .testimonial-item {
+    text-align: center;
+    color: #fff;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+}
+  
+.testimonials .testimonial-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff;
+}
+  
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #ddd;
+    margin: 0 0 15px 0;
+}
+  
+.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 26px;
+}
+  
+.testimonials .testimonial-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+}
+  
+.testimonials .testimonial-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+}
+  
+.testimonials .testimonial-item p {
+    font-style: italic;
+    margin: 0 auto 15px auto;
+    color: #eee;
+}
+  
+.testimonials .owl-nav, .testimonials .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+}
+  
+.testimonials .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+  
+.testimonials .owl-dot.active {
+    background-color: $primary-color !important;
+}
+  
+@media (min-width: 1024px) {
+    .testimonials {
+      background-attachment: fixed;
+    }
+}
+  
+@media (min-width: 992px) {
+    .testimonials .testimonial-item p {
+      width: 80%;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# F.A.Q
+--------------------------------------------------------------*/
+.faq {
+    background: #f3faf6;
+    padding: 60px 0;
+}
+  
+.faq .section-title span {
+    color: #f1f1f1;
+}
+  
+.faq .faq-list {
+    padding: 0 100px;
+}
+  
+.faq .faq-list ul {
+    padding: 0;
+    list-style: none;
+}
+  
+.faq .faq-list li + li {
+    margin-top: 15px;
+}
+  
+.faq .faq-list li {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+  
+.faq .faq-list a {
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0 30px;
+    outline: none;
+}
+  
+.faq .faq-list .icon-help {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    left: 20px;
+    color: #a8dabc;
+}
+  
+.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.faq .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+}
+  
+.faq .faq-list .icon-show {
+    display: none;
+}
+  
+.faq .faq-list a.collapsed {
+    color: #343a40;
+}
+  
+.faq .faq-list a.collapsed:hover {
+    color: $primary-color;
+}
+  
+.faq .faq-list a.collapsed .icon-show {
+    display: inline-block;
+}
+  
+.faq .faq-list a.collapsed .icon-close {
+    display: none;
+}
+  
+@media (max-width: 1200px) {
+    .faq .faq-list {
+      padding: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    padding: 0 0 30px 0;
+    color: #d0d0d0;
+    font-size: 14px;
+    background: #111111;
+  }
+  
+#footer .footer-newsletter {
+    padding: 50px 0;
+    background: #111111;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+  
+#footer .footer-newsletter h4 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+}
+  
+#footer .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+  
+#footer .footer-newsletter form input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+  
+#footer .footer-newsletter form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px 3px 20px;
+    background: $primary-color;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+  
+#footer .footer-newsletter form input[type="submit"]:hover {
+    background: #45a36c;
+}
+  
+#footer .copyright {
+    text-align: center;
+    float: left;
+}
+  
+#footer .credits {
+    float: right;
+    text-align: center;
+    font-size: 13px;
+}

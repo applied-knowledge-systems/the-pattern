@@ -1,0 +1,28 @@
+<div class="modal-header">
+    <h5 class="modal-title" id="modal-basic-title">
+        <div class="">
+            <b>Source:</b> <a class="umls" href="https://uts.nlm.nih.gov/uts/umls/concept/{{ selected?.source?.id }}" target="_blank">{{ selected?.source?.name }}</a> &nbsp;&nbsp;&nbsp;
+            <b>Target:</b> <a class="umls" href="https://uts.nlm.nih.gov/uts/umls/concept/{{ selected?.target?.id }}" target="_blank">{{ selected?.target?.name }}</a>
+        </div>
+    </h5>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <div class="empty-content" *ngIf="(loading$ | async) && (loadingState$ | async) == 'edgeResults'">
+        <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    <ul class="content">
+        <li *ngFor="let result of (edgeData$ | async)?.results">
+            <span class="title">{{ result.title }}</span>  <br/>
+            <!-- <span class="sentence">{{ result.sentence }}</span> <br/> -->
+            <span class="summary">Summary by T5: {{ result.summary }}</span> <br/>
+            <app-roles mode='inline-add'></app-roles>
+            <!-- <app-audio mode='player' class="audio-player" [text]="result.sentence"></app-audio> -->
+        </li>
+    </ul>
+</div>
+<div class="modal-footer">
+    <!-- <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button> -->
+</div>
