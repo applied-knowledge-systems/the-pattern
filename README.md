@@ -25,7 +25,7 @@ brew install pyenv-virtualenv
 ## Start platform 
 
 ```
-git clone --recurse-submodules https://github.com/applied-knowledge-systems/the-pattern.git
+git clone --recurse-submodules https://github.com/redis-developer/the-pattern.git
 cd the-pattern
 ./start.sh
 cd ./the-pattern-platform/
