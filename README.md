@@ -4,7 +4,6 @@ To fight ever-increasing complexity, "The Pattern" projects help find relevant k
 
 Overall repository for CORD19 medical NLP pipeline, API and UI, design and architecture.
 
-Demo: http://thepattern.digital/
 
 # The challenge 
 
