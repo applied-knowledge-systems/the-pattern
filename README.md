@@ -110,7 +110,7 @@ On GPU enabled instance or server, configure NVidia drivers:
 Configure access from instance to RedisGraph docker image (or use Redis Enterprise), I use zerotier to connect VMs together.
 
 ```
-git clone https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern-bart-summary.git
+git clone https://raw.githubusercontent.com/redis-developer/the-pattern-bart-summary.git
 #start tmux 
 conda activate thepattern_env
 pip3 install -r requirements.txt
@@ -121,28 +121,28 @@ python3 summary_processor_t5.py
 
 ## Overall flow
 
-![Overall flow](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/overall_flow.png "Overall Flow")
+![Overall flow](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/overall_flow.png "Overall Flow")
 
 ## NLP pipeline 1
 
-![NLP Pipeline 1](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/Pipeline1.png "NLP Pipeline 1") 
+![NLP Pipeline 1](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/Pipeline1.png "NLP Pipeline 1") 
 
 
 ## NLP pipeline 2: BERT QA
 
-![NLP Pipeline 2](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/Pipeline2.png "NLP Pipeline 2") 
+![NLP Pipeline 2](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/Pipeline2.png "NLP Pipeline 2") 
 
 ## NLP Pipeline 3: T5 for Summarization 
 
-![NLP Pipeline 3](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/Pipeline3.png "NLP Pipeline 3")  
+![NLP Pipeline 3](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/Pipeline3.png "NLP Pipeline 3")  
 
 # Screenshots
 
-![Screenshot](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/screenshot_one.png "Screenshot")  
+![Screenshot](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_one.png "Screenshot")  
 
-![Screenshot2](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/screenshot_two.png "Screenshot 2") 
+![Screenshot2](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_two.png "Screenshot 2") 
 
-![Screenshot3](https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern/main/docs/img/screenshot_three.png "Screenshot 3") 
+![Screenshot3](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_three.png "Screenshot 3") 
 
 
 # Most interesting RedisCommands
@@ -236,7 +236,7 @@ A lot of RedisGears code, main [file](./the-pattern-platform/gears_pipeline_sent
         import stop_words
     from stop_words import STOP_WORDS
 
-    with httpimport.remote_repo(['utils'], "https://raw.githubusercontent.com/applied-knowledge-systems/the-pattern-automata/main/automata/"):
+    with httpimport.remote_repo(['utils'], "https://raw.githubusercontent.com/redis-developer/the-pattern-automata/main/automata/"):
         import utils
     from utils import loadAutomata, find_matches
 ```
@@ -291,9 +291,7 @@ The name is from [Roger Zelazny "The Chronicles of Amber"](https://en.wikipedia.
 I believe in the modern world we need new tools to fight the chaos of the information, particularly for such important issues as medical research and literature. 
 
 
-# Documentation
-Still relevant [one](https://alexmikhalev.github.io/cord19redisknowledgegraph/)
-The journey in [blog](https://alexmikhalev.medium.com)
+
 
 
 
