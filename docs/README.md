@@ -9,7 +9,7 @@ Collaboration platform to demonstrate how modern technologies can help solve dom
 * Adaptive relevance based on user feedback
 * Text summarization (GoogleT5 model)
 * Domain-specific Question/Answer (semantic search/graph search + BERT QA)
-* Real-time or near data processing
+* Real-time or near real time data processing
 - backend response time ms or ns, because it's all powered by Redis
 can be extended to reccommenders and other use cases
 
