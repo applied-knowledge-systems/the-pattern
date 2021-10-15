@@ -31,7 +31,7 @@ services:
   rgcluster:
     build:
       context: ./the-pattern-platform/conf/
-      dockerfile: Dockerfile_redisai
+      dockerfile: Dockerfile
     container_name: rgcluster
     hostname: rgcluster
     volumes:
@@ -41,3 +41,8 @@ services:
       - 127.0.0.1:30001:30001
       - 127.0.0.1:30002:30002 
       - 127.0.0.1:30003:30003
+      - 127.0.0.1:30004:30004
+      - 127.0.0.1:30005:30005
+      - 127.0.0.1:30006:30006
+      - 127.0.0.1:30007:30007
+      - 127.0.0.1:30008:30008
