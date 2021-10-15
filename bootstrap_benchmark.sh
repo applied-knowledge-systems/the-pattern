@@ -7,4 +7,7 @@ cd the-pattern-platform && pip3 install -r requirements.txt
 pip3 install gears-cli 
 ./cluster_pipeline.sh
 cd ../the-pattern-api/qasearch/ 
-sh start.sh
+sh start_benchmark.sh 
+
+#tear down 
+# docker-compose -f docker-compose.dev.yml down --rmi all -v
