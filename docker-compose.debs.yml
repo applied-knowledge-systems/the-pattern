@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  redisgears:
+    build:
+      context: ./RedisGears
+      args:
+        OSNICK: bionic
+        OS: ubuntu:bionic
+    image: redislabs/redisgears:edge
+  rgcluster:
+    build:
+      context: ./RedisGears/recipes/cluster
+      dockerfile: Dockerfile.edge
+    image: redislabs/rgcluster:edge
