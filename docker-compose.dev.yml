@@ -19,7 +19,6 @@ services:
     container_name: redisgraph
     hostname: redisgraph
     volumes:
-      - ./data/redis_data:/data
       - ./the-pattern-platform/conf/redis.conf:/usr/local/etc/redis/redis.conf
     command:
       - /usr/local/etc/redis/redis.conf
@@ -35,7 +34,6 @@ services:
     container_name: rgcluster
     hostname: rgcluster
     volumes:
-      - ./data/rediscluster_data:/clusterdata
       - ./the-pattern-platform/conf/docker-config_demo.sh:/cluster/config.sh
     ports:
       - 127.0.0.1:30001:30001
