@@ -44,17 +44,18 @@ services:
       - 127.0.0.1:30006:30006
       - 127.0.0.1:30007:30007
       - 127.0.0.1:30008:30008
-
   grafana:
     container_name: grafana
     image: ghcr.io/redisgrafana/redis-app:latest
     ports:
-      - 3000:3000/tcp
+      - "3000:3000"
     environment:
       - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
       - GF_AUTH_ANONYMOUS_ENABLED=true
       - GF_AUTH_BASIC_ENABLED=false
       - GF_ENABLE_GZIP=true
       - GF_USERS_DEFAULT_THEME=light
+      - GF_INSTALL_PLUGINS=redis-explorer-app
     volumes:
       - ./provisioning:/etc/grafana/provisioning
+      - ./dashboards:/var/lib/grafana/dashboards
