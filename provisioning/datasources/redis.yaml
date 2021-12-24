@@ -7,7 +7,7 @@ datasources:
     orgId: 1
     isDefault: true
     version: 1
-    url: redis://localhost:9001
+    url: redis://redisgraph:6379
     jsonData:
       poolSize: 5
       timeout: 10
@@ -19,7 +19,7 @@ datasources:
     access: proxy
     orgId: 1
     version: 1
-    url: redis://localhost:30001
+    url: redis://rgcluster:30001
     jsonData:
       poolSize: 5
       timeout: 10
@@ -31,7 +31,7 @@ datasources:
     access: proxy
     orgId: 1
     version: 1
-    url: redis://localhost:30002
+    url: redis://rgcluster:30002
     jsonData:
       poolSize: 5
       timeout: 10
@@ -43,7 +43,7 @@ datasources:
     access: proxy
     orgId: 1
     version: 1
-    url: redis://localhost:30003
+    url: redis://rgcluster:30003
     jsonData:
       poolSize: 5
       timeout: 10
@@ -55,7 +55,7 @@ datasources:
     access: proxy
     orgId: 1
     version: 1
-    url: redis://localhost:30004
+    url: redis://rgcluster:30004
     jsonData:
       poolSize: 5
       timeout: 10
@@ -67,7 +67,7 @@ datasources:
     access: proxy
     orgId: 1
     version: 1
-    url: redis://localhost:30005
+    url: redis://rgcluster:30005
     jsonData:
       poolSize: 5
       timeout: 10
@@ -79,7 +79,7 @@ datasources:
     access: proxy
     orgId: 1
     version: 1
-    url: redis://localhost:30006
+    url: redis://rgcluster:30006
     jsonData:
       poolSize: 5
       timeout: 10
@@ -91,7 +91,7 @@ datasources:
     access: proxy
     orgId: 1
     version: 1
-    url: redis://localhost:30007
+    url: redis://rgcluster:30007
     jsonData:
       poolSize: 5
       timeout: 10
@@ -103,7 +103,7 @@ datasources:
     access: proxy
     orgId: 1
     version: 1
-    url: redis://localhost:30008
+    url: redis://rgcluster:30008
     jsonData:
       poolSize: 5
       timeout: 10
