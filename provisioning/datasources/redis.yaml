@@ -1,0 +1,112 @@
+apiVersion: 1
+
+datasources:
+  - name: Graph
+    type: redis-datasource
+    access: proxy
+    orgId: 1
+    isDefault: true
+    version: 1
+    url: redis://localhost:9001
+    jsonData:
+      poolSize: 5
+      timeout: 10
+      pingInterval: 0
+      pipelineWindow: 0
+    editable: true
+  - name: Cluster-30001
+    type: redis-datasource
+    access: proxy
+    orgId: 1
+    version: 1
+    url: redis://localhost:30001
+    jsonData:
+      poolSize: 5
+      timeout: 10
+      pingInterval: 0
+      pipelineWindow: 0
+    editable: true
+  - name: Cluster-30002
+    type: redis-datasource
+    access: proxy
+    orgId: 1
+    version: 1
+    url: redis://localhost:30002
+    jsonData:
+      poolSize: 5
+      timeout: 10
+      pingInterval: 0
+      pipelineWindow: 0
+    editable: true
+  - name: Cluster-30003
+    type: redis-datasource
+    access: proxy
+    orgId: 1
+    version: 1
+    url: redis://localhost:30003
+    jsonData:
+      poolSize: 5
+      timeout: 10
+      pingInterval: 0
+      pipelineWindow: 0
+    editable: true
+  - name: Cluster-30004
+    type: redis-datasource
+    access: proxy
+    orgId: 1
+    version: 1
+    url: redis://localhost:30004
+    jsonData:
+      poolSize: 5
+      timeout: 10
+      pingInterval: 0
+      pipelineWindow: 0
+    editable: true
+  - name: Cluster-30005
+    type: redis-datasource
+    access: proxy
+    orgId: 1
+    version: 1
+    url: redis://localhost:30005
+    jsonData:
+      poolSize: 5
+      timeout: 10
+      pingInterval: 0
+      pipelineWindow: 0
+    editable: true
+  - name: Cluster-30006
+    type: redis-datasource
+    access: proxy
+    orgId: 1
+    version: 1
+    url: redis://localhost:30006
+    jsonData:
+      poolSize: 5
+      timeout: 10
+      pingInterval: 0
+      pipelineWindow: 0
+    editable: true
+  - name: Cluster-30007
+    type: redis-datasource
+    access: proxy
+    orgId: 1
+    version: 1
+    url: redis://localhost:30007
+    jsonData:
+      poolSize: 5
+      timeout: 10
+      pingInterval: 0
+      pipelineWindow: 0
+    editable: true
+  - name: Cluster-30008
+    type: redis-datasource
+    access: proxy
+    orgId: 1
+    version: 1
+    url: redis://localhost:30008
+    jsonData:
+      poolSize: 5
+      timeout: 10
+      pingInterval: 0
+      pipelineWindow: 0
+    editable: true
