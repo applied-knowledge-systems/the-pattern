@@ -1019,7 +1019,7 @@
           "streaming": true,
           "streamingCapacity": 300,
           "streamingDataType": "DataFrame",
-          "streamingInterval": 2000,
+          "streamingInterval": 12000,
           "type": "gears"
         }
       ],
