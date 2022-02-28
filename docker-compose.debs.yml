@@ -12,3 +12,4 @@ services:
       context: ./RedisGears/recipes/cluster
       dockerfile: Dockerfile.edge
     image: ghcr.io/applied-knowledge-systems/rgcluster:edge
+    
