@@ -1,50 +1,4 @@
 {
-  "__inputs": [],
-  "__elements": [],
-  "__requires": [
-    {
-      "type": "grafana",
-      "id": "grafana",
-      "name": "Grafana",
-      "version": "8.3.3"
-    },
-    {
-      "type": "panel",
-      "id": "redis-cpu-panel",
-      "name": "Redis CPU Usage",
-      "version": ""
-    },
-    {
-      "type": "datasource",
-      "id": "redis-datasource",
-      "name": "Redis",
-      "version": "2.1.0"
-    },
-    {
-      "type": "panel",
-      "id": "redis-latency-panel",
-      "name": "Redis Latency",
-      "version": ""
-    },
-    {
-      "type": "panel",
-      "id": "stat",
-      "name": "Stat",
-      "version": ""
-    },
-    {
-      "type": "panel",
-      "id": "table",
-      "name": "Table",
-      "version": ""
-    },
-    {
-      "type": "panel",
-      "id": "timeseries",
-      "name": "Time series",
-      "version": ""
-    }
-  ],
   "annotations": {
     "list": [
       {
@@ -67,8 +21,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": null,
-  "iteration": 1639919928740,
+  "iteration": 1640367754018,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -111,99 +64,6 @@
       ],
       "title": "CPU Usage",
       "type": "redis-cpu-panel"
-    },
-    {
-      "datasource": {
-        "type": "redis-datasource",
-        "uid": "${graph}"
-      },
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "palette-classic"
-          },
-          "custom": {
-            "axisLabel": "",
-            "axisPlacement": "auto",
-            "barAlignment": 0,
-            "drawStyle": "line",
-            "fillOpacity": 49,
-            "gradientMode": "opacity",
-            "hideFrom": {
-              "legend": false,
-              "tooltip": false,
-              "viz": false
-            },
-            "lineInterpolation": "linear",
-            "lineWidth": 1,
-            "pointSize": 5,
-            "scaleDistribution": {
-              "type": "linear"
-            },
-            "showPoints": "never",
-            "spanNulls": true,
-            "stacking": {
-              "group": "A",
-              "mode": "none"
-            },
-            "thresholdsStyle": {
-              "mode": "off"
-            }
-          },
-          "mappings": [],
-          "min": 0,
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          },
-          "unit": "short"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 9,
-        "w": 4,
-        "x": 4,
-        "y": 1
-      },
-      "id": 45,
-      "options": {
-        "legend": {
-          "calcs": [],
-          "displayMode": "hidden",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "multi"
-        }
-      },
-      "pluginVersion": "8.0.0",
-      "targets": [
-        {
-          "command": "",
-          "datasource": {
-            "type": "redis-datasource",
-            "uid": "${graph}"
-          },
-          "query": "dbsize",
-          "refId": "A",
-          "streaming": true,
-          "streamingCapacity": 300,
-          "streamingInterval": 2000,
-          "type": "cli"
-        }
-      ],
-      "title": "Number of Keys",
-      "type": "timeseries"
     },
     {
       "datasource": {
@@ -264,13 +124,16 @@
       "gridPos": {
         "h": 9,
         "w": 4,
-        "x": 8,
+        "x": 4,
         "y": 1
       },
       "id": 173,
       "options": {
         "legend": {
-          "calcs": ["mean", "lastNotNull"],
+          "calcs": [
+            "mean",
+            "lastNotNull"
+          ],
           "displayMode": "table",
           "placement": "bottom"
         },
@@ -332,6 +195,205 @@
       "type": "timeseries"
     },
     {
+      "datasource": {
+        "type": "redis-datasource",
+        "uid": "${graph}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 51,
+            "gradientMode": "opacity",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "ops"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 16,
+        "x": 8,
+        "y": 1
+      },
+      "id": 291,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "hidden",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "multi"
+        }
+      },
+      "pluginVersion": "8.0.0",
+      "targets": [
+        {
+          "command": "info",
+          "datasource": {
+            "type": "redis-datasource",
+            "uid": "${graph}"
+          },
+          "query": "",
+          "refId": "A",
+          "section": "stats",
+          "streaming": true,
+          "streamingCapacity": 300,
+          "streamingInterval": 2000,
+          "type": "command"
+        }
+      ],
+      "title": "Ops/sec",
+      "transformations": [
+        {
+          "id": "filterFieldsByName",
+          "options": {
+            "include": {
+              "names": [
+                "instantaneous_ops_per_sec",
+                "#time"
+              ]
+            }
+          }
+        }
+      ],
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "redis-datasource",
+        "uid": "${graph}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 49,
+            "gradientMode": "opacity",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "min": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "short"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 4,
+        "x": 0,
+        "y": 10
+      },
+      "id": 45,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "hidden",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "multi"
+        }
+      },
+      "pluginVersion": "8.0.0",
+      "targets": [
+        {
+          "command": "",
+          "datasource": {
+            "type": "redis-datasource",
+            "uid": "${graph}"
+          },
+          "query": "dbsize",
+          "refId": "A",
+          "streaming": true,
+          "streamingCapacity": 300,
+          "streamingInterval": 2000,
+          "type": "cli"
+        }
+      ],
+      "title": "Number of Keys",
+      "type": "timeseries"
+    },
+    {
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -384,9 +446,9 @@
       },
       "gridPos": {
         "h": 9,
-        "w": 6,
-        "x": 12,
-        "y": 1
+        "w": 8,
+        "x": 4,
+        "y": 10
       },
       "id": 217,
       "options": {
@@ -473,9 +535,9 @@
       },
       "gridPos": {
         "h": 9,
-        "w": 6,
-        "x": 18,
-        "y": 1
+        "w": 12,
+        "x": 12,
+        "y": 10
       },
       "id": 218,
       "options": {
@@ -515,7 +577,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 10
+        "y": 19
       },
       "id": 4,
       "panels": [],
@@ -528,10 +590,10 @@
         "uid": "$redis"
       },
       "gridPos": {
-        "h": 10,
+        "h": 9,
         "w": 4,
         "x": 0,
-        "y": 11
+        "y": 20
       },
       "id": 87,
       "options": {
@@ -544,116 +606,13 @@
     },
     {
       "datasource": {
-        "type": "redis-datasource",
-        "uid": "${redis}"
-      },
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "palette-classic"
-          },
-          "custom": {
-            "axisLabel": "",
-            "axisPlacement": "auto",
-            "barAlignment": 0,
-            "drawStyle": "line",
-            "fillOpacity": 51,
-            "gradientMode": "opacity",
-            "hideFrom": {
-              "legend": false,
-              "tooltip": false,
-              "viz": false
-            },
-            "lineInterpolation": "linear",
-            "lineWidth": 1,
-            "pointSize": 5,
-            "scaleDistribution": {
-              "type": "linear"
-            },
-            "showPoints": "never",
-            "spanNulls": true,
-            "stacking": {
-              "group": "A",
-              "mode": "none"
-            },
-            "thresholdsStyle": {
-              "mode": "off"
-            }
-          },
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          },
-          "unit": "ops"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 10,
-        "w": 4,
-        "x": 4,
-        "y": 11
-      },
-      "id": 2,
-      "options": {
-        "legend": {
-          "calcs": [],
-          "displayMode": "hidden",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "multi"
-        }
-      },
-      "pluginVersion": "8.0.0",
-      "targets": [
-        {
-          "command": "info",
-          "datasource": {
-            "type": "redis-datasource",
-            "uid": "${redis}"
-          },
-          "query": "",
-          "refId": "A",
-          "section": "stats",
-          "streaming": true,
-          "streamingCapacity": 300,
-          "streamingInterval": 2000,
-          "type": "command"
-        }
-      ],
-      "title": "Ops/sec",
-      "transformations": [
-        {
-          "id": "filterFieldsByName",
-          "options": {
-            "include": {
-              "names": ["instantaneous_ops_per_sec", "#time"]
-            }
-          }
-        }
-      ],
-      "type": "timeseries"
-    },
-    {
-      "datasource": {
         "uid": "$redis"
       },
       "gridPos": {
-        "h": 10,
+        "h": 9,
         "w": 4,
-        "x": 8,
-        "y": 11
+        "x": 4,
+        "y": 20
       },
       "id": 14,
       "options": {
@@ -724,15 +683,18 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 10,
-        "w": 5,
-        "x": 12,
-        "y": 11
+        "h": 9,
+        "w": 9,
+        "x": 8,
+        "y": 20
       },
       "id": 159,
       "options": {
         "legend": {
-          "calcs": ["mean", "lastNotNull"],
+          "calcs": [
+            "mean",
+            "lastNotNull"
+          ],
           "displayMode": "table",
           "placement": "bottom"
         },
@@ -752,7 +714,7 @@
           "refId": "A",
           "streaming": true,
           "streamingCapacity": 300,
-          "streamingInterval": 2000,
+          "streamingInterval": 7000,
           "type": "gears"
         }
       ],
@@ -769,6 +731,112 @@
               "CurrAllocated": "Current",
               "PeakAllocated": "Peak",
               "TotalAllocated": "Total"
+            }
+          }
+        }
+      ],
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "redis-datasource",
+        "uid": "${redis}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 51,
+            "gradientMode": "opacity",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "ops"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 7,
+        "x": 17,
+        "y": 20
+      },
+      "id": 2,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "hidden",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "multi"
+        }
+      },
+      "pluginVersion": "8.0.0",
+      "targets": [
+        {
+          "command": "info",
+          "datasource": {
+            "type": "redis-datasource",
+            "uid": "${redis}"
+          },
+          "query": "",
+          "refId": "A",
+          "section": "stats",
+          "streaming": true,
+          "streamingCapacity": 300,
+          "streamingInterval": 2000,
+          "type": "command"
+        }
+      ],
+      "title": "Ops/sec",
+      "transformations": [
+        {
+          "id": "filterFieldsByName",
+          "options": {
+            "include": {
+              "names": [
+                "instantaneous_ops_per_sec",
+                "#time"
+              ]
             }
           }
         }
@@ -921,16 +989,18 @@
         ]
       },
       "gridPos": {
-        "h": 10,
-        "w": 5,
-        "x": 17,
-        "y": 11
+        "h": 8,
+        "w": 14,
+        "x": 0,
+        "y": 29
       },
       "id": 65,
       "options": {
         "footer": {
           "fields": "",
-          "reducer": ["sum"],
+          "reducer": [
+            "sum"
+          ],
           "show": false
         },
         "showHeader": true,
@@ -949,7 +1019,7 @@
           "streaming": true,
           "streamingCapacity": 300,
           "streamingDataType": "DataFrame",
-          "streamingInterval": 2000,
+          "streamingInterval": 12000,
           "type": "gears"
         }
       ],
@@ -1001,7 +1071,35 @@
       "fieldConfig": {
         "defaults": {
           "color": {
-            "mode": "thresholds"
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
           },
           "mappings": [],
           "thresholds": {
@@ -1021,39 +1119,38 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 4,
-        "w": 2,
-        "x": 22,
-        "y": 11
+        "h": 8,
+        "w": 10,
+        "x": 14,
+        "y": 29
       },
       "id": 262,
       "options": {
-        "colorMode": "background",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
-        "reduceOptions": {
-          "calcs": ["lastNotNull"],
-          "fields": "",
-          "values": false
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom"
         },
-        "textMode": "auto"
+        "tooltip": {
+          "mode": "single"
+        }
       },
       "pluginVersion": "8.3.3",
       "targets": [
         {
-          "command": "",
+          "command": "rg.pyexecute",
           "datasource": {
             "type": "redis-datasource",
             "uid": "${redis}"
           },
-          "query": "RG.PYEXECUTE \"gb = GB('ShardsIDReader').map(lambda x: execute('XLEN', f'edges_matched_{{{hashtag()}}}')).run(collect=False)\"",
+          "keyName": "gb = GB('ShardsIDReader').map(lambda x: execute('XLEN', f'edges_matched_{{{hashtag()}}}')).run(collect=False)",
+          "query": "",
           "refId": "A",
           "streaming": true,
           "streamingCapacity": 300,
-          "streamingDataType": "DataFrame",
-          "streamingInterval": 2000,
-          "type": "cli"
+          "streamingDataType": "TimeSeries",
+          "streamingInterval": 7000,
+          "type": "gears"
         }
       ],
       "title": "Stream Length",
@@ -1071,7 +1168,7 @@
           }
         }
       ],
-      "type": "stat"
+      "type": "timeseries"
     }
   ],
   "schemaVersion": 34,
@@ -1138,6 +1235,6 @@
   "timezone": "",
   "title": "The Pattern",
   "uid": "vEDTMcT7k",
-  "version": 7,
+  "version": 1,
   "weekStart": ""
 }
