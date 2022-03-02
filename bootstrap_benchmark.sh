@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # this is a wrapper to bootstrap benchmark
 ./start.sh 
 sudo apt install python3.9-venv
