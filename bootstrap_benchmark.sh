@@ -9,6 +9,3 @@ pip3 install gears-cli==1.1.3
 ./cluster_pipeline.sh
 cd ../the-pattern-api/qasearch/ 
 sh start_benchmark.sh 
-
-#tear down 
-# docker-compose -f docker-compose.dev.yml down --rmi all -v

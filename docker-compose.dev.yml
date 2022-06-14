@@ -7,6 +7,8 @@ services:
     container_name: the-pattern-api
     entrypoint: ["/usr/local/bin/gunicorn"]
     command:  --bind 0.0.0.0:8080 wsgi:app
+    volumes:
+    - ./:/code
     ports:
       - 127.0.0.1:8080:8080
     env_file:
