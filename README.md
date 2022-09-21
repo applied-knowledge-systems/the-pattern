@@ -6,6 +6,8 @@ Overall repository for CORD19 medical NLP pipeline, API and UI, design and archi
 
 Demo: http://thepattern.digital/
 
+The Pattern is a community level search project, stay tuned for updates - we are moving from WebVR into practically useful search experience.
+
 # The challenge 
 
 The medical profession put a lot of effort into collaboration, starting from Latin as a common language to industry-wide thesauruses like [UMLS](https://www.nlm.nih.gov/research/umls/index.html). Yet if full of scandals where publication in the prestigious journal would be retracted and the World Health Organisation would change its policy advice based on the article. I think "paper claiming that eating a bat-like Pokémon sparked the spread of COVID-19" takes a prize. One would say that editors in those journals don't do their job, and while it may seem true, I would say they had no chance: with a number of publications about COVID (SARS-V) passing 300+ per day, we need better tools to navigate via such flow of information.
