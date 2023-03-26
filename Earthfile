@@ -1,6 +1,5 @@
 VERSION 0.7
 PROJECT applied-knowledge-systems/the-pattern
-
 FROM ubuntu:18.04
 ARG TARGETARCH
 ARG TARGETOS
@@ -13,6 +12,12 @@ ELSE
     ARG --global ARCH=$TARGETARCH
 END
 
+some-pipeline:
+  PIPELINE
+  TRIGGER push main
+  TRIGGER pr main
+  BUILD +redismod
+
 all:
     BUILD \
         --platform=linux/amd64 \
@@ -20,12 +25,6 @@ all:
         # --platform=linux/arm/v7 \
         # --platform=linux/arm/v6 \
 
-
-some-pipeline:
-  PIPELINE
-  TRIGGER push main
-  TRIGGER pr main
-  BUILD +redismod
 
 my-build:
   RUN echo Hello world
@@ -35,7 +34,7 @@ fetch-code:
     ENV DEBCONF_NONINTERACTIVE_SEEN true
     RUN apt-get update && apt-get install -yqq --no-install-recommends build-essential libgomp1 git ca-certificates
     RUN update-ca-certificates
-    RUN git clone --recurse-submodules https://github.com/applied-knowledge-systems/the-pattern.git
+    RUN git clone --recurse-submodules https://github.com/applied-knowledge-systems/the-pattern.git the-pattern.git
     SAVE ARTIFACT the-pattern.git AS LOCAL the-pattern.git
 
 build:
@@ -46,8 +45,8 @@ build:
 redismod:
     FROM redislabs/redismod
     WORKDIR /code 
-    FROM +fetch-code/the-pattern.git/the-pattern-platform/conf/redis_with_mods.conf
-    COPY ./the-pattern-platform/conf/redis_with_mods.conf /etc/redis/redis.conf
+    COPY +fetch-code/the-pattern.git/the-pattern-platform/conf/redis_with_mods.conf /etc/redis/redis.conf
+    # COPY ./the-pattern-platform/conf/redis_with_mods.conf /etc/redis/redis.conf
     COPY ./the-pattern-platform/conf/redis.service /etc/systemd/system/redis.service 
     SAVE IMAGE --push ghcr.io/applied-knowledge-systems/redismod:latest
     
