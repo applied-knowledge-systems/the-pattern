@@ -1,0 +1,40 @@
+VERSION 0.7
+FROM ubuntu:18.04
+ARG TARGETARCH
+ARG TARGETOS
+ARG TARGETPLATFORM
+ARG --global tag=$TARGETOS-$TARGETARCH
+ARG --global TARGETARCH
+IF [ "$TARGETARCH" = amd64 ]
+    ARG --global ARCH=x86_64
+ELSE
+    ARG --global ARCH=$TARGETARCH
+END
+
+all:
+    BUILD \
+        --platform=linux/amd64 \
+        --platform=linux/aarch64 \
+        # --platform=linux/arm/v7 \
+        # --platform=linux/arm/v6 \
+        +common-build-deps
+
+common-build-deps:
+    ENV DEBIAN_FRONTEND noninteractive
+    ENV DEBCONF_NONINTERACTIVE_SEEN true
+    RUN apt-get update && apt-get install -yqq --no-install-recommends build-essential git ca-certificates curl gnupg
+    RUN update-ca-certificates
+
+fetch-redisgears:
+    FROM +common-build-deps
+    RUN apt-get install -yqq --no-install-recommends libgomp1
+    RUN git clone --branch v1.2.5 --depth 1 --recursive https://github.com/RedisGears/RedisGears.git
+    WORKDIR RedisGears
+    RUN git submodule update --init --recursive 
+    SAVE ARTIFACT RedisGears AS LOCAL RedisGears
+
+build-redisgears:
+    RUN false
+
+
+    
