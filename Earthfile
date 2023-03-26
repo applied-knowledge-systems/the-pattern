@@ -13,10 +13,10 @@ ELSE
 END
 
 some-pipeline:
-  PIPELINE
+  PIPELINE --push
   TRIGGER push main
   TRIGGER pr main
-  BUILD +redismod
+  BUILD --push +redismod
 
 all:
     BUILD \
