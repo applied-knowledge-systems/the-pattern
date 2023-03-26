@@ -16,7 +16,7 @@ some-pipeline:
   PIPELINE --push
   TRIGGER push main
   TRIGGER pr main
-  BUILD --push +redismod
+  BUILD +redismod
 
 all:
     BUILD \
