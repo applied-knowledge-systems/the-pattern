@@ -1,6 +1,6 @@
 VERSION 0.7
 PROJECT applied-knowledge-systems/the-pattern
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 ARG TARGETARCH
 ARG TARGETOS
 ARG TARGETPLATFORM
@@ -43,7 +43,7 @@ build:
     RUN false
 
 redismod:
-    FROM redislabs/redismod
+    FROM DOCKERFILE -f Dockerfile.latest .
     WORKDIR /code 
     COPY +fetch-code/the-pattern.git/the-pattern-platform/conf/redis_with_mods.conf /etc/redis/redis.conf
     # COPY ./the-pattern-platform/conf/redis_with_mods.conf /etc/redis/redis.conf
