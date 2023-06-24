@@ -16,7 +16,7 @@ from utils import loadAutomata, find_matches
 
 from common.utils import *
 
-import os 
+import os
 
 config_switch=os.getenv('DOCKER', 'local')
 REDISGRAPH_PORT=os.getenv('REDISGRAPH_PORT', "9001")
@@ -26,7 +26,7 @@ if config_switch=='local':
     port=REDISGRAPH_PORT
 else:
     startup_nodes = [{"host": "rgcluster", "port": "30001"}, {"host": "rgcluster", "port":"30002"}, {"host":"rgcluster", "port":"30003"}]
-    host="redisgraph"
+    host="Graph"
     port=REDISGRAPH_PORT
 
 try:
@@ -35,13 +35,13 @@ try:
 except:
     log("Redis is not available ")
 
-try: 
+try:
     from rediscluster import RedisCluster
     rediscluster_client = RedisCluster(startup_nodes=startup_nodes, decode_responses=True)
 except:
     log("RedisCluster is not available")
 
-from graphsearch.graph_search import * 
+from graphsearch.graph_search import *
 
 from flask import session, redirect, url_for
 from functools import wraps
@@ -113,7 +113,7 @@ def get_edgeinfo(edge_string):
             if article_id not in unique_id:
                 unique_id.add(article_id)
             else:
-                continue    
+                continue
             title=redis_client.hget(f"article_id:{article_id}",'title')
             year_fetched=redis_client.hget(f"article_id:{article_id}",'year')
             summary_fetched=redis_client.hget(f"article_id:{article_id}",'summary')
@@ -126,7 +126,7 @@ def get_edgeinfo(edge_string):
             result_table.append({'title':title,'sentence':str(sentence),'sentencekey':sentence_key,'summary':summary_fetched,'article_id':f"article_id:{article_id}"})
     else:
         result_table.append(redis_client.hgetall(f'{edge_string}'))
-    
+
     print(years_set)
     return jsonify({'results': result_table,'years':list(years_set)}), 200
 
@@ -162,8 +162,8 @@ def gsearch_task():
     if not user_id:
         user_id = request.cookies.get('user_id')
         log(f"Got user {user_id} from cookie")
-        if not user_id: 
-            """ create new user """ 
+        if not user_id:
+            """ create new user """
             new_user=redis_client.incr("user_id_counter")
             redis_client.hset("user:%s" % new_user,mapping={'id': new_user})
             session['user_id']=new_user
@@ -180,7 +180,7 @@ def gsearch_task():
             years_query=request.json['years']
             print(years_query)
             years_query=[int(x) for x in years_query]
-            
+
 
         if 'limit' in request.json:
             limit=request.json['limit']
@@ -193,14 +193,14 @@ def gsearch_task():
             if request.args.get('limit'):
                 limit=request.args.get('limit')
                 print("Limit arrived via get", limit)
-            
+
     user_id = session.get('user_id')
     if user_id:
         print(f"Got user id {user_id}")
         mnodes=redis_client.smembers("user:%s:mnodes" % user_id)
     else:
         mnodes=set()
-    nodes=match_nodes(search_string)    
+    nodes=match_nodes(search_string)
     links, nodes, years_list = get_edges(nodes,years_query,limit,mnodes)
     node_list=get_nodes(nodes)
     response = jsonify({'nodes': node_list,'links': links,'years':years_list})
@@ -214,9 +214,9 @@ from qasearch.qa_bert import *
 def qasearch_task():
     """
     this search using Redis Graph to get list of articles and sentences and then calls BERT QA model to create answer
-    TODO: pre-process articles with qa tokeniser 
+    TODO: pre-process articles with qa tokeniser
     """
-     
+
 
     if not request.json or not 'search' in request.json:
         abort(400)
@@ -224,8 +224,8 @@ def qasearch_task():
     nodes=match_nodes(question)
     links,_,_=get_edges(nodes,limits=1)
     result_table=[]
-    for each_record in links[0:5]:  
-        edge_query=each_record['source']+":"+each_record['target'] 
+    for each_record in links[0:5]:
+        edge_query=each_record['source']+":"+each_record['target']
         print(edge_query)
         edge_scored=redis_client.zrangebyscore(f"edges_scored:{edge_query}",'-inf','inf',0,5)
         if edge_scored:
@@ -236,11 +236,10 @@ def qasearch_task():
                 title=redis_client.hget(f"article_id:{article_id}",'title')
                 hash_tag=head[-1]
                 answer=qa(question,remove_prefix(sentence_key,'sentence:'),hash_tag)
-            result_table.append({'title':title,'sentence':sentence,'sentencekey':sentence_key,'answer':answer})        
+            result_table.append({'title':title,'sentence':sentence,'sentencekey':sentence_key,'answer':answer})
 
     return jsonify({'links': links,'results':result_table}), 200
 
 
 if __name__ == "__main__":
     app.run(port=8181, host='0.0.0.0',debug=True)
-

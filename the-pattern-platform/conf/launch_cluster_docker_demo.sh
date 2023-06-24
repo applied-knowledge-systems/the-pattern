@@ -6,9 +6,9 @@ export DATA_DIR=$PWD/../data/
 docker run --name redisgraph -d --rm -p 9001:6379 -v $DATA_DIR/redisgraph:/data -v $PWD/redis.conf:/usr/local/etc/redis/redis.conf -it --net $network_name redislabs/redisgraph /usr/local/etc/redis/redis.conf
 # docker run --name redisgraph -d --restart=unless-stopped -p 9001:6379 -v $PWD/redisgraph:/data -v $PWD/redis.conf:/usr/local/etc/redis/redis.conf -it --net redis_cluster_net redislabs/redisgraph /usr/local/etc/redis/redis.conf
 # docker run --name redisgraph -d -p 9001:6379 -it --rm --net $network_name redislabs/redisgraph
-hostip=`docker inspect -f '{{(index .NetworkSettings.Networks "redis_cluster_net").IPAddress}}' "redisgraph"`;
+hostip=`docker inspect -f '{{(index .NetworkSettings.Networks "redis_cluster_net").IPAddress}}' "Graph"`;
 echo "IP for cluster node redisgraph is" $hostip
-docker run -it -d --rm --name redisinsight --net $network_name -p 8001:8001 redislabs/redisinsight:latest 
+docker run -it -d --rm --name redisinsight --net $network_name -p 8001:8001 redislabs/redisinsight:latest
 echo "Redis Insight on port 8001"
 docker build -t rgcluster -f Dockerfile_redisai .
 #docker run --name rgcluster -d -v $PWD/docker-config.sh:/cluster/config.sh -v $DATA_DIR/rgcluster:/data -p 30001:30001 -p 30002:30002 -p 30003:30003 --rm --net $network_name rgcluster:latest

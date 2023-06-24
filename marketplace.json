@@ -1,35 +1,35 @@
 {
-    "app_name": "The Pattern: Machine Learning Natural Language Processing meets VR/AR",  
-    "description": "The Pattern help find relevant knowledge using AI + novel UX elements + RedisAI + RedisGraph",
-    "rank": 45, 
+    "app_name": "The Pattern: Machine Learning Natural Language Processing meets VR/AR",
+    "description": "The Pattern help find relevant knowledge using AI + novel UX elements",
+    "rank": 45,
     "featured": true,
-    "type": "Full App", 
-    "contributed_by": "Community", 
-    "repo_url": "https://github.com/redis-developer/the-pattern", 
+    "type": "Full App",
+    "contributed_by": "Community",
+    "repo_url": "https://github.com/redis-developer/the-pattern",
     "preview_image_url": "https://raw.githubusercontent.com/redis-developer/the-pattern/master/images/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/the-pattern/archive/refs/tags/0.6.zip",
-    "hosted_url": "", 
-    "quick_deploy": "false", 
+    "hosted_url": "",
+    "quick_deploy": "false",
     "deploy_buttons": [
         {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/the-pattern.git" 
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/the-pattern.git"
         },
         {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/the-pattern.git" 
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/the-pattern.git"
         }
     ],
-    "language": ["Python, JavaScript"], 
-    "redis_commands": ["SET","HSET", "SADD", "SREM", "AI.MODELRUN", "AI.MODELSET"], 
-    "redis_features": [],
-    "redis_modules": ["RedisGraph","RedisAI"], 
+    "language": ["Python, JavaScript"],
+    "redis_commands": ["SET","HSET", "SADD", "SREM", "AI.MODELRUN", "AI.MODELSET"],
+    "redis_use_cases": [],
+    "redis_features": ["Graph"],
     "app_image_urls": [
         "https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_main_page.png",
         "https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_one.png",
         "https://github.com/redis-developer/the-pattern/raw/main/docs/img/screenshot_two.png",
         "https://github.com/redis-developer/the-pattern/raw/main/docs/img/screenshot_three.png"
-    ], 
-    "youtube_url": "https://www.youtube.com/watch?v=c9BLQZ6pPFE", 
-    "special_tags": ["Hackathon"], 
-    "verticals": ["Others"], 
+    ],
+    "youtube_url": "https://www.youtube.com/watch?v=c9BLQZ6pPFE",
+    "special_tags": ["Hackathon"],
+    "verticals": ["Others"],
     "markdown": "https://raw.githubusercontent.com/redis-developer/the-pattern/main/README.md"
 }

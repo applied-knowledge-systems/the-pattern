@@ -3,7 +3,7 @@ import config
 from redisgraph import Graph
 
 #TODO: move into config.py
-import os 
+import os
 config_switch=os.getenv('DOCKER', 'local')
 if config_switch=='local':
     startup_nodes = [{"host": "127.0.0.1", "port": "30001"}, {"host": "127.0.0.1", "port":"30002"}, {"host":"127.0.0.1", "port":"30003"}]
@@ -11,7 +11,7 @@ if config_switch=='local':
     port=9001
 else:
     startup_nodes = [{"host": "rgcluster", "port": "30001"}, {"host": "rgcluster", "port":"30002"}, {"host":"rgcluster", "port":"30003"}]
-    host="redisgraph"
+    host="Graph"
     port=6379
 
 redis_client = redis.Redis(host=host,port=port,charset="utf-8", decode_responses=True)
@@ -85,7 +85,7 @@ def get_edges(nodes, years=None, limits=400,mnodes=set()):
             years_set.add(record[3])
         if (record[0] in mnodes) or (record[1] in mnodes):
             continue
-        else: 
+        else:
             links.append({'source':record[0],'target':record[1],'rank':record[2],'created_at':str(record[3])})
     return links, list(nodes_set), list(years_set)
 
@@ -97,4 +97,3 @@ if __name__ == "__main__":
     print(node_list)
     print("---")
     print(links)
-
