@@ -1,14 +1,14 @@
-# The Pattern: Machine Learning Natural Language Processing meets VR/AR 
+# The Pattern: Machine Learning Natural Language Processing meets VR/AR
 ## Short description
 To fight ever-increasing complexity, "The Pattern" projects help find relevant knowledge using Artificial Intelligence and novel UX elements, all powered by Redis - new generation real time data fabric turned into knowledge fabric
 
 Overall repository for CORD19 medical NLP pipeline, API and UI, design and architecture.
 
 
-# The challenge 
+# The challenge
 
 The medical profession put a lot of effort into collaboration, starting from Latin as a common language to industry-wide thesauruses like [UMLS](https://www.nlm.nih.gov/research/umls/index.html). Yet if full of scandals where publication in the prestigious journal would be retracted and the World Health Organisation would change its policy advice based on the article. I think "paper claiming that eating a bat-like Pokémon sparked the spread of COVID-19" takes a prize. One would say that editors in those journals don't do their job, and while it may seem true, I would say they had no chance: with a number of publications about COVID (SARS-V) passing 300+ per day, we need better tools to navigate via such flow of information.
- 
+
 When I am exploring topics on science or engineering, I look at the diversity of the opinion, not the variety of the same cluster of words, same thought. I want to avoid confirmation bias. I want to find articles relevant to the same concept, not necessarily the ones which have similar words. My focus is to build a natural language processing pipeline, capable of handling a large number of documents and concepts, incorporating System 1 AI (fast, intuitive reasoning) and System 2 (high-level reasoning) and then present knowledge in a modern VR/AR visualisation. Search or rather information exploration should be spatial preferably in VR (memory palace, see Theatre of Giulio Camillo). A force-directed graph is a path towards it, where visuals are assisted by text — relevant text pops up on the connection and where people explore the concepts and then dig deeper into text. The purpose of the pipeline that knowledge should be re-usable and shareable.
 
 # Quickstart for development
@@ -18,10 +18,10 @@ When I am exploring topics on science or engineering, I look at the diversity of
 Ensure that you install virtualenv in your system, docker and docker-compose (`apt install docker-compose`)
 
 ```
-brew install pyenv-virtualenv  
+brew install pyenv-virtualenv
 ```
 
-## Start platform 
+## Start platform
 
 ```
 git clone --recurse-submodules https://github.com/redis-developer/the-pattern.git
@@ -34,23 +34,23 @@ bash cluster_pipeline.sh
 ```
 
 Wait for a bit and then check:
-1) Redis Graph populated: 
+1) Redis Graph populated:
 
 ```
-redis-cli -p 9001 -h 127.0.0.1 GRAPH.QUERY cord19medical "MATCH (n:entity) RETURN count(n) as entity_count" 
+redis-cli -p 9001 -h 127.0.0.1 GRAPH.QUERY cord19medical "MATCH (n:entity) RETURN count(n) as entity_count"
 redis-cli -p 9001 -h 127.0.0.1 GRAPH.QUERY cord19medical "MATCH (e:entity)-[r]->(t:entity) RETURN count(r) as edge_count"
 ```
 
-2) API responds: 
+2) API responds:
 
 ```
 curl -i -H "Content-Type: application/json" -X POST -d '{"search":"How does temperature and humidity affect the transmission of 2019-nCoV"}' http://localhost:8080/gsearch
 ```
-## Start UI 
+## Start UI
 
 ```
 cd the-pattern-ui
-npm install 
+npm install
 npm install -g @angular/cli@9
 ng serve
 ```
@@ -63,20 +63,20 @@ sh start.sh
 ```
 
 WARNING: this will download and pre-load 1.4 GB BERT QA model on each shard. May crash on laptop.
-Validate by running: 
+Validate by running:
 
 ```
 curl -H "Content-Type: application/json" -X POST -d '{"search":"How does temperature and humidity affect the transmission of 2019-nCoV?"}' http://localhost:8080/qasearch
 ```
 
-## Summarization pipeline 
+## Summarization pipeline
 
 Go to the repository on RedisGears cluster from main "the-pattern" repo:
 
 ```
 cd the-pattern-bart-summary
 # source same enviroment with gears-cli (no other dependencies required)
-source ~/venv_cord19/bin/activate 
+source ~/venv_cord19/bin/activate
 gears-cli run --host 127.0.0.1 --port 30001 tokenizer_gears_for_sum.py --requirements requirements.txt
 ```
 
@@ -84,7 +84,7 @@ This is a synchronious task, may time out but can be safely re-run (keeps track 
 
 On GPU enabled instance or server, configure NVidia drivers:
 
-``` 
+```
 
     sudo apt update
     sudo apt install nvidia-340
@@ -107,11 +107,11 @@ On GPU enabled instance or server, configure NVidia drivers:
 
 ```
 
-Configure access from instance to RedisGraph docker image (or use Redis Enterprise), I use zerotier to connect VMs together.
+Configure access from instance to Redis Graph docker image (or use Redis Enterprise), I use zerotier to connect VMs together.
 
 ```
 git clone https://raw.githubusercontent.com/redis-developer/the-pattern-bart-summary.git
-#start tmux 
+#start tmux
 conda activate thepattern_env
 pip3 install -r requirements.txt
 python3 summary_processor_t5.py
@@ -125,24 +125,24 @@ python3 summary_processor_t5.py
 
 ## NLP pipeline 1
 
-![NLP Pipeline 1](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/Pipeline1.png "NLP Pipeline 1") 
+![NLP Pipeline 1](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/Pipeline1.png "NLP Pipeline 1")
 
 
 ## NLP pipeline 2: BERT QA
 
-![NLP Pipeline 2](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/Pipeline2.png "NLP Pipeline 2") 
+![NLP Pipeline 2](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/Pipeline2.png "NLP Pipeline 2")
 
-## NLP Pipeline 3: T5 for Summarization 
+## NLP Pipeline 3: T5 for Summarization
 
-![NLP Pipeline 3](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/Pipeline3.png "NLP Pipeline 3")  
+![NLP Pipeline 3](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/Pipeline3.png "NLP Pipeline 3")
 
 # Screenshots
 
-![Screenshot](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_one.png "Screenshot")  
+![Screenshot](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_one.png "Screenshot")
 
-![Screenshot2](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_two.png "Screenshot 2") 
+![Screenshot2](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_two.png "Screenshot 2")
 
-![Screenshot3](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_three.png "Screenshot 3") 
+![Screenshot3](https://raw.githubusercontent.com/redis-developer/the-pattern/main/docs/img/screenshot_three.png "Screenshot 3")
 
 
 # Most interesting RedisCommands
@@ -189,12 +189,12 @@ and increasing sentence score:
 `zincrby(f'edges_scored:{source_entity_id}:{destination_entity_id}',1, sentence_key)`
 
 
-### Populate RedisGraph from RedisGears
+### Populate Redis Graph from RedisGears
 
-`the-pattern-platform/edges_to_graph_streamed.py` works by creating nodes, edges in RedisGraph or updating their ranking:
+`the-pattern-platform/edges_to_graph_streamed.py` works by creating nodes, edges in Redis Graph or updating their ranking:
 
 ```
-"GRAPH.QUERY", "cord19medical","""MERGE (source: entity { id: '%s', label :'entity', name: '%s'}) 
+"GRAPH.QUERY", "cord19medical","""MERGE (source: entity { id: '%s', label :'entity', name: '%s'})
          ON CREATE SET source.rank=1
          ON MATCH SET source.rank=(source.rank+1)
          MERGE (destination: entity { id: '%s', label: 'entity', name: '%s' })
@@ -208,7 +208,7 @@ and increasing sentence score:
 ```
 
 
-### Querying RedisGraph data during API calls:
+### Querying Redis Graph data during API calls:
 
 `the-pattern-api/graphsearch/graph_search.py`
 
@@ -240,14 +240,14 @@ A lot of RedisGears code, main [file](./the-pattern-platform/gears_pipeline_sent
         import utils
     from utils import loadAutomata, find_matches
 ```
-show it to you security architect. This is nessesary because RedisGears doesn't support submission of projects or modules. 
+show it to you security architect. This is nessesary because RedisGears doesn't support submission of projects or modules.
 
-## In Pipeline 2 
+## In Pipeline 2
 
-Most advanced code is in `the-pattern-api/qasearch/qa_bert.py` querying RedisGears+RedisAI cluster given user's question: 
+Most advanced code is in `the-pattern-api/qasearch/qa_bert.py` querying RedisGears+RedisAI cluster given user's question:
 
 ```
-get "bertqa{5M5}_PMC140314.xml:{5M5}:44_When air samples collected?" 
+get "bertqa{5M5}_PMC140314.xml:{5M5}:44_When air samples collected?"
 ```
 
 this queries bertqa prefix on shard {5MP} where PMC140314.xml:{5M5}:44 is the key of pre-tokenised REDIS AI Tensor (potential answer) and "When air samples collected?" is the question from the user. Redis Gears captures keymiss event `the-pattern-api/qasearch/qa_redisai_gear_map_keymiss_np.py`:
@@ -262,16 +262,16 @@ and runs redisAI.getTensorFromKey, redisAI.createModelRunner, redisAI.createTens
 
 ## In Pipeline 3
 
-Summarisation works by running on `sentence:` prefix and running t5-base transformers tokenizer, saving results in RedisGraph using simple SET command and python.pickle module, adding summary key (derived from article_id) into `rconn.sadd('processed_docs_stage3_queue', summary_key)`.
+Summarisation works by running on `sentence:` prefix and running t5-base transformers tokenizer, saving results in Redis Graph using simple SET command and python.pickle module, adding summary key (derived from article_id) into `rconn.sadd('processed_docs_stage3_queue', summary_key)`.
 
-`summary_processor_t5.py` subscribes to queue running simple SET and SREM commands and then updates hash in RedisGraph: `redis_client.hset(f"article_id:{article_id}",mapping={'summary': output})`
+`summary_processor_t5.py` subscribes to queue running simple SET and SREM commands and then updates hash in Redis Graph: `redis_client.hset(f"article_id:{article_id}",mapping={'summary': output})`
 
 
 # Deploy
 
-The Pattern platform using latest (bleeding edge) RedisGears and RedisAI features, best way to deploy and use docker compose provided and start.sh. If API server fails to boot (fetching additional libraries), use `docker-compose -f docker-compose.dev.yml up -d --build --no-deps api`. 
+The Pattern platform using latest (bleeding edge) RedisGears and RedisAI features, best way to deploy and use docker compose provided and start.sh. If API server fails to boot (fetching additional libraries), use `docker-compose -f docker-compose.dev.yml up -d --build --no-deps api`.
 
-RedisGraph docker is using standard redismod docker image and can be deployed on RedisEnterprise.
+Redis Graph docker is using standard redismod docker image and can be deployed on RedisEnterprise.
 
 Buttons below only deploy API layer. Register on Redis Enterprise and pass REDIS_ENDPOINT_URI and REDIS_PASSWORD
 
@@ -287,12 +287,5 @@ RedisGears have enormous potential, particularly for text processing - you can p
 
 
 # Why The Pattern name
-The name is from [Roger Zelazny "The Chronicles of Amber"](https://en.wikipedia.org/wiki/The_Chronicles_of_Amber#The_Pattern_and_the_Logrus) where The Pattern is the foundation of the universe of order.  
-I believe in the modern world we need new tools to fight the chaos of the information, particularly for such important issues as medical research and literature. 
-
-
-
-
-
-
-
+The name is from [Roger Zelazny "The Chronicles of Amber"](https://en.wikipedia.org/wiki/The_Chronicles_of_Amber#The_Pattern_and_the_Logrus) where The Pattern is the foundation of the universe of order.
+I believe in the modern world we need new tools to fight the chaos of the information, particularly for such important issues as medical research and literature.
